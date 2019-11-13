@@ -1,0 +1,183 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  My documentation report
+%  Objective: Explain what I did and how, in order to help someone continue with the investigation
+%
+% Important note:
+% Chapter heading images should have a 2:1 width:height ratio,
+% e.g. 920px width and 460px height.
+%
+% The images can be found anywhere, usually on sky surveys websites or the
+% Astronomy Picture of the day archive http://apod.nasa.gov/apod/archivepix.html
+%
+% The original template (the Legrand Orange Book Template) can be found here --> http://www.latextemplates.com/template/the-legrand-orange-book
+%
+% Original author of the Legrand Orange Book Template:
+% Mathias Legrand (legrand.mathias@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% Original License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass[12pt,fleqn,aas_macros]{book} % Default font size and left-justified equations
+\usepackage[top=3cm,bottom=3cm,left=3.2cm,right=3.2cm,headsep=10pt,letterpaper]{geometry} % Page margins
+
+\usepackage{xcolor} % Required for specifying colors by name
+\definecolor{ocre}{RGB}{52,177,201} % Define the orange color used for highlighting throughout the book
+
+% Font Settings
+\usepackage{avant} % Use the Avantgarde font for headings
+%\usepackage{times} % Use the Times font for headings
+%\usepackage{mathptmx} % Use the Adobe Times Roman as the default text font together with math symbols from the Sym­bol, Chancery and Com­puter Modern fonts
+
+\usepackage{microtype} % Slightly tweak font spacing for aesthetics
+\usepackage[utf8]{inputenc} % Required for including letters with accents
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+
+%Golssary
+
+\usepackage[acronym,nomain]{glossaries}
+\makeglossaries
+
+% Bibliography
+\usepackage[backend=bibtex]{biblatex}
+\addbibresource{bibliography.bib} % BibTeX bibliography file
+\defbibheading{bibempty}{}
+
+% Other packages
+\usepackage{subcaption}
+\usepackage{graphicx}
+\usepackage{subfiles}
+
+\input{structure} % Insert the commands.tex file which contains the majority of the structure behind the template
+
+\begin{document}
+
+%Define Acronyms
+\newacronym{vhe}{VHE}{Very High Energy}
+\newacronym{pwn}{PWN}{Pulsar Wind Nebula}
+\newacronym{pwne}{PWNe}{Pulsar Wind Nebulae}
+\newacronym{cr}{CR}{Cosmic Ray}
+\newacronym{ism}{ISM}{Interstellar Medium}
+\newacronym{agn}{AGN}{Active Galaxy Nuclei}
+\newacronym{grb}{GRB}{Gamma Ray Burst}
+\newacronym{snr}{SNR}{Supernova Remnant}
+\newacronym{sn}{SN}{Supernova}
+\newacronym{dsa}{DSA}{Diffusive Shock Acceleration}
+\newacronym{he}{HE}{High Energy}
+\newacronym{uhecr}{UHECR}{Ultra High Energy Cosmic Ray}
+\newacronym{uhe}{UHE}{Ultra High Energy}
+\newacronym{ic}{IC}{Inverse Compton}
+\newacronym{cmb}{CMB}{Cosmic Microwave Background}
+\newacronym{ebl}{EBL}{Extragalactic Background Light}
+\newacronym{eas}{EAS}{Extensive Air Showers}
+\newacronym{dm}{DM}{Dark Matter}
+\newacronym{sm}{SM}{Standard Model}
+\newacronym{wmap}{WMAP}{Wilkinson Microwave Anisotropy Probe}
+\newacronym{cdm}{CDM}{Cold Dark Matter}
+\newacronym{wimp}{WIMP}{Weak Interacting Massive Particle}
+\newacronym{susy}{SUSY}{Super Symmetry}
+\newacronym{nfw}{NFW}{Navarro-Frenk-White}
+\newacronym{comptel}{COMPTEL}{Imaging Compton Telescope}
+\newacronym{egret}{EGRET}{Energetic Gamma Ray Experiment Telescope}
+\newacronym{magic}{MAGIC}{Major Atmospheric Gamma Imaging Cherenkov Telescopes}
+\newacronym{gc}{GC}{Galactic Center}
+\newacronym{smbh}{SMBH}{Super Massive Black Hole}
+\newacronym{bh}{BH}{Black Hole}
+\newacronym{hess}{H.E.S.S.}{High Energy Stereoscopic System}
+\newacronym{veritas}{VERITAS}{Very Energetic Radiation Imaging Telescope Array System}
+\newacronym{msp}{MSP}{Millisecond Pulsar}
+\newacronym{sfr}{SFR}{Star Formation Rate}
+\newacronym{icm}{ICM}{Intracluster Medium}
+\newacronym{lmc}{LMC}{Large Magellanic Cloud}
+\newacronym{smc}{SMC}{Small Magellanic Cloud}
+\newacronym{dsphe}{DSphe}{Dwarf Spheroidal Galaxies}
+\newacronym{cgro}{CGRO}{Compton Gamma Ray Observatory}
+\newacronym{integral}{INTEGRAL}{International Gamma-Ray Astrophysics Laboratory}
+\newacronym{ibis}{IBIS}{Imager on-Board the INTEGRAL Satellite}
+\newacronym{lat}{LAT}{Large Area Telescope}
+\newacronym{gbm}{GBM}{Gamma-Ray Burst Monitor}
+\newacronym{nai}{NaI}{Sodium Iodine}
+\newacronym{bgo}{BGO}{Bismuth Germanate}
+\newacronym{eas}{EAS}{Extensive Air Showers}
+\newacronym{cta}{CTA}{Cherenkov Telescope Array}
+\newacronym{airobicc}{AIROBICC}{Air shower Observation By angle Integrating Cherenkov Counters}
+\newacronym{iact}{IACT}{Imaging Atmospheric Cherenkov Telescopes}
+\newacronym{hegra}{HEGRA}{High Energy Gamma Ray Astronomy}
+\newacronym{amc}{AMC}{Active Mirror Control}
+\newacronym{ccd}{CCD}{charged-coupled device}
+\newacronym{fov}{FoV}{field of view}
+\newacronym{pmt}{PMT}{Photomultiplier Tube}
+\newacronym{dsr4}{DSR4}{Domino Ring Sampler version 4}
+\newacronym{mhd}{MHD}{Magnetohydrodynamics}
+\newacronym{hawc}{HAWC}{High-Altitude Water Cherenkov Observatory}
+\newacronym{nsb}{NSB}{Night Sky Background}
+\title{Prospects in Science with the Cherenkov Telescope Array}
+
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+\iffalse
+\begingroup
+\thispagestyle{empty}
+\AddToShipoutPicture*{\put(0,0){\includegraphics[scale=1.25]{esahubble}}} % Image background
+\centering
+\vspace*{5cm}
+\par\normalfont\fontsize{32}{32}\sffamily\selectfont
+\textbf{Prospects on Science with the Cherenkov Telescope Array}\\
+{\LARGE Dark Matter searches in the Large Magellanic Cloud}\par % Book title
+\vspace*{0.7cm}
+{\Huge María Isabel Bernardos Martín}\par % Author name
+\endgroup
+
+%----------------------------------------------------------------------------------------
+%	COPYRIGHT PAGE
+%----------------------------------------------------------------------------------------
+
+\newpage
+~\vfill
+\thispagestyle{empty}
+
+%\noindent Copyright \copyright\ 2020 María Isabel Bernardos Martín\\ % Copyright notice
+
+\noindent \textsc{Doctoral Dissertation in Physics}\\
+
+\noindent This research was done under the supervision of Dr. Carlos José Delgado with the financial support of the ... within a total duration of 4 years from April 1st 2016 to April 1st 2020.\\ % License information
+
+\noindent \textit{First release, April 2020} % Printing/edition date
+\fi
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS
+%----------------------------------------------------------------------------------------
+
+\chapterimage{head1.png} % Table of contents heading image
+
+\pagestyle{empty} % No headers
+
+\tableofcontents % Print the table of contents itself
+
+%\cleardoublepage % Forces the first chapter to start on an odd page so it's on the right
+
+\pagestyle{fancy} % Print headers again
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER 1
+%----------------------------------------------------------------------------------------
+
+\chapterimage{head2.png} % Chapter heading image
+
+\chapter{Introduction to $\gamma$-Ray Astronomy}
+\subfile{Chapter1}
+
+\chapterimage{head2.png} % Chapter heading image
+
+\chapter{Detection of $\gamma$-rays}
+\subfile{Chapter2}
+
+\printbibliography
+\printglossaries
+\end{document}

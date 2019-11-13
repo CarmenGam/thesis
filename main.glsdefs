@@ -1,0 +1,1740 @@
+\ifglsentryexists{vhe}{}%
+{%
+\gls@defglossaryentry{vhe}%
+{%
+name={VHE},%
+sort={VHE},%
+type={acronym},%
+first={Very High Energy\glsspace (VHE)},%
+firstplural={Very High Energys\glsspace (VHEs)},%
+text={VHE},%
+plural={VHEs},%
+description={Very High Energy},%
+descriptionplural={Very High Energy\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Very High Energy},%
+longplural={Very High Energys},%
+short={VHE},%
+shortplural={VHEs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{pwn}{}%
+{%
+\gls@defglossaryentry{pwn}%
+{%
+name={PWN},%
+sort={PWN},%
+type={acronym},%
+first={Pulsar Wind Nebula\glsspace (PWN)},%
+firstplural={Pulsar Wind Nebulas\glsspace (PWNs)},%
+text={PWN},%
+plural={PWNs},%
+description={Pulsar Wind Nebula},%
+descriptionplural={Pulsar Wind Nebula\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Pulsar Wind Nebula},%
+longplural={Pulsar Wind Nebulas},%
+short={PWN},%
+shortplural={PWNs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{pwne}{}%
+{%
+\gls@defglossaryentry{pwne}%
+{%
+name={PWNe},%
+sort={PWNe},%
+type={acronym},%
+first={Pulsar Wind Nebulae\glsspace (PWNe)},%
+firstplural={Pulsar Wind Nebulaes\glsspace (PWNes)},%
+text={PWNe},%
+plural={PWNes},%
+description={Pulsar Wind Nebulae},%
+descriptionplural={Pulsar Wind Nebulae\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Pulsar Wind Nebulae},%
+longplural={Pulsar Wind Nebulaes},%
+short={PWNe},%
+shortplural={PWNes},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{cr}{}%
+{%
+\gls@defglossaryentry{cr}%
+{%
+name={CR},%
+sort={CR},%
+type={acronym},%
+first={Cosmic Ray\glsspace (CR)},%
+firstplural={Cosmic Rays\glsspace (CRs)},%
+text={CR},%
+plural={CRs},%
+description={Cosmic Ray},%
+descriptionplural={Cosmic Ray\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Cosmic Ray},%
+longplural={Cosmic Rays},%
+short={CR},%
+shortplural={CRs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ism}{}%
+{%
+\gls@defglossaryentry{ism}%
+{%
+name={ISM},%
+sort={ISM},%
+type={acronym},%
+first={Interstellar Medium\glsspace (ISM)},%
+firstplural={Interstellar Mediums\glsspace (ISMs)},%
+text={ISM},%
+plural={ISMs},%
+description={Interstellar Medium},%
+descriptionplural={Interstellar Medium\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Interstellar Medium},%
+longplural={Interstellar Mediums},%
+short={ISM},%
+shortplural={ISMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{agn}{}%
+{%
+\gls@defglossaryentry{agn}%
+{%
+name={AGN},%
+sort={AGN},%
+type={acronym},%
+first={Active Galaxy Nuclei\glsspace (AGN)},%
+firstplural={Active Galaxy Nucleis\glsspace (AGNs)},%
+text={AGN},%
+plural={AGNs},%
+description={Active Galaxy Nuclei},%
+descriptionplural={Active Galaxy Nuclei\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Active Galaxy Nuclei},%
+longplural={Active Galaxy Nucleis},%
+short={AGN},%
+shortplural={AGNs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{grb}{}%
+{%
+\gls@defglossaryentry{grb}%
+{%
+name={GRB},%
+sort={GRB},%
+type={acronym},%
+first={Gamma Ray Burst\glsspace (GRB)},%
+firstplural={Gamma Ray Bursts\glsspace (GRBs)},%
+text={GRB},%
+plural={GRBs},%
+description={Gamma Ray Burst},%
+descriptionplural={Gamma Ray Burst\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Gamma Ray Burst},%
+longplural={Gamma Ray Bursts},%
+short={GRB},%
+shortplural={GRBs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{snr}{}%
+{%
+\gls@defglossaryentry{snr}%
+{%
+name={SNR},%
+sort={SNR},%
+type={acronym},%
+first={Supernova Remnant\glsspace (SNR)},%
+firstplural={Supernova Remnants\glsspace (SNRs)},%
+text={SNR},%
+plural={SNRs},%
+description={Supernova Remnant},%
+descriptionplural={Supernova Remnant\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Supernova Remnant},%
+longplural={Supernova Remnants},%
+short={SNR},%
+shortplural={SNRs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sn}{}%
+{%
+\gls@defglossaryentry{sn}%
+{%
+name={SN},%
+sort={SN},%
+type={acronym},%
+first={Supernova\glsspace (SN)},%
+firstplural={Supernovas\glsspace (SNs)},%
+text={SN},%
+plural={SNs},%
+description={Supernova},%
+descriptionplural={Supernova\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Supernova},%
+longplural={Supernovas},%
+short={SN},%
+shortplural={SNs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{dsa}{}%
+{%
+\gls@defglossaryentry{dsa}%
+{%
+name={DSA},%
+sort={DSA},%
+type={acronym},%
+first={Diffusive Shock Acceleration\glsspace (DSA)},%
+firstplural={Diffusive Shock Accelerations\glsspace (DSAs)},%
+text={DSA},%
+plural={DSAs},%
+description={Diffusive Shock Acceleration},%
+descriptionplural={Diffusive Shock Acceleration\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Diffusive Shock Acceleration},%
+longplural={Diffusive Shock Accelerations},%
+short={DSA},%
+shortplural={DSAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{he}{}%
+{%
+\gls@defglossaryentry{he}%
+{%
+name={HE},%
+sort={HE},%
+type={acronym},%
+first={High Energy\glsspace (HE)},%
+firstplural={High Energys\glsspace (HEs)},%
+text={HE},%
+plural={HEs},%
+description={High Energy},%
+descriptionplural={High Energy\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={High Energy},%
+longplural={High Energys},%
+short={HE},%
+shortplural={HEs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{uhecr}{}%
+{%
+\gls@defglossaryentry{uhecr}%
+{%
+name={UHECR},%
+sort={UHECR},%
+type={acronym},%
+first={Ultra High Energy Cosmic Ray\glsspace (UHECR)},%
+firstplural={Ultra High Energy Cosmic Rays\glsspace (UHECRs)},%
+text={UHECR},%
+plural={UHECRs},%
+description={Ultra High Energy Cosmic Ray},%
+descriptionplural={Ultra High Energy Cosmic Ray\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Ultra High Energy Cosmic Ray},%
+longplural={Ultra High Energy Cosmic Rays},%
+short={UHECR},%
+shortplural={UHECRs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{uhe}{}%
+{%
+\gls@defglossaryentry{uhe}%
+{%
+name={UHE},%
+sort={UHE},%
+type={acronym},%
+first={Ultra High Energy\glsspace (UHE)},%
+firstplural={Ultra High Energys\glsspace (UHEs)},%
+text={UHE},%
+plural={UHEs},%
+description={Ultra High Energy},%
+descriptionplural={Ultra High Energy\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Ultra High Energy},%
+longplural={Ultra High Energys},%
+short={UHE},%
+shortplural={UHEs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ic}{}%
+{%
+\gls@defglossaryentry{ic}%
+{%
+name={IC},%
+sort={IC},%
+type={acronym},%
+first={Inverse Compton\glsspace (IC)},%
+firstplural={Inverse Comptons\glsspace (ICs)},%
+text={IC},%
+plural={ICs},%
+description={Inverse Compton},%
+descriptionplural={Inverse Compton\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Inverse Compton},%
+longplural={Inverse Comptons},%
+short={IC},%
+shortplural={ICs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{cmb}{}%
+{%
+\gls@defglossaryentry{cmb}%
+{%
+name={CMB},%
+sort={CMB},%
+type={acronym},%
+first={Cosmic Microwave Background\glsspace (CMB)},%
+firstplural={Cosmic Microwave Backgrounds\glsspace (CMBs)},%
+text={CMB},%
+plural={CMBs},%
+description={Cosmic Microwave Background},%
+descriptionplural={Cosmic Microwave Background\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Cosmic Microwave Background},%
+longplural={Cosmic Microwave Backgrounds},%
+short={CMB},%
+shortplural={CMBs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ebl}{}%
+{%
+\gls@defglossaryentry{ebl}%
+{%
+name={EBL},%
+sort={EBL},%
+type={acronym},%
+first={Extragalactic Background Light\glsspace (EBL)},%
+firstplural={Extragalactic Background Lights\glsspace (EBLs)},%
+text={EBL},%
+plural={EBLs},%
+description={Extragalactic Background Light},%
+descriptionplural={Extragalactic Background Light\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Extragalactic Background Light},%
+longplural={Extragalactic Background Lights},%
+short={EBL},%
+shortplural={EBLs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{eas}{}%
+{%
+\gls@defglossaryentry{eas}%
+{%
+name={EAS},%
+sort={EAS},%
+type={acronym},%
+first={Extensive Air Showers\glsspace (EAS)},%
+firstplural={Extensive Air Showerss\glsspace (EASs)},%
+text={EAS},%
+plural={EASs},%
+description={Extensive Air Showers},%
+descriptionplural={Extensive Air Showers\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Extensive Air Showers},%
+longplural={Extensive Air Showerss},%
+short={EAS},%
+shortplural={EASs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{dm}{}%
+{%
+\gls@defglossaryentry{dm}%
+{%
+name={DM},%
+sort={DM},%
+type={acronym},%
+first={Dark Matter\glsspace (DM)},%
+firstplural={Dark Matters\glsspace (DMs)},%
+text={DM},%
+plural={DMs},%
+description={Dark Matter},%
+descriptionplural={Dark Matter\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Dark Matter},%
+longplural={Dark Matters},%
+short={DM},%
+shortplural={DMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sm}{}%
+{%
+\gls@defglossaryentry{sm}%
+{%
+name={SM},%
+sort={SM},%
+type={acronym},%
+first={Standard Model\glsspace (SM)},%
+firstplural={Standard Models\glsspace (SMs)},%
+text={SM},%
+plural={SMs},%
+description={Standard Model},%
+descriptionplural={Standard Model\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Standard Model},%
+longplural={Standard Models},%
+short={SM},%
+shortplural={SMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{wmap}{}%
+{%
+\gls@defglossaryentry{wmap}%
+{%
+name={WMAP},%
+sort={WMAP},%
+type={acronym},%
+first={Wilkinson Microwave Anisotropy Probe\glsspace (WMAP)},%
+firstplural={Wilkinson Microwave Anisotropy Probes\glsspace (WMAPs)},%
+text={WMAP},%
+plural={WMAPs},%
+description={Wilkinson Microwave Anisotropy Probe},%
+descriptionplural={Wilkinson Microwave Anisotropy Probe\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Wilkinson Microwave Anisotropy Probe},%
+longplural={Wilkinson Microwave Anisotropy Probes},%
+short={WMAP},%
+shortplural={WMAPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{cdm}{}%
+{%
+\gls@defglossaryentry{cdm}%
+{%
+name={CDM},%
+sort={CDM},%
+type={acronym},%
+first={Cold Dark Matter\glsspace (CDM)},%
+firstplural={Cold Dark Matters\glsspace (CDMs)},%
+text={CDM},%
+plural={CDMs},%
+description={Cold Dark Matter},%
+descriptionplural={Cold Dark Matter\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Cold Dark Matter},%
+longplural={Cold Dark Matters},%
+short={CDM},%
+shortplural={CDMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{wimp}{}%
+{%
+\gls@defglossaryentry{wimp}%
+{%
+name={WIMP},%
+sort={WIMP},%
+type={acronym},%
+first={Weak Interacting Massive Particle\glsspace (WIMP)},%
+firstplural={Weak Interacting Massive Particles\glsspace (WIMPs)},%
+text={WIMP},%
+plural={WIMPs},%
+description={Weak Interacting Massive Particle},%
+descriptionplural={Weak Interacting Massive Particle\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Weak Interacting Massive Particle},%
+longplural={Weak Interacting Massive Particles},%
+short={WIMP},%
+shortplural={WIMPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{susy}{}%
+{%
+\gls@defglossaryentry{susy}%
+{%
+name={SUSY},%
+sort={SUSY},%
+type={acronym},%
+first={Super Symmetry\glsspace (SUSY)},%
+firstplural={Super Symmetrys\glsspace (SUSYs)},%
+text={SUSY},%
+plural={SUSYs},%
+description={Super Symmetry},%
+descriptionplural={Super Symmetry\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Super Symmetry},%
+longplural={Super Symmetrys},%
+short={SUSY},%
+shortplural={SUSYs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{nfw}{}%
+{%
+\gls@defglossaryentry{nfw}%
+{%
+name={NFW},%
+sort={NFW},%
+type={acronym},%
+first={Navarro-Frenk-White\glsspace (NFW)},%
+firstplural={Navarro-Frenk-Whites\glsspace (NFWs)},%
+text={NFW},%
+plural={NFWs},%
+description={Navarro-Frenk-White},%
+descriptionplural={Navarro-Frenk-White\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Navarro-Frenk-White},%
+longplural={Navarro-Frenk-Whites},%
+short={NFW},%
+shortplural={NFWs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{comptel}{}%
+{%
+\gls@defglossaryentry{comptel}%
+{%
+name={COMPTEL},%
+sort={COMPTEL},%
+type={acronym},%
+first={Imaging Compton Telescope\glsspace (COMPTEL)},%
+firstplural={Imaging Compton Telescopes\glsspace (COMPTELs)},%
+text={COMPTEL},%
+plural={COMPTELs},%
+description={Imaging Compton Telescope},%
+descriptionplural={Imaging Compton Telescope\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Imaging Compton Telescope},%
+longplural={Imaging Compton Telescopes},%
+short={COMPTEL},%
+shortplural={COMPTELs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{egret}{}%
+{%
+\gls@defglossaryentry{egret}%
+{%
+name={EGRET},%
+sort={EGRET},%
+type={acronym},%
+first={Energetic Gamma Ray Experiment Telescope\glsspace (EGRET)},%
+firstplural={Energetic Gamma Ray Experiment Telescopes\glsspace (EGRETs)},%
+text={EGRET},%
+plural={EGRETs},%
+description={Energetic Gamma Ray Experiment Telescope},%
+descriptionplural={Energetic Gamma Ray Experiment Telescope\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Energetic Gamma Ray Experiment Telescope},%
+longplural={Energetic Gamma Ray Experiment Telescopes},%
+short={EGRET},%
+shortplural={EGRETs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{magic}{}%
+{%
+\gls@defglossaryentry{magic}%
+{%
+name={MAGIC},%
+sort={MAGIC},%
+type={acronym},%
+first={Major Atmospheric Gamma Imaging Cherenkov Telescopes\glsspace (MAGIC)},%
+firstplural={Major Atmospheric Gamma Imaging Cherenkov Telescopess\glsspace (MAGICs)},%
+text={MAGIC},%
+plural={MAGICs},%
+description={Major Atmospheric Gamma Imaging Cherenkov Telescopes},%
+descriptionplural={Major Atmospheric Gamma Imaging Cherenkov Telescopes\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Major Atmospheric Gamma Imaging Cherenkov Telescopes},%
+longplural={Major Atmospheric Gamma Imaging Cherenkov Telescopess},%
+short={MAGIC},%
+shortplural={MAGICs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{gc}{}%
+{%
+\gls@defglossaryentry{gc}%
+{%
+name={GC},%
+sort={GC},%
+type={acronym},%
+first={Galactic Center\glsspace (GC)},%
+firstplural={Galactic Centers\glsspace (GCs)},%
+text={GC},%
+plural={GCs},%
+description={Galactic Center},%
+descriptionplural={Galactic Center\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Galactic Center},%
+longplural={Galactic Centers},%
+short={GC},%
+shortplural={GCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{smbh}{}%
+{%
+\gls@defglossaryentry{smbh}%
+{%
+name={SMBH},%
+sort={SMBH},%
+type={acronym},%
+first={Super Massive Black Hole\glsspace (SMBH)},%
+firstplural={Super Massive Black Holes\glsspace (SMBHs)},%
+text={SMBH},%
+plural={SMBHs},%
+description={Super Massive Black Hole},%
+descriptionplural={Super Massive Black Hole\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Super Massive Black Hole},%
+longplural={Super Massive Black Holes},%
+short={SMBH},%
+shortplural={SMBHs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{bh}{}%
+{%
+\gls@defglossaryentry{bh}%
+{%
+name={BH},%
+sort={BH},%
+type={acronym},%
+first={Black Hole\glsspace (BH)},%
+firstplural={Black Holes\glsspace (BHs)},%
+text={BH},%
+plural={BHs},%
+description={Black Hole},%
+descriptionplural={Black Hole\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Black Hole},%
+longplural={Black Holes},%
+short={BH},%
+shortplural={BHs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{hess}{}%
+{%
+\gls@defglossaryentry{hess}%
+{%
+name={H.E.S.S.},%
+sort={H.E.S.S.},%
+type={acronym},%
+first={High Energy Stereoscopic System\glsspace (H.E.S.S.)},%
+firstplural={High Energy Stereoscopic Systems\glsspace (H.E.S.S.s)},%
+text={H.E.S.S.},%
+plural={H.E.S.S.s},%
+description={High Energy Stereoscopic System},%
+descriptionplural={High Energy Stereoscopic System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={High Energy Stereoscopic System},%
+longplural={High Energy Stereoscopic Systems},%
+short={H.E.S.S.},%
+shortplural={H.E.S.S.s},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{veritas}{}%
+{%
+\gls@defglossaryentry{veritas}%
+{%
+name={VERITAS},%
+sort={VERITAS},%
+type={acronym},%
+first={Very Energetic Radiation Imaging Telescope Array System\glsspace (VERITAS)},%
+firstplural={Very Energetic Radiation Imaging Telescope Array Systems\glsspace (VERITASs)},%
+text={VERITAS},%
+plural={VERITASs},%
+description={Very Energetic Radiation Imaging Telescope Array System},%
+descriptionplural={Very Energetic Radiation Imaging Telescope Array System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Very Energetic Radiation Imaging Telescope Array System},%
+longplural={Very Energetic Radiation Imaging Telescope Array Systems},%
+short={VERITAS},%
+shortplural={VERITASs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{msp}{}%
+{%
+\gls@defglossaryentry{msp}%
+{%
+name={MSP},%
+sort={MSP},%
+type={acronym},%
+first={Millisecond Pulsar\glsspace (MSP)},%
+firstplural={Millisecond Pulsars\glsspace (MSPs)},%
+text={MSP},%
+plural={MSPs},%
+description={Millisecond Pulsar},%
+descriptionplural={Millisecond Pulsar\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Millisecond Pulsar},%
+longplural={Millisecond Pulsars},%
+short={MSP},%
+shortplural={MSPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sfr}{}%
+{%
+\gls@defglossaryentry{sfr}%
+{%
+name={SFR},%
+sort={SFR},%
+type={acronym},%
+first={Star Formation Rate\glsspace (SFR)},%
+firstplural={Star Formation Rates\glsspace (SFRs)},%
+text={SFR},%
+plural={SFRs},%
+description={Star Formation Rate},%
+descriptionplural={Star Formation Rate\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Star Formation Rate},%
+longplural={Star Formation Rates},%
+short={SFR},%
+shortplural={SFRs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{icm}{}%
+{%
+\gls@defglossaryentry{icm}%
+{%
+name={ICM},%
+sort={ICM},%
+type={acronym},%
+first={Intracluster Medium\glsspace (ICM)},%
+firstplural={Intracluster Mediums\glsspace (ICMs)},%
+text={ICM},%
+plural={ICMs},%
+description={Intracluster Medium},%
+descriptionplural={Intracluster Medium\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Intracluster Medium},%
+longplural={Intracluster Mediums},%
+short={ICM},%
+shortplural={ICMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{lmc}{}%
+{%
+\gls@defglossaryentry{lmc}%
+{%
+name={LMC},%
+sort={LMC},%
+type={acronym},%
+first={Large Magellanic Cloud\glsspace (LMC)},%
+firstplural={Large Magellanic Clouds\glsspace (LMCs)},%
+text={LMC},%
+plural={LMCs},%
+description={Large Magellanic Cloud},%
+descriptionplural={Large Magellanic Cloud\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Large Magellanic Cloud},%
+longplural={Large Magellanic Clouds},%
+short={LMC},%
+shortplural={LMCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{smc}{}%
+{%
+\gls@defglossaryentry{smc}%
+{%
+name={SMC},%
+sort={SMC},%
+type={acronym},%
+first={Small Magellanic Cloud\glsspace (SMC)},%
+firstplural={Small Magellanic Clouds\glsspace (SMCs)},%
+text={SMC},%
+plural={SMCs},%
+description={Small Magellanic Cloud},%
+descriptionplural={Small Magellanic Cloud\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Small Magellanic Cloud},%
+longplural={Small Magellanic Clouds},%
+short={SMC},%
+shortplural={SMCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{dsphe}{}%
+{%
+\gls@defglossaryentry{dsphe}%
+{%
+name={DSphe},%
+sort={DSphe},%
+type={acronym},%
+first={Dwarf Spheroidal Galaxies\glsspace (DSphe)},%
+firstplural={Dwarf Spheroidal Galaxiess\glsspace (DSphes)},%
+text={DSphe},%
+plural={DSphes},%
+description={Dwarf Spheroidal Galaxies},%
+descriptionplural={Dwarf Spheroidal Galaxies\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Dwarf Spheroidal Galaxies},%
+longplural={Dwarf Spheroidal Galaxiess},%
+short={DSphe},%
+shortplural={DSphes},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{cgro}{}%
+{%
+\gls@defglossaryentry{cgro}%
+{%
+name={CGRO},%
+sort={CGRO},%
+type={acronym},%
+first={Compton Gamma Ray Observatory\glsspace (CGRO)},%
+firstplural={Compton Gamma Ray Observatorys\glsspace (CGROs)},%
+text={CGRO},%
+plural={CGROs},%
+description={Compton Gamma Ray Observatory},%
+descriptionplural={Compton Gamma Ray Observatory\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Compton Gamma Ray Observatory},%
+longplural={Compton Gamma Ray Observatorys},%
+short={CGRO},%
+shortplural={CGROs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{integral}{}%
+{%
+\gls@defglossaryentry{integral}%
+{%
+name={INTEGRAL},%
+sort={INTEGRAL},%
+type={acronym},%
+first={International Gamma-Ray Astrophysics Laboratory\glsspace (INTEGRAL)},%
+firstplural={International Gamma-Ray Astrophysics Laboratorys\glsspace (INTEGRALs)},%
+text={INTEGRAL},%
+plural={INTEGRALs},%
+description={International Gamma-Ray Astrophysics Laboratory},%
+descriptionplural={International Gamma-Ray Astrophysics Laboratory\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={International Gamma-Ray Astrophysics Laboratory},%
+longplural={International Gamma-Ray Astrophysics Laboratorys},%
+short={INTEGRAL},%
+shortplural={INTEGRALs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ibis}{}%
+{%
+\gls@defglossaryentry{ibis}%
+{%
+name={IBIS},%
+sort={IBIS},%
+type={acronym},%
+first={Imager on-Board the INTEGRAL Satellite\glsspace (IBIS)},%
+firstplural={Imager on-Board the INTEGRAL Satellites\glsspace (IBISs)},%
+text={IBIS},%
+plural={IBISs},%
+description={Imager on-Board the INTEGRAL Satellite},%
+descriptionplural={Imager on-Board the INTEGRAL Satellite\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Imager on-Board the INTEGRAL Satellite},%
+longplural={Imager on-Board the INTEGRAL Satellites},%
+short={IBIS},%
+shortplural={IBISs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{lat}{}%
+{%
+\gls@defglossaryentry{lat}%
+{%
+name={LAT},%
+sort={LAT},%
+type={acronym},%
+first={Large Area Telescope\glsspace (LAT)},%
+firstplural={Large Area Telescopes\glsspace (LATs)},%
+text={LAT},%
+plural={LATs},%
+description={Large Area Telescope},%
+descriptionplural={Large Area Telescope\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Large Area Telescope},%
+longplural={Large Area Telescopes},%
+short={LAT},%
+shortplural={LATs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{gbm}{}%
+{%
+\gls@defglossaryentry{gbm}%
+{%
+name={GBM},%
+sort={GBM},%
+type={acronym},%
+first={Gamma-Ray Burst Monitor\glsspace (GBM)},%
+firstplural={Gamma-Ray Burst Monitors\glsspace (GBMs)},%
+text={GBM},%
+plural={GBMs},%
+description={Gamma-Ray Burst Monitor},%
+descriptionplural={Gamma-Ray Burst Monitor\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Gamma-Ray Burst Monitor},%
+longplural={Gamma-Ray Burst Monitors},%
+short={GBM},%
+shortplural={GBMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{nai}{}%
+{%
+\gls@defglossaryentry{nai}%
+{%
+name={NaI},%
+sort={NaI},%
+type={acronym},%
+first={Sodium Iodine\glsspace (NaI)},%
+firstplural={Sodium Iodines\glsspace (NaIs)},%
+text={NaI},%
+plural={NaIs},%
+description={Sodium Iodine},%
+descriptionplural={Sodium Iodine\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Sodium Iodine},%
+longplural={Sodium Iodines},%
+short={NaI},%
+shortplural={NaIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{bgo}{}%
+{%
+\gls@defglossaryentry{bgo}%
+{%
+name={BGO},%
+sort={BGO},%
+type={acronym},%
+first={Bismuth Germanate\glsspace (BGO)},%
+firstplural={Bismuth Germanates\glsspace (BGOs)},%
+text={BGO},%
+plural={BGOs},%
+description={Bismuth Germanate},%
+descriptionplural={Bismuth Germanate\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Bismuth Germanate},%
+longplural={Bismuth Germanates},%
+short={BGO},%
+shortplural={BGOs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{eas}{}%
+{%
+\gls@defglossaryentry{eas}%
+{%
+name={EAS},%
+sort={EAS},%
+type={acronym},%
+first={Extensive Air Showers\glsspace (EAS)},%
+firstplural={Extensive Air Showerss\glsspace (EASs)},%
+text={EAS},%
+plural={EASs},%
+description={Extensive Air Showers},%
+descriptionplural={Extensive Air Showers\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Extensive Air Showers},%
+longplural={Extensive Air Showerss},%
+short={EAS},%
+shortplural={EASs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{cta}{}%
+{%
+\gls@defglossaryentry{cta}%
+{%
+name={CTA},%
+sort={CTA},%
+type={acronym},%
+first={Cherenkov Telescope Array\glsspace (CTA)},%
+firstplural={Cherenkov Telescope Arrays\glsspace (CTAs)},%
+text={CTA},%
+plural={CTAs},%
+description={Cherenkov Telescope Array},%
+descriptionplural={Cherenkov Telescope Array\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Cherenkov Telescope Array},%
+longplural={Cherenkov Telescope Arrays},%
+short={CTA},%
+shortplural={CTAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{airobicc}{}%
+{%
+\gls@defglossaryentry{airobicc}%
+{%
+name={AIROBICC},%
+sort={AIROBICC},%
+type={acronym},%
+first={Air shower Observation By angle Integrating Cherenkov Counters\glsspace (AIROBICC)},%
+firstplural={Air shower Observation By angle Integrating Cherenkov Counterss\glsspace (AIROBICCs)},%
+text={AIROBICC},%
+plural={AIROBICCs},%
+description={Air shower Observation By angle Integrating Cherenkov Counters},%
+descriptionplural={Air shower Observation By angle Integrating Cherenkov Counters\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Air shower Observation By angle Integrating Cherenkov Counters},%
+longplural={Air shower Observation By angle Integrating Cherenkov Counterss},%
+short={AIROBICC},%
+shortplural={AIROBICCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{iact}{}%
+{%
+\gls@defglossaryentry{iact}%
+{%
+name={IACT},%
+sort={IACT},%
+type={acronym},%
+first={Imaging Atmospheric Cherenkov Telescopes\glsspace (IACT)},%
+firstplural={Imaging Atmospheric Cherenkov Telescopess\glsspace (IACTs)},%
+text={IACT},%
+plural={IACTs},%
+description={Imaging Atmospheric Cherenkov Telescopes},%
+descriptionplural={Imaging Atmospheric Cherenkov Telescopes\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Imaging Atmospheric Cherenkov Telescopes},%
+longplural={Imaging Atmospheric Cherenkov Telescopess},%
+short={IACT},%
+shortplural={IACTs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{hegra}{}%
+{%
+\gls@defglossaryentry{hegra}%
+{%
+name={HEGRA},%
+sort={HEGRA},%
+type={acronym},%
+first={High Energy Gamma Ray Astronomy\glsspace (HEGRA)},%
+firstplural={High Energy Gamma Ray Astronomys\glsspace (HEGRAs)},%
+text={HEGRA},%
+plural={HEGRAs},%
+description={High Energy Gamma Ray Astronomy},%
+descriptionplural={High Energy Gamma Ray Astronomy\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={High Energy Gamma Ray Astronomy},%
+longplural={High Energy Gamma Ray Astronomys},%
+short={HEGRA},%
+shortplural={HEGRAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{amc}{}%
+{%
+\gls@defglossaryentry{amc}%
+{%
+name={AMC},%
+sort={AMC},%
+type={acronym},%
+first={Active Mirror Control\glsspace (AMC)},%
+firstplural={Active Mirror Controls\glsspace (AMCs)},%
+text={AMC},%
+plural={AMCs},%
+description={Active Mirror Control},%
+descriptionplural={Active Mirror Control\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Active Mirror Control},%
+longplural={Active Mirror Controls},%
+short={AMC},%
+shortplural={AMCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ccd}{}%
+{%
+\gls@defglossaryentry{ccd}%
+{%
+name={CCD},%
+sort={CCD},%
+type={acronym},%
+first={charged-coupled device\glsspace (CCD)},%
+firstplural={charged-coupled devices\glsspace (CCDs)},%
+text={CCD},%
+plural={CCDs},%
+description={charged-coupled device},%
+descriptionplural={charged-coupled device\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={charged-coupled device},%
+longplural={charged-coupled devices},%
+short={CCD},%
+shortplural={CCDs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{fov}{}%
+{%
+\gls@defglossaryentry{fov}%
+{%
+name={FoV},%
+sort={FoV},%
+type={acronym},%
+first={field of view\glsspace (FoV)},%
+firstplural={field of views\glsspace (FoVs)},%
+text={FoV},%
+plural={FoVs},%
+description={field of view},%
+descriptionplural={field of view\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={field of view},%
+longplural={field of views},%
+short={FoV},%
+shortplural={FoVs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{pmt}{}%
+{%
+\gls@defglossaryentry{pmt}%
+{%
+name={PMT},%
+sort={PMT},%
+type={acronym},%
+first={Photomultiplier Tube\glsspace (PMT)},%
+firstplural={Photomultiplier Tubes\glsspace (PMTs)},%
+text={PMT},%
+plural={PMTs},%
+description={Photomultiplier Tube},%
+descriptionplural={Photomultiplier Tube\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Photomultiplier Tube},%
+longplural={Photomultiplier Tubes},%
+short={PMT},%
+shortplural={PMTs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{dsr4}{}%
+{%
+\gls@defglossaryentry{dsr4}%
+{%
+name={DSR4},%
+sort={DSR4},%
+type={acronym},%
+first={Domino Ring Sampler version 4\glsspace (DSR4)},%
+firstplural={Domino Ring Sampler version 4s\glsspace (DSR4s)},%
+text={DSR4},%
+plural={DSR4s},%
+description={Domino Ring Sampler version 4},%
+descriptionplural={Domino Ring Sampler version 4\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Domino Ring Sampler version 4},%
+longplural={Domino Ring Sampler version 4s},%
+short={DSR4},%
+shortplural={DSR4s},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{mhd}{}%
+{%
+\gls@defglossaryentry{mhd}%
+{%
+name={MHD},%
+sort={MHD},%
+type={acronym},%
+first={Magnetohydrodynamics\glsspace (MHD)},%
+firstplural={Magnetohydrodynamicss\glsspace (MHDs)},%
+text={MHD},%
+plural={MHDs},%
+description={Magnetohydrodynamics},%
+descriptionplural={Magnetohydrodynamics\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Magnetohydrodynamics},%
+longplural={Magnetohydrodynamicss},%
+short={MHD},%
+shortplural={MHDs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{hawc}{}%
+{%
+\gls@defglossaryentry{hawc}%
+{%
+name={HAWC},%
+sort={HAWC},%
+type={acronym},%
+first={High-Altitude Water Cherenkov Observatory\glsspace (HAWC)},%
+firstplural={High-Altitude Water Cherenkov Observatorys\glsspace (HAWCs)},%
+text={HAWC},%
+plural={HAWCs},%
+description={High-Altitude Water Cherenkov Observatory},%
+descriptionplural={High-Altitude Water Cherenkov Observatory\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={High-Altitude Water Cherenkov Observatory},%
+longplural={High-Altitude Water Cherenkov Observatorys},%
+short={HAWC},%
+shortplural={HAWCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{nsb}{}%
+{%
+\gls@defglossaryentry{nsb}%
+{%
+name={NSB},%
+sort={NSB},%
+type={acronym},%
+first={Night Sky Background\glsspace (NSB)},%
+firstplural={Night Sky Backgrounds\glsspace (NSBs)},%
+text={NSB},%
+plural={NSBs},%
+description={Night Sky Background},%
+descriptionplural={Night Sky Background\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Night Sky Background},%
+longplural={Night Sky Backgrounds},%
+short={NSB},%
+shortplural={NSBs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
