@@ -13,11 +13,21 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 23904 items from 5000.
+Reallocated field_info (elt_size=4) to 25294 items from 5000.
 Database file #1: main-blx.bib
 Database file #2: bibliography.bib
+I was expecting a `,' or a `}'---line 707 of file bibliography.bib
+ : 
+ : @ARTICLE{1995AGNunifiedschemes,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
+Your field is more than 20000 characters---line 4303 of file bibliography.bib
+ :          {Wang}, J.~Z. and {Wang}, W.~H. and {Wang}, Y.~F. and {Wa
+ :                                                                   rd}, R.~L. and
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "2019DSpheCombined"
 Biblatex version: 3.3
 Warning--you've exceeded 250, the entry-string-size, for entry 2008crabmagic
 while executing--line 2513 of file biblatex.bst
@@ -31,6 +41,12 @@ while executing--line 2513 of file biblatex.bst
 Warning--you've exceeded 250, the entry-string-size, for entry 2014fermiclassicNovae
 while executing--line 2513 of file biblatex.bst
 *Please notify the bibstyle designer*
+Warning--you've exceeded 250, the entry-string-size, for entry 2006GCMAGIC
+while executing--line 2513 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 250, the entry-string-size, for entry 2018GPHESS
+while executing--line 2513 of file biblatex.bst
+*Please notify the bibstyle designer*
 Warning--you've exceeded 250, the entry-string-size, for entry 2014Fbubbles
 while executing--line 2513 of file biblatex.bst
 *Please notify the bibstyle designer*
@@ -41,6 +57,9 @@ Warning--you've exceeded 250, the entry-string-size, for entry 2013globularclust
 while executing--line 2513 of file biblatex.bst
 *Please notify the bibstyle designer*
 Warning--you've exceeded 250, the entry-string-size, for entry 2011detectionpulsationglobularcluster
+while executing--line 2513 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 250, the entry-string-size, for entry 2018FermiGW170817
 while executing--line 2513 of file biblatex.bst
 *Please notify the bibstyle designer*
 Warning--you've exceeded 250, the entry-string-size, for entry 2009starbursthess
@@ -100,6 +119,9 @@ while executing--line 2513 of file biblatex.bst
 Warning--you've exceeded 250, the entry-string-size, for entry 2014fermisuperGRB
 while executing--line 2513 of file biblatex.bst
 *Please notify the bibstyle designer*
+Warning--you've exceeded 250, the entry-string-size, for entry 2018GPHESS
+while executing--line 2541 of file biblatex.bst
+*Please notify the bibstyle designer*
 Warning--you've exceeded 250, the entry-string-size, for entry 2013globularclustersHESS
 while executing--line 2541 of file biblatex.bst
 *Please notify the bibstyle designer*
@@ -143,6 +165,12 @@ Warning--you've exceeded 250, the entry-string-size, for entry 2017FermiGCexcess
 while executing--line 2541 of file biblatex.bst
 *Please notify the bibstyle designer*
 Warning--you've exceeded 250, the entry-string-size, for entry 2014Fbubbles
+while executing--line 2541 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 250, the entry-string-size, for entry 2018FermiGW170817
+while executing--line 2541 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 250, the entry-string-size, for entry 2006GCMAGIC
 while executing--line 2541 of file biblatex.bst
 *Please notify the bibstyle designer*
 Warning--you've exceeded 250, the entry-string-size, for entry 2012LimitsClustersMagic
@@ -183,45 +211,45 @@ while executing--line 2541 of file biblatex.bst
 *Please notify the bibstyle designer*
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 136 entries,
+You've used 145 entries,
             6047 wiz_defined-function locations,
-            2275 strings with 157312 characters,
-and the built_in function-call counts, 1470407 in all, are:
-= -- 43743
-> -- 59354
-< -- 3821
-+ -- 32385
-- -- 33516
-* -- 223212
-:= -- 109585
+            2342 strings with 170468 characters,
+and the built_in function-call counts, 1604650 in all, are:
+= -- 47516
+> -- 64923
+< -- 4016
++ -- 35554
+- -- 36796
+* -- 244921
+:= -- 119917
 add.period$ -- 0
-call.type$ -- 136
-change.case$ -- 1912
-chr.to.int$ -- 242
-cite$ -- 270
-duplicate$ -- 186500
-empty$ -- 121373
-format.name$ -- 77233
-if$ -- 266992
+call.type$ -- 145
+change.case$ -- 1993
+chr.to.int$ -- 249
+cite$ -- 288
+duplicate$ -- 203753
+empty$ -- 132049
+format.name$ -- 84888
+if$ -- 290595
 int.to.chr$ -- 0
-int.to.str$ -- 320
+int.to.str$ -- 343
 missing$ -- 0
-newline$ -- 32922
-num.names$ -- 6150
-pop$ -- 65607
+newline$ -- 36151
+num.names$ -- 6496
+pop$ -- 70836
 preamble$ -- 1
-purify$ -- 7945
+purify$ -- 8638
 quote$ -- 0
-skip$ -- 63662
+skip$ -- 69214
 stack$ -- 0
-substring$ -- 13570
-swap$ -- 70077
-text.length$ -- 9013
-text.prefix$ -- 143
+substring$ -- 14422
+swap$ -- 76540
+text.length$ -- 9802
+text.prefix$ -- 152
 top$ -- 1
-type$ -- 5153
+type$ -- 5495
 warning$ -- 0
-while$ -- 2784
+while$ -- 2951
 width$ -- 0
-write$ -- 32785
-(There were 54 warnings)
+write$ -- 36005
+(There were 2 error messages)
