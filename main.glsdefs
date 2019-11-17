@@ -1738,3 +1738,93 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{lst}{}%
+{%
+\gls@defglossaryentry{lst}%
+{%
+name={LST},%
+sort={LST},%
+type={acronym},%
+first={Large Size Telescope\glsspace (LST)},%
+firstplural={Large Size Telescopes\glsspace (LSTs)},%
+text={LST},%
+plural={LSTs},%
+description={Large Size Telescope},%
+descriptionplural={Large Size Telescope\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Large Size Telescope},%
+longplural={Large Size Telescopes},%
+short={LST},%
+shortplural={LSTs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{mst}{}%
+{%
+\gls@defglossaryentry{mst}%
+{%
+name={MST},%
+sort={MST},%
+type={acronym},%
+first={Medium Size Telescope\glsspace (MST)},%
+firstplural={Medium Size Telescopes\glsspace (MSTs)},%
+text={MST},%
+plural={MSTs},%
+description={Medium Size Telescope},%
+descriptionplural={Medium Size Telescope\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Medium Size Telescope},%
+longplural={Medium Size Telescopes},%
+short={MST},%
+shortplural={MSTs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sst}{}%
+{%
+\gls@defglossaryentry{sst}%
+{%
+name={SST},%
+sort={SST},%
+type={acronym},%
+first={Small Size Telescope\glsspace (SST)},%
+firstplural={Small Size Telescopes\glsspace (SSTs)},%
+text={SST},%
+plural={SSTs},%
+description={Small Size Telescope},%
+descriptionplural={Small Size Telescope\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Small Size Telescope},%
+longplural={Small Size Telescopes},%
+short={SST},%
+shortplural={SSTs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

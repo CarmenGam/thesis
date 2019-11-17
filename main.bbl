@@ -26753,6 +26753,12 @@
   \warn{\item Invalid format of field 'month'}
 \endentry
 
+\entry{CTA}{misc}{}
+  \field{sortinit}{C}
+  \field{howpublished}{\url{https://www.cta-observatory.org/}}
+  \field{title}{CTA Observatory}
+\endentry
+
 \entry{2018LMCdistance}{article}{}
   \name{author}{14}{}{%
     {{}%
@@ -34450,6 +34456,34 @@
   \field{volume}{171}
   \field{journaltitle}{Symposium - International Astronomical Union}
   \field{year}{1996}
+\endentry
+
+\entry{2019DSpheCombined}{inproceedings}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Oakes}}{O.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Astrophysics - High Energy Astrophysical Phenomena}
+  \strng{namehash}{OL1}
+  \strng{fullhash}{OL1}
+  \field{sortinit}{O}
+  \field{booktitle}{36th International Cosmic Ray Conference (ICRC2019)}
+  \field{eid}{539}
+  \verb{eprint}
+  \verb 1909.06310
+  \endverb
+  \field{pages}{539}
+  \field{series}{International Cosmic Ray Conference}
+  \field{title}{{Combined Dark Matter Searches Towards Dwarf Spheroidal
+  Galaxies with Fermi-LAT, HAWC, HESS, MAGIC and VERITAS}}
+  \field{volume}{36}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph.HE}
+  \field{year}{2019}
+  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2016starburst}{article}{}

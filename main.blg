@@ -13,7 +13,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 25294 items from 5000.
+Reallocated field_info (elt_size=4) to 25433 items from 5000.
 Database file #1: main-blx.bib
 Database file #2: bibliography.bib
 I was expecting a `,' or a `}'---line 707 of file bibliography.bib
@@ -27,7 +27,6 @@ Your field is more than 20000 characters---line 4303 of file bibliography.bib
  :          {Wang}, J.~Z. and {Wang}, W.~H. and {Wang}, Y.~F. and {Wa
  :                                                                   rd}, R.~L. and
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "2019DSpheCombined"
 Biblatex version: 3.3
 Warning--you've exceeded 250, the entry-string-size, for entry 2008crabmagic
 while executing--line 2513 of file biblatex.bst
@@ -211,45 +210,45 @@ while executing--line 2541 of file biblatex.bst
 *Please notify the bibstyle designer*
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 145 entries,
+You've used 147 entries,
             6047 wiz_defined-function locations,
-            2342 strings with 170468 characters,
-and the built_in function-call counts, 1604650 in all, are:
-= -- 47516
-> -- 64923
-< -- 4016
-+ -- 35554
-- -- 36796
-* -- 244921
-:= -- 119917
+            2351 strings with 170677 characters,
+and the built_in function-call counts, 1608868 in all, are:
+= -- 47641
+> -- 65004
+< -- 4051
++ -- 35570
+- -- 36822
+* -- 245183
+:= -- 120087
 add.period$ -- 0
-call.type$ -- 145
-change.case$ -- 1993
-chr.to.int$ -- 249
-cite$ -- 288
-duplicate$ -- 203753
-empty$ -- 132049
-format.name$ -- 84888
-if$ -- 290595
+call.type$ -- 147
+change.case$ -- 2007
+chr.to.int$ -- 250
+cite$ -- 292
+duplicate$ -- 204289
+empty$ -- 132623
+format.name$ -- 84936
+if$ -- 291580
 int.to.chr$ -- 0
-int.to.str$ -- 343
+int.to.str$ -- 346
 missing$ -- 0
-newline$ -- 36151
-num.names$ -- 6496
-pop$ -- 70836
+newline$ -- 36184
+num.names$ -- 6537
+pop$ -- 71464
 preamble$ -- 1
-purify$ -- 8638
+purify$ -- 8652
 quote$ -- 0
-skip$ -- 69214
+skip$ -- 69447
 stack$ -- 0
-substring$ -- 14422
-swap$ -- 76540
-text.length$ -- 9802
-text.prefix$ -- 152
+substring$ -- 14456
+swap$ -- 76730
+text.length$ -- 9835
+text.prefix$ -- 154
 top$ -- 1
-type$ -- 5495
+type$ -- 5571
 warning$ -- 0
-while$ -- 2951
+while$ -- 2972
 width$ -- 0
-write$ -- 36005
+write$ -- 36036
 (There were 2 error messages)

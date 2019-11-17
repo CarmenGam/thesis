@@ -1,0 +1,26 @@
+\documentclass[main.tex]{subfiles}
+\begin{document}
+
+\section{Introduction}
+
+The Cherenkov Telescope Array(CTA)\cite{CTA} is the next-generation ground-based observatory for $\gamma$-ray astronomy. It is the result of the combination of efforts from all the $\gamma$-ray community, to push the field of \gls{vhe} astrophysics to new limits. It will consist on two observatories of \glspl{iact} located in the Northern hemisphere, in the Roque de los Muchachos Observatory in the island of La Palma (Canary Islands, Spain) and in the Southern hemisphere in the Paranal desert (Chile). With this configuration, \gls{cta} will be the first ground-based observatory to be able to survey the full sky. \gls{cta} will have five to ten times more sensitivity than current instruments in the wider energy range ever reached, from 20 GeV to 300 TeV. Its fine angular resolution up to 2 arcseconds, with a field of view of $\sim 10\º$ will allow the observation of fine structures in extended $\gamma$-ray sources. Its energy resolution with an uncertainty less than 10\% will make \gls{cta} capable of study features in the sources spectra, such as lines and cutoffs.\\
+To reach such improvements with respect to the current generation of \glspl{iact} observatories, \gls{cta} will count with more than 100 telescopes in three sizes, each designed to improve the performance in a specific spectral range. \glspl{lst} have the bigger size, with a 32 m diameter mirror. They focus on the lowest part of the \gls{vhe} spectrum ($\sim$20 GeV to 3 TeV) where $\gamma$-ray showers are common, so a small number of telescopes is enough, but the amount of Cherenkov light is low so big mirrors are required to collect the maximum number of photons. \gls{mst} have an intermediate size, with a diameter of$\sim 10m$. They have the best performance at the range between $\sim 100 GeV$ and 50 TeV. \gls{sst} have much smaller mirrors ($\sim$ 4 m), but many of them will be installed to get big collection areas and be able to capture the highest energy photons (up to 300 TeV), which are very rare but produce huge amounts of Cherenkov light.\\
+Also, thanks to the large number of telescopes, \gls{cta} will allow great flefibility of operations, with different observation modes: with full array for best sensitivity; using subarrays to observe several sources at the same time; and divergent pointing mode where the field of view can be extended up to 20 deg.\\
+In this chapter the main features of \gls{cta} are covered. A description of performance is given in section \ref{sec:ctaperformance}. In section \ref{sec:ctatelescopes} the three types of telescopes are described in detail. Section \ref{sec:ctaanalysis} is dedicated to \gls{cta} analysis techniques and tools at different levels.
+
+\section{CTA Requirements and Performance} \label{sec:ctaperformance}
+
+
+
+\section{CTA Telescopes} \label{sec:ctatelescopes}
+\subsection{LST}
+\subsection{MST}
+\subsection{SST}
+\section{Reconstruction and Analysis tools} \label{sec:ctaanalysis}
+\subsection{Monte Carlo simulations}
+\subsubsection{CORSIKA}
+\subsubsection{sim\_telarray}
+\subsection{Low level analysis: ctapipe}
+\subsection{Science analysis: ctools}
+
+\end{document}
