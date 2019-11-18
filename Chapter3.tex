@@ -3,12 +3,100 @@
 
 \section{Introduction}
 
-The Cherenkov Telescope Array(CTA)\cite{CTA} is the next-generation ground-based observatory for $\gamma$-ray astronomy. It is the result of the combination of efforts from all the $\gamma$-ray community, to push the field of \gls{vhe} astrophysics to new limits. It will consist on two observatories of \glspl{iact} located in the Northern hemisphere, in the Roque de los Muchachos Observatory in the island of La Palma (Canary Islands, Spain) and in the Southern hemisphere in the Paranal desert (Chile). With this configuration, \gls{cta} will be the first ground-based observatory to be able to survey the full sky. \gls{cta} will have five to ten times more sensitivity than current instruments in the wider energy range ever reached, from 20 GeV to 300 TeV. Its fine angular resolution up to 2 arcseconds, with a field of view of $\sim 10\º$ will allow the observation of fine structures in extended $\gamma$-ray sources. Its energy resolution with an uncertainty less than 10\% will make \gls{cta} capable of study features in the sources spectra, such as lines and cutoffs.\\
+The Cherenkov Telescope Array(CTA)\cite{CTA} is the next-generation ground-based observatory for $\gamma$-ray astronomy. It is the result of the combination of efforts from all the $\gamma$-ray community, to push the field of \gls{vhe} astrophysics to new limits. It will consist on two observatories of \glspl{iact} located in the Northern hemisphere, in the Roque de los Muchachos Observatory in the island of La Palma (Canary Islands, Spain) and in the Southern hemisphere in the Paranal desert (Chile). With this configuration, \gls{cta} will be the first ground-based observatory to be able to survey the full sky. \gls{cta} will have five to ten times more sensitivity than current instruments in the wider energy range ever reached, from 20 GeV to 300 TeV. Its fine angular resolution up to 2 arcseconds, with a field of view of $\sim 10º$ will allow the observation of fine structures in extended $\gamma$-ray sources. Its energy resolution with an uncertainty less than 10\% will make \gls{cta} capable of study features in the sources spectra, such as lines and cutoffs.\\
 To reach such improvements with respect to the current generation of \glspl{iact} observatories, \gls{cta} will count with more than 100 telescopes in three sizes, each designed to improve the performance in a specific spectral range. \glspl{lst} have the bigger size, with a 32 m diameter mirror. They focus on the lowest part of the \gls{vhe} spectrum ($\sim$20 GeV to 3 TeV) where $\gamma$-ray showers are common, so a small number of telescopes is enough, but the amount of Cherenkov light is low so big mirrors are required to collect the maximum number of photons. \gls{mst} have an intermediate size, with a diameter of$\sim 10m$. They have the best performance at the range between $\sim 100 GeV$ and 50 TeV. \gls{sst} have much smaller mirrors ($\sim$ 4 m), but many of them will be installed to get big collection areas and be able to capture the highest energy photons (up to 300 TeV), which are very rare but produce huge amounts of Cherenkov light.\\
 Also, thanks to the large number of telescopes, \gls{cta} will allow great flefibility of operations, with different observation modes: with full array for best sensitivity; using subarrays to observe several sources at the same time; and divergent pointing mode where the field of view can be extended up to 20 deg.\\
 In this chapter the main features of \gls{cta} are covered. A description of performance is given in section \ref{sec:ctaperformance}. In section \ref{sec:ctatelescopes} the three types of telescopes are described in detail. Section \ref{sec:ctaanalysis} is dedicated to \gls{cta} analysis techniques and tools at different levels.
 
 \section{CTA Requirements and Performance} \label{sec:ctaperformance}
+
+The current generation of Cherenkov telescope observatories consist on arrays of 2 to 5 telescopes which reach sensitivities of about 1\% of the Crab at the range of 0.1-1 TeV. The typical angular resolution is about 0.1º, but it can improve largely for intense point sources (20-30 arc seconds). The goal of \gls{cta} design is to advance the state of the art in $\gamma$-ray astronomy, improving sensitivity, energy range, angular and timing resolution and offering full sky coverage. The performance goals of \gls{cta} are shown in table \ref{CTAgoals}. As a result of these goals, \gls{cta} will account for two unique features: the ability to produce a deep survey of the \gls{vhe} sky, discovering hundreds of new sources; and the possibility to observe the shortest time-scale phenomena, such as flares and jets from black holes in the center of active galaxies or periodic emission like such of pulsars. 
+To achieve these improvements, different types of telescopes are required and they should be spreaded over large areas to reach a collection area of several km$^2$ \cite{CTAconcept}.
+
+\begin{table}
+  \centering
+  \begin{tabular}{ccc}
+    \hline
+    Diff. sensitivity & at 50 GeV & $8\times10^{-12}$\\
+    (erg cm$^2$ s$^{-1}$) & at 1 TeV & $2\times10^{-13}$\\
+     & at 50 TeV & $3\times10^{-13}$ (S) / $3\times10^{-12}$ (N)\\\\
+    Collection area (m$^{2}$) & at 1 TeV & > $10^4$ \\
+    & at 10 TeV & > $10^6$ (S)/ >$5\times10^5$ (N) \\\\
+    Angular resolution & at 0.1 TeV & 0.1º \\
+    & > 1 TeV & 0.05º \\\\
+    Energy resolution & at 50 GeV & $\le 25\%$ \\
+    & > 1 TeV & $\le 10\%$ \\\\
+    Field of view & at 0.1 TeV & 5º\\
+    & at 1 TeV & 8º\\
+    & > 10 TeV & 10º\\\\
+    Sensitivity in FoV & at 1 TeV flat out to & > 2.5º \\
+    & at 1 TeV & 5'' per axis \\\\
+    Repointing time & <0.1 TeV  & 20s (goal), 50s(max) \\
+    & 0.1-10 TeV & 60s (goal), 90s (max) \\
+    \hline
+  \end{tabular}
+  \caption{Performance goals for CTA observatories, adapted from \cite{CTAconcept}. Sensitivity given in 5 bins per energy. (N)= Northern site, (S) = Southern site.}
+  \label{tab:CTAgoals}
+\end{table}
+
+The final performance of \gls{cta} will depend on the design of the telescopes, which will be discussed more deeply in next sections, and also in the arrangement of them along the two sites.
+To have an estimate of the performance of the observatory and to decide which will be the best configuration (number of telescope of each type and how are them) detailed Monte Carlo simulations were made \cite{2013CTAMonteCarlo}, comprising simulations of shower development in the atmosphere, detector response and event reconstruction.
+A deep study of these simulations \cite{2017CTAMCPerformance} for different configurations of telscopes and sites was made to came up with the final array layout illustrated in picture \ref{fig:arraylayout}.
+
+\begin{figure}
+\centering
+ \includegraphics[width=1\textwidth]{Pictures/Array-Layouts.pdf}
+  \caption{Array layout selected for \gls{cta} from \cite{CTAPerformance}. Left is Northern site where also \gls{magic} telescopes are located. Right is Southern location.}
+    \label{fig:arraylayout}
+\end{figure}
+
+The baseline design for Southern observatory forsees 4 \glspl{lst}, \glspl{mst} and 70 \glspl{sst}. It will be dedicated to the study of galactic sources which emit the most energetic $\gamma$-rays to reach the Earth. Because of the extremely low fluxes, it will cover very a large area ($\sim4$ km$^2$), achieved thanks to the large number of \glspl{sst}, to capture as many events as possible.\\
+The Northern observatory will mainly observe extragalctic sources and transient events from which only the less energetic photons reach the Earth due to absorption (see section \ref{sec:absorption}). The final configuration will consist on 4 \glspl{lst} and 15 \glspl{mst}.
+
+The performance of \gls{cta} has been evaluated in terms of the best results for the observation of a point source located at the centre of the field of view of telescopes cameras. A set of metrics are taken into account: Effective collection area, residual cosmic-ray background rate, angular resolution and differential sensitivity. Usually they are calculated after applying cuts in \textit{gammaness} and $\theta^2$ optimized to maximize sensitivity for a set of typical observation times. Gammaness is referred to the gamma-hadron separation of shower events, events with higher gammaness are more likely to be produced by a $\gamma$-ray instead of a hadron. The angle $\theta^2$ is the square of the angle between the reconstructed source position and the true source position.
+An overview of the mentioned metrics for performance evaluation is the following:\\
+
+\begin{itemize}
+\item \textbf{Effective collection area:} The effective collection area describes the area in which \gls{cta} is able to detect a shower from the point source. The effective collection areas for the assumed point sources are shown in figure \ref{fig:effarea}.
+
+\begin{figure}[!htb]
+\minipage{0.5\textwidth}
+\includegraphics[width=\linewidth]{Pictures/CTA-Performance-prod3b-v2-South-20deg-EffectiveArea.pdf}
+\endminipage\hfill
+\minipage{0.5\textwidth}
+\includegraphics[width=\linewidth]{Pictures/CTA-Performance-prod3b-v2-North-20deg-EffectiveArea.pdf}
+\endminipage\hfill
+\caption{\label{fig:effarea}Effective collection area for point-like sources for CTA South(left) and CTA North (right) \cite{CTAPerformance}.}
+\end{figure}
+
+\item \textbf{Residual cosmic-ray background rate:} The ability of \gls{cta} to reject background events, meaning showers produced by \glspl{cr} instead of $\gamma$s is measured through the residual cosmic-ray background rate. The 99.9\% of the showers reaching the telescopes are produced by \glspl{cr}, so a good background rejection is a key requirement for \glspl{iact}. In figure \ref{fig:bkgrate} the (post-analysis) residual cosmic-ray background rate per square degree vs reconstructed $\gamma$-ray energy is shown. The rate is integrated in each bin, where five bins per decade has been taken. \gls{cta} have such strong background rejection capabilities that the majority of the background in the range 0.2-1.5 TeV is due cosmic-ray electrons and positrons \cite{2017ICRCCTAPerformance} which produce showers much more difficult to differentiate from electromagnetic showers than those produced by hadrons (see section \ref{sec:electroshowers}). 
+
+  \begin{figure}[!htb]
+    \minipage{0.5\textwidth}
+    \includegraphics[width=\linewidth]{Pictures/CTA-Performance-prod3b-v2-South-20deg-BackgroundRateSquDeg.pdf}
+    \endminipage\hfill
+    \minipage{0.5\textwidth}
+    \includegraphics[width=\linewidth]{Pictures/CTA-Performance-prod3b-v2-North-20deg-BackgroundRateSquDeg.pdf}
+    \endminipage\hfill
+    \caption{\label{fig:bkgrate} Residual cosmic-ray background rate vs reconsctructed enregy for CTA South(left) and CTA North (right) \cite{CTAPerformance}.}
+  \end{figure}
+  
+\item \textbf{Angular resolution:} The angular resolution is defined as the angle within which 68\% of reconstructed $\gamma$-rays fall, relative to their true direction. Figure \ref{fig:angres} show the angular resolution vs. reconstructed energy optimized for best point-source sensitivity. It is possible to improve angular resolution at expenses of collection area for a better study of morphological features of bright sources.
+  
+  \begin{figure}[!htb]
+    \minipage{0.5\textwidth}
+    \includegraphics[width=\linewidth]{Pictures/CTA-Performance-prod3b-v2-Comparison-AngularResolution-OtherInstruments.pdf}
+    \endminipage\hfill
+    \minipage{0.5\textwidth}
+    \includegraphics[width=\linewidth]{Pictures/CTA-Performance-prod3b-v2-North-20deg-AngularResolution.pdf}
+    \endminipage\hfill
+    \caption{\label{fig:angres} Angular resolution for CTA South compared to other experiments (left), and for CTA North (right) \cite{CTAPerformance}.}
+  \end{figure}
+
+\item \textbf{Energy resolution:}
+\item \textbf{Differential sensitivity:}
+\end{itemize}
+
 \section{CTA Telescopes} \label{sec:ctatelescopes}
 \subsection{LST}
 \subsection{MST}

@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.14)  17 NOV 2019 02:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.14)  18 NOV 2019 03:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
+**main.tex รง
 (./main.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
@@ -1955,6 +1955,11 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with '2013CTAMonteCarlo':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with '2014CRinClusters':
 (biblatex)                - Invalid format of field 'month'.
 
@@ -2085,6 +2090,11 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with '2017CTAMCPerformance':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with '2015SNRingammarays':
 (biblatex)                - Invalid format of field 'month'.
 
@@ -2126,6 +2136,11 @@ Package biblatex Warning: BibTeX reported the following issues
 
 Package biblatex Warning: BibTeX reported the following issues
 (biblatex)                with '2016AGNgammarayobss':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with '2017ICRCCTAPerformance':
 (biblatex)                - Invalid format of field 'month'.
 
 
@@ -2934,7 +2949,7 @@ File: Pictures/EM.pdf Graphic file (type pdf)
 Package pdftex.def Info: Pictures/EM.pdf used on input line 16.
 (pdftex.def)             Requested size: 432.19756pt x 299.13423pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--25
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
 
  []
 
@@ -2943,18 +2958,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--25
 File: Pictures/comptel.pdf Graphic file (type pdf)
 
 <use Pictures/comptel.pdf>
-Package pdftex.def Info: Pictures/comptel.pdf used on input line 32.
+Package pdftex.def Info: Pictures/comptel.pdf used on input line 33.
 (pdftex.def)             Requested size: 432.19756pt x 231.73651pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [39 <./Pictures/comptel.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
@@ -2965,17 +2980,17 @@ rsion <1.7>, but at most version <1.5> allowed
 <Pictures/LAT.pdf, id=972, 596.2275pt x 618.63121pt>
 File: Pictures/LAT.pdf Graphic file (type pdf)
  <use Pictures/LAT.pdf>
-Package pdftex.def Info: Pictures/LAT.pdf used on input line 52.
+Package pdftex.def Info: Pictures/LAT.pdf used on input line 53.
 (pdftex.def)             Requested size: 259.32117pt x 269.06464pt.
 
 <Pictures/GBM.pdf, id=975, 518.93875pt x 221.82875pt>
 File: Pictures/GBM.pdf Graphic file (type pdf)
  <use Pictures/GBM.pdf>
-Package pdftex.def Info: Pictures/GBM.pdf used on input line 62.
+Package pdftex.def Info: Pictures/GBM.pdf used on input line 63.
 (pdftex.def)             Requested size: 324.14816pt x 138.56815pt.
 
 [40] [41 <./Pictures/LAT.pdf> <./Pictures/GBM.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
@@ -2986,7 +3001,7 @@ rsion <1.7>, but at most version <1.5> allowed
 <Pictures/eas.pdf, id=1005, 598.9045pt x 755.48949pt>
 File: Pictures/eas.pdf Graphic file (type pdf)
  <use Pictures/eas.pdf>
-Package pdftex.def Info: Pictures/eas.pdf used on input line 84.
+Package pdftex.def Info: Pictures/eas.pdf used on input line 85.
 (pdftex.def)             Requested size: 324.14816pt x 408.91505pt.
 
 [42] [43 <./Pictures/eas.pdf>]
@@ -2997,25 +3012,25 @@ und PDF version <1.7>, but at most version <1.5> allowed
 File: Pictures/showerdevelop.pdf Graphic file (type pdf)
 
 <use Pictures/showerdevelop.pdf>
-Package pdftex.def Info: Pictures/showerdevelop.pdf used on input line 119.
+Package pdftex.def Info: Pictures/showerdevelop.pdf used on input line 120.
 (pdftex.def)             Requested size: 432.19756pt x 190.72389pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
 [44]
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
@@ -3030,7 +3045,7 @@ nd PDF version <1.7>, but at most version <1.5> allowed
 File: Pictures/polarization.pdf Graphic file (type pdf)
 
 <use Pictures/polarization.pdf>
-Package pdftex.def Info: Pictures/polarization.pdf used on input line 157.
+Package pdftex.def Info: Pictures/polarization.pdf used on input line 158.
 (pdftex.def)             Requested size: 432.19756pt x 264.81299pt.
 
 Underfull \vbox (badness 8019) has occurred while \output is active []
@@ -3043,20 +3058,15 @@ pdfTeX warning: pdflatex (file ./Pictures/huygenscoherence.pdf): PDF inclusion:
 File: Pictures/huygenscoherence.pdf Graphic file (type pdf)
 
 <use Pictures/huygenscoherence.pdf>
-Package pdftex.def Info: Pictures/huygenscoherence.pdf used on input line 166.
+Package pdftex.def Info: Pictures/huygenscoherence.pdf used on input line 167.
 (pdftex.def)             Requested size: 259.32117pt x 316.44049pt.
  [48 <./Pictures/huygenscoherence.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 217--218
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
 
  []
 
 [49]
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
 
  []
 
@@ -3065,8 +3075,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 225--226
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
+
+ []
+
 [50]
-Underfull \hbox (badness 10000) in paragraph at lines 240--244
+Underfull \hbox (badness 10000) in paragraph at lines 241--245
 
  []
 
@@ -3078,10 +3093,10 @@ pdfTeX warning: pdflatex (file ./Pictures/Hillaspars.pdf): PDF inclusion: found
 File: Pictures/Hillaspars.pdf Graphic file (type pdf)
 
 <use Pictures/Hillaspars.pdf>
-Package pdftex.def Info: Pictures/Hillaspars.pdf used on input line 247.
+Package pdftex.def Info: Pictures/Hillaspars.pdf used on input line 248.
 (pdftex.def)             Requested size: 259.32117pt x 195.79417pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--254
+Underfull \hbox (badness 10000) in paragraph at lines 253--255
 
  []
 
@@ -3093,20 +3108,20 @@ pdfTeX warning: pdflatex (file ./Pictures/stereomode.pdf): PDF inclusion: found
 File: Pictures/stereomode.pdf Graphic file (type pdf)
 
 <use Pictures/stereomode.pdf>
-Package pdftex.def Info: Pictures/stereomode.pdf used on input line 259.
+Package pdftex.def Info: Pictures/stereomode.pdf used on input line 260.
 (pdftex.def)             Requested size: 432.19756pt x 158.51517pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--266
+Underfull \hbox (badness 10000) in paragraph at lines 265--267
 
  []
 
 [51] [52 <./Pictures/Hillaspars.pdf> <./Pictures/stereomode.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 268--272
+Underfull \hbox (badness 10000) in paragraph at lines 269--273
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--277
+Underfull \hbox (badness 10000) in paragraph at lines 275--278
 
  []
 
@@ -3121,15 +3136,15 @@ pdfTeX warning: pdflatex (file ./Pictures/hesssurvey.pdf): PDF inclusion: found
 File: Pictures/hesssurvey.pdf Graphic file (type pdf)
 
 <use Pictures/hesssurvey.pdf>
-Package pdftex.def Info: Pictures/hesssurvey.pdf used on input line 280.
+Package pdftex.def Info: Pictures/hesssurvey.pdf used on input line 281.
 (pdftex.def)             Requested size: 432.19756pt x 324.25017pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
 
 
-LaTeX Warning: Reference `cap:CTA' on page 54 undefined on input line 291.
+LaTeX Warning: Reference `cap:CTA' on page 54 undefined on input line 292.
 
 
 
@@ -3145,7 +3160,7 @@ erInstruments.pdf Graphic file (type pdf)
 <use Pictures/CTA-Performance-prod3b-v2-Comparison-DifferentialSensitivity-Othe
 rInstruments.pdf>
 Package pdftex.def Info: Pictures/CTA-Performance-prod3b-v2-Comparison-Differen
-tialSensitivity-OtherInstruments.pdf used on input line 295.
+tialSensitivity-OtherInstruments.pdf used on input line 296.
 (pdftex.def)             Requested size: 432.19756pt x 276.66603pt.
 ) [54] [55 <./Pictures/hesssurvey.pdf>] [56 <./Pictures/CTA-Performance-prod3b-
 v2-Comparison-DifferentialSensitivity-OtherInstruments.pdf>]
@@ -3155,30 +3170,135 @@ File: Pictures/head2.png Graphic file (type png)
 Package pdftex.def Info: Pictures/head2.png used on input line 185.
 (pdftex.def)             Requested size: 614.295pt x 307.30548pt.
  (./Chapter3.tex
-! Undefined control sequence.
-l.6 ...seconds, with a field of view of $\sim 10\ย
-                                                  บ$ will allow the observat...
 
-? 
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 6.
 
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `utf8'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 ...econds, with a field of view of $\sim 10\ยบ
-                                                  $ will allow the observati...
-
-? 
 
 Underfull \vbox (badness 4872) has occurred while \output is active []
 
  [57
 
-])
-[58]
+]
+
+LaTeX Warning: Reference `CTAgoals' on page 58 undefined on input line 13.
+
+
+
+pdfTeX warning: pdflatex (file ./Pictures/Array-Layouts.pdf): PDF inclusion: fo
+und PDF version <1.7>, but at most version <1.5> allowed
+<Pictures/Array-Layouts.pdf, id=1208, 845.26288pt x 346.55774pt>
+File: Pictures/Array-Layouts.pdf Graphic file (type pdf)
+
+<use Pictures/Array-Layouts.pdf>
+Package pdftex.def Info: Pictures/Array-Layouts.pdf used on input line 48.
+(pdftex.def)             Requested size: 432.19756pt x 177.20216pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
+
+ []
+
+[58] [59 <./Pictures/Array-Layouts.pdf>]
+
+pdfTeX warning: pdflatex (file ./Pictures/CTA-Performance-prod3b-v2-South-20deg
+-EffectiveArea.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
+n <1.5> allowed
+
+<Pictures/CTA-Performance-prod3b-v2-South-20deg-EffectiveArea.pdf, id=1230, 723
+.31227pt x 595.61523pt>
+File: Pictures/CTA-Performance-prod3b-v2-South-20deg-EffectiveArea.pdf Graphic 
+file (type pdf)
+
+<use Pictures/CTA-Performance-prod3b-v2-South-20deg-EffectiveArea.pdf>
+Package pdftex.def Info: Pictures/CTA-Performance-prod3b-v2-South-20deg-Effecti
+veArea.pdf used on input line 64.
+(pdftex.def)             Requested size: 216.09877pt x 177.94978pt.
+
+
+pdfTeX warning: pdflatex (file ./Pictures/CTA-Performance-prod3b-v2-North-20deg
+-EffectiveArea.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
+n <1.5> allowed
+
+<Pictures/CTA-Performance-prod3b-v2-North-20deg-EffectiveArea.pdf, id=1231, 723
+.31227pt x 595.61523pt>
+File: Pictures/CTA-Performance-prod3b-v2-North-20deg-EffectiveArea.pdf Graphic 
+file (type pdf)
+
+<use Pictures/CTA-Performance-prod3b-v2-North-20deg-EffectiveArea.pdf>
+Package pdftex.def Info: Pictures/CTA-Performance-prod3b-v2-North-20deg-Effecti
+veArea.pdf used on input line 67.
+(pdftex.def)             Requested size: 216.09877pt x 177.94978pt.
+
+
+pdfTeX warning: pdflatex (file ./Pictures/CTA-Performance-prod3b-v2-South-20deg
+-BackgroundRateSquDeg.pdf): PDF inclusion: found PDF version <1.7>, but at most
+ version <1.5> allowed
+
+<Pictures/CTA-Performance-prod3b-v2-South-20deg-BackgroundRateSquDeg.pdf, id=12
+37, 723.31227pt x 595.61523pt>
+File: Pictures/CTA-Performance-prod3b-v2-South-20deg-BackgroundRateSquDeg.pdf G
+raphic file (type pdf)
+
+<use Pictures/CTA-Performance-prod3b-v2-South-20deg-BackgroundRateSquDeg.pdf>
+Package pdftex.def Info: Pictures/CTA-Performance-prod3b-v2-South-20deg-Backgro
+undRateSquDeg.pdf used on input line 76.
+(pdftex.def)             Requested size: 216.09877pt x 177.94978pt.
+
+
+pdfTeX warning: pdflatex (file ./Pictures/CTA-Performance-prod3b-v2-North-20deg
+-BackgroundRateSquDeg.pdf): PDF inclusion: found PDF version <1.7>, but at most
+ version <1.5> allowed
+
+<Pictures/CTA-Performance-prod3b-v2-North-20deg-BackgroundRateSquDeg.pdf, id=12
+38, 723.31227pt x 595.61523pt>
+File: Pictures/CTA-Performance-prod3b-v2-North-20deg-BackgroundRateSquDeg.pdf G
+raphic file (type pdf)
+
+<use Pictures/CTA-Performance-prod3b-v2-North-20deg-BackgroundRateSquDeg.pdf>
+Package pdftex.def Info: Pictures/CTA-Performance-prod3b-v2-North-20deg-Backgro
+undRateSquDeg.pdf used on input line 79.
+(pdftex.def)             Requested size: 216.09877pt x 177.94978pt.
+
+
+pdfTeX warning: pdflatex (file ./Pictures/CTA-Performance-prod3b-v2-Comparison-
+AngularResolution-OtherInstruments.pdf): PDF inclusion: found PDF version <1.7>
+, but at most version <1.5> allowed
+
+<Pictures/CTA-Performance-prod3b-v2-Comparison-AngularResolution-OtherInstrumen
+ts.pdf, id=1242, 723.31227pt x 595.61523pt>
+File: Pictures/CTA-Performance-prod3b-v2-Comparison-AngularResolution-OtherInst
+ruments.pdf Graphic file (type pdf)
+
+<use Pictures/CTA-Performance-prod3b-v2-Comparison-AngularResolution-OtherInstr
+uments.pdf>
+Package pdftex.def Info: Pictures/CTA-Performance-prod3b-v2-Comparison-AngularR
+esolution-OtherInstruments.pdf used on input line 88.
+(pdftex.def)             Requested size: 216.09877pt x 177.94978pt.
+
+
+pdfTeX warning: pdflatex (file ./Pictures/CTA-Performance-prod3b-v2-North-20deg
+-AngularResolution.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
+rsion <1.5> allowed
+
+<Pictures/CTA-Performance-prod3b-v2-North-20deg-AngularResolution.pdf, id=1243,
+ 723.31227pt x 595.61523pt>
+File: Pictures/CTA-Performance-prod3b-v2-North-20deg-AngularResolution.pdf Grap
+hic file (type pdf)
+
+<use Pictures/CTA-Performance-prod3b-v2-North-20deg-AngularResolution.pdf>
+Package pdftex.def Info: Pictures/CTA-Performance-prod3b-v2-North-20deg-Angular
+Resolution.pdf used on input line 91.
+(pdftex.def)             Requested size: 216.09877pt x 177.94978pt.
+
+[60 <./Pictures/CTA-Performance-prod3b-v2-South-20deg-EffectiveArea.pdf> <./Pic
+tures/CTA-Performance-prod3b-v2-North-20deg-EffectiveArea.pdf>])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61 <./Pictures/CTA-Performance-prod3b-v2-South-20deg-BackgroundRateSquDeg.pdf
+> <./Pictures/CTA-Performance-prod3b-v2-North-20deg-BackgroundRateSquDeg.pdf> <
+./Pictures/CTA-Performance-prod3b-v2-Comparison-AngularResolution-OtherInstrume
+nts.pdf> <./Pictures/CTA-Performance-prod3b-v2-North-20deg-AngularResolution.pd
+f>]
+[62]
 File: Pictures/head2.png Graphic file (type png)
  <use Pictures/head2.png>
 Package pdftex.def Info: Pictures/head2.png used on input line 188.
@@ -3200,9 +3320,9 @@ Package microtype Info: Loading generic settings for font family
 l.189 \printglossaries
                       
 ? 
-[59
+[63
 
-] [60]
+] [64]
 ! Undefined control sequence.
 <argument> \apj 
                 
@@ -3221,7 +3341,7 @@ Overfull \hbox (2.06197pt too wide) in paragraph at lines 189--189
 mtt/m/n/12 1711 . 01693$ [astro-ph.IM][]\T1/cmr/m/n/12 (-20) . 
  []
 
-[61]
+[65]
 ! Undefined control sequence.
 <argument> \apj 
                 
@@ -3234,20 +3354,19 @@ l.189 \printglossaries
 l.189 \printglossaries
                       
 ? 
-
+[66]
 Overfull \hbox (26.364pt too wide) in paragraph at lines 189--189
 []\T1/cmr/m/it/12 (-20) Cherenkov Tele-scope Ar-ray Ob-ser-va-tory home-page\T1
 /cmr/m/n/12 (-20) . []$\T1/cmtt/m/n/12 https : / / www . cta -[] observatory .
  []
 
-[62]
 ! Undefined control sequence.
 <argument> \mnras 
                   
 l.189 \printglossaries
                       
 ? 
-[63]
+[67]
 
 ! Package inputenc Error: Unicode char ฮณ (U+3B3)
 (inputenc)                not set up for use with LaTeX.
@@ -3259,13 +3378,14 @@ Type  H <return>  for immediate help.
 l.189 \printglossaries
                       
 ? 
-[64]
+[68]
 ! Undefined control sequence.
 <argument> \aap 
                 
 l.189 \printglossaries
                       
 ? 
+[69]
 ! Undefined control sequence.
 <argument> \aap 
                 
@@ -3285,7 +3405,7 @@ Overfull \hbox (3.83601pt too wide) in paragraph at lines 189--189
 475720198$[]\T1/cmr/m/n/12 (-20) . 
  []
 
-[65] [66]
+[70]
 ! Undefined control sequence.
 <argument> \aap 
                 
@@ -3305,34 +3425,33 @@ Overfull \hbox (12.17139pt too wide) in paragraph at lines 189--189
 l.189 \printglossaries
                       
 ? 
-
+[71]
 Overfull \hbox (19.43437pt too wide) in paragraph at lines 189--189
 \T1/cmr/m/it/12 (-20) prints\T1/cmr/m/n/12 (-20) , arXiv:1303.0275 (2013), arXi
 v:1303.0275. arXiv: []$\T1/cmtt/m/n/12 1303 . 0275$ [astro-ph.HE][]\T1/cmr/m/n/
 12 (-20) . 
  []
 
-[67]
 ! Undefined control sequence.
 <argument> \ssr 
                 
 l.189 \printglossaries
                       
 ? 
-[68]
+[72] [73]
 Overfull \hbox (20.26025pt too wide) in paragraph at lines 189--189
 \T1/cmr/m/n/12 (-20) p. 063011. \T1/cmr/m/sc/12 (-20) doi\T1/cmr/m/n/12 (-20) :
  []$\T1/cmtt/m/n/12 10 . 1103 / PhysRevD . 86 . 063011$[]\T1/cmr/m/n/12 (-20) .
  arXiv: []$\T1/cmtt/m/n/12 1208 . 6200$ [astro-ph.HE][]\T1/cmr/m/n/12 (-20) . 
  []
 
-[69]
 ! Undefined control sequence.
 <argument> \aap 
                 
 l.189 \printglossaries
                       
 ? 
+[74]
 ! Undefined control sequence.
 <argument> \pasp 
                  
@@ -3345,12 +3464,11 @@ l.189 \printglossaries
 l.189 \printglossaries
                       
 ? 
-[70]
 No file main.acr.
 \tf@ptc=\write10
 \openout10 = `main.ptc'.
 
-[71]
+[75] [76]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 190.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 190.
  (./main.aux)
@@ -3371,13 +3489,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  )
 (\end occurred when \iftrue on line 57 was incomplete) 
 Here is how much of TeX's memory you used:
- 40685 strings out of 493029
- 735546 string characters out of 6136234
- 1398742 words of memory out of 5000000
- 42909 multiletter control sequences out of 15000+600000
- 59162 words of font info for 229 fonts, out of 8000000 for 9000
+ 40755 strings out of 493029
+ 738513 string characters out of 6136234
+ 1471456 words of memory out of 5000000
+ 42955 multiletter control sequences out of 15000+600000
+ 59241 words of font info for 230 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,14n,94p,10507b,2457s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 59i,14n,94p,10510b,2455s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/e
 nc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvip
 s/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cme
@@ -3399,10 +3517,10 @@ r/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
 rw/avantgar/uagd8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/avantgar/
 uagk8a.pfb>
-Output written on main.pdf (71 pages, 18075455 bytes).
+Output written on main.pdf (76 pages, 19672923 bytes).
 PDF statistics:
- 1706 PDF objects out of 1728 (max. 8388607)
- 1434 compressed objects within 15 object streams
- 352 named destinations out of 1000 (max. 500000)
- 37457 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 1803 PDF objects out of 2073 (max. 8388607)
+ 1506 compressed objects within 16 object streams
+ 367 named destinations out of 1000 (max. 500000)
+ 37492 words of extra memory for PDF output out of 42996 (max. 10000000)
 
