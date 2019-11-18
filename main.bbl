@@ -31616,12 +31616,6 @@
   \field{year}{2019}
 \endentry
 
-\entry{CTAweb}{misc}{}
-  \field{sortinit}{C}
-  \field{howpublished}{\url{https://www.cta-observatory.org/}}
-  \field{title}{Cherenkov Telescope Array Observatory homepage}
-\endentry
-
 \entry{2012DecayingDMCirelli}{article}{}
   \name{author}{5}{}{%
     {{}%

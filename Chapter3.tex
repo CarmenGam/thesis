@@ -10,7 +10,7 @@ In this chapter the main features of \gls{cta} are covered. A description of per
 
 \section{CTA Requirements and Performance} \label{sec:ctaperformance}
 
-The current generation of Cherenkov telescope observatories consist on arrays of 2 to 5 telescopes which reach sensitivities of about 1\% of the Crab at the range of 0.1-1 TeV. The typical angular resolution is about 0.1º, but it can improve largely for intense point sources (20-30 arc seconds). The goal of \gls{cta} design is to advance the state of the art in $\gamma$-ray astronomy, improving sensitivity, energy range, angular and timing resolution and offering full sky coverage. The performance goals of \gls{cta} are shown in table \ref{CTAgoals}. As a result of these goals, \gls{cta} will account for two unique features: the ability to produce a deep survey of the \gls{vhe} sky, discovering hundreds of new sources; and the possibility to observe the shortest time-scale phenomena, such as flares and jets from black holes in the center of active galaxies or periodic emission like such of pulsars. 
+The current generation of Cherenkov telescope observatories consist on arrays of 2 to 5 telescopes which reach sensitivities of about 1\% of the Crab at the range of 0.1-1 TeV. The typical angular resolution is about 0.1º, but it can improve largely for intense point sources (20-30 arc seconds). The goal of \gls{cta} design is to advance the state of the art in $\gamma$-ray astronomy, improving sensitivity, energy range, angular and timing resolution and offering full sky coverage. The performance goals of \gls{cta} are shown in table \ref{tab:CTAgoals}. As a result of these goals, \gls{cta} will account for two unique features: the ability to produce a deep survey of the \gls{vhe} sky, discovering hundreds of new sources; and the possibility to observe the shortest time-scale phenomena, such as flares and jets from black holes in the center of active galaxies or periodic emission like such of pulsars. 
 To achieve these improvements, different types of telescopes are required and they should be spreaded over large areas to reach a collection area of several km$^2$ \cite{CTAconcept}.
 
 \begin{table}
@@ -57,7 +57,7 @@ The performance of \gls{cta} has been evaluated in terms of the best results for
 An overview of the mentioned metrics for performance evaluation is the following:\\
 
 \begin{itemize}
-\item \textbf{Effective collection area:} The effective collection area describes the area in which \gls{cta} is able to detect a shower from the point source. The effective collection areas for the assumed point sources are shown in figure \ref{fig:effarea}.
+\item \textbf{Effective collection area:} The effective collection area describes the area in which \gls{cta} is able to detect a shower from the point source. The effective collection areas for the assumed point sources are shown in figure \ref{fig:effarea}.\\
 
 \begin{figure}[!htb]
 \minipage{0.5\textwidth}
@@ -69,7 +69,7 @@ An overview of the mentioned metrics for performance evaluation is the following
 \caption{\label{fig:effarea}Effective collection area for point-like sources for CTA South(left) and CTA North (right) \cite{CTAPerformance}.}
 \end{figure}
 
-\item \textbf{Residual cosmic-ray background rate:} The ability of \gls{cta} to reject background events, meaning showers produced by \glspl{cr} instead of $\gamma$s is measured through the residual cosmic-ray background rate. The 99.9\% of the showers reaching the telescopes are produced by \glspl{cr}, so a good background rejection is a key requirement for \glspl{iact}. In figure \ref{fig:bkgrate} the (post-analysis) residual cosmic-ray background rate per square degree vs reconstructed $\gamma$-ray energy is shown. The rate is integrated in each bin, where five bins per decade has been taken. \gls{cta} have such strong background rejection capabilities that the majority of the background in the range 0.2-1.5 TeV is due cosmic-ray electrons and positrons \cite{2017ICRCCTAPerformance} which produce showers much more difficult to differentiate from electromagnetic showers than those produced by hadrons (see section \ref{sec:electroshowers}). 
+\item \textbf{Residual cosmic-ray background rate:} The ability of \gls{cta} to reject background events, meaning showers produced by \glspl{cr} instead of $\gamma$s is measured through the residual cosmic-ray background rate. The 99.9\% of the showers reaching the telescopes are produced by \glspl{cr}, so a good background rejection is a key requirement for \glspl{iact}. In figure \ref{fig:bkgrate} the (post-analysis) residual cosmic-ray background rate per square degree vs reconstructed $\gamma$-ray energy is shown. The rate is integrated in each bin, where five bins per decade has been taken. \gls{cta} have such strong background rejection capabilities that the majority of the background in the range 0.2-1.5 TeV is due cosmic-ray electrons and positrons \cite{2017ICRCCTAPerformance} which produce showers much more difficult to differentiate from electromagnetic showers than those produced by hadrons (see section \ref{sec:electroshowers}).\\
 
   \begin{figure}[!htb]
     \minipage{0.5\textwidth}
@@ -81,7 +81,7 @@ An overview of the mentioned metrics for performance evaluation is the following
     \caption{\label{fig:bkgrate} Residual cosmic-ray background rate vs reconsctructed enregy for CTA South(left) and CTA North (right) \cite{CTAPerformance}.}
   \end{figure}
   
-\item \textbf{Angular resolution:} The angular resolution is defined as the angle within which 68\% of reconstructed $\gamma$-rays fall, relative to their true direction. Figure \ref{fig:angres} show the angular resolution vs. reconstructed energy optimized for best point-source sensitivity. It is possible to improve angular resolution at expenses of collection area for a better study of morphological features of bright sources.
+\item \textbf{Angular resolution:} The angular resolution is defined as the angle within which 68\% of reconstructed $\gamma$-rays fall, relative to their true direction. Figure \ref{fig:angres} show the angular resolution vs. reconstructed energy optimized for best point-source sensitivity. It is possible to improve angular resolution at expenses of collection area for a better study of morphological features of bright sources.\\
   
   \begin{figure}[!htb]
     \minipage{0.5\textwidth}
@@ -93,8 +93,20 @@ An overview of the mentioned metrics for performance evaluation is the following
     \caption{\label{fig:angres} Angular resolution for CTA South compared to other experiments (left), and for CTA North (right) \cite{CTAPerformance}.}
   \end{figure}
 
-\item \textbf{Energy resolution:}
-\item \textbf{Differential sensitivity:}
+\item \textbf{Energy resolution:} The energy resolution $\Delta E/E$ is obtained from the distribution $E_{rec}-E_{true}/E_{true}$, where $E_{true}$ and $E_{rec}$ are the true and reconstructed energies of $\gamma$-ray events. It is defined as the half-width of the interval around 0 which contains the 68\% of the distribution. The energy resolution of \gls{cta} as a function of reconstructed energy is shown in figure \ref{fig:energyres}. Note that for the range of 1-10 TeV the energy resolution is well below the required 10\%.\\
+    
+  \begin{figure}[!htb]
+    \minipage{0.5\textwidth}
+    \includegraphics[width=\linewidth]{Pictures/CTA-Performance-prod3b-v2-South-20deg-EnergyResolution.pdf}
+    \endminipage\hfill
+    \minipage{0.5\textwidth}
+    \includegraphics[width=\linewidth]{Pictures/CTA-Performance-prod3b-v2-North-20deg-EnergyResolution.pdf}
+    \endminipage\hfill
+    \caption{\label{fig:energyres} Energy resolution vs reconstructed energy for CTA South (left) and CTA North (right) \cite{CTAPerformance}.}
+  \end{figure}
+  
+\item \textbf{Differential sensitivity:} The most important feature at evaluating the performance is the differential sensitivity, which indicates the minimum flux needed by \gls{cta} to detect a point-like source at $5\sigma$. The sensitivity is calculated in five energy bins per decade, where it is required that at least 10 $\gamma$-rays are detected and the signal to background ratio is al least 1/20. The cuts in gammaness and source direction ($\theta^2$) are optimized to improve this quantity. The differential sensitivity of \gls{cta} compared to that of other instruments for 50h observation time was shown in figure \ref{fig:ctaperformance}.\\
+  
 \end{itemize}
 
 \section{CTA Telescopes} \label{sec:ctatelescopes}

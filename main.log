@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.14)  18 NOV 2019 03:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.14)  18 NOV 2019 04:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3180,13 +3180,9 @@ Underfull \vbox (badness 4872) has occurred while \output is active []
 
 ]
 
-LaTeX Warning: Reference `CTAgoals' on page 58 undefined on input line 13.
-
-
-
 pdfTeX warning: pdflatex (file ./Pictures/Array-Layouts.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/Array-Layouts.pdf, id=1208, 845.26288pt x 346.55774pt>
+<Pictures/Array-Layouts.pdf, id=1209, 845.26288pt x 346.55774pt>
 File: Pictures/Array-Layouts.pdf Graphic file (type pdf)
 
 <use Pictures/Array-Layouts.pdf>
@@ -3198,6 +3194,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--58
  []
 
 [58] [59 <./Pictures/Array-Layouts.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+
+ []
+
+
 
 pdfTeX warning: pdflatex (file ./Pictures/CTA-Performance-prod3b-v2-South-20deg
 -EffectiveArea.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
@@ -3227,6 +3228,11 @@ file (type pdf)
 Package pdftex.def Info: Pictures/CTA-Performance-prod3b-v2-North-20deg-Effecti
 veArea.pdf used on input line 67.
 (pdftex.def)             Requested size: 216.09877pt x 177.94978pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
 
 
 pdfTeX warning: pdflatex (file ./Pictures/CTA-Performance-prod3b-v2-South-20deg
@@ -3258,13 +3264,19 @@ Package pdftex.def Info: Pictures/CTA-Performance-prod3b-v2-North-20deg-Backgro
 undRateSquDeg.pdf used on input line 79.
 (pdftex.def)             Requested size: 216.09877pt x 177.94978pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+[60 <./Pictures/CTA-Performance-prod3b-v2-South-20deg-EffectiveArea.pdf> <./Pic
+tures/CTA-Performance-prod3b-v2-North-20deg-EffectiveArea.pdf>]
 
 pdfTeX warning: pdflatex (file ./Pictures/CTA-Performance-prod3b-v2-Comparison-
 AngularResolution-OtherInstruments.pdf): PDF inclusion: found PDF version <1.7>
 , but at most version <1.5> allowed
 
 <Pictures/CTA-Performance-prod3b-v2-Comparison-AngularResolution-OtherInstrumen
-ts.pdf, id=1242, 723.31227pt x 595.61523pt>
+ts.pdf, id=1256, 723.31227pt x 595.61523pt>
 File: Pictures/CTA-Performance-prod3b-v2-Comparison-AngularResolution-OtherInst
 ruments.pdf Graphic file (type pdf)
 
@@ -3279,7 +3291,7 @@ pdfTeX warning: pdflatex (file ./Pictures/CTA-Performance-prod3b-v2-North-20deg
 -AngularResolution.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<Pictures/CTA-Performance-prod3b-v2-North-20deg-AngularResolution.pdf, id=1243,
+<Pictures/CTA-Performance-prod3b-v2-North-20deg-AngularResolution.pdf, id=1257,
  723.31227pt x 595.61523pt>
 File: Pictures/CTA-Performance-prod3b-v2-North-20deg-AngularResolution.pdf Grap
 hic file (type pdf)
@@ -3289,18 +3301,54 @@ Package pdftex.def Info: Pictures/CTA-Performance-prod3b-v2-North-20deg-Angular
 Resolution.pdf used on input line 91.
 (pdftex.def)             Requested size: 216.09877pt x 177.94978pt.
 
-[60 <./Pictures/CTA-Performance-prod3b-v2-South-20deg-EffectiveArea.pdf> <./Pic
-tures/CTA-Performance-prod3b-v2-North-20deg-EffectiveArea.pdf>])
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
- [61 <./Pictures/CTA-Performance-prod3b-v2-South-20deg-BackgroundRateSquDeg.pdf
-> <./Pictures/CTA-Performance-prod3b-v2-North-20deg-BackgroundRateSquDeg.pdf> <
-./Pictures/CTA-Performance-prod3b-v2-Comparison-AngularResolution-OtherInstrume
-nts.pdf> <./Pictures/CTA-Performance-prod3b-v2-North-20deg-AngularResolution.pd
-f>]
-[62]
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./Pictures/CTA-Performance-prod3b-v2-South-20deg
+-EnergyResolution.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+
+<Pictures/CTA-Performance-prod3b-v2-South-20deg-EnergyResolution.pdf, id=1261, 
+723.31227pt x 595.61523pt>
+File: Pictures/CTA-Performance-prod3b-v2-South-20deg-EnergyResolution.pdf Graph
+ic file (type pdf)
+
+<use Pictures/CTA-Performance-prod3b-v2-South-20deg-EnergyResolution.pdf>
+Package pdftex.def Info: Pictures/CTA-Performance-prod3b-v2-South-20deg-EnergyR
+esolution.pdf used on input line 100.
+(pdftex.def)             Requested size: 216.09877pt x 177.94978pt.
+
+
+pdfTeX warning: pdflatex (file ./Pictures/CTA-Performance-prod3b-v2-North-20deg
+-EnergyResolution.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+
+<Pictures/CTA-Performance-prod3b-v2-North-20deg-EnergyResolution.pdf, id=1262, 
+723.31227pt x 595.61523pt>
+File: Pictures/CTA-Performance-prod3b-v2-North-20deg-EnergyResolution.pdf Graph
+ic file (type pdf)
+
+<use Pictures/CTA-Performance-prod3b-v2-North-20deg-EnergyResolution.pdf>
+Package pdftex.def Info: Pictures/CTA-Performance-prod3b-v2-North-20deg-EnergyR
+esolution.pdf used on input line 103.
+(pdftex.def)             Requested size: 216.09877pt x 177.94978pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+[61 <./Pictures/CTA-Performance-prod3b-v2-South-20deg-BackgroundRateSquDeg.pdf>
+ <./Pictures/CTA-Performance-prod3b-v2-North-20deg-BackgroundRateSquDeg.pdf> <.
+/Pictures/CTA-Performance-prod3b-v2-Comparison-AngularResolution-OtherInstrumen
+ts.pdf> <./Pictures/CTA-Performance-prod3b-v2-North-20deg-AngularResolution.pdf
+>]) [62 <./Pictures/CTA-Performance-prod3b-v2-South-20deg-EnergyResolution.pdf>
+ <./Pictures/CTA-Performance-prod3b-v2-North-20deg-EnergyResolution.pdf>]
 File: Pictures/head2.png Graphic file (type png)
- <use Pictures/head2.png>
+
+<use Pictures/head2.png>
 Package pdftex.def Info: Pictures/head2.png used on input line 188.
 (pdftex.def)             Requested size: 614.295pt x 307.30548pt.
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 188.
@@ -3355,11 +3403,6 @@ l.189 \printglossaries
                       
 ? 
 [66]
-Overfull \hbox (26.364pt too wide) in paragraph at lines 189--189
-[]\T1/cmr/m/it/12 (-20) Cherenkov Tele-scope Ar-ray Ob-ser-va-tory home-page\T1
-/cmr/m/n/12 (-20) . []$\T1/cmtt/m/n/12 https : / / www . cta -[] observatory .
- []
-
 ! Undefined control sequence.
 <argument> \mnras 
                   
@@ -3480,20 +3523,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  )
 (\end occurred when \iftrue on line 57 was incomplete) 
 Here is how much of TeX's memory you used:
- 40755 strings out of 493029
- 738513 string characters out of 6136234
- 1471456 words of memory out of 5000000
- 42955 multiletter control sequences out of 15000+600000
- 59241 words of font info for 230 fonts, out of 8000000 for 9000
+ 40765 strings out of 493029
+ 739199 string characters out of 6136234
+ 1471498 words of memory out of 5000000
+ 42961 multiletter control sequences out of 15000+600000
+ 59290 words of font info for 231 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,14n,94p,10510b,2455s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/e
@@ -3517,10 +3557,10 @@ r/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
 rw/avantgar/uagd8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/avantgar/
 uagk8a.pfb>
-Output written on main.pdf (76 pages, 19672923 bytes).
+Output written on main.pdf (76 pages, 19946492 bytes).
 PDF statistics:
- 1803 PDF objects out of 2073 (max. 8388607)
- 1506 compressed objects within 16 object streams
+ 1814 PDF objects out of 2073 (max. 8388607)
+ 1512 compressed objects within 16 object streams
  367 named destinations out of 1000 (max. 500000)
- 37492 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 37502 words of extra memory for PDF output out of 42996 (max. 10000000)
 
