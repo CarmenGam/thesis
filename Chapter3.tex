@@ -110,7 +110,34 @@ An overview of the mentioned metrics for performance evaluation is the following
 \end{itemize}
 
 \section{CTA Telescopes} \label{sec:ctatelescopes}
-\subsection{LST}
+
+While all telescopes share a basic design concept, each of them have particlar features to accomplish the performance requirements for \gls{cta}. In general, subsystems of \glspl{iact} are divided in \textbf{structure}, \textbf{optics} (mirros) and \textbf{camera}. 
+In this section an overview of these subsystems and the particularities of each of the three types of \gls{cta} telescopes is given. 
+
+\subsection{Large Size Telescope (LST)}
+
+The purpose of the \gls{lst} is to enhance the sensitivity of \gls{cta} at low energies, reaching an effective threshold down to 20-30 GeV. This energy range has a particular interest because it covers the barely explored gap between the highest energies detcted by satellite experiments, and the lowest by \glspl{iact}. The main science goals for \glspl{lst} is to observe high redshift \glspl{agn}, \glspl{grb}, pulsars and galactic transients. A detailed description of \gls{lst} subsystems can be found in \cite{2013LST}, next sections offer a summary of the most remarckable features of the telescope.\\
+
+\subsubsection{\gls{lst} Structure}
+
+The structure of the telescope is divided in several parts: The azimuth system and substructure, the mirror support dish, the elevation system and, camera support structure and the drive system. All parts of the structure are specially designed to make the telescope lightweight and ensure fast repositioning in the case of an alert of a transient event (mainly \glspl{grb}).\\
+The azimuth system allows the telescope to turn around its vertital axis. It consist in a circular rail of 24m diameter where six boogies support the structure of the telescope. The azimuth structure of the telescope is a space framed structure made of \gls{cfrp} tubes. Its design is very similar to that of \gls{magic} telescopes, but much lighter. The mirror support dish is a double layer space frame made of \gls{cfrp} tubes arranged in a tetrahedral structure. The diameter of the dish is 23 m and the focal length is 28 m. The elevation system consist on a structure made of heavier steel tubes, located in the backside of the dish, to help compensate the weight of the telescope structure. The camera support structure consists on an arch with three curve sections on each arm, made of \gls{cfrp}. A total of 26 ropes shiften the structure. The arch holds the camera frame, where the camera and the square lids are fixed. The drive system, designed to ensure a fast and precise repositioning, consist on 4 synchronous motors capable to supply a total mechanical power of 190 Kw to move the structure in azimuthal axis and elevation. The different parts of the structure are shown in figure \ref{fig:LST}
+    
+  \begin{figure}[!htb]
+    \minipage{0.5\textwidth}
+    \includegraphics[width=\linewidth]{Pictures/LSTstructure.pdf}
+    \endminipage\hfill
+    \minipage{0.5\textwidth}
+    \includegraphics[width=\linewidth]{Pictures/LST1.pdf}
+    \endminipage\hfill
+    \caption{\label{fig:LST} Left: Simplified diagram of the structures of \gls{lst} without bogies, mirrors and camera. Azimuth substructure is blue color, the elevation system and the camera support structure are shown in green color and the mirror dish is red color, from \cite{2013LST}. Right: Photo of the first LST installed in CTA North site (Roque de los Muchachos Observatory, La Palma, Spain).}
+  \end{figure}
+
+  \subsubsection{Optics}
+
+  
+  \subsubsection{Camera}
+  
 \subsection{MST}
 \subsection{SST}
 \section{Reconstruction and Analysis tools} \label{sec:ctaanalysis}

@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.14)  18 NOV 2019 04:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.14)  19 NOV 2019 01:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex ç
+**main.tex
 (./main.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
@@ -2352,7 +2352,7 @@ LaTeX Info: Redefining \nameref on input line 57.
 \@gls@deffile=\write8
 \openout8 = `main.glsdefs'.
 
-LaTeX Font Info:    Try loading font information for T1+pag on input line 165.
+LaTeX Font Info:    Try loading font information for T1+pag on input line 166.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pag.fd
 File: t1pag.fd 2001/06/04 font definitions for T1/pag.
@@ -2366,12 +2366,12 @@ Package microtype Info: Loading generic settings for font family
 File: Pictures/head1.png Graphic file (type png)
 
 <use Pictures/head1.png>
-Package pdftex.def Info: Pictures/head1.png used on input line 165.
+Package pdftex.def Info: Pictures/head1.png used on input line 166.
 (pdftex.def)             Requested size: 614.295pt x 307.30548pt.
 LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/pag/b/n' tried instead on input line 165.
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 166.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <24.88> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 165.
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 166.
  (./main.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 5.
 
@@ -2414,22 +2414,22 @@ LaTeX Font Info:    Font shape `T1/pag/b/n' in size <12> not available
 Chapter 1.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 177.
+(hyperref)                removing `math shift' on input line 178.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 177.
+(hyperref)                removing `\gamma' on input line 178.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 177.
+(hyperref)                removing `math shift' on input line 178.
 
 \c@ttl@toc@default=\count409
 <Pictures/head2.png, id=292, 1027.6794pt x 514.0806pt>
 File: Pictures/head2.png Graphic file (type png)
 
 <use Pictures/head2.png>
-Package pdftex.def Info: Pictures/head2.png used on input line 177.
+Package pdftex.def Info: Pictures/head2.png used on input line 178.
 (pdftex.def)             Requested size: 614.295pt x 307.30548pt.
  (./Chapter1.tex [3
 
@@ -2908,19 +2908,19 @@ Package pdftex.def Info: Pictures/DMsubhalos.pdf used on input line 577.
 Chapter 2.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 182.
+(hyperref)                removing `math shift' on input line 183.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 182.
+(hyperref)                removing `\gamma' on input line 183.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 182.
+(hyperref)                removing `math shift' on input line 183.
 
 File: Pictures/head2.png Graphic file (type png)
 <use Pictures/head2.png>
-Package pdftex.def Info: Pictures/head2.png used on input line 182.
+Package pdftex.def Info: Pictures/head2.png used on input line 183.
 (pdftex.def)             Requested size: 614.295pt x 307.30548pt.
  (./Chapter2.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
@@ -3167,7 +3167,7 @@ v2-Comparison-DifferentialSensitivity-OtherInstruments.pdf>]
 Chapter 3.
 File: Pictures/head2.png Graphic file (type png)
 <use Pictures/head2.png>
-Package pdftex.def Info: Pictures/head2.png used on input line 185.
+Package pdftex.def Info: Pictures/head2.png used on input line 186.
 (pdftex.def)             Requested size: 614.295pt x 307.30548pt.
  (./Chapter3.tex
 
@@ -3344,14 +3344,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--109
  <./Pictures/CTA-Performance-prod3b-v2-North-20deg-BackgroundRateSquDeg.pdf> <.
 /Pictures/CTA-Performance-prod3b-v2-Comparison-AngularResolution-OtherInstrumen
 ts.pdf> <./Pictures/CTA-Performance-prod3b-v2-North-20deg-AngularResolution.pdf
->]) [62 <./Pictures/CTA-Performance-prod3b-v2-South-20deg-EnergyResolution.pdf>
- <./Pictures/CTA-Performance-prod3b-v2-North-20deg-EnergyResolution.pdf>]
-File: Pictures/head2.png Graphic file (type png)
+>]
 
-<use Pictures/head2.png>
-Package pdftex.def Info: Pictures/head2.png used on input line 188.
+LaTeX Warning: Citation '2013LST' on page 62 undefined on input line 119.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+
+ []
+
+[62 <./Pictures/CTA-Performance-prod3b-v2-South-20deg-EnergyResolution.pdf> <./
+Pictures/CTA-Performance-prod3b-v2-North-20deg-EnergyResolution.pdf>]
+
+pdfTeX warning: pdflatex (file ./Pictures/LSTstructure.pdf): PDF inclusion: fou
+nd PDF version <1.7>, but at most version <1.5> allowed
+<Pictures/LSTstructure.pdf, id=1296, 783.67781pt x 571.38469pt>
+File: Pictures/LSTstructure.pdf Graphic file (type pdf)
+
+<use Pictures/LSTstructure.pdf>
+Package pdftex.def Info: Pictures/LSTstructure.pdf used on input line 128.
+(pdftex.def)             Requested size: 216.09877pt x 157.55412pt.
+
+
+pdfTeX warning: pdflatex (file ./Pictures/LST1.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<Pictures/LST1.pdf, id=1297, 844.02927pt x 473.71176pt>
+File: Pictures/LST1.pdf Graphic file (type pdf)
+
+<use Pictures/LST1.pdf>
+Package pdftex.def Info: Pictures/LST1.pdf used on input line 131.
+(pdftex.def)             Requested size: 216.09877pt x 121.2828pt.
+
+
+LaTeX Warning: Citation '2013LST' on page 63 undefined on input line 133.
+
+
+LaTeX Warning: Citation '2013LST' on page 63 undefined on input line 133.
+
+)
+Underfull \vbox (badness 1655) has occurred while \output is active []
+
+ [63 <./Pictures/LSTstructure.pdf> <./Pictures/LST1.pdf>] [64]
+File: Pictures/head2.png Graphic file (type png)
+ <use Pictures/head2.png>
+Package pdftex.def Info: Pictures/head2.png used on input line 189.
 (pdftex.def)             Requested size: 614.295pt x 307.30548pt.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 188.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 189.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -3365,51 +3403,51 @@ Package microtype Info: Loading generic settings for font family
 ! Undefined control sequence.
 <argument> \apj 
                 
-l.189 \printglossaries
+l.190 \printglossaries
                       
 ? 
-[63
+[65
 
-] [64]
+] [66]
 ! Undefined control sequence.
 <argument> \apj 
                 
-l.189 \printglossaries
+l.190 \printglossaries
                       
 ? 
 ! Undefined control sequence.
 <argument> \apjl 
                  
-l.189 \printglossaries
+l.190 \printglossaries
                       
 ? 
 
-Overfull \hbox (2.06197pt too wide) in paragraph at lines 189--189
+Overfull \hbox (2.06197pt too wide) in paragraph at lines 190--190
 \T1/cmr/m/n/12 (-20) arXiv:1711.01693 (2017), arXiv:1711.01693. arXiv: []$\T1/c
 mtt/m/n/12 1711 . 01693$ [astro-ph.IM][]\T1/cmr/m/n/12 (-20) . 
  []
 
-[65]
+[67]
 ! Undefined control sequence.
 <argument> \apj 
                 
-l.189 \printglossaries
+l.190 \printglossaries
                       
 ? 
 ! Undefined control sequence.
 <argument> \apj 
                 
-l.189 \printglossaries
+l.190 \printglossaries
                       
 ? 
-[66]
+[68]
 ! Undefined control sequence.
 <argument> \mnras 
                   
-l.189 \printglossaries
+l.190 \printglossaries
                       
 ? 
-[67]
+[69]
 
 ! Package inputenc Error: Unicode char γ (U+3B3)
 (inputenc)                not set up for use with LaTeX.
@@ -3418,45 +3456,45 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.189 \printglossaries
+l.190 \printglossaries
                       
 ? 
-[68]
+[70]
 ! Undefined control sequence.
 <argument> \aap 
                 
-l.189 \printglossaries
+l.190 \printglossaries
                       
 ? 
-[69]
+[71]
 ! Undefined control sequence.
 <argument> \aap 
                 
-l.189 \printglossaries
+l.190 \printglossaries
                       
 ? 
 ! Misplaced alignment tab character &.
 <argument> Springer Science &
                               Business Media
-l.189 \printglossaries
+l.190 \printglossaries
                       
 ? 
 
-Overfull \hbox (3.83601pt too wide) in paragraph at lines 189--189
+Overfull \hbox (3.83601pt too wide) in paragraph at lines 190--190
 \T1/cmr/m/n/12 (-20) ness Me-dia, 2006. \T1/cmr/m/sc/12 (-20) url\T1/cmr/m/n/12
  (-20) : []$\T1/cmtt/m/n/12 https : / / www . springer . com / gp / book / 9781
 475720198$[]\T1/cmr/m/n/12 (-20) . 
  []
 
-[70]
+[72]
 ! Undefined control sequence.
 <argument> \aap 
                 
-l.189 \printglossaries
+l.190 \printglossaries
                       
 ? 
 
-Overfull \hbox (12.17139pt too wide) in paragraph at lines 189--189
+Overfull \hbox (12.17139pt too wide) in paragraph at lines 190--190
 \T1/cmr/m/it/12 (-20) Fields and Strings (TASI 2015\T1/cmr/m/n/12 (-20) . 2017,
  pp. 399^^U446. \T1/cmr/m/sc/12 (-20) doi\T1/cmr/m/n/12 (-20) : []$\T1/cmtt/m/n
 /12 10 . 1142 / 9789813149441 _
@@ -3465,11 +3503,11 @@ Overfull \hbox (12.17139pt too wide) in paragraph at lines 189--189
 ! Undefined control sequence.
 <argument> \araa 
                  
-l.189 \printglossaries
+l.190 \printglossaries
                       
 ? 
-[71]
-Overfull \hbox (19.43437pt too wide) in paragraph at lines 189--189
+[73]
+Overfull \hbox (19.43437pt too wide) in paragraph at lines 190--190
 \T1/cmr/m/it/12 (-20) prints\T1/cmr/m/n/12 (-20) , arXiv:1303.0275 (2013), arXi
 v:1303.0275. arXiv: []$\T1/cmtt/m/n/12 1303 . 0275$ [astro-ph.HE][]\T1/cmr/m/n/
 12 (-20) . 
@@ -3478,11 +3516,11 @@ v:1303.0275. arXiv: []$\T1/cmtt/m/n/12 1303 . 0275$ [astro-ph.HE][]\T1/cmr/m/n/
 ! Undefined control sequence.
 <argument> \ssr 
                 
-l.189 \printglossaries
+l.190 \printglossaries
                       
 ? 
-[72] [73]
-Overfull \hbox (20.26025pt too wide) in paragraph at lines 189--189
+[74] [75]
+Overfull \hbox (20.26025pt too wide) in paragraph at lines 190--190
 \T1/cmr/m/n/12 (-20) p. 063011. \T1/cmr/m/sc/12 (-20) doi\T1/cmr/m/n/12 (-20) :
  []$\T1/cmtt/m/n/12 10 . 1103 / PhysRevD . 86 . 063011$[]\T1/cmr/m/n/12 (-20) .
  arXiv: []$\T1/cmtt/m/n/12 1208 . 6200$ [astro-ph.HE][]\T1/cmr/m/n/12 (-20) . 
@@ -3491,37 +3529,45 @@ Overfull \hbox (20.26025pt too wide) in paragraph at lines 189--189
 ! Undefined control sequence.
 <argument> \aap 
                 
-l.189 \printglossaries
+l.190 \printglossaries
                       
 ? 
-[74]
+[76]
 ! Undefined control sequence.
 <argument> \pasp 
                  
-l.189 \printglossaries
+l.190 \printglossaries
                       
 ? 
 ! Undefined control sequence.
 <argument> \apj 
                 
-l.189 \printglossaries
+l.190 \printglossaries
                       
 ? 
 No file main.acr.
 \tf@ptc=\write10
 \openout10 = `main.ptc'.
 
-[75] [76]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 190.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 190.
+[77] [78]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 191.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 191.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 190.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 190.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 191.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 191.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CC779F01AD6FA97C206BC7FC33437E31;3279.
+(rerunfilecheck)             Checksum: 0281365AB23791C04C6612194C39ECDD;3305.
 
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
@@ -3529,13 +3575,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  )
 (\end occurred when \iftrue on line 57 was incomplete) 
 Here is how much of TeX's memory you used:
- 40765 strings out of 493029
- 739199 string characters out of 6136234
- 1471498 words of memory out of 5000000
- 42961 multiletter control sequences out of 15000+600000
+ 40811 strings out of 493029
+ 739948 string characters out of 6136234
+ 1471524 words of memory out of 5000000
+ 43001 multiletter control sequences out of 15000+600000
  59290 words of font info for 231 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,14n,94p,10510b,2455s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 59i,14n,94p,10507b,2455s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/e
 nc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvip
 s/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cme
@@ -3557,10 +3603,10 @@ r/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
 rw/avantgar/uagd8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/avantgar/
 uagk8a.pfb>
-Output written on main.pdf (76 pages, 19946492 bytes).
+Output written on main.pdf (78 pages, 20830318 bytes).
 PDF statistics:
- 1814 PDF objects out of 2073 (max. 8388607)
- 1512 compressed objects within 16 object streams
- 367 named destinations out of 1000 (max. 500000)
- 37502 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 1833 PDF objects out of 2073 (max. 8388607)
+ 1525 compressed objects within 16 object streams
+ 371 named destinations out of 1000 (max. 500000)
+ 37512 words of extra memory for PDF output out of 42996 (max. 10000000)
 

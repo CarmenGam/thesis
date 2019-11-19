@@ -13,7 +13,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 25989 items from 5000.
+Reallocated field_info (elt_size=4) to 26128 items from 5000.
 Database file #1: main-blx.bib
 Database file #2: bibliography.bib
 I was expecting a `,' or a `}'---line 707 of file bibliography.bib
@@ -27,6 +27,7 @@ Your field is more than 20000 characters---line 4297 of file bibliography.bib
  :          {Wang}, J.~Z. and {Wang}, W.~H. and {Wang}, Y.~F. and {Wa
  :                                                                   rd}, R.~L. and
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "2013LST"
 Biblatex version: 3.3
 Warning--you've exceeded 250, the entry-string-size, for entry 2008crabmagic
 while executing--line 2513 of file biblatex.bst
@@ -219,7 +220,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 You've used 151 entries,
             6047 wiz_defined-function locations,
-            2385 strings with 188118 characters,
+            2387 strings with 188132 characters,
 and the built_in function-call counts, 1809668 in all, are:
 = -- 53182
 > -- 73621

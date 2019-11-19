@@ -1828,3 +1828,33 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{cfrp}{}%
+{%
+\gls@defglossaryentry{cfrp}%
+{%
+name={CFRP},%
+sort={CFRP},%
+type={acronym},%
+first={carbon ciber reinforced rlastic\glsspace (CFRP)},%
+firstplural={carbon ciber reinforced rlastics\glsspace (CFRPs)},%
+text={CFRP},%
+plural={CFRPs},%
+description={carbon ciber reinforced rlastic},%
+descriptionplural={carbon ciber reinforced rlastic\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={carbon ciber reinforced rlastic},%
+longplural={carbon ciber reinforced rlastics},%
+short={CFRP},%
+shortplural={CFRPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
