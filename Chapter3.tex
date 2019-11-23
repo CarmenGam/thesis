@@ -116,12 +116,13 @@ In this section an overview of these subsystems and the particularities of each 
 
 \subsection{Large Size Telescope (LST)}
 
-The purpose of the \gls{lst} is to enhance the sensitivity of \gls{cta} at low energies, reaching an effective threshold down to 20-30 GeV. This energy range has a particular interest because it covers the barely explored gap between the highest energies detcted by satellite experiments, and the lowest by \glspl{iact}. The main science goals for \glspl{lst} is to observe high redshift \glspl{agn}, \glspl{grb}, pulsars and galactic transients. A detailed description of \gls{lst} subsystems can be found in \cite{2013LST}, next sections offer a summary of the most remarckable features of the telescope.\\
+The purpose of the \gls{lst} is to enhance the sensitivity of \gls{cta} at low energies, reaching an effective threshold down to 20-30 GeV. This energy range has a particular interest because it covers the barely explored gap between the highest energies detcted by satellite experiments, and the lowest by \glspl{iact}. The main science goals for \glspl{lst} is to observe high redshift \glspl{agn}, \glspl{grb}, pulsars and galactic transients. The first prototype for the \glspl{lst} (\gls{lst}1) has been installed in the CTA North site, in La Palma island and is currently being commissioned.\\
+A detailed description of \gls{lst} subsystems can be found in \cite{2013LST}, next sections offer a summary of the most remarckable features of the telescope.\\
 
 \subsubsection{\gls{lst} Structure}
 
 The structure of the telescope is divided in several parts: The azimuth system and substructure, the mirror support dish, the elevation system and, camera support structure and the drive system. All parts of the structure are specially designed to make the telescope lightweight and ensure fast repositioning in the case of an alert of a transient event (mainly \glspl{grb}).\\
-The azimuth system allows the telescope to turn around its vertital axis. It consist in a circular rail of 24m diameter where six boogies support the structure of the telescope. The azimuth structure of the telescope is a space framed structure made of \gls{cfrp} tubes. Its design is very similar to that of \gls{magic} telescopes, but much lighter. The mirror support dish is a double layer space frame made of \gls{cfrp} tubes arranged in a tetrahedral structure. The diameter of the dish is 23 m and the focal length is 28 m. The elevation system consist on a structure made of heavier steel tubes, located in the backside of the dish, to help compensate the weight of the telescope structure. The camera support structure consists on an arch with three curve sections on each arm, made of \gls{cfrp}. A total of 26 ropes shiften the structure. The arch holds the camera frame, where the camera and the square lids are fixed. The drive system, designed to ensure a fast and precise repositioning, consist on 4 synchronous motors capable to supply a total mechanical power of 190 Kw to move the structure in azimuthal axis and elevation. The different parts of the structure are shown in figure \ref{fig:LST}
+The azimuth system allows the telescope to turn around its vertital axis. It consist in a circular rail of 24m diameter where six boogies support the structure of the telescope. The azimuth structure of the telescope is a space framed structure made of \gls{cfrp} tubes. Its design is very similar to that of \gls{magic} telescopes, but much lighter. The mirror support dish is a double layer space frame made of \gls{cfrp} tubes arranged in a tetrahedral structure. The diameter of the dish is 23 m and the focal length is 28 m. The elevation system consist on a structure made of heavier steel tubes, located in the backside of the dish, to help compensate the weight of the telescope structure. The camera support structure consists on an arch with three curve sections on each arm, made of \gls{cfrp}. A total of 26 ropes shiften the structure. The arch holds the camera frame, where the camera and the square lids are fixed. The drive system, designed to ensure a fast and precise repositioning, consist on 4 synchronous motors capable to supply a total mechanical power of 190 Kw to move the structure in azimuthal axis and elevation. The different parts of the structure are shown in figure \ref{fig:LST}.
     
   \begin{figure}[!htb]
     \minipage{0.5\textwidth}
@@ -132,13 +133,30 @@ The azimuth system allows the telescope to turn around its vertital axis. It con
     \endminipage\hfill
     \caption{\label{fig:LST} Left: Simplified diagram of the structures of \gls{lst} without bogies, mirrors and camera. Azimuth substructure is blue color, the elevation system and the camera support structure are shown in green color and the mirror dish is red color, from \cite{2013LST}. Right: Photo of the first LST installed in CTA North site (Roque de los Muchachos Observatory, La Palma, Spain).}
   \end{figure}
-
-  \subsubsection{Optics}
-
   
-  \subsubsection{Camera}
+  \subsubsection{\gls{lst} Optics}
+
+  The mirror structure is a parabolic shape of 28 m diameter, composed of 198 hexagona mirrors of spherical shape. The structure is made in a way that it guarantees the isochronousity of the optics. The mirrors are manufactured using the cold slump technique where a sandwich structure is composed a soda-lime glass sheet, an aluminum honeycomb box and another glass sheet\cite{2017LST}.
+Mirrors are fixed to the telescope structure by three knots, two of them mounted on actuators which allow to adjust each mirro panel in two directions. The \textit{active mirror control} system controls these actuaros in order to vary focal distance and focusing, to account for the possible deformations and bending of the telescope structure. Each mirror segment account for an ifnrarred laser, and two more lasers are mounted in the center of the disk, which constantly point to the left and right of the camera. The directional offset of the mirror facets can be estimated by taking pictures of the spots on a target in fornt of the camera with a high resolution IR CCD camera located in the center of the dish. The achievable positioning resolution can reach $< 5 \mum$ \cite{2013LST}.
   
+  \subsubsection{\gls{lst} Camera}
+
+  The camera focal plane instrumentation consist on 256 modules each of one with seven \glspl{pmt}, making a total of 1855 pixels. The \glspl{pmt} are mounted with a 50mm spacing, so in order to collect all the light arriving to the camera, they are surrounded by hexagonal light guides made of a very reflective material (3M ESR). The \gls{pmt} model is Hamamatsu R11920-100-20, specially developed to reach high quantum efficiency (42\%) and low after pulse rates, which go below 0.02 \% above 4 photoelectrons. Each module with seven photodetectors has one readout system based on the \gls{dsr4}. The signal sampled at \mathcal{O}(GHz) is divided in three channels: high gain and low gain channels which are connected to the \gls{dsr4} chips and the trigger channel \cite{2017LST}. The two level trigger electronics (L0 and L1) are mounted on a mezzanine. A slow control board montors the \glspl{pmt} and analogue backplanes are dedicated to trigger and clock propagation.  
+  The mechanical structure of the camera consist on several parts shown in figure \ref{fig:LSTcammech}. The modules of seven \gls{pmt} are coupled in ensembles named clusters, which are inserted in the load bearing structure. Slits in the back of the load bearing structure allow to connect the cluster readout electronics to the  backplanes. The design of such modular structures guarantee an easy access to individual modules in case any repair is necessary, allowing to disconect and extract one module while the rest of the camera is functioning.
+  The load bearing structure is mounted inside a tubular structure which holds the camera external walls, doors and interfaces with the camera frame. In the front part of the camera there is the front window which can be totally covered by a shutter to avoid the entrance of sunlight during the day which could damage \glspl{pmt}. In the back part of the camera lies all the cabling and auxiliary electronics. The total dimensions of the camera is $2.9\times2.9\times 1$m$^3$ and the weight is less than 2000 kg. Since all the electronics are stored inside the camera, all the structure was designed to accomplish a series of requirements related to the exposure to environental conditions such as the protection to the entrance of dust, water and sunlight and guarantee a stable temperature between 20ºC to 40ºC \cite{2013LSTCamMech}. Temperature regulation is possible thanks to a \textit{cooling system} consisting on a water cooling system based on cold plates and a temperature controlled air flow cooling system.\\
+ An \textit{access tower} allow the access to the camera during day time operations when the telescope rests in park position, and also acts as an anchor in case of strong winds. 
+
+\begin{figure}
+\centering
+ \includegraphics[width=0.7\textwidth]{Pictures/LSTcamerastructure.pdf}
+  \caption{Different camera mechanical elements from \cite{2013LSTCamMech}.}
+    \label{fig:LSTcammech}
+\end{figure}
+
 \subsection{MST}
+
+
+
 \subsection{SST}
 \section{Reconstruction and Analysis tools} \label{sec:ctaanalysis}
 \subsection{Monte Carlo simulations}

@@ -13,7 +13,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 26128 items from 5000.
+Reallocated field_info (elt_size=4) to 26406 items from 5000.
 Database file #1: main-blx.bib
 Database file #2: bibliography.bib
 I was expecting a `,' or a `}'---line 707 of file bibliography.bib
@@ -27,7 +27,6 @@ Your field is more than 20000 characters---line 4297 of file bibliography.bib
  :          {Wang}, J.~Z. and {Wang}, W.~H. and {Wang}, Y.~F. and {Wa
  :                                                                   rd}, R.~L. and
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "2013LST"
 Biblatex version: 3.3
 Warning--you've exceeded 250, the entry-string-size, for entry 2008crabmagic
 while executing--line 2513 of file biblatex.bst
@@ -122,6 +121,9 @@ while executing--line 2513 of file biblatex.bst
 Warning--you've exceeded 250, the entry-string-size, for entry CTAconcept
 while executing--line 2513 of file biblatex.bst
 *Please notify the bibstyle designer*
+Warning--you've exceeded 250, the entry-string-size, for entry 2013LST
+while executing--line 2513 of file biblatex.bst
+*Please notify the bibstyle designer*
 Reallocated str_pool (elt_size=1) to 260000 items from 195000.
 Warning--you've exceeded 250, the entry-string-size, for entry 2018GPHESS
 while executing--line 2541 of file biblatex.bst
@@ -180,6 +182,9 @@ while executing--line 2541 of file biblatex.bst
 Warning--you've exceeded 250, the entry-string-size, for entry 2012LimitsClustersMagic
 while executing--line 2541 of file biblatex.bst
 *Please notify the bibstyle designer*
+Warning--you've exceeded 250, the entry-string-size, for entry 2013LST
+while executing--line 2541 of file biblatex.bst
+*Please notify the bibstyle designer*
 Warning--you've exceeded 250, the entry-string-size, for entry 2009starbursthess
 while executing--line 2541 of file biblatex.bst
 *Please notify the bibstyle designer*
@@ -218,45 +223,45 @@ while executing--line 2541 of file biblatex.bst
 *Please notify the bibstyle designer*
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 151 entries,
+You've used 154 entries,
             6047 wiz_defined-function locations,
-            2387 strings with 188132 characters,
-and the built_in function-call counts, 1809668 in all, are:
-= -- 53182
-> -- 73621
-< -- 4137
-+ -- 40815
-- -- 42117
-* -- 280343
-:= -- 136232
+            2406 strings with 191213 characters,
+and the built_in function-call counts, 1844259 in all, are:
+= -- 54172
+> -- 75038
+< -- 4215
++ -- 41583
+- -- 42930
+* -- 285752
+:= -- 138844
 add.period$ -- 0
-call.type$ -- 151
-change.case$ -- 2047
-chr.to.int$ -- 253
-cite$ -- 300
-duplicate$ -- 230474
-empty$ -- 147413
-format.name$ -- 97572
-if$ -- 325190
+call.type$ -- 154
+change.case$ -- 2075
+chr.to.int$ -- 256
+cite$ -- 306
+duplicate$ -- 234841
+empty$ -- 150243
+format.name$ -- 99426
+if$ -- 331425
 int.to.chr$ -- 0
-int.to.str$ -- 354
+int.to.str$ -- 360
 missing$ -- 0
-newline$ -- 41479
-num.names$ -- 6701
-pop$ -- 76833
+newline$ -- 42264
+num.names$ -- 6824
+pop$ -- 78337
 preamble$ -- 1
-purify$ -- 9733
+purify$ -- 9907
 quote$ -- 0
-skip$ -- 77279
+skip$ -- 78728
 stack$ -- 0
-substring$ -- 15629
-swap$ -- 86595
-text.length$ -- 10955
-text.prefix$ -- 158
+substring$ -- 15929
+swap$ -- 88259
+text.length$ -- 11171
+text.prefix$ -- 161
 top$ -- 1
-type$ -- 5723
+type$ -- 5837
 warning$ -- 0
-while$ -- 3053
+while$ -- 3111
 width$ -- 0
-write$ -- 41327
+write$ -- 42109
 (There were 2 error messages)
