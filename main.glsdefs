@@ -1858,3 +1858,183 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{scmst}{}%
+{%
+\gls@defglossaryentry{scmst}%
+{%
+name={SC-MST},%
+sort={SC-MST},%
+type={acronym},%
+first={Schwarzschild-Couder MST\glsspace (SC-MST)},%
+firstplural={Schwarzschild-Couder MSTs\glsspace (SC-MSTs)},%
+text={SC-MST},%
+plural={SC-MSTs},%
+description={Schwarzschild-Couder MST},%
+descriptionplural={Schwarzschild-Couder MST\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Schwarzschild-Couder MST},%
+longplural={Schwarzschild-Couder MSTs},%
+short={SC-MST},%
+shortplural={SC-MSTs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{dcmst}{}%
+{%
+\gls@defglossaryentry{dcmst}%
+{%
+name={DC-MST},%
+sort={DC-MST},%
+type={acronym},%
+first={Davies-Cotton MST\glsspace (DC-MST)},%
+firstplural={Davies-Cotton MSTs\glsspace (DC-MSTs)},%
+text={DC-MST},%
+plural={DC-MSTs},%
+description={Davies-Cotton MST},%
+descriptionplural={Davies-Cotton MST\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Davies-Cotton MST},%
+longplural={Davies-Cotton MSTs},%
+short={DC-MST},%
+shortplural={DC-MSTs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sipm}{}%
+{%
+\gls@defglossaryentry{sipm}%
+{%
+name={SiPM},%
+sort={SiPM},%
+type={acronym},%
+first={Silicon Photomultiplier\glsspace (SiPM)},%
+firstplural={Silicon Photomultipliers\glsspace (SiPMs)},%
+text={SiPM},%
+plural={SiPMs},%
+description={Silicon Photomultiplier},%
+descriptionplural={Silicon Photomultiplier\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Silicon Photomultiplier},%
+longplural={Silicon Photomultipliers},%
+short={SiPM},%
+shortplural={SiPMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{psf}{}%
+{%
+\gls@defglossaryentry{psf}%
+{%
+name={PSF},%
+sort={PSF},%
+type={acronym},%
+first={Point Spread Function\glsspace (PSF)},%
+firstplural={Point Spread Functions\glsspace (PSFs)},%
+text={PSF},%
+plural={PSFs},%
+description={Point Spread Function},%
+descriptionplural={Point Spread Function\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Point Spread Function},%
+longplural={Point Spread Functions},%
+short={PSF},%
+shortplural={PSFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{chec}{}%
+{%
+\gls@defglossaryentry{chec}%
+{%
+name={CHEC},%
+sort={CHEC},%
+type={acronym},%
+first={Compact High-Energy Camera\glsspace (CHEC)},%
+firstplural={Compact High-Energy Cameras\glsspace (CHECs)},%
+text={CHEC},%
+plural={CHECs},%
+description={Compact High-Energy Camera},%
+descriptionplural={Compact High-Energy Camera\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Compact High-Energy Camera},%
+longplural={Compact High-Energy Cameras},%
+short={CHEC},%
+shortplural={CHECs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{fee}{}%
+{%
+\gls@defglossaryentry{fee}%
+{%
+name={FEE},%
+sort={FEE},%
+type={acronym},%
+first={Front-end electronics\glsspace (FEE)},%
+firstplural={Front-end electronicss\glsspace (FEEs)},%
+text={FEE},%
+plural={FEEs},%
+description={Front-end electronics},%
+descriptionplural={Front-end electronics\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Front-end electronics},%
+longplural={Front-end electronicss},%
+short={FEE},%
+shortplural={FEEs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

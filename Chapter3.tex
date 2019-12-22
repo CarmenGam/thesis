@@ -137,11 +137,11 @@ The azimuth system allows the telescope to turn around its vertital axis. It con
   \subsubsection{\gls{lst} Optics}
 
   The mirror structure is a parabolic shape of 28 m diameter, composed of 198 hexagona mirrors of spherical shape. The structure is made in a way that it guarantees the isochronousity of the optics. The mirrors are manufactured using the cold slump technique where a sandwich structure is composed a soda-lime glass sheet, an aluminum honeycomb box and another glass sheet\cite{2017LST}.
-Mirrors are fixed to the telescope structure by three knots, two of them mounted on actuators which allow to adjust each mirro panel in two directions. The \textit{active mirror control} system controls these actuaros in order to vary focal distance and focusing, to account for the possible deformations and bending of the telescope structure. Each mirror segment account for an ifnrarred laser, and two more lasers are mounted in the center of the disk, which constantly point to the left and right of the camera. The directional offset of the mirror facets can be estimated by taking pictures of the spots on a target in fornt of the camera with a high resolution IR CCD camera located in the center of the dish. The achievable positioning resolution can reach $< 5 \mum$ \cite{2013LST}.
+Mirrors are fixed to the telescope structure by three knots, two of them mounted on actuators which allow to adjust each mirro panel in two directions. The \textit{active mirror control} system controls these actuaros in order to vary focal distance and focusing, to account for the possible deformations and bending of the telescope structure. Each mirror segment account for an ifnrarred laser, and two more lasers are mounted in the center of the disk, which constantly point to the left and right of the camera. The directional offset of the mirror facets can be estimated by taking pictures of the spots on a target in fornt of the camera with a high resolution IR CCD camera located in the center of the dish. The achievable positioning resolution can reach $< 5 \mu m$ \cite{2013LST}.
   
   \subsubsection{\gls{lst} Camera}
 
-  The camera focal plane instrumentation consist on 256 modules each of one with seven \glspl{pmt}, making a total of 1855 pixels. The \glspl{pmt} are mounted with a 50mm spacing, so in order to collect all the light arriving to the camera, they are surrounded by hexagonal light guides made of a very reflective material (3M ESR). The \gls{pmt} model is Hamamatsu R11920-100-20, specially developed to reach high quantum efficiency (42\%) and low after pulse rates, which go below 0.02 \% above 4 photoelectrons. Each module with seven photodetectors has one readout system based on the \gls{dsr4}. The signal sampled at \mathcal{O}(GHz) is divided in three channels: high gain and low gain channels which are connected to the \gls{dsr4} chips and the trigger channel \cite{2017LST}. The two level trigger electronics (L0 and L1) are mounted on a mezzanine. A slow control board montors the \glspl{pmt} and analogue backplanes are dedicated to trigger and clock propagation.  
+  The camera focal plane instrumentation consist on 256 modules each of one with seven \glspl{pmt}, making a total of 1855 pixels. The \glspl{pmt} are mounted with a 50mm spacing, so in order to collect all the light arriving to the camera, they are surrounded by hexagonal light guides made of a very reflective material (3M ESR). The \gls{pmt} model is Hamamatsu R11920-100-20, specially developed to reach high quantum efficiency (42\%) and low after pulse rates, which go below 0.02 \% above 4 photoelectrons. Each module with seven photodetectors has one readout system based on the \gls{dsr4}. The signal sampled at $\mathcal{O}$(GHz) is divided in three channels: high gain and low gain channels which are connected to the \gls{dsr4} chips and the trigger channel \cite{2017LST}. The two level trigger electronics (L0 and L1) are mounted on a mezzanine. A slow control board montors the \glspl{pmt} and analogue backplanes are dedicated to trigger and clock propagation.  
   The mechanical structure of the camera consist on several parts shown in figure \ref{fig:LSTcammech}. The modules of seven \gls{pmt} are coupled in ensembles named clusters, which are inserted in the load bearing structure. Slits in the back of the load bearing structure allow to connect the cluster readout electronics to the  backplanes. The design of such modular structures guarantee an easy access to individual modules in case any repair is necessary, allowing to disconect and extract one module while the rest of the camera is functioning.
   The load bearing structure is mounted inside a tubular structure which holds the camera external walls, doors and interfaces with the camera frame. In the front part of the camera there is the front window which can be totally covered by a shutter to avoid the entrance of sunlight during the day which could damage \glspl{pmt}. In the back part of the camera lies all the cabling and auxiliary electronics. The total dimensions of the camera is $2.9\times2.9\times 1$m$^3$ and the weight is less than 2000 kg. Since all the electronics are stored inside the camera, all the structure was designed to accomplish a series of requirements related to the exposure to environental conditions such as the protection to the entrance of dust, water and sunlight and guarantee a stable temperature between 20ºC to 40ºC \cite{2013LSTCamMech}. Temperature regulation is possible thanks to a \textit{cooling system} consisting on a water cooling system based on cold plates and a temperature controlled air flow cooling system.\\
  An \textit{access tower} allow the access to the camera during day time operations when the telescope rests in park position, and also acts as an anchor in case of strong winds. 
@@ -153,11 +153,87 @@ Mirrors are fixed to the telescope structure by three knots, two of them mounted
     \label{fig:LSTcammech}
 \end{figure}
 
-\subsection{MST}
+\subsection{Medium Size Telescope (MST)} \label{sec:MST}
+
+\glspl{mst} will cover the core energy range of \gls{cta} observatory, from 100 GeV to $\sim 10$TeV. This is the range generally covered  by current \glspl{iact} so the improvements in sensitivity will come from the large area covered and the better image reconstruction due to the larger number of telescopes (15 in the north, 25 in the south).
+Currently two approaches to the \gls{mst} design are carried on. The first is a 12 m diamater diameter modified Davis-Cotton optical layout very similar to that of \gls{veritas} and \gls{hess}. The first prototype of this type, the \gls{dcmst} \cite{2017SCMSTstatus}, has been built in Adlershof, Germany, ans is currently in commisioning phase. There are also two different camera designs for \gls{dcmst}: \textit{FlashCam} and \textit{NectarCAM}, which characteristics will be discussed in this section.
+The second design uses a novel technique never built before \gls{cta}, with a 10 m diameter Schwarzschild–Couder \cite{2017SCMSTstatus} optics accounting of two mirrors, and a novel \gls{sipm} camera. The prototype for this telescope has been built in the Fred Lawrence Whipple Observatory, in Arizona. 
+A detailed report of the status of the \glspl{mst} as of July 2019 can be found \cite{2019MSTreport}. A summary on the different parts of the telescopes is given in this section.
+
+\subsubsection{\gls{mst} Structure}
+
+The structure of both telescope designs is similar with specific modifications for the optical system of the \gls{scmst} \cite{2017SCMSTstatus} as can be seen in figure \ref{fig:2MST}.
+The main mechanical structure of the telescope is a cylindrical tower of 1.8 m diameter and 20 mm wall thickness. The tower is connected on top to the head of the telescope, that contains the azimuth bearing which allows the telescope to rotate in the horizontal axis, and the drive assemblies. It is possible yo access to the tower through a door at the base and in the inside, all electrical cabinets are stored distributed over three floors. A combination of ventilation and air conditioning system is used to keep the temperature within operation range.
+The drive assemblies are designed to reach any object above 30º in elevation in less than 90s. It is divided in the azimuth drive subassembly and two elevation drive subassemblies, mounted in the left and right of the telescope.
+To account for the possible sources of excitation, like wind gusts or structure flexibility, which can lead to oscillations of the structue an active vibration damping control is used to reduce their effect on the pointing accuracy of the telescope.
+The dish structure is designed to host the mirrors and attached to it is the camera support structure \cite{2015DCMSTstatus}.
+For the \gls{scmst}, the positioner is the same, but the optical support is very different to sustain the segmented aspheric primary and secondary mirrors, and the camera support structure, located in the focus of the secondary \cite{2018MSTandLSTstatus}.
 
 
+\begin{figure}
+\centering
+ \includegraphics[width=0.7\textwidth]{Pictures/2MSTpictures.pdf}
+  \caption{Left: \gls{dcmst} prototype with FlashCam in Adlershof. Right: \gls{scmst} prototype in the Fred Lawrence Whipple Observatory, from \cite{2018MSTandLSTstatus}.}
+    \label{fig:2MST}
+\end{figure}
 
-\subsection{SST}
+\subsubsection{\gls{mst} Optics}
+
+The optical system of the \gls{dcmst} consist on a dish of 86 hexagonal mirror segments of 1.2m length, providing an effective mirror area > 88 m$^2$ and a 12 m diameter reflector. The focal length of the telescope is 16 m.
+Different mirror thechnologies are being tested, all based in cold slumping technique, with different layers of materials, coatings and structures. A system of actuators form the \gls{amc} of the \gls{mst} allowing to adjust the mirror position for focusing, however the structure is stiff enough that is not necessary to readjust during observations to maintain the \gls{psf}. The \gls{amc} is used only for the initial mirror adjustment and for maintenance activities or adjust the focal distance for specific observations.
+
+The \gls{scmst} uses a novel aplanatic optical system composed of two aspheric mirrors, which is derived from the exact Schwarzschild solution derived with aplanatic constants $q=2/3$ and $\alpha = 2/3$. The effective focal length of this system is 5.586 m, with a collection area of 50 m$^2$. Both mirrors are segmented as shown in picture \ref{fig:SCMSTmirrors}and the surface is parabolic to minimize astigmatic aberrations at the edge of the \gls{fov}. 
+
+
+\begin{figure}
+\centering
+ \includegraphics[width=0.7\textwidth]{Pictures/SCMSTMirrors.pdf}
+  \caption{Left: \gls{dcmst} Diagram of the optical system of the \gls{scmst}, from \cite{2017SCMSTstatus}.}
+    \label{fig:SCMSTmirrors}
+\end{figure}
+
+\subsubsection{\gls{mst} Cameras}
+
+For the \gls{scmst} two camera prototypes have been designed and tested in the structure installed in Adlershof and showers have been detected as shown in picture \ref{fig:MSTcamerasimg}.
+The first design named FlashCam have 1764 \gls{pmt}-based pixels divided in 147 modules of 12 pixels each. It implements a fully-digital trigger and readout system which allows to define flexible trigger patterns relying on the digitized \gls{pmt} signals. The readout system is designed for a dead-time-free operation with trigger rates up to 30 kHz. FlashCam uses only one gain channel, reducing the required bandwidth for data transfer. 
+The second camera design named NectarCAM accounts for 1855 pixels, divided in 256 groups of 7 modules. The camera mechanics and many auxiliary systems have been designed to be equivalent to the \gls{lst} camera. The signal digitizing of NecatrCAM relies on a dedicated Necta ASIC which digitizes the \gls{pmt} signals at sampling speeds of around 1 GHz. It implements a digital trigger based on the binary outputs of individual pixels after comparing their analog signals with a threshold (Level 0 trigger).\\
+The camera of the \gls{scmst} is based on \gls{sipm} which allow a very fine pixelization, with 11328 pixels of angular size 0.07º, grouped in 177 modules of $8\times8$ pixels. They are arranged in a slightly parabolic shape and are operated at a temperature that must be controlled to better than 0.1º C. The focal plane of the camera has a diameter of 0.8º m and a \gls{fov} of 8º. The trigger system is based on a two level trigger, where the first level sums the analog signal from 4 adjacent pixels and apply a districminator threshold. The camera is divided in 9 sectors of up to 25 modules and a single backplane board, which receives the trigger signal from 16 modules. A prototype of the \gls{scmst} camera with 24 modules and 2 types of \gls{sipm} has been tested in the \gls{scmst} prototype. The fine pixelization and the module structure of the camera can be appreciated in figure \ref{fig:MSTcamerasimg}. 
+
+\begin{figure}
+\centering
+ \includegraphics[width=\textwidth]{Pictures/showerimagesMST.pdf}
+  \caption{Left: \gls{dcmst} Showers obtained with FlashCam(\textit{left}), NectarCAM(\textit{middle}) and \gls{scmst} camera (\textit{right}) prototypes, from \cite{2019MSTreport}.}
+    \label{fig:MSTcamerasimg}
+\end{figure}
+
+\subsection{Small Size Telescope (SST)}
+
+The smaller telescopes, \gls{sst} will be the more numerous in the \gls{cta} layout, with more than 70 telescopes in the southern site. These telscopes are dedicated to detect the unfrquent highest energy $\gamma$-rays which in the majority will come from the galactic plane. They need to be spread over a very large area, to catch every possible very energetic $gamma$-ray, but they doesn't need large mirrors because this radiation produces a huge amount of Cherenkov light. The best sensitivity will be achieved at energies greater than 10 TeV. Three \gls{sst} designs have been produced  for \gls{cta}, the ASTRI telescope \cite{2017ASTRItels}, the GCT telescope \cite{2017CHECtels} and the SST-1M telescope \cite{2017SST1M}. In the end, the design of ASTRI telescopes was selected as the one that will be installed in the \gls{cta} layout, but using the GTC CHEC cameras \cite{2017CHECcam}. In this section, summary descriptions of the ASTRI structure and optics design and CHEC cameras are given.
+
+\subsubsection{\gls{sst}-ASTRI Structure}
+
+The optical design of ASTRI telescope is based on a \gls{sc} double mirror configuration, similar to the one described in section \ref{sec:MST} for the \gls{scmst}. A column raises from the base of the telescope and interfaces at the top with the azimuth fork. The fork sustains the elevation assembly, which is composed by the mirror dish, the counterweight and the structure that sustains the two mirrors. The dish is designed to hold the segments of the primary mirrors, which can be individually controlled by actuators. A quadrupod is attached to the dish, which together with a central pole, are joint to the structure that supports the secondary mirror and also serves to counteract deformations due to gravity and wind. The structure for the monolithic secondary mirror accounts for three actuators and three lateral arms which support the transverse components of the mirror's weight. The drive of the azimuth is located at the base of the column. An scheme of the ASTRI structure can be found in picture \ref{fig:SST}. A detailed description of the ASTRI structure design can be fonund in \cite{2013SSTstruct}.
+
+    
+\begin{figure}[!htb]
+  \minipage{0.4\textwidth}
+  \includegraphics[width=\linewidth]{Pictures/ASTRI.pdf}
+  \endminipage\hfill
+  \minipage{0.6\textwidth}
+  \includegraphics[width=\linewidth]{Pictures/CHECcam.pdf}
+  \endminipage\hfill
+  \caption{\label{fig:SST} \textit{Left}: General view of the ASTRI telescope structure and electro-mehcanical subsystems, adapted from \cite{2013SSTstruct}. \textit{Right}: CAD model of the \gls{chec} camera from \cite{2017CHECcam} }
+\end{figure}
+
+\subsubsection{\gls{sst}-ASTRI Optics}
+
+The \gls{sc} design of the ASTRI telescopes is composed by two mirrors, one primary of 4.3 m diameter composed of an array of hexagonal tiles, and a monolithic secondary mirror of 1.8 m. The primary mirror tiles have been manufactured using a cold slumping replication process. The secondary is make of a hemispherical thick glass shell thermally bent to 2.2 m raiuds of curvature. The focal length of the system if 2.15 m, f/0.5 and the \gls{fov} of the system reaches 10º.\\
+The advantages of a double mirror configuration are a better \gls{psf} over a large \gls{fov} and allow better correction of aberrations \cite{2017ASTRItels}.
+
+\subsubsection{\gls{sst}-CHEC Camera}
+
+The \gls{chec} camera was originally designed for the GTC telescope prototype, but finally has been selected to me mounted in the ASTRI sctruture. The camera is composed by 2048 pixels based on \gls{sipm} instrumented in 32 photosensors which comprise 64 pixels of $\sim 6\times6 mm^2$. The digitalization of the waveform is performed by \gls{fee} based on TARGET ASICs \cite{2017TARGETASIC}. It also gives the first trigger level, as the sum of four neighbouring pixels. A backplane provides the power, clock, trigger and data interface of the \gls{fee}. The trigger decision is formed in the backplane by combining trigger signals from all the \gls{fee} modules. In the camera structure, a lid protects the camera from the elments and a cooling system based on the circulation of chilled liquid through the camera focal plane plate and six internal fans. A diagram of the \gls{chec} camera is shown in figure \ref{fig:SST}. A detailed description of \gls{chec} and results from its commissioning can be found in \cite{2017CHECcam}.
+
 \section{Reconstruction and Analysis tools} \label{sec:ctaanalysis}
 \subsection{Monte Carlo simulations}
 \subsubsection{CORSIKA}

@@ -762,8 +762,8 @@
   \field{journaltitle}{Astronomy and Astrophysics}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.GA}
+  \field{month}{12}
   \field{year}{2010}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2010starburstFermi}{article}{}
@@ -1644,8 +1644,8 @@
   \field{journaltitle}{Astrophysical Journal}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{02}
   \field{year}{2010}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2010SMCFermi}{article}{}
@@ -2475,8 +2475,8 @@
   \field{journaltitle}{Astronomy and Astrophysics}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{11}
   \field{year}{2010}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2010FermiCrabPulsar}{article}{}
@@ -3462,8 +3462,8 @@
   \field{journaltitle}{\apj}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{01}
   \field{year}{2010}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2010symbioticfermi}{article}{}
@@ -3512,8 +3512,8 @@
   \field{journaltitle}{Science}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{08}
   \field{year}{2010}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2010DSpheFermi}{article}{}
@@ -4354,8 +4354,8 @@
   \field{journaltitle}{Astrophysical Journal}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.CO}
+  \field{month}{03}
   \field{year}{2010}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2010LMCFermifirst}{article}{}
@@ -5275,8 +5275,8 @@
   \field{journaltitle}{Astronomy and Astrophysics}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{03}
   \field{year}{2010}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2011HESSGClimits}{article}{}
@@ -6272,8 +6272,8 @@
   \field{journaltitle}{Physical Review Letters}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{04}
   \field{year}{2011}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2012DMClustersHess}{article}{}
@@ -7290,8 +7290,8 @@
   \field{journaltitle}{Astrophysical Journal}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{05}
   \field{year}{2012}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2014DSpheHESS}{article}{}
@@ -8472,8 +8472,8 @@
   \field{journaltitle}{Physical Review D}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{12}
   \field{year}{2014}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2018DMClustersMAGIC}{article}{}
@@ -9258,8 +9258,8 @@
   \field{journaltitle}{Physics of the Dark Universe}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{12}
   \field{year}{2018}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2009starbursthess}{article}{}
@@ -10132,8 +10132,8 @@
   \field{journaltitle}{Science}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{11}
   \field{year}{2009}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{CTAconcept}{article}{}
@@ -15772,8 +15772,8 @@
   \field{journaltitle}{Journal of Cosmology and Astroparticle Physics}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.CO}
+  \field{month}{05}
   \field{year}{2010}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2016LMCFermi6years}{article}{}
@@ -16318,8 +16318,8 @@
   \field{journaltitle}{Astronomy and Astrophysics}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{02}
   \field{year}{2016}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2013fermionSNRpiondecay}{article}{}
@@ -17189,8 +17189,8 @@
   \field{journaltitle}{Science}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{02}
   \field{year}{2013}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2014fermiclassicNovae}{article}{}
@@ -17990,8 +17990,8 @@
   \field{journaltitle}{Science}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{08}
   \field{year}{2014}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2014fermisuperGRB}{article}{}
@@ -18925,8 +18925,8 @@
   \field{journaltitle}{Science}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{01}
   \field{year}{2014}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2010LimitsClustersFermi}{article}{}
@@ -19796,8 +19796,8 @@
   \field{journaltitle}{Astrophysical Journal}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{07}
   \field{year}{2010}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2017M31M33Fermi}{article}{}
@@ -20353,8 +20353,8 @@
   \field{journaltitle}{Astrophysical Journal}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{02}
   \field{year}{2017}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2017FermiGCexcess}{article}{}
@@ -21045,8 +21045,8 @@
   \field{journaltitle}{Astrophysical Journal}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{05}
   \field{year}{2017}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2014Fbubbles}{article}{}
@@ -21747,8 +21747,8 @@
   \field{journaltitle}{Astrophysical Journal}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{09}
   \field{year}{2014}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2006HESSGCexcess}{article}{}
@@ -22310,8 +22310,8 @@
   \field{journaltitle}{Physical Review Letters}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph}
+  \field{month}{12}
   \field{year}{2006}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2004VHECosmicGammaRadiation}{book}{}
@@ -23076,8 +23076,8 @@
   \field{journaltitle}{Journal of Cosmology and Astroparticle Physics}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{03}
   \field{year}{2018}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2018FermiGW170817}{article}{}
@@ -23776,8 +23776,8 @@
   \field{title}{{Fermi-LAT Observations of LIGO/Virgo Event GW170817}}
   \field{volume}{861}
   \field{journaltitle}{\apj}
+  \field{month}{07}
   \field{year}{2018}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2006GCMAGIC}{article}{}
@@ -24457,8 +24457,8 @@
   \field{journaltitle}{\apjl}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph}
+  \field{month}{02}
   \field{year}{2006}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2012LimitsClustersMagic}{article}{}
@@ -25304,8 +25304,8 @@
   \field{journaltitle}{Astronomy and Astrophysics}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{05}
   \field{year}{2012}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2008crabmagic}{article}{}
@@ -26074,8 +26074,8 @@
   \field{journaltitle}{Science}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph}
+  \field{month}{11}
   \field{year}{2008}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2013LST}{article}{}
@@ -26754,8 +26754,8 @@
   \field{journaltitle}{arXiv e-prints}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.IM}
+  \field{month}{07}
   \field{year}{2013}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{Zwicky}{article}{}
@@ -26786,8 +26786,8 @@
   \field{journaltitle}{arXiv e-prints}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.IM}
+  \field{month}{11}
   \field{year}{2017}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2017DSpheVERITAS}{article}{}
@@ -27182,8 +27182,8 @@
   \field{journaltitle}{Physical Review D}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{04}
   \field{year}{2017}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2016GCveritas}{article}{}
@@ -27589,8 +27589,8 @@
   \field{journaltitle}{\apj}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{04}
   \field{year}{2016}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2009FermiLAT}{article}{}
@@ -28817,8 +28817,35 @@
   \field{journaltitle}{\apj}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.IM}
+  \field{month}{06}
   \field{year}{2009}
-  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{2018MSTandLSTstatus}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Barrio}{B.}%
+     {J.A.}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Astroparticle physics, ray astronomy, Imaging Atmospheric Cherenkov
+  Telescopes}
+  \strng{namehash}{BJ1}
+  \strng{fullhash}{BJ1}
+  \field{sortinit}{B}
+  \verb{doi}
+  \verb https://doi.org/10.1016/j.nima.2018.11.047
+  \endverb
+  \field{issn}{0168-9002}
+  \field{title}{Status of the large size telescopes and medium size telescopes
+  for the Cherenkov Telescope Array observatory}
+  \verb{url}
+  \verb http://www.sciencedirect.com/science/article/pii/S016890021831622X
+  \endverb
+  \field{journaltitle}{Nuclear Instruments and Methods in Physics Research
+  Section A: Accelerators, Spectrometers, Detectors and Associated Equipment}
+  \field{year}{2018}
 \endentry
 
 \entry{2017SolarCR_2}{article}{}
@@ -28845,8 +28872,8 @@
   \endverb
   \field{volume}{798}
   \field{journaltitle}{Journal of Physics: Conference Series}
+  \field{month}{01}
   \field{year}{2017}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2016originCR}{article}{}
@@ -28891,8 +28918,8 @@
   \field{journaltitle}{Astroparticle Physics}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{08}
   \field{year}{2016}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2014CRinSNR}{article}{}
@@ -28920,8 +28947,8 @@
   \field{journaltitle}{Nuclear Physics B Proceedings Supplements}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{11}
   \field{year}{2014}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2013CTAMonteCarlo}{article}{}
@@ -29144,8 +29171,8 @@
   \field{journaltitle}{Astroparticle Physics}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.IM}
+  \field{month}{03}
   \field{year}{2013}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{casamia}{article}{}
@@ -29283,8 +29310,8 @@
   \field{journaltitle}{International Journal of Modern Physics D}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.CO}
+  \field{month}{03}
   \field{year}{2014}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2015LMCDarkMatterFermi}{article}{}
@@ -29347,8 +29374,8 @@
   \field{journaltitle}{Physical Review D}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{05}
   \field{year}{2015}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{1931Chandra}{article}{}
@@ -32345,8 +32372,8 @@
   \field{journaltitle}{Physical Review D}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.CO}
+  \field{month}{10}
   \field{year}{2012}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{bode_evans_2008}{book}{}
@@ -32388,8 +32415,8 @@
   \list{location}{1}{%
     {Madrid}%
   }
+  \field{month}{01}
   \field{year}{2016}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2016LMCFermiBinary}{article}{}
@@ -32474,8 +32501,8 @@
   \field{journaltitle}{Astrophysical Journal}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{10}
   \field{year}{2016}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2011magic}{inproceedings}{}
@@ -32504,8 +32531,8 @@
   \field{volume}{11}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{01}
   \field{year}{2011}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2018SNRPevatrons}{article}{}
@@ -32550,8 +32577,8 @@
   \field{journaltitle}{\mnras}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{09}
   \field{year}{2018}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{CTA}{misc}{}
@@ -32659,8 +32686,8 @@
   \field{journaltitle}{Space Science Reviews}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.GA}
+  \field{month}{02}
   \field{year}{2018}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2006analysismethodscherenkovtels}{article}{}
@@ -32684,8 +32711,8 @@
   \field{journaltitle}{arXiv e-prints}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph}
+  \field{month}{07}
   \field{year}{2006}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2015groundbasedtechniques}{article}{}
@@ -32721,8 +32748,8 @@
   \field{journaltitle}{Comptes Rendus Physique}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.IM}
+  \field{month}{08}
   \field{year}{2015}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2013LSTCamMech}{article}{}
@@ -32787,8 +32814,8 @@
   \field{journaltitle}{arXiv e-prints}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.IM}
+  \field{month}{07}
   \field{year}{2013}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2016AGNsingammarays}{article}{}
@@ -32822,8 +32849,8 @@
   \field{journaltitle}{Comptes Rendus Physique}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{06}
   \field{year}{2016}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2016LHAASO}{article}{}
@@ -32858,8 +32885,8 @@
   \field{journaltitle}{Nuclear and Particle Physics Proceedings}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{10}
   \field{year}{2016}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2015Argo}{inproceedings}{}
@@ -32889,8 +32916,8 @@
   \field{volume}{632}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{08}
   \field{year}{2015}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{DominguezEBL}{article}{}
@@ -32966,8 +32993,8 @@
   \field{journaltitle}{Monthly Notices of the RAS}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.CO}
+  \field{month}{02}
   \field{year}{2011}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2013binaries}{article}{}
@@ -32997,8 +33024,8 @@
   \field{journaltitle}{Astronomy and Astrophysics Reviews}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{08}
   \field{year}{2013}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{1965Einasto}{article}{}
@@ -33017,8 +33044,8 @@
   the Determination of the System of Galactic Parameters}}
   \field{volume}{5}
   \field{journaltitle}{Trudy Astrofizicheskogo Instituta Alma-Ata}
+  \field{month}{01}
   \field{year}{1965}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{Fermi:CRorigin}{inbook}{}
@@ -33101,8 +33128,8 @@
   \field{journaltitle}{Astronomy and Astrophysics}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{07}
   \field{year}{2017}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2011detectionpulsationglobularcluster}{article}{}
@@ -33898,6 +33925,95 @@
   \field{year}{2011}
 \endentry
 
+\entry{2017TARGETASIC}{inproceedings}{}
+  \name{author}{12}{}{%
+    {{}%
+     {{Funk}}{F.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Jankowsky}}{J.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Katagiri}}{K.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Kraus}}{K.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Okumura}}{O.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Schoorlemmer}}{S.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Shigenaka}}{S.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Tajima}}{T.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Tibaldo}}{T.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Varner}}{V.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Zink}}{Z.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Zorn}}{Z.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Astrophysics - Instrumentation and Methods for Astrophysics,
+  Astrophysics - High Energy Astrophysical Phenomena, Physics - Instrumentation
+  and Detectors}
+  \strng{namehash}{FS+1}
+  \strng{fullhash}{FSJDKHKMOASHSATHTLVGZAZJ1}
+  \field{sortinit}{F}
+  \field{booktitle}{6th International Symposium on High Energy Gamma-Ray
+  Astronomy}
+  \verb{doi}
+  \verb 10.1063/1.4969033
+  \endverb
+  \field{eid}{080012}
+  \verb{eprint}
+  \verb 1610.01536
+  \endverb
+  \field{pages}{080012}
+  \field{series}{American Institute of Physics Conference Series}
+  \field{title}{{TARGET: A digitizing and trigger ASIC for the Cherenkov
+  telescope array}}
+  \field{volume}{1792}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph.IM}
+  \field{month}{01}
+  \field{year}{2017}
+\endentry
+
 \entry{2019VERITAS}{inproceedings}{}
   \name{author}{1}{}{%
     {{}%
@@ -33949,8 +34065,8 @@
   \field{journaltitle}{Annual Review of Astron and Astrophys}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph}
+  \field{month}{09}
   \field{year}{2006}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2016GaisserCRandParticlePhy}{book}{}
@@ -34005,6 +34121,52 @@
   \field{year}{2016}
 \endentry
 
+\entry{2015DCMSTstatus}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {{Garczarczyk}}{G.}%
+     {Markus}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Schlenstedt}}{S.}%
+     {Stefan}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Oakes}}{O.}%
+     {Louise}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Schwanke}}{S.}%
+     {Ullrich}{U.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{the MST Team}}{t.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Astrophysics - Instrumentation and Methods for Astrophysics}
+  \strng{namehash}{GM+1}
+  \strng{fullhash}{GMSSOLSUt1}
+  \field{sortinit}{G}
+  \field{eid}{arXiv:1509.01361}
+  \verb{eprint}
+  \verb 1509.01361
+  \endverb
+  \field{pages}{arXiv:1509.01361}
+  \field{title}{{Status of the Medium-Sized Telescope for the Cherenkov
+  Telescope Array}}
+  \field{journaltitle}{arXiv e-prints}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph.IM}
+  \field{month}{09}
+  \field{year}{2015}
+\endentry
+
 \entry{2015GRBorigin}{article}{}
   \name{author}{4}{}{%
     {{}%
@@ -34045,6 +34207,35 @@
   \field{volume}{7}
   \field{journaltitle}{Journal of High Energy Astrophysics}
   \field{year}{2015}
+\endentry
+
+\entry{2019MSTreport}{inproceedings}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Glicenstein}}{G.}%
+     {J.~F.}{J.~F.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Astrophysics - Instrumentation and Methods for Astrophysics,
+  Astrophysics - High Energy Astrophysical Phenomena}
+  \strng{namehash}{GJF1}
+  \strng{fullhash}{GJF1}
+  \field{sortinit}{G}
+  \field{booktitle}{36th International Cosmic Ray Conference (ICRC2019)}
+  \field{eid}{269}
+  \verb{eprint}
+  \verb 1907.08455
+  \endverb
+  \field{pages}{269}
+  \field{series}{International Cosmic Ray Conference}
+  \field{title}{{Status of the Davies Cotton and Schwarzschild-Coude Medium
+  Sized Telescopes for the Cherenkov Telescope Array}}
+  \field{volume}{36}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph.IM}
+  \field{month}{07}
+  \field{year}{2019}
 \endentry
 
 \entry{grb170817}{article}{}
@@ -34218,8 +34409,8 @@
   \endverb
   \field{volume}{848}
   \field{journaltitle}{The Astrophysical Journal}
+  \field{month}{10}
   \field{year}{2017}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2011GC}{inproceedings}{}
@@ -34263,8 +34454,8 @@
   \field{volume}{439}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{05}
   \field{year}{2011}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2007GC}{article}{}
@@ -34292,8 +34483,8 @@
   \field{journaltitle}{Comptes Rendus Physique}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph}
+  \field{month}{01}
   \field{year}{2007}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2013CRinSNR}{article}{}
@@ -34341,8 +34532,8 @@
   \endverb
   \field{volume}{409}
   \field{journaltitle}{Journal of Physics: Conference Series}
+  \field{month}{02}
   \field{year}{2013}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2014compositeSNRhess}{article}{}
@@ -35468,8 +35659,8 @@
   \field{journaltitle}{\aap}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{02}
   \field{year}{2014}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2013globularclustersHESS}{article}{}
@@ -36520,8 +36711,8 @@
   \field{journaltitle}{Astronomy and Astrophysics}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{03}
   \field{year}{2013}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2015LMCHess}{article}{}
@@ -37690,8 +37881,8 @@
   \field{journaltitle}{Science}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{01}
   \field{year}{2015}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2018GPHESS}{article}{}
@@ -39012,8 +39203,8 @@
   \field{journaltitle}{\aap}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{04}
   \field{year}{2018}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{crspec}{misc}{}
@@ -39157,8 +39348,8 @@
   \field{journaltitle}{Astroparticle Physics}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.IM}
+  \field{month}{07}
   \field{year}{2017}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{1954Heitler}{book}{}
@@ -39233,8 +39424,8 @@
   \field{journaltitle}{Comptes Rendus Physique}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{08}
   \field{year}{2015}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{1985Hillas}{inproceedings}{}
@@ -39311,8 +39502,8 @@
   \field{journaltitle}{arXiv e-prints}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph}
+  \field{month}{09}
   \field{year}{2008}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2012DMClustersDecayFermi}{article}{}
@@ -39353,8 +39544,8 @@
   \field{journaltitle}{Journal of Cosmology and Astroparticle Physics}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{hep-ph}
+  \field{month}{01}
   \field{year}{2012}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{1990TibetAs}{inproceedings}{}
@@ -39488,8 +39679,8 @@
   \field{series}{International Cosmic Ray Conference}
   \field{title}{{Tibet-AS {\ensuremath{\gamma}} Experiment}}
   \field{volume}{2}
+  \field{month}{01}
   \field{year}{1990}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{jelley1958Cherenkov}{book}{}
@@ -39853,8 +40044,8 @@
   \field{journaltitle}{arXiv e-prints}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{01}
   \field{year}{2012}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{1993GRB2pop}{article}{}
@@ -39998,8 +40189,8 @@
   substructure at high resolution}
   \field{volume}{125}
   \field{journaltitle}{Journal of Physics: Conference Series}
+  \field{month}{07}
   \field{year}{2008}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2001CrabCOMPTEL}{article}{}
@@ -40090,8 +40281,8 @@
   shocks.}}
   \field{volume}{125}
   \field{journaltitle}{\aap}
+  \field{month}{09}
   \field{year}{1983}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2017DMlectures}{inproceedings}{}
@@ -40118,8 +40309,8 @@
   \field{title}{{Lectures on Dark Matter Physics}}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{hep-ph}
+  \field{month}{01}
   \field{year}{2017}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{highenergyastrophy}{book}{}
@@ -40139,6 +40330,38 @@
   \field{edition}{3}
   \field{title}{High Energy Astrophysics}
   \field{year}{2011}
+\endentry
+
+\entry{2017ASTRItels}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {{Maccarone}}{M.}%
+     {M.~C.}{M.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Astri Project}}{A.}%
+     {Cta}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Astrophysics - Instrumentation and Methods for Astrophysics}
+  \strng{namehash}{MMCAC1}
+  \strng{fullhash}{MMCAC1}
+  \field{sortinit}{M}
+  \field{booktitle}{35th International Cosmic Ray Conference (ICRC2017)}
+  \field{eid}{855}
+  \verb{eprint}
+  \verb 1709.03078
+  \endverb
+  \field{pages}{855}
+  \field{series}{International Cosmic Ray Conference}
+  \field{title}{{ASTRI for the Cherenkov Telescope Array}}
+  \field{volume}{301}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph.IM}
+  \field{month}{01}
+  \field{year}{2017}
 \endentry
 
 \entry{2016AGNgammarayobss}{article}{}
@@ -40164,8 +40387,8 @@
   \field{title}{{Gamma-Ray Observations of Active Galactic Nuclei}}
   \field{volume}{54}
   \field{journaltitle}{\araa}
+  \field{month}{09}
   \field{year}{2016}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{MAGICweb}{misc}{}
@@ -40237,8 +40460,8 @@
   \field{volume}{301}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.IM}
+  \field{month}{01}
   \field{year}{2017}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{MaozNushellAstro}{book}{}
@@ -40302,8 +40525,8 @@
   \field{volume}{1792}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.IM}
+  \field{month}{01}
   \field{year}{2017}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2013CrabPulsarVeritas}{article}{}
@@ -40327,8 +40550,8 @@
   \field{journaltitle}{arXiv e-prints}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{03}
   \field{year}{2013}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2009accelerationmech}{article}{}
@@ -40353,8 +40576,8 @@
   \field{journaltitle}{arXiv e-prints}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.SR}
+  \field{month}{02}
   \field{year}{2009}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2019MAGICGRB}{article}{}
@@ -40451,8 +40674,8 @@
   \field{volume}{301}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{01}
   \field{year}{2017}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2014HAWC}{article}{}
@@ -40480,8 +40703,8 @@
   \field{journaltitle}{Brazilian Journal of Physics}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{10}
   \field{year}{2014}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{NFW}{article}{}
@@ -40545,6 +40768,82 @@
   \field{year}{1996}
 \endentry
 
+\entry{2017SCMSTstatus}{article}{}
+  \name{author}{11}{}{%
+    {{}%
+     {{Nieto}}{N.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Humensky}}{H.}%
+     {T.~B.}{T.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Kaaret}}{K.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Kieda}}{K.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Limon}}{L.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Petrashyk}}{P.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Ribeiro}}{R.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Rousselle}}{R.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Stevenson}}{S.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Vassiliev}}{V.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Wilcox}}{W.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Astrophysics - Instrumentation and Methods for Astrophysics}
+  \strng{namehash}{ND+1}
+  \strng{fullhash}{NDHTBKPKDLMPARDRJSBVVWP1}
+  \field{sortinit}{N}
+  \field{eid}{arXiv:1709.06324}
+  \verb{eprint}
+  \verb 1709.06324
+  \endverb
+  \field{pages}{arXiv:1709.06324}
+  \field{title}{{Prototype 9.7 m Schwarzschild-Couder telescope for the
+  Cherenkov Telescope Array: status of the optical system}}
+  \field{journaltitle}{arXiv e-prints}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph.IM}
+  \field{month}{09}
+  \field{year}{2017}
+\endentry
+
 \entry{2019DSpheCombined}{inproceedings}{}
   \name{author}{1}{}{%
     {{}%
@@ -40569,8 +40868,8 @@
   \field{volume}{36}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{07}
   \field{year}{2019}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2016starburst}{article}{}
@@ -40600,8 +40899,8 @@
   \field{journaltitle}{Comptes Rendus Physique}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{06}
   \field{year}{2016}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2003Olive}{article}{}
@@ -40625,8 +40924,8 @@
   \field{journaltitle}{arXiv e-prints}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph}
+  \field{month}{01}
   \field{year}{2003}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2006osterbrock}{book}{}
@@ -40676,6 +40975,599 @@
   }
   \field{type}{phdthesis}
   \field{year}{2010}
+\endentry
+
+\entry{2013SSTstruct}{article}{}
+  \name{author}{114}{}{%
+    {{}%
+     {{Pareschi}}{P.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Agnetta}}{A.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Antonelli}}{A.}%
+     {L.~A.}{L.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Bastieri}}{B.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Bellassai}}{B.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Belluso}}{B.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Bigongiari}}{B.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Billotta}}{B.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Biondo}}{B.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Bonanno}}{B.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Bonnoli}}{B.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Bruno}}{B.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Bulgarelli}}{B.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Canestrari}}{C.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Capalbi}}{C.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Caraveo}}{C.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Carosi}}{C.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Cascone}}{C.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Catalano}}{C.}%
+     {O.}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Cereda}}{C.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Conconi}}{C.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Conforti}}{C.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Cusumano}}{C.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{De Caprio}}{D.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{De Luca}}{D.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Di Paola}}{D.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Di Pierro}}{D.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Fantinel}}{F.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Fiorini}}{F.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Fugazza}}{F.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Gardiol}}{G.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Ghigo}}{G.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Gianotti}}{G.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Giarrusso}}{G.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Giro}}{G.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Grillo}}{G.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Impiombato}}{I.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Incorvaia}}{I.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{La Barbera}}{L.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{La Palombara}}{L.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{La Parola}}{L.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{La Rosa}}{L.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Lessio}}{L.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Leto}}{L.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Lombardi}}{L.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Lucarelli}}{L.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Maccarone}}{M.}%
+     {M.~C.}{M.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Malaguti}}{M.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Malaspina}}{M.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Mangano}}{M.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Marano}}{M.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Martinetti}}{M.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Millul}}{M.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Mineo}}{M.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Mist{\`O}}}{M.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Morello}}{M.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Morlino}}{M.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Panzera}}{P.}%
+     {M.~R.}{M.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Rodeghiero}}{R.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Romano}}{R.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Russo}}{R.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Sacco}}{S.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Sartore}}{S.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Schwarz}}{S.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Segreto}}{S.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Sironi}}{S.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Sottile}}{S.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Stamerra}}{S.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Strazzeri}}{S.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Stringhetti}}{S.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Tagliaferri}}{T.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Testa}}{T.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Timpanaro}}{T.}%
+     {M.~C.}{M.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Toso}}{T.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Tosti}}{T.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Trifoglio}}{T.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Vallania}}{V.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Vercellone}}{V.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Zitelli}}{Z.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Amans}}{A.}%
+     {J.~P.}{J.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Boisson}}{B.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Costille}}{C.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Dournaux}}{D.}%
+     {J.~L.}{J.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Dumas}}{D.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Fasola}}{F.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Hervet}}{H.}%
+     {O.}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Huet}}{H.}%
+     {J.~M.}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Laporte}}{L.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Rulten}}{R.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Sol}}{S.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Zech}}{Z.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{White}}{W.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Hinton}}{H.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Ross}}{R.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Sykes}}{S.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Ohm}}{O.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Schmoll}}{S.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Chadwick}}{C.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Greenshaw}}{G.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Daniel}}{D.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Cotter}}{C.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Varner}}{V.}%
+     {G.~S.}{G.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Funk}}{F.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Vandenbroucke}}{V.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Sapozhnikov}}{S.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Buckley}}{B.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Moore}}{M.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Williams}}{W.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Markoff}}{M.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Vink}}{V.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Berge}}{B.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Hidaka}}{H.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Okumura}}{O.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Tajima}}{T.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Astrophysics - Instrumentation and Methods for Astrophysics,
+  Astrophysics - High Energy Astrophysical Phenomena, High Energy Physics -
+  Experiment, Physics - Instrumentation and Detectors}
+  \strng{namehash}{PG+1}
+  \strng{fullhash}{PGAGALABDBGBMBCBSBBBGBGBPBACRCMCPCACECOCMCPCVCGDVDADADFFDFMFDGDGMGFGSGEGAIDISLALNLVLGLLLGLSLFMMCMGMGMVMDMEMRMTMAMCMGPMRRGRPRFSBSNSJSASGSGSASESLTGTVTMCTGTGTMVPVSZVAJPBCCCDJLDDFGHOHJMLPRCSHZAWRHJRDSJOSSJCPGTDMCGVGSFSVJSLBJMPWDMSVJBDHNOATH1}
+  \field{sortinit}{P}
+  \field{eid}{arXiv:1307.4962}
+  \verb{eprint}
+  \verb 1307.4962
+  \endverb
+  \field{pages}{arXiv:1307.4962}
+  \field{title}{{The dual-mirror Small Size Telescope for the Cherenkov
+  Telescope Array}}
+  \field{journaltitle}{arXiv e-prints}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph.IM}
+  \field{month}{07}
+  \field{year}{2013}
 \endentry
 
 \entry{particleastrophy}{book}{}
@@ -40728,8 +41620,8 @@
   \field{journaltitle}{\ssr}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph}
+  \field{month}{02}
   \field{year}{2008}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{1999GRBfireball}{article}{}
@@ -40757,8 +41649,8 @@
   \field{journaltitle}{Physics Reports}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph}
+  \field{month}{06}
   \field{year}{1999}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2004GRB}{article}{}
@@ -40790,8 +41682,8 @@
   \field{journaltitle}{Reviews of Modern Physics}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph}
+  \field{month}{10}
   \field{year}{2004}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2014Planck}{article}{}
@@ -40871,8 +41763,8 @@
   \field{journaltitle}{Astronomy and Astrophysics}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.CO}
+  \field{month}{11}
   \field{year}{2014}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2017SolarCR}{article}{}
@@ -40920,8 +41812,8 @@
   \endverb
   \field{volume}{798}
   \field{journaltitle}{Journal of Physics: Conference Series}
+  \field{month}{01}
   \field{year}{2017}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2018HESS}{article}{}
@@ -40945,8 +41837,8 @@
   \field{journaltitle}{arXiv e-prints}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{01}
   \field{year}{2018}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{1993MurthyGammaRay}{book}{}
@@ -41018,8 +41910,8 @@
   \field{journaltitle}{Monthly Notices of the RAS}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.GA}
+  \field{month}{12}
   \field{year}{2014}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2010MilkyWaySFR}{article}{}
@@ -41055,8 +41947,8 @@
   \field{journaltitle}{Astrophysical Journal}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.GA}
+  \field{month}{02}
   \field{year}{2010}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{RossiGreisenCR}{article}{}
@@ -41089,8 +41981,8 @@
   \endverb
   \field{volume}{13}
   \field{journaltitle}{Rev. Mod. Phys.}
+  \field{month}{10}
   \field{year}{1941}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{1978Rubin}{article}{}
@@ -41162,6 +42054,229 @@
   \field{year}{1975}
 \endentry
 
+\entry{2017SST1M}{inproceedings}{}
+  \name{author}{40}{}{%
+    {{}%
+     {{Samarai}}{S.}%
+     {I.~Al}{I.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Cadoux}}{C.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Coco}}{C.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Alispach}}{A.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{della Volpe}}{d.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Favre}}{F.}%
+     {Y.}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Heller}}{H.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Montaruli}}{M.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Njoh Ekoume}}{N.}%
+     {T.~R.}{T.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Troyano Pujadas}}{T.}%
+     {I.}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Lyard}}{L.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Nagai}}{N.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Neronov}}{N.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Walter}}{W.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Sliusar}}{S.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Mach}}{M.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Niemiec}}{N.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Micha{\l}owski}}{M.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Rafalski}}{R.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Skowronski}}{S.}%
+     {P.~K.}{P.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Stodulska}}{S.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Stodulski}}{S.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Bulik}}{B.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Grudzinska}}{G.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Jamrozy}}{J.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Ostrowski}}{O.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Stawarz}}{S.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Zagdanski}}{Z.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Zietara}}{Z.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Pasko}}{P.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Kowalski}}{K.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Moderski}}{M.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Borkowski}}{B.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Kasperek}}{K.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Rajda}}{R.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Mandat}}{M.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Pech}}{P.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Schovanek}}{S.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Travnicek}}{T.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{SST-1M Project}}{S.}%
+     {CTA}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Astrophysics - Instrumentation and Methods for Astrophysics}
+  \strng{namehash}{SIA+1}
+  \strng{fullhash}{SIACFCVACdDFYHMMTNTRTILENHNAWRSVMENJMJRJSPKSMSMBTGMJMOMSLZAZKPPKSMRBJKJRPMDPMSPTPSC1}
+  \field{sortinit}{S}
+  \field{booktitle}{35th International Cosmic Ray Conference (ICRC2017)}
+  \field{eid}{758}
+  \verb{eprint}
+  \verb 1709.03914
+  \endverb
+  \field{pages}{758}
+  \field{series}{International Cosmic Ray Conference}
+  \field{title}{{Performance of a small size telescope (SST-1M) camera for
+  gamma-ray astronomy with the Cherenkov Telescope Array}}
+  \field{volume}{301}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph.IM}
+  \field{month}{01}
+  \field{year}{2017}
+\endentry
+
 \entry{2007Dwarfs}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -41194,8 +42309,8 @@
   \field{journaltitle}{Astrophysical Journal}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph}
+  \field{month}{11}
   \field{year}{2007}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2012novagammaneutrinos}{article}{}
@@ -41232,8 +42347,8 @@
   \field{journaltitle}{Physical Review D}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{09}
   \field{year}{2012}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{1999LMCcentralbulge}{article}{}
@@ -41383,8 +42498,8 @@
   Gamma Rays}}
   \field{volume}{400}
   \field{journaltitle}{Astrophysical Journal}
+  \field{month}{12}
   \field{year}{1992}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{1967protonantiproton}{article}{}
@@ -41403,8 +42518,8 @@
   Proton-Antiproton Interactions}}
   \field{volume}{261}
   \field{journaltitle}{SAO Special Report}
+  \field{month}{12}
   \field{year}{1967}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2010Afbubblesdiscovery}{article}{}
@@ -41445,8 +42560,8 @@
   \field{journaltitle}{Astrophysical Journal}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{12}
   \field{year}{2010}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2016GlobularClustersFermi}{article}{}
@@ -41485,8 +42600,8 @@
   \field{journaltitle}{Journal of Astronomy and Space Sciences}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{03}
   \field{year}{2016}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2018particleacceleration}{article}{}
@@ -41520,8 +42635,8 @@
   \field{journaltitle}{Annual Review of Nuclear and Particle Science}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{10}
   \field{year}{2018}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2016CRSpectrum}{article}{}
@@ -41581,8 +42696,8 @@
   \field{journaltitle}{\aap}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{10}
   \field{year}{2016}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2012CRinSNR}{article}{}
@@ -41622,6 +42737,384 @@
   \field{year}{2012}
 \endentry
 
+\entry{2017CHECtels}{inproceedings}{}
+  \name{author}{70}{}{%
+    {{}%
+     {{Tibaldo}}{T.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Abchiche}}{A.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Allan}}{A.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Amans}}{A.}%
+     {J.~P.}{J.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Armstrong}}{A.}%
+     {T.~P.}{T.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Balzer}}{B.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Berge}}{B.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Boisson}}{B.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Bousquet}}{B.}%
+     {J.~J.}{J.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Brown}}{B.}%
+     {A.~M.}{A.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Bryan}}{B.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Buchholtz}}{B.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Chadwick}}{C.}%
+     {P.~M.}{P.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Costantini}}{C.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Cotter}}{C.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Daniel}}{D.}%
+     {M.~K.}{M.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{De Franco}}{D.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{De Frondat}}{D.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Dournaux}}{D.}%
+     {J.~L.}{J.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Dumas}}{D.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Ernenwein}}{E.}%
+     {J.~P.}{J.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Fasola}}{F.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Funk}}{F.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Gironnet}}{G.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Graham}}{G.}%
+     {J.~A.}{J.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Greenshaw}}{G.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Hervet}}{H.}%
+     {O.}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Hidaka}}{H.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Hinton}}{H.}%
+     {J.~A.}{J.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Huet}}{H.}%
+     {J.~M.}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Jankowsky}}{J.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Jegouzo}}{J.}%
+     {I.}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Jogler}}{J.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Kraus}}{K.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Lapington}}{L.}%
+     {J.~S.}{J.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Laporte}}{L.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Lefaucheur}}{L.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Markoff}}{M.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Melse}}{M.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Mohrmann}}{M.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Molyneux}}{M.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Nolan}}{N.}%
+     {S.~J.}{S.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Okumura}}{O.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Osborne}}{O.}%
+     {J.~P.}{J.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Parsons}}{P.}%
+     {R.~D.}{R.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Rosen}}{R.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Ross}}{R.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Rowell}}{R.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Rulten}}{R.}%
+     {C.~B.}{C.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Sato}}{S.}%
+     {Y.}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Say{\`e}de}}{S.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Schmoll}}{S.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Schoorlemmer}}{S.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Servillat}}{S.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Sol}}{S.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Stamatescu}}{S.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Stephan}}{S.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Stuik}}{S.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Sykes}}{S.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Tajima}}{T.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Thornhill}}{T.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Trichard}}{T.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Vink}}{V.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Watson}}{W.}%
+     {J.~J.}{J.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{White}}{W.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Yamane}}{Y.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Zech}}{Z.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Zink}}{Z.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Zorn}}{Z.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{CTA Consortium}}{C.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Astrophysics - Instrumentation and Methods for Astrophysics,
+  Astrophysics - High Energy Astrophysical Phenomena}
+  \strng{namehash}{TL+1}
+  \strng{fullhash}{TLAAADAJPATPBABDBCBJJBAMBMBGCPMCHCGDMKDADFDJLDDEJPFGFSGJGJAGTHOHNHJAHJMJDJIJTKMLJSLPLJMSMTMLMPNSJOAOJPPRDRSRDRGRCBSYSFSJSHSMSHSVSMSRSJTHTJTCVJWJJWRYNZAZAZJC1}
+  \field{sortinit}{T}
+  \field{booktitle}{6th International Symposium on High Energy Gamma-Ray
+  Astronomy}
+  \verb{doi}
+  \verb 10.1063/1.4969025
+  \endverb
+  \field{eid}{080004}
+  \verb{eprint}
+  \verb 1610.01398
+  \endverb
+  \field{pages}{080004}
+  \field{series}{American Institute of Physics Conference Series}
+  \field{title}{{The gamma-ray Cherenkov telescope for the Cherenkov telescope
+  array}}
+  \field{volume}{1792}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph.IM}
+  \field{month}{01}
+  \field{year}{2017}
+\endentry
+
 \entry{1995AGN}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -41651,8 +43144,8 @@
   \field{journaltitle}{Publications of the Astronomical Society of the Pacific}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph}
+  \field{month}{09}
   \field{year}{1995}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{1995AGNunifiedschemes}{article}{}
@@ -41684,8 +43177,8 @@
   \field{journaltitle}{\pasp}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph}
+  \field{month}{09}
   \field{year}{1995}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{IOyaThesis}{thesis}{}
@@ -41715,8 +43208,8 @@
     {Madrid}%
   }
   \field{type}{phdthesis}
+  \field{month}{10}
   \field{year}{2010}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2006LMCkinematics}{inproceedings}{}
@@ -41752,8 +43245,8 @@
   \field{volume}{17}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph}
+  \field{month}{01}
   \field{year}{2006}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2009starburstveritas}{article}{}
@@ -42242,8 +43735,8 @@
   \field{journaltitle}{Nature}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.CO}
+  \field{month}{12}
   \field{year}{2009}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2008tevcat}{article}{}
@@ -42319,8 +43812,40 @@
   \field{title}{{Supernovae and supernova remnants.}}
   \field{volume}{26}
   \field{journaltitle}{Annual Review of Astron and Astrophys}
+  \field{month}{01}
   \field{year}{1988}
-  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{2017CHECcam}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {{White}}{W.}%
+     {Richard}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Schoorlemmer}}{S.}%
+     {Harm}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Astrophysics - Instrumentation and Methods for Astrophysics,
+  Astrophysics - High Energy Astrophysical Phenomena}
+  \strng{namehash}{WRSH1}
+  \strng{fullhash}{WRSH1}
+  \field{sortinit}{W}
+  \field{eid}{arXiv:1709.05799}
+  \verb{eprint}
+  \verb 1709.05799
+  \endverb
+  \field{pages}{arXiv:1709.05799}
+  \field{title}{{A Compact High Energy Camera (CHEC) for the Gamma-ray
+  Cherenkov Telescope of the Cherenkov Telescope Array}}
+  \field{journaltitle}{arXiv e-prints}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph.IM}
+  \field{month}{09}
+  \field{year}{2017}
 \endentry
 
 \entry{1995AGNradioloudradioquiet}{article}{}
@@ -42357,8 +43882,8 @@
   \field{journaltitle}{\apj}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph}
+  \field{month}{01}
   \field{year}{1995}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2013PulsedemissionfromGlobularM28}{article}{}
@@ -42419,8 +43944,8 @@
   {GLOBULAR} {CLUSTER} M28}
   \field{volume}{765}
   \field{journaltitle}{The Astrophysical Journal}
+  \field{month}{02}
   \field{year}{2013}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2018ComaCluster}{article}{}
@@ -42478,8 +44003,8 @@
   \field{journaltitle}{Physical Review D}
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.HE}
+  \field{month}{09}
   \field{year}{2018}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{1996Zhao}{article}{}

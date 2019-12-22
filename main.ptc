@@ -127,19 +127,31 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\gls {lst} Camera}{64}{section*.58}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}MST}{65}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.2}Medium Size Telescope (MST)}{65}{subsection.3.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.3}SST}{65}{subsection.3.3.3}
+\contentsline {subsubsection}{\gls {mst} Structure}{66}{section*.60}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Reconstruction and Analysis tools}{65}{section.3.4}
+\contentsline {subsubsection}{\gls {mst} Optics}{67}{section*.62}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Monte Carlo simulations}{65}{subsection.3.4.1}
+\contentsline {subsubsection}{\gls {mst} Cameras}{67}{section*.64}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{CORSIKA}{65}{section*.60}
+\contentsline {subsection}{\numberline {3.3.3}Small Size Telescope (SST)}{68}{subsection.3.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{sim\_telarray}{65}{section*.61}
+\contentsline {subsubsection}{\gls {sst}-ASTRI Structure}{69}{section*.66}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.2}Low level analysis: ctapipe}{65}{subsection.3.4.2}
+\contentsline {subsubsection}{\gls {sst}-ASTRI Optics}{69}{section*.68}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.3}Science analysis: ctools}{65}{subsection.3.4.3}
+\contentsline {subsubsection}{\gls {sst}-CHEC Camera}{70}{section*.69}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Reconstruction and Analysis tools}{70}{section.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.1}Monte Carlo simulations}{70}{subsection.3.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{CORSIKA}{70}{section*.70}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{sim\_telarray}{70}{section*.71}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.2}Low level analysis: ctapipe}{70}{subsection.3.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.3}Science analysis: ctools}{70}{subsection.3.4.3}
 \contentsfinish 
