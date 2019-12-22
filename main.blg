@@ -13,7 +13,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 27796 items from 5000.
+Reallocated field_info (elt_size=4) to 28352 items from 5000.
 Database file #1: main-blx.bib
 Database file #2: bibliography.bib
 I was expecting a `,' or a `}'---line 707 of file bibliography.bib
@@ -28,6 +28,11 @@ Your field is more than 20000 characters---line 4297 of file bibliography.bib
  :                                                                   rd}, R.~L. and
 I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 260000 items from 195000.
+I was expecting a `,' or a `}'---line 4860 of file bibliography.bib
+ :   
+ :   year = "2005"
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Biblatex version: 3.3
 Warning--you've exceeded 250, the entry-string-size, for entry 2008crabmagic
 while executing--line 2513 of file biblatex.bst
@@ -223,45 +228,45 @@ while executing--line 2541 of file biblatex.bst
 *Please notify the bibstyle designer*
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 164 entries,
+You've used 168 entries,
             6047 wiz_defined-function locations,
-            2459 strings with 197947 characters,
-and the built_in function-call counts, 1925332 in all, are:
-= -- 56326
-> -- 78837
-< -- 4799
-+ -- 43485
-- -- 44724
-* -- 296093
-:= -- 144943
+            2485 strings with 199327 characters,
+and the built_in function-call counts, 1946070 in all, are:
+= -- 56958
+> -- 79626
+< -- 4892
++ -- 43833
+- -- 45119
+* -- 298670
+:= -- 146375
 add.period$ -- 0
-call.type$ -- 164
-change.case$ -- 2170
-chr.to.int$ -- 850
-cite$ -- 326
-duplicate$ -- 244976
-empty$ -- 157100
-format.name$ -- 102900
-if$ -- 346401
+call.type$ -- 168
+change.case$ -- 2207
+chr.to.int$ -- 851
+cite$ -- 334
+duplicate$ -- 247538
+empty$ -- 159045
+format.name$ -- 103767
+if$ -- 350519
 int.to.chr$ -- 0
-int.to.str$ -- 380
+int.to.str$ -- 390
 missing$ -- 0
-newline$ -- 43769
-num.names$ -- 7234
-pop$ -- 82208
+newline$ -- 44127
+num.names$ -- 7404
+pop$ -- 83700
 preamble$ -- 1
-purify$ -- 10262
+purify$ -- 10359
 quote$ -- 0
-skip$ -- 82437
+skip$ -- 83445
 stack$ -- 0
-substring$ -- 17184
-swap$ -- 92123
-text.length$ -- 11877
-text.prefix$ -- 171
+substring$ -- 17346
+swap$ -- 93024
+text.length$ -- 12024
+text.prefix$ -- 175
 top$ -- 1
-type$ -- 6217
+type$ -- 6369
 warning$ -- 0
-while$ -- 3770
+while$ -- 3845
 width$ -- 0
-write$ -- 43604
-(There were 2 error messages)
+write$ -- 43958
+(There were 3 error messages)

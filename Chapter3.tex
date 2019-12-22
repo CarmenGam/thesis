@@ -235,8 +235,32 @@ The advantages of a double mirror configuration are a better \gls{psf} over a la
 The \gls{chec} camera was originally designed for the GTC telescope prototype, but finally has been selected to me mounted in the ASTRI sctruture. The camera is composed by 2048 pixels based on \gls{sipm} instrumented in 32 photosensors which comprise 64 pixels of $\sim 6\times6 mm^2$. The digitalization of the waveform is performed by \gls{fee} based on TARGET ASICs \cite{2017TARGETASIC}. It also gives the first trigger level, as the sum of four neighbouring pixels. A backplane provides the power, clock, trigger and data interface of the \gls{fee}. The trigger decision is formed in the backplane by combining trigger signals from all the \gls{fee} modules. In the camera structure, a lid protects the camera from the elments and a cooling system based on the circulation of chilled liquid through the camera focal plane plate and six internal fans. A diagram of the \gls{chec} camera is shown in figure \ref{fig:SST}. A detailed description of \gls{chec} and results from its commissioning can be found in \cite{2017CHECcam}.
 
 \section{Reconstruction and Analysis tools} \label{sec:ctaanalysis}
+
+To obtain the best performance results from \gls{cta} it is very important to have strong software tools, accessible and user friendly, which will allow to analyze the forecoming data. Also, specially in the first parts of the experiment, to calculate the predicted sensitivity shown in section \ref{sec:ctaperformance} it is necessary to produce precise and reliable simulations of the instrument response to the arrival of electromagnetic showers. In this section, the principal softwares for the simulation and analysis of the different levels of \gls{cta} data are described. 
+
 \subsection{Monte Carlo simulations}
+
+\gls{mc} simulations are of great importance for the \gls{iact} technique, where the detection of $\gamma$-rays is indirect and it is necessary to reconstruct the primary parameters from the signal received at the telescopes. Detailed simulations of the development of the \gls{eas} in the atmosphere, combined with simulations of the instrument response to the Cherenkov light produced by those \gls{eas} are used for three main objectives: Separation of $\gamma$ and hadron showers, since hadrons produce the majority of Cherenkov light which reach \gls{iact}, it is necessary to characterize the particular differences between photon and hadron induced showers thanks to the \gls{mc} simulations; and reconstruction of the shower direction and energy of the primary. Comparing the shower parameters to those of the simulated showers applying different methods, like \gls{mva}, \gls{ml} or \gls{dl} among others, the characteristics of the primary particles can be reconstructed.\\
+\gls{mc} simulations consists in two phases: The first is the simulation of the \gls{eas} development in the atmosphere, tracking the particles created, the products of their interaction and the amount of Cherenkov light produced. The second part consist on simulating the instruments, taking into account ray tracing, the optical features of the mirrors, the response of the electronics, etc.\\
+For \gls{cta}, \gls{mc} simulations have been performed using the programs \gls{corsika}, for the \gls{eas} simulation, and sim\_telarray, for the telescopes response. These two softwares allow to configure a specific array of telescopes with their particular configurations and store only the information of the particles and light from the shower that fall in the surrounding of the telescopes. The current production of \gls{mc} data, with the layout described in section \ref{sec:ctaperformance}, is the named \textit{prod3b-v2} which used \gls{corsika} version 6.9. In the next subsections, a brief description of \gls{corsika} and sim\_telarray is given.
+
 \subsubsection{CORSIKA}
+
+\gls{crosika} is a detailed \gls{mc} program to study the development of \gls{eas} in the atmosphere \cite{1998Corsika}, originally developed for the Kascade experiment \cite{1997Kascade}. The showers can be initiated by different kinds of primary particle, such as photons, protons or other heavier nuclei. The program tries to treat every possible process taking place in the development of \gls{eas} to the present state of our knowledge. It takes into account the transport of particles through the atmosphere and their interactions with air particles. The secondary particles produced are tracked along their trajectories and their parameters are stored when they reach an ob servation level, i.e. the stage of the shower that can be detected by an instrument. They main problem of the simulation of \gls{eas} is the extrapolation of hadronic interactions at the higher energies which cannot be probed in collision experiments. The secondary particles emitted in the extreme forward direction, which are not accessible by colliders, are precisely the more important in \gls{eas} development because they are the one bringin the largest energy fraction to the atmosphere. The extrapolations must therefore rely on different theoretical models. To study the systematics of such models, in \gls{corsika} there are five different hadronic interaction models available. For \gls{cta} prod3b-v2 the model used was QGSJET-II \cite{2006QGSJET}. An example of three different showers simulated with \gls{corsika} is shown in picture \ref{fig:corsika}.
+
+\begin{figure}[!htb]
+  \minipage{0.33\textwidth}
+  \includegraphics[width=\linewidth]{Pictures/photon_12_0deg.pdf}
+  \endminipage\hfill
+  \minipage{0.33\textwidth}
+  \includegraphics[width=\linewidth]{Pictures/proton_12_0deg.pdf}
+  \endminipage\hfill
+    \minipage{0.33\textwidth}
+  \includegraphics[width=\linewidth]{Pictures/iron_12_0deg.pdf}
+  \endminipage\hfill
+  \caption{\label{fig:corsika} Photon (left), proton (center) and iron (right) produced showers for a primary energy of 1 TeV and 0º zenith angle, simulated with \gls{corsika} from \cite{corsikaimages}.}
+\end{figure}
+
 \subsubsection{sim\_telarray}
 \subsection{Low level analysis: ctapipe}
 \subsection{Science analysis: ctools}

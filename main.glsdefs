@@ -2038,3 +2038,153 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{mc}{}%
+{%
+\gls@defglossaryentry{mc}%
+{%
+name={MC},%
+sort={MC},%
+type={acronym},%
+first={Monte Carlo\glsspace (MC)},%
+firstplural={Monte Carlos\glsspace (MCs)},%
+text={MC},%
+plural={MCs},%
+description={Monte Carlo},%
+descriptionplural={Monte Carlo\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Monte Carlo},%
+longplural={Monte Carlos},%
+short={MC},%
+shortplural={MCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{mva}{}%
+{%
+\gls@defglossaryentry{mva}%
+{%
+name={MVA},%
+sort={MVA},%
+type={acronym},%
+first={Multi-variate analysis\glsspace (MVA)},%
+firstplural={Multi-variate analysiss\glsspace (MVAs)},%
+text={MVA},%
+plural={MVAs},%
+description={Multi-variate analysis},%
+descriptionplural={Multi-variate analysis\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Multi-variate analysis},%
+longplural={Multi-variate analysiss},%
+short={MVA},%
+shortplural={MVAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ml}{}%
+{%
+\gls@defglossaryentry{ml}%
+{%
+name={ML},%
+sort={ML},%
+type={acronym},%
+first={Machine Learning\glsspace (ML)},%
+firstplural={Machine Learnings\glsspace (MLs)},%
+text={ML},%
+plural={MLs},%
+description={Machine Learning},%
+descriptionplural={Machine Learning\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Machine Learning},%
+longplural={Machine Learnings},%
+short={ML},%
+shortplural={MLs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{dl}{}%
+{%
+\gls@defglossaryentry{dl}%
+{%
+name={DL},%
+sort={DL},%
+type={acronym},%
+first={Deep Learning\glsspace (DL)},%
+firstplural={Deep Learnings\glsspace (DLs)},%
+text={DL},%
+plural={DLs},%
+description={Deep Learning},%
+descriptionplural={Deep Learning\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Deep Learning},%
+longplural={Deep Learnings},%
+short={DL},%
+shortplural={DLs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{corsika}{}%
+{%
+\gls@defglossaryentry{corsika}%
+{%
+name={CORSIKA},%
+sort={CORSIKA},%
+type={acronym},%
+first={\protect \textbf {CO}smic \protect \textbf {R}ay \protect \textbf {SI}mulations for \protect \textbf {KA}scade\glsspace (CORSIKA)},%
+firstplural={\protect \textbf {CO}smic \protect \textbf {R}ay \protect \textbf {SI}mulations for \protect \textbf {KA}scades\glsspace (CORSIKAs)},%
+text={CORSIKA},%
+plural={CORSIKAs},%
+description={\textbf {CO}smic \textbf {R}ay \textbf {SI}mulations for \textbf {KA}scade},%
+descriptionplural={\textbf {CO}smic \textbf {R}ay \textbf {SI}mulations for \textbf {KA}scade\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={\protect \textbf {CO}smic \protect \textbf {R}ay \protect \textbf {SI}mulations for \protect \textbf {KA}scade},%
+longplural={\protect \textbf {CO}smic \protect \textbf {R}ay \protect \textbf {SI}mulations for \protect \textbf {KA}scades},%
+short={CORSIKA},%
+shortplural={CORSIKAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

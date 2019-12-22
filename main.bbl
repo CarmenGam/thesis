@@ -39352,6 +39352,42 @@
   \field{year}{2017}
 \endentry
 
+\entry{1998Corsika}{book}{}
+  \name{author}{5}{}{%
+    {{}%
+     {{Heck}}{H.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Knapp}}{K.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Capdevielle}}{C.}%
+     {J.~N.}{J.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Schatz}}{S.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Thouw}}{T.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HD+1}
+  \strng{fullhash}{HDKJCJNSGTT1}
+  \field{sortinit}{H}
+  \field{title}{{CORSIKA: a Monte Carlo code to simulate extensive air
+  showers.}}
+  \field{year}{1998}
+\endentry
+
 \entry{1954Heitler}{book}{}
   \name{author}{1}{}{%
     {{}%
@@ -39991,6 +40027,282 @@
   \field{journaltitle}{Astroparticle Physics}
   \field{month}{10}
   \field{year}{2007}
+\endentry
+
+\entry{1997Kascade}{article}{}
+  \name{author}{51}{}{%
+    {{}%
+     {Klages}{K.}%
+     {H.O.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Apel}{A.}%
+     {W.D.}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bekk}{B.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bollmann}{B.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bozdog}{B.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brancus}{B.}%
+     {I.M.}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brendle}{B.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chilingarian}{C.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Daumiller}{D.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Doll}{D.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Engler}{E.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Föller}{F.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gabriel}{G.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gils}{G.}%
+     {H.J.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Glasstetter}{G.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Haungs}{H.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Heck}{H.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hörandel}{H.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kampert}{K.}%
+     {K.-H.}{K.-H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Keim}{K.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kempa}{K.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Knapp}{K.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mathes}{M.}%
+     {H.J.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mayer}{M.}%
+     {H.J.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mielke}{M.}%
+     {H.H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mühlenberg}{M.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Oehlschläger}{O.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Petcu}{P.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Raidt}{R.}%
+     {U.}{U.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rebel}{R.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Roth}{R.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schatz}{S.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schieler}{S.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schmalz}{S.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Simonis}{S.}%
+     {H.J.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thouw}{T.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Unger}{U.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Völker}{V.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vulpescu}{V.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wagner}{W.}%
+     {G.J.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wdowczyk}{W.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Weber}{W.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wentz}{W.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wetzel}{W.}%
+     {Y.}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wibig}{W.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wiegert}{W.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wochele}{W.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wochele}{W.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zabierowski}{Z.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zagromski}{Z.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zeitnitz}{Z.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KH+1}
+  \strng{fullhash}{KHAWBKBEBHBIBMCADKDPEJFMGPGHGRHAHDHJKKHKHKJKJMHMHMHMDOJPMRURHRMSGSHSGSHTTUJVGVBWGWJWJWJWYWTWTWDWJZJZSZB1}
+  \field{sortinit}{K}
+  \verb{doi}
+  \verb https://doi.org/10.1016/S0920-5632(96)00852-3
+  \endverb
+  \field{issn}{0920-5632}
+  \field{number}{3}
+  \field{pages}{92 \bibrangedash  102}
+  \field{title}{The Kascade experiment}
+  \verb{url}
+  \verb http://www.sciencedirect.com/science/article/pii/S0920563296008523
+  \endverb
+  \field{volume}{52}
+  \field{journaltitle}{Nuclear Physics B - Proceedings Supplements}
+  \field{year}{1997}
 \endentry
 
 \entry{2012LMCHessfirst}{article}{}
@@ -40926,6 +41238,35 @@
   \field{eprintclass}{astro-ph}
   \field{month}{01}
   \field{year}{2003}
+\endentry
+
+\entry{2006QGSJET}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Ostapchenko}}{O.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{High Energy Physics - Phenomenology}
+  \strng{namehash}{OS2}
+  \strng{fullhash}{OS2}
+  \field{sortinit}{O}
+  \verb{doi}
+  \verb 10.1016/j.nuclphysbps.2005.07.026
+  \endverb
+  \verb{eprint}
+  \verb hep-ph/0412332
+  \endverb
+  \field{pages}{143\bibrangedash 146}
+  \field{title}{{QGSJET-II: towards reliable description of very high energy
+  hadronic interactions}}
+  \field{volume}{151}
+  \field{journaltitle}{Nuclear Physics B Proceedings Supplements}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ph}
+  \field{year}{2006}
+  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2006osterbrock}{book}{}
@@ -42275,6 +42616,25 @@
   \field{eprintclass}{astro-ph.IM}
   \field{month}{01}
   \field{year}{2017}
+\endentry
+
+\entry{corsikaimages}{misc}{}
+  \name{author}{2}{}{%
+    {{}%
+     {{Schmidt}}{S.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Knapp}}{K.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SFKJ1}
+  \strng{fullhash}{SFKJ1}
+  \field{sortinit}{S}
+  \field{title}{CORSIKA Shower Images}
 \endentry
 
 \entry{2007Dwarfs}{article}{}
