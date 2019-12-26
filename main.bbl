@@ -26078,6 +26078,106 @@
   \field{year}{2008}
 \endentry
 
+\entry{2019openquestionsUHECR}{article}{}
+  \name{author}{16}{}{%
+    {{}%
+     {Alves~Batista}{A.~B.}%
+     {Rafael}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Biteau}{B.}%
+     {Jonathan}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bustamante}{B.}%
+     {Mauricio}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dolag}{D.}%
+     {Klaus}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Engel}{E.}%
+     {Ralph}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fang}{F.}%
+     {Ke}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kampert}{K.}%
+     {Karl-Heinz}{K.-H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kostunin}{K.}%
+     {Dmitriy}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mostafa}{M.}%
+     {Miguel}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Murase}{M.}%
+     {Kohta}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Oikonomou}{O.}%
+     {Foteini}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Olinto}{O.}%
+     {Angela~V.}{A.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Panasyuk}{P.}%
+     {Mikhail~I.}{M.~I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sigl}{S.}%
+     {Guenter}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Taylor}{T.}%
+     {Andrew~M.}{A.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Unger}{U.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ABR+1}
+  \strng{fullhash}{ABRBJBMDKERFKKKHKDMMMKOFOAVPMISGTAMUM1}
+  \field{sortinit}{A}
+  \verb{doi}
+  \verb 10.3389/fspas.2019.00023
+  \endverb
+  \field{issn}{2296-987X}
+  \field{pages}{23}
+  \field{title}{Open Questions in Cosmic-Ray Research at Ultrahigh Energies}
+  \verb{url}
+  \verb https://www.frontiersin.org/article/10.3389/fspas.2019.00023
+  \endverb
+  \field{volume}{6}
+  \field{journaltitle}{Frontiers in Astronomy and Space Sciences}
+  \field{year}{2019}
+\endentry
+
 \entry{2013LST}{article}{}
   \name{author}{132}{}{%
     {{}%
@@ -29175,6 +29275,38 @@
   \field{year}{2013}
 \endentry
 
+\entry{2008corsikanadsimtelarray}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Bernl{\"o}hr}}{B.}%
+     {Konrad}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{02.70.Uu, 07.05.Tp, 95.55.Ka, Applications of Monte Carlo methods,
+  Computer modeling and simulation, X- and gamma-ray telescopes and
+  instrumentation, Astrophysics}
+  \strng{namehash}{BK1}
+  \strng{fullhash}{BK1}
+  \field{sortinit}{B}
+  \verb{doi}
+  \verb 10.1016/j.astropartphys.2008.07.009
+  \endverb
+  \verb{eprint}
+  \verb 0808.2253
+  \endverb
+  \field{number}{3}
+  \field{pages}{149\bibrangedash 158}
+  \field{title}{{Simulation of imaging atmospheric Cherenkov telescopes with
+  CORSIKA and sim\_ telarray}}
+  \field{volume}{30}
+  \field{journaltitle}{Astroparticle Physics}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph}
+  \field{month}{10}
+  \field{year}{2008}
+\endentry
+
 \entry{casamia}{article}{}
   \name{author}{11}{}{%
     {{}%
@@ -29376,6 +29508,53 @@
   \field{eprintclass}{astro-ph.HE}
   \field{month}{05}
   \field{year}{2015}
+\endentry
+
+\entry{2013CRbook}{inbook}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Castellina}{C.}%
+     {Antonella}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Donato}{D.}%
+     {Fiorenza}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{2}{}{%
+    {{}%
+     {Oswalt}{O.}%
+     {Terry~D.}{T.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gilmore}{G.}%
+     {Gerard}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer Netherlands}%
+  }
+  \strng{namehash}{CADF1}
+  \strng{fullhash}{CADF1}
+  \field{sortinit}{C}
+  \field{booktitle}{Planets, Stars and Stellar Systems: Volume 5: Galactic
+  Structure and Stellar Populations}
+  \verb{doi}
+  \verb 10.1007/978-94-007-5612-0_14
+  \endverb
+  \field{pages}{725\bibrangedash 788}
+  \field{title}{Astrophysics of Galactic Charged Cosmic Rays}
+  \verb{url}
+  \verb https://doi.org/10.1007/978-94-007-5612-0_14
+  \endverb
+  \list{location}{1}{%
+    {Dordrecht}%
+  }
+  \field{year}{2013}
 \endentry
 
 \entry{1931Chandra}{article}{}
@@ -32419,6 +32598,124 @@
   \field{year}{2016}
 \endentry
 
+\entry{2015CTAdata}{inproceedings}{}
+  \name{author}{19}{}{%
+    {{}%
+     {{Contreras}}{C.}%
+     {J.~L.}{J.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Satalecka}}{S.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Bernl{\"o}r}}{B.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Boisson}}{B.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Bregeon}}{B.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Bulgarelli}}{B.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{De Cesare}}{D.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{de los Reyes}}{d.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Fioretti}}{F.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Kosack}}{K.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Lavalley}}{L.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Lyard}}{L.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Marx}}{M.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Rico}}{R.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Sanguillot}}{S.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Servillat}}{S.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Walter}}{W.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Ward}}{W.}%
+     {J.~E.}{J.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Zoli}}{Z.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Astrophysics - Instrumentation and Methods for Astrophysics,
+  Astrophysics - High Energy Astrophysical Phenomena}
+  \strng{namehash}{CJL+1}
+  \strng{fullhash}{CJLSKBKBCBJBADGdRFVKKLCLEMRRJSMSMWRWJEZA1}
+  \field{sortinit}{C}
+  \field{booktitle}{34th International Cosmic Ray Conference (ICRC2015)}
+  \field{eid}{960}
+  \verb{eprint}
+  \verb 1508.07584
+  \endverb
+  \field{pages}{960}
+  \field{series}{International Cosmic Ray Conference}
+  \field{title}{{Data model issues in the Cherenkov Telescope Array project}}
+  \field{volume}{34}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph.IM}
+  \field{year}{2015}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
 \entry{2016LMCFermiBinary}{article}{}
   \name{author}{12}{}{%
     {{}%
@@ -32591,6 +32888,12 @@
   \field{sortinit}{C}
   \field{howpublished}{\url{https://www.cta-observatory.org/science/cta-performance/}}
   \field{title}{CTA Performance}
+\endentry
+
+\entry{ctapipe}{misc}{}
+  \field{sortinit}{C}
+  \field{howpublished}{\url{https://cta-observatory.github.io/ctapipe/index.html}}
+  \field{title}{Ctapipe webpage}
 \endentry
 
 \entry{2018LMCdistance}{article}{}
@@ -33026,6 +33329,51 @@
   \field{eprintclass}{astro-ph.HE}
   \field{month}{08}
   \field{year}{2013}
+\endentry
+
+\entry{2017gammarybinariespop}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {{Dubus}}{D.}%
+     {Guillaume}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Guillard}}{G.}%
+     {Nicolas}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Petrucci}}{P.}%
+     {Pierre-Olivier}{P.-O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Martin}}{M.}%
+     {Pierrick}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{surveys, pulsars: general, Galaxy: stellar content, gamma rays: stars,
+  X-rays: binaries, Astrophysics - High Energy Astrophysical Phenomena}
+  \strng{namehash}{DG+1}
+  \strng{fullhash}{DGGNPPOMP1}
+  \field{sortinit}{D}
+  \verb{doi}
+  \verb 10.1051/0004-6361/201731084
+  \endverb
+  \field{eid}{A59}
+  \verb{eprint}
+  \verb 1707.05744
+  \endverb
+  \field{pages}{A59}
+  \field{title}{{Sizing up the population of gamma-ray binaries}}
+  \field{volume}{608}
+  \field{journaltitle}{\aap}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph.HE}
+  \field{month}{12}
+  \field{year}{2017}
 \endentry
 
 \entry{1965Einasto}{article}{}
@@ -39495,6 +39843,34 @@
   \field{year}{1985}
 \endentry
 
+\entry{1984hillascondition}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hillas}{H.}%
+     {A.~M.}{A.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HAM1}
+  \strng{fullhash}{HAM1}
+  \field{sortinit}{H}
+  \verb{doi}
+  \verb 10.1146/annurev.aa.22.090184.002233
+  \endverb
+  \verb{eprint}
+  \verb https://doi.org/10.1146/annurev.aa.22.090184.002233
+  \endverb
+  \field{number}{1}
+  \field{pages}{425\bibrangedash 444}
+  \field{title}{The Origin of Ultra-High-Energy Cosmic Rays}
+  \verb{url}
+  \verb https://doi.org/10.1146/annurev.aa.22.090184.002233
+  \endverb
+  \field{volume}{22}
+  \field{journaltitle}{Annual Review of Astronomy and Astrophysics}
+  \field{year}{1984}
+\endentry
+
 \entry{Hillas:1985is}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -40303,6 +40679,128 @@
   \field{volume}{52}
   \field{journaltitle}{Nuclear Physics B - Proceedings Supplements}
   \field{year}{1997}
+\endentry
+
+\entry{2016ctools}{article}{}
+  \name{author}{19}{}{%
+    {{}%
+     {{Kn{\"o}dlseder}}{K.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Mayer}}{M.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Deil}}{D.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Cayrou}}{C.}%
+     {J.~B.}{J.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Owen}}{O.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Kelley-Hoskins}}{K.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Lu}}{L.}%
+     {C.~C.}{C.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Buehler}}{B.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Forest}}{F.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Louge}}{L.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Siejkowski}}{S.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Kosack}}{K.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Gerard}}{G.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Schulz}}{S.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Martin}}{M.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Sanchez}}{S.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Ohm}}{O.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Hassan}}{H.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Brau-Nogu{\'e}}}{B.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{methods: data analysis, virtual observatory tools, Astrophysics -
+  Instrumentation and Methods for Astrophysics, Astrophysics - High Energy
+  Astrophysical Phenomena}
+  \strng{namehash}{KJ+2}
+  \strng{fullhash}{KJMMDCCJBOEKNLCCBRFFLTSHKKGLSAMPSDOSHTBS1}
+  \field{sortinit}{K}
+  \verb{doi}
+  \verb 10.1051/0004-6361/201628822
+  \endverb
+  \field{eid}{A1}
+  \verb{eprint}
+  \verb 1606.00393
+  \endverb
+  \field{pages}{A1}
+  \field{title}{{GammaLib and ctools. A software framework for the analysis of
+  astronomical gamma-ray data}}
+  \field{volume}{593}
+  \field{journaltitle}{\aap}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph.IM}
+  \field{year}{2016}
+  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{2012LMCHessfirst}{article}{}

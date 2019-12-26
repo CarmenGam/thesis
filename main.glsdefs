@@ -1888,6 +1888,36 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{sc}{}%
+{%
+\gls@defglossaryentry{sc}%
+{%
+name={SC},%
+sort={SC},%
+type={acronym},%
+first={Schwarzschild-Couder\glsspace (SC)},%
+firstplural={Schwarzschild-Couders\glsspace (SCs)},%
+text={SC},%
+plural={SCs},%
+description={Schwarzschild-Couder},%
+descriptionplural={Schwarzschild-Couder\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Schwarzschild-Couder},%
+longplural={Schwarzschild-Couders},%
+short={SC},%
+shortplural={SCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{dcmst}{}%
 {%
 \gls@defglossaryentry{dcmst}%
@@ -2183,6 +2213,66 @@ long={\protect \textbf {CO}smic \protect \textbf {R}ay \protect \textbf {SI}mula
 longplural={\protect \textbf {CO}smic \protect \textbf {R}ay \protect \textbf {SI}mulations for \protect \textbf {KA}scades},%
 short={CORSIKA},%
 shortplural={CORSIKAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ts}{}%
+{%
+\gls@defglossaryentry{ts}%
+{%
+name={TS},%
+sort={TS},%
+type={acronym},%
+first={Test Statistics\glsspace (TS)},%
+firstplural={Test Statisticss\glsspace (TSs)},%
+text={TS},%
+plural={TSs},%
+description={Test Statistics},%
+descriptionplural={Test Statistics\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Test Statistics},%
+longplural={Test Statisticss},%
+short={TS},%
+shortplural={TSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{irf}{}%
+{%
+\gls@defglossaryentry{irf}%
+{%
+name={IRF},%
+sort={IRF},%
+type={acronym},%
+first={Instrument Response Function\glsspace (IRF)},%
+firstplural={Instrument Response Functions\glsspace (IRFs)},%
+text={IRF},%
+plural={IRFs},%
+description={Instrument Response Function},%
+descriptionplural={Instrument Response Function\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Instrument Response Function},%
+longplural={Instrument Response Functions},%
+short={IRF},%
+shortplural={IRFs},%
 counter={page},%
 parent={},%
 %

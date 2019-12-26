@@ -13,26 +13,22 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 28352 items from 5000.
+Reallocated field_info (elt_size=4) to 29603 items from 5000.
 Database file #1: main-blx.bib
 Database file #2: bibliography.bib
-I was expecting a `,' or a `}'---line 707 of file bibliography.bib
- : 
- : @ARTICLE{1995AGNunifiedschemes,
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
-Your field is more than 20000 characters---line 4297 of file bibliography.bib
+Your field is more than 20000 characters---line 4298 of file bibliography.bib
  :          {Wang}, J.~Z. and {Wang}, W.~H. and {Wang}, Y.~F. and {Wa
  :                                                                   rd}, R.~L. and
 I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 260000 items from 195000.
-I was expecting a `,' or a `}'---line 4860 of file bibliography.bib
+I was expecting a `,' or a `}'---line 4861 of file bibliography.bib
  :   
  :   year = "2005"
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "ctapie"
 Biblatex version: 3.3
 Warning--you've exceeded 250, the entry-string-size, for entry 2008crabmagic
 while executing--line 2513 of file biblatex.bst
@@ -228,45 +224,45 @@ while executing--line 2541 of file biblatex.bst
 *Please notify the bibstyle designer*
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 168 entries,
+You've used 176 entries,
             6047 wiz_defined-function locations,
-            2485 strings with 199327 characters,
-and the built_in function-call counts, 1946070 in all, are:
-= -- 56958
-> -- 79626
-< -- 4892
-+ -- 43833
-- -- 45119
-* -- 298670
-:= -- 146375
+            2544 strings with 202320 characters,
+and the built_in function-call counts, 1978628 in all, are:
+= -- 58031
+> -- 80716
+< -- 5097
++ -- 44268
+- -- 45615
+* -- 302148
+:= -- 148371
 add.period$ -- 0
-call.type$ -- 168
-change.case$ -- 2207
-chr.to.int$ -- 851
-cite$ -- 334
-duplicate$ -- 247538
-empty$ -- 159045
-format.name$ -- 103767
-if$ -- 350519
+call.type$ -- 176
+change.case$ -- 2311
+chr.to.int$ -- 865
+cite$ -- 350
+duplicate$ -- 251515
+empty$ -- 162400
+format.name$ -- 104800
+if$ -- 357318
 int.to.chr$ -- 0
-int.to.str$ -- 390
+int.to.str$ -- 411
 missing$ -- 0
-newline$ -- 44127
-num.names$ -- 7404
-pop$ -- 83700
+newline$ -- 44616
+num.names$ -- 7737
+pop$ -- 86413
 preamble$ -- 1
-purify$ -- 10359
+purify$ -- 10525
 quote$ -- 0
-skip$ -- 83445
+skip$ -- 85086
 stack$ -- 0
-substring$ -- 17346
-swap$ -- 93024
-text.length$ -- 12024
-text.prefix$ -- 175
+substring$ -- 17796
+swap$ -- 94515
+text.length$ -- 12250
+text.prefix$ -- 183
 top$ -- 1
-type$ -- 6369
+type$ -- 6673
 warning$ -- 0
-while$ -- 3845
+while$ -- 4001
 width$ -- 0
-write$ -- 43958
-(There were 3 error messages)
+write$ -- 44439
+(There were 2 error messages)
