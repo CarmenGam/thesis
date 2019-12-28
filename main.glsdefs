@@ -1835,12 +1835,12 @@ parent={},%
 name={CFRP},%
 sort={CFRP},%
 type={acronym},%
-first={carbon ciber reinforced rlastic\glsspace (CFRP)},%
-firstplural={carbon ciber reinforced rlastics\glsspace (CFRPs)},%
+first={carbon fiber reinforced plastic\glsspace (CFRP)},%
+firstplural={carbon fiber reinforced plastics\glsspace (CFRPs)},%
 text={CFRP},%
 plural={CFRPs},%
-description={carbon ciber reinforced rlastic},%
-descriptionplural={carbon ciber reinforced rlastic\acrpluralsuffix },%
+description={carbon fiber reinforced plastic},%
+descriptionplural={carbon fiber reinforced plastic\acrpluralsuffix },%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -1849,8 +1849,8 @@ user3={},%
 user4={},%
 user5={},%
 user6={},%
-long={carbon ciber reinforced rlastic},%
-longplural={carbon ciber reinforced rlastics},%
+long={carbon fiber reinforced plastic},%
+longplural={carbon fiber reinforced plastics},%
 short={CFRP},%
 shortplural={CFRPs},%
 counter={page},%
@@ -1943,6 +1943,36 @@ long={Davies-Cotton MST},%
 longplural={Davies-Cotton MSTs},%
 short={DC-MST},%
 shortplural={DC-MSTs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{dc}{}%
+{%
+\gls@defglossaryentry{dc}%
+{%
+name={DC},%
+sort={DC},%
+type={acronym},%
+first={Davies-Cotton\glsspace (DC)},%
+firstplural={Davies-Cottons\glsspace (DCs)},%
+text={DC},%
+plural={DCs},%
+description={Davies-Cotton},%
+descriptionplural={Davies-Cotton\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Davies-Cotton},%
+longplural={Davies-Cottons},%
+short={DC},%
+shortplural={DCs},%
 counter={page},%
 parent={},%
 %

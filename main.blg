@@ -13,7 +13,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 29603 items from 5000.
+Reallocated field_info (elt_size=4) to 29881 items from 5000.
 Database file #1: main-blx.bib
 Database file #2: bibliography.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
@@ -28,7 +28,6 @@ I was expecting a `,' or a `}'---line 4861 of file bibliography.bib
  :   year = "2005"
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "ctapie"
 Biblatex version: 3.3
 Warning--you've exceeded 250, the entry-string-size, for entry 2008crabmagic
 while executing--line 2513 of file biblatex.bst
@@ -224,45 +223,45 @@ while executing--line 2541 of file biblatex.bst
 *Please notify the bibstyle designer*
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 176 entries,
+You've used 179 entries,
             6047 wiz_defined-function locations,
-            2544 strings with 202320 characters,
-and the built_in function-call counts, 1978628 in all, are:
-= -- 58031
-> -- 80716
-< -- 5097
-+ -- 44268
-- -- 45615
-* -- 302148
-:= -- 148371
+            2555 strings with 202896 characters,
+and the built_in function-call counts, 1956982 in all, are:
+= -- 57773
+> -- 79364
+< -- 3991
++ -- 44061
+- -- 44976
+* -- 297011
+:= -- 146996
 add.period$ -- 0
-call.type$ -- 176
-change.case$ -- 2311
-chr.to.int$ -- 865
-cite$ -- 350
-duplicate$ -- 251515
-empty$ -- 162400
-format.name$ -- 104800
-if$ -- 357318
+call.type$ -- 179
+change.case$ -- 1842
+chr.to.int$ -- 871
+cite$ -- 356
+duplicate$ -- 250256
+empty$ -- 161934
+format.name$ -- 105210
+if$ -- 351298
 int.to.chr$ -- 0
-int.to.str$ -- 411
+int.to.str$ -- 416
 missing$ -- 0
-newline$ -- 44616
-num.names$ -- 7737
-pop$ -- 86413
+newline$ -- 44562
+num.names$ -- 7271
+pop$ -- 88179
 preamble$ -- 1
-purify$ -- 10525
+purify$ -- 10238
 quote$ -- 0
-skip$ -- 85086
+skip$ -- 83277
 stack$ -- 0
-substring$ -- 17796
-swap$ -- 94515
-text.length$ -- 12250
-text.prefix$ -- 183
+substring$ -- 17535
+swap$ -- 93185
+text.length$ -- 11340
+text.prefix$ -- 11
 top$ -- 1
-type$ -- 6673
+type$ -- 6787
 warning$ -- 0
-while$ -- 4001
+while$ -- 3679
 width$ -- 0
-write$ -- 44439
+write$ -- 44382
 (There were 2 error messages)
