@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.14)  28 DEC 2019 12:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.14)  29 DEC 2019 15:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1941,32 +1941,22 @@ Package pdftex.def Info: Pictures/head2.png used on input line 193.
  (./Chapter1.tex [3
 
  <./Pictures/head2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 28.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 29.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
  [4]
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
-
- []
-
-
 
 pdfTeX warning: pdflatex (file ./Pictures/./spectrum1.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
@@ -1974,13 +1964,8 @@ d PDF version <1.7>, but at most version <1.5> allowed
 File: Pictures/./spectrum1.pdf Graphic file (type pdf)
 
 <use Pictures/./spectrum1.pdf>
-Package pdftex.def Info: Pictures/./spectrum1.pdf used on input line 42.
+Package pdftex.def Info: Pictures/./spectrum1.pdf used on input line 43.
 (pdftex.def)             Requested size: 332.79396pt x 416.9629pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--50
-
- []
-
 
 
 pdfTeX warning: pdflatex (file ./Pictures/hillasdiagram.pdf): PDF inclusion: fo
@@ -2001,34 +1986,30 @@ File: Pictures/CRabundances.pdf Graphic file (type pdf)
 <use Pictures/CRabundances.pdf>
 Package pdftex.def Info: Pictures/CRabundances.pdf used on input line 63.
 (pdftex.def)             Requested size: 332.79396pt x 247.19267pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5]
-[6 <./Pictures/./spectrum1.pdf>] [7 <./Pictures/hillasdiagram.pdf>] [8 <./Pictu
-res/CRabundances.pdf>]
+ [5] [6 <./Pictures/./spectrum1.pdf>] [7 <./Pictures/hillasdiagram.pdf>] [8 <./
+Pictures/CRabundances.pdf>]
 
 pdfTeX warning: pdflatex (file ./Pictures/secondorderfermiacc.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/secondorderfermiacc.pdf, id=384, 514.17094pt x 274.02374pt>
+<Pictures/secondorderfermiacc.pdf, id=386, 514.17094pt x 274.02374pt>
 File: Pictures/secondorderfermiacc.pdf Graphic file (type pdf)
 
 <use Pictures/secondorderfermiacc.pdf>
 Package pdftex.def Info: Pictures/secondorderfermiacc.pdf used on input line 96
 .
 (pdftex.def)             Requested size: 332.79396pt x 177.36069pt.
-
+ [9 <./Pictures/secondorderfermiacc.pdf>]
 
 pdfTeX warning: pdflatex (file ./Pictures/./firstorderfermiacc.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/./firstorderfermiacc.pdf, id=391, 503.63156pt x 286.06876pt>
+<Pictures/./firstorderfermiacc.pdf, id=406, 503.63156pt x 286.06876pt>
 File: Pictures/./firstorderfermiacc.pdf Graphic file (type pdf)
 
 <use Pictures/./firstorderfermiacc.pdf>
 Package pdftex.def Info: Pictures/./firstorderfermiacc.pdf used on input line 1
 12.
 (pdftex.def)             Requested size: 332.79396pt x 189.03294pt.
- [9]
+
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 117.
@@ -2041,14 +2022,11 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 117.
 
-[10 <./Pictures/secondorderfermiacc.pdf>]
-Underfull \vbox (badness 1178) has occurred while \output is active []
-
- [11 <./Pictures/./firstorderfermiacc.pdf>]
+[10] [11 <./Pictures/./firstorderfermiacc.pdf>]
 
 pdfTeX warning: pdflatex (file ./Pictures/./bremsstrahlung.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/./bremsstrahlung.pdf, id=429, 177.66376pt x 94.85437pt>
+<Pictures/./bremsstrahlung.pdf, id=431, 177.66376pt x 94.85437pt>
 File: Pictures/./bremsstrahlung.pdf Graphic file (type pdf)
 
 <use Pictures/./bremsstrahlung.pdf>
@@ -2058,7 +2036,7 @@ Package pdftex.def Info: Pictures/./bremsstrahlung.pdf used on input line 141.
 
 pdfTeX warning: pdflatex (file ./Pictures/thermalbrehms.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/thermalbrehms.pdf, id=430, 146.04562pt x 59.47218pt>
+<Pictures/thermalbrehms.pdf, id=432, 146.04562pt x 59.47218pt>
 File: Pictures/thermalbrehms.pdf Graphic file (type pdf)
 
 <use Pictures/thermalbrehms.pdf>
@@ -2068,7 +2046,7 @@ Package pdftex.def Info: Pictures/thermalbrehms.pdf used on input line 146.
 
 pdfTeX warning: pdflatex (file ./Pictures/synchrotron.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/synchrotron.pdf, id=431, 257.46187pt x 122.70844pt>
+<Pictures/synchrotron.pdf, id=433, 257.46187pt x 122.70844pt>
 File: Pictures/synchrotron.pdf Graphic file (type pdf)
 
 <use Pictures/synchrotron.pdf>
@@ -2078,7 +2056,7 @@ Package pdftex.def Info: Pictures/synchrotron.pdf used on input line 151.
 
 pdfTeX warning: pdflatex (file ./Pictures/curvaturerad.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/curvaturerad.pdf, id=432, 177.66376pt x 85.82062pt>
+<Pictures/curvaturerad.pdf, id=434, 177.66376pt x 85.82062pt>
 File: Pictures/curvaturerad.pdf Graphic file (type pdf)
 
 <use Pictures/curvaturerad.pdf>
@@ -2088,7 +2066,7 @@ Package pdftex.def Info: Pictures/curvaturerad.pdf used on input line 155.
 
 pdfTeX warning: pdflatex (file ./Pictures/IC.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<Pictures/IC.pdf, id=433, 228.10219pt x 134.00063pt>
+<Pictures/IC.pdf, id=435, 228.10219pt x 134.00063pt>
 File: Pictures/IC.pdf Graphic file (type pdf)
  <use Pictures/IC.pdf>
 Package pdftex.def Info: Pictures/IC.pdf used on input line 160.
@@ -2097,7 +2075,7 @@ Package pdftex.def Info: Pictures/IC.pdf used on input line 160.
 
 pdfTeX warning: pdflatex (file ./Pictures/electronpositron.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/electronpositron.pdf, id=434, 118.94438pt x 118.94438pt>
+<Pictures/electronpositron.pdf, id=436, 118.94438pt x 118.94438pt>
 File: Pictures/electronpositron.pdf Graphic file (type pdf)
 
 <use Pictures/electronpositron.pdf>
@@ -2107,7 +2085,7 @@ Package pdftex.def Info: Pictures/electronpositron.pdf used on input line 165.
 
 pdfTeX warning: pdflatex (file ./Pictures/protonantiproton.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/protonantiproton.pdf, id=435, 188.95593pt x 144.54pt>
+<Pictures/protonantiproton.pdf, id=437, 188.95593pt x 144.54pt>
 File: Pictures/protonantiproton.pdf Graphic file (type pdf)
 
 <use Pictures/protonantiproton.pdf>
@@ -2117,7 +2095,7 @@ Package pdftex.def Info: Pictures/protonantiproton.pdf used on input line 170.
 
 pdfTeX warning: pdflatex (file ./Pictures/radioactiveemission.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/radioactiveemission.pdf, id=436, 150.5625pt x 82.80937pt>
+<Pictures/radioactiveemission.pdf, id=438, 150.5625pt x 82.80937pt>
 File: Pictures/radioactiveemission.pdf Graphic file (type pdf)
 
 <use Pictures/radioactiveemission.pdf>
@@ -2128,16 +2106,19 @@ Package pdftex.def Info: Pictures/radioactiveemission.pdf used on input line 17
 
 pdfTeX warning: pdflatex (file ./Pictures/hadrocollision.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/hadrocollision.pdf, id=437, 221.32687pt x 96.36pt>
+<Pictures/hadrocollision.pdf, id=439, 221.32687pt x 96.36pt>
 File: Pictures/hadrocollision.pdf Graphic file (type pdf)
 
 <use Pictures/hadrocollision.pdf>
 Package pdftex.def Info: Pictures/hadrocollision.pdf used on input line 180.
 (pdftex.def)             Requested size: 133.98018pt x 58.33398pt.
- [12] [13 <./Pictures/./bremsstrahlung.pdf> <./Pictures/thermalbrehms.pdf> <./P
-ictures/synchrotron.pdf> <./Pictures/curvaturerad.pdf> <./Pictures/IC.pdf> <./P
-ictures/electronpositron.pdf> <./Pictures/protonantiproton.pdf> <./Pictures/rad
-ioactiveemission.pdf> <./Pictures/hadrocollision.pdf>] [14] [15]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12 <./Pictures/./bremsstrahlung.pdf> <./Pictures/thermalbrehms.pdf> <./Pictur
+es/synchrotron.pdf> <./Pictures/curvaturerad.pdf> <./Pictures/IC.pdf> <./Pictur
+es/electronpositron.pdf> <./Pictures/protonantiproton.pdf> <./Pictures/radioact
+iveemission.pdf> <./Pictures/hadrocollision.pdf>] [13] [14]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 282.
@@ -2150,7 +2131,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 282.
 
-[16]
+[15] [16]
 
 pdfTeX warning: pdflatex (file ./Pictures/./eblmodel.pdf): PDF inclusion: found
  PDF version <1.7>, but at most version <1.5> allowed
@@ -2170,7 +2151,7 @@ File: Pictures/./opticaldeph.pdf Graphic file (type pdf)
 <use Pictures/./opticaldeph.pdf>
 Package pdftex.def Info: Pictures/./opticaldeph.pdf used on input line 332.
 (pdftex.def)             Requested size: 332.79396pt x 347.91905pt.
-
+ [17 <./Pictures/./eblmodel.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 338.
@@ -2183,22 +2164,18 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 338.
 
-[17]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18 <./Pictures/./eblmodel.pdf>] [19 <./Pictures/./opticaldeph.pdf>]
+[18 <./Pictures/./opticaldeph.pdf>]
 
 pdfTeX warning: pdflatex (file ./Pictures/./DMnumberdensity.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/./DMnumberdensity.pdf, id=575, 1057.70157pt x 606.76688pt>
+<Pictures/./DMnumberdensity.pdf, id=569, 1057.70157pt x 606.76688pt>
 File: Pictures/./DMnumberdensity.pdf Graphic file (type pdf)
 
 <use Pictures/./DMnumberdensity.pdf>
 Package pdftex.def Info: Pictures/./DMnumberdensity.pdf used on input line 354.
 
 (pdftex.def)             Requested size: 332.79396pt x 190.91037pt.
- [20 <./Pictures/./DMnumberdensity.pdf>]
-[21]
+ [19] [20 <./Pictures/./DMnumberdensity.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 397.
@@ -2215,7 +2192,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 pdfTeX warning: pdflatex (file ./Pictures/tevcat.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
-<Pictures/tevcat.pdf, id=605, 410.45947pt x 211.01134pt>
+<Pictures/tevcat.pdf, id=600, 410.45947pt x 211.01134pt>
 File: Pictures/tevcat.pdf Graphic file (type pdf)
 
 <use Pictures/tevcat.pdf>
@@ -2225,7 +2202,7 @@ Package pdftex.def Info: Pictures/tevcat.pdf used on input line 404.
 
 pdfTeX warning: pdflatex (file ./Pictures/legend_tevcat.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/legend_tevcat.pdf, id=606, 155.07938pt x 353.82187pt>
+<Pictures/legend_tevcat.pdf, id=601, 155.07938pt x 353.82187pt>
 File: Pictures/legend_tevcat.pdf Graphic file (type pdf)
 
 <use Pictures/legend_tevcat.pdf>
@@ -2240,11 +2217,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 418--420
 
  []
 
-[22]
+[21]
 
 pdfTeX warning: pdflatex (file ./Pictures/pulsargaps.pdf): PDF inclusion: found
  PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/pulsargaps.pdf, id=623, 420.82219pt x 551.81157pt>
+<Pictures/pulsargaps.pdf, id=619, 420.82219pt x 551.81157pt>
 File: Pictures/pulsargaps.pdf Graphic file (type pdf)
 
 <use Pictures/pulsargaps.pdf>
@@ -2254,24 +2231,29 @@ Package pdftex.def Info: Pictures/pulsargaps.pdf used on input line 423.
 
 pdfTeX warning: pdflatex (file ./Pictures/crabcutoff.pdf): PDF inclusion: found
  PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/crabcutoff.pdf, id=624, 386.94562pt x 283.81032pt>
+<Pictures/crabcutoff.pdf, id=620, 386.94562pt x 283.81032pt>
 File: Pictures/crabcutoff.pdf Graphic file (type pdf)
 
 <use Pictures/crabcutoff.pdf>
 Package pdftex.def Info: Pictures/crabcutoff.pdf used on input line 426.
 (pdftex.def)             Requested size: 259.32117pt x 190.20389pt.
- [23 <./Pictures/tevcat.pdf> <./Pictures/legend_tevcat.pdf>]
+ [22 <./Pictures/tevcat.pdf> <./Pictures/legend_tevcat.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 436--439
 
  []
 
-[24 <./Pictures/pulsargaps.pdf> <./Pictures/crabcutoff.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 450--453
+[23 <./Pictures/pulsargaps.pdf> <./Pictures/crabcutoff.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 448--449
 
  []
 
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 454--455
+
+Underfull \hbox (badness 10000) in paragraph at lines 449--452
+
+ []
+
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 453--454
 
  []
 
@@ -2279,41 +2261,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 454--455
 
 pdfTeX warning: pdflatex (file ./Pictures/compositesnr.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/compositesnr.pdf, id=682, 843.90282pt x 442.65375pt>
+<Pictures/compositesnr.pdf, id=675, 843.90282pt x 442.65375pt>
 File: Pictures/compositesnr.pdf Graphic file (type pdf)
 
 <use Pictures/compositesnr.pdf>
-Package pdftex.def Info: Pictures/compositesnr.pdf used on input line 459.
+Package pdftex.def Info: Pictures/compositesnr.pdf used on input line 458.
 (pdftex.def)             Requested size: 332.79396pt x 174.566pt.
- [26 <./Pictures/compositesnr.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 472--475
+ [25]
+Underfull \hbox (badness 10000) in paragraph at lines 471--474
 
  []
 
-<Pictures/classical_nova_final_0.jpg, id=702, 4015.0pt x 3011.25pt>
+<Pictures/classical_nova_final_0.jpg, id=696, 4015.0pt x 3011.25pt>
 File: Pictures/classical_nova_final_0.jpg Graphic file (type jpg)
 
 <use Pictures/classical_nova_final_0.jpg>
 Package pdftex.def Info: Pictures/classical_nova_final_0.jpg used on input line
- 478.
+ 477.
 (pdftex.def)             Requested size: 194.48758pt x 145.83868pt.
 
 
 pdfTeX warning: pdflatex (file ./Pictures/novadiagram.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/novadiagram.pdf, id=703, 336.50719pt x 280.79906pt>
+<Pictures/novadiagram.pdf, id=697, 336.50719pt x 280.79906pt>
 File: Pictures/novadiagram.pdf Graphic file (type pdf)
 
 <use Pictures/novadiagram.pdf>
-Package pdftex.def Info: Pictures/novadiagram.pdf used on input line 481.
+Package pdftex.def Info: Pictures/novadiagram.pdf used on input line 480.
 (pdftex.def)             Requested size: 194.48758pt x 162.28941pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 488--489
+Underfull \hbox (badness 10000) in paragraph at lines 487--488
 
  []
 
-[27]
-Underfull \hbox (badness 10000) in paragraph at lines 490--491
+[26 <./Pictures/compositesnr.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 489--490
 
  []
 
@@ -2321,91 +2303,85 @@ Underfull \hbox (badness 10000) in paragraph at lines 490--491
 
 pdfTeX warning: pdflatex (file ./Pictures/fermi_bubb_arrows.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/fermi_bubb_arrows.pdf, id=730, 843.85864pt x 471.17229pt>
+<Pictures/fermi_bubb_arrows.pdf, id=721, 843.85864pt x 471.17229pt>
 File: Pictures/fermi_bubb_arrows.pdf Graphic file (type pdf)
 
 <use Pictures/fermi_bubb_arrows.pdf>
-Package pdftex.def Info: Pictures/fermi_bubb_arrows.pdf used on input line 494.
+Package pdftex.def Info: Pictures/fermi_bubb_arrows.pdf used on input line 493.
 
 (pdftex.def)             Requested size: 194.48758pt x 108.59021pt.
 
 
 pdfTeX warning: pdflatex (file ./Pictures/diagramfbubbles.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/diagramfbubbles.pdf, id=731, 542.025pt x 406.51875pt>
+<Pictures/diagramfbubbles.pdf, id=722, 542.025pt x 406.51875pt>
 File: Pictures/diagramfbubbles.pdf Graphic file (type pdf)
 
 <use Pictures/diagramfbubbles.pdf>
-Package pdftex.def Info: Pictures/diagramfbubbles.pdf used on input line 497.
+Package pdftex.def Info: Pictures/diagramfbubbles.pdf used on input line 496.
 (pdftex.def)             Requested size: 194.48758pt x 145.8628pt.
- [28 <./Pictures/classical_nova_final_0.jpg> <./Pictures/novadiagram.pdf>] [29 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27 <./Pictures/classical_nova_final_0.jpg> <./Pictures/novadiagram.pdf>] [28 
 <./Pictures/fermi_bubb_arrows.pdf> <./Pictures/diagramfbubbles.pdf>]
 
 pdfTeX warning: pdflatex (file ./Pictures/schemeAGN.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/schemeAGN.pdf, id=776, 930.47626pt x 706.89093pt>
+<Pictures/schemeAGN.pdf, id=769, 930.47626pt x 706.89093pt>
 File: Pictures/schemeAGN.pdf Graphic file (type pdf)
 
 <use Pictures/schemeAGN.pdf>
-Package pdftex.def Info: Pictures/schemeAGN.pdf used on input line 520.
+Package pdftex.def Info: Pictures/schemeAGN.pdf used on input line 519.
 (pdftex.def)             Requested size: 432.19756pt x 328.34494pt.
 
 
 pdfTeX warning: pdflatex (file ./Pictures/AGNclassification.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/AGNclassification.pdf, id=777, 845.55902pt x 430.99217pt>
+<Pictures/AGNclassification.pdf, id=770, 845.55902pt x 430.99217pt>
 File: Pictures/AGNclassification.pdf Graphic file (type pdf)
 
 <use Pictures/AGNclassification.pdf>
-Package pdftex.def Info: Pictures/AGNclassification.pdf used on input line 521.
+Package pdftex.def Info: Pictures/AGNclassification.pdf used on input line 520.
 
 (pdftex.def)             Requested size: 432.19756pt x 220.30289pt.
 
 
-LaTeX Warning: Float too large for page by 7.89435pt on input line 524.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 528--530
-
- []
+LaTeX Warning: Float too large for page by 7.89435pt on input line 523.
 
 
 
 pdfTeX warning: pdflatex (file ./Pictures/GRBhardnessdurationplot.pdf): PDF inc
 lusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/GRBhardnessdurationplot.pdf, id=789, 845.7547pt x 367.86032pt>
+<Pictures/GRBhardnessdurationplot.pdf, id=782, 845.7547pt x 367.86032pt>
 File: Pictures/GRBhardnessdurationplot.pdf Graphic file (type pdf)
 
 <use Pictures/GRBhardnessdurationplot.pdf>
 Package pdftex.def Info: Pictures/GRBhardnessdurationplot.pdf used on input lin
-e 533.
+e 532.
 (pdftex.def)             Requested size: 332.79396pt x 144.74472pt.
+ [29] [30 <./Pictures/schemeAGN.pdf> <./Pictures/AGNclassification.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 541--544
 
-Underfull \hbox (badness 10000) in paragraph at lines 542--545
+ []
+
+[31 <./Pictures/GRBhardnessdurationplot.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 547--548
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [30]
-[31 <./Pictures/schemeAGN.pdf> <./Pictures/AGNclassification.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 548--549
+Underfull \hbox (badness 10000) in paragraph at lines 549--550
 
  []
 
-[32 <./Pictures/GRBhardnessdurationplot.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 550--551
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 559--560
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 560--561
-
- []
-
-[33]
-Underfull \hbox (badness 10000) in paragraph at lines 564--566
+Underfull \hbox (badness 10000) in paragraph at lines 563--565
 
  []
 
@@ -2413,26 +2389,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 564--566
 
 pdfTeX warning: pdflatex (file ./Pictures/DMhalos.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<Pictures/DMhalos.pdf, id=886, 844.46191pt x 393.96985pt>
+<Pictures/DMhalos.pdf, id=881, 844.46191pt x 393.96985pt>
 File: Pictures/DMhalos.pdf Graphic file (type pdf)
 
 <use Pictures/DMhalos.pdf>
-Package pdftex.def Info: Pictures/DMhalos.pdf used on input line 569.
+Package pdftex.def Info: Pictures/DMhalos.pdf used on input line 568.
 (pdftex.def)             Requested size: 332.79396pt x 155.2587pt.
 
 
 pdfTeX warning: pdflatex (file ./Pictures/DMsubhalos.pdf): PDF inclusion: found
  PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/DMsubhalos.pdf, id=896, 596.93112pt x 596.93112pt>
+<Pictures/DMsubhalos.pdf, id=891, 596.93112pt x 596.93112pt>
 File: Pictures/DMsubhalos.pdf Graphic file (type pdf)
 
 <use Pictures/DMsubhalos.pdf>
-Package pdftex.def Info: Pictures/DMsubhalos.pdf used on input line 581.
+Package pdftex.def Info: Pictures/DMsubhalos.pdf used on input line 580.
 (pdftex.def)             Requested size: 332.79396pt x 332.80357pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [34 <./Pictures/DMhalos.pdf>]) [35] [36 <./Pictures/DMsubhalos.pdf>]
+ [33]) [34 <./Pictures/DMhalos.pdf>] [35 <./Pictures/DMsubhalos.pdf>] [36]
 Chapter 2.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -2451,12 +2424,12 @@ File: Pictures/head2.png Graphic file (type png)
 Package pdftex.def Info: Pictures/head2.png used on input line 198.
 (pdftex.def)             Requested size: 614.295pt x 307.30548pt.
  (./Chapter2.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--8
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
@@ -2465,17 +2438,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
 
+[37
 
+]
 Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-[37
-
-] <Pictures/EM.pdf, id=962, 985.43156pt x 682.04813pt>
+<Pictures/EM.pdf, id=962, 985.43156pt x 682.04813pt>
 File: Pictures/EM.pdf Graphic file (type pdf)
-
-<use Pictures/EM.pdf>
+ <use Pictures/EM.pdf>
 Package pdftex.def Info: Pictures/EM.pdf used on input line 16.
 (pdftex.def)             Requested size: 432.19756pt x 299.13423pt.
 
@@ -2491,14 +2463,11 @@ File: Pictures/comptel.pdf Graphic file (type pdf)
 Package pdftex.def Info: Pictures/comptel.pdf used on input line 33.
 (pdftex.def)             Requested size: 432.19756pt x 231.73651pt.
 
-Underfull \vbox (badness 1418) has occurred while \output is active []
-
- [39 <./Pictures/comptel.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
-
+[39]
 Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
@@ -2507,19 +2476,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
 pdfTeX warning: pdflatex (file ./Pictures/LAT.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<Pictures/LAT.pdf, id=991, 596.2275pt x 618.63121pt>
+<Pictures/LAT.pdf, id=986, 596.2275pt x 618.63121pt>
 File: Pictures/LAT.pdf Graphic file (type pdf)
  <use Pictures/LAT.pdf>
 Package pdftex.def Info: Pictures/LAT.pdf used on input line 53.
 (pdftex.def)             Requested size: 259.32117pt x 269.06464pt.
 
-<Pictures/GBM.pdf, id=994, 518.93875pt x 221.82875pt>
+<Pictures/GBM.pdf, id=989, 518.93875pt x 221.82875pt>
 File: Pictures/GBM.pdf Graphic file (type pdf)
  <use Pictures/GBM.pdf>
 Package pdftex.def Info: Pictures/GBM.pdf used on input line 63.
 (pdftex.def)             Requested size: 324.14816pt x 138.56815pt.
 
-[40] [41 <./Pictures/LAT.pdf> <./Pictures/GBM.pdf>]
+[40 <./Pictures/comptel.pdf>] [41 <./Pictures/LAT.pdf> <./Pictures/GBM.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
@@ -2538,7 +2507,7 @@ Package pdftex.def Info: Pictures/eas.pdf used on input line 85.
 
 pdfTeX warning: pdflatex (file ./Pictures/showerdevelop.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/showerdevelop.pdf, id=1047, 847.5876pt x 374.02936pt>
+<Pictures/showerdevelop.pdf, id=1046, 847.5876pt x 374.02936pt>
 File: Pictures/showerdevelop.pdf Graphic file (type pdf)
 
 <use Pictures/showerdevelop.pdf>
@@ -2584,7 +2553,7 @@ Underfull \vbox (badness 8019) has occurred while \output is active []
 
 pdfTeX warning: pdflatex (file ./Pictures/huygenscoherence.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/huygenscoherence.pdf, id=1094, 386.19281pt x 471.26062pt>
+<Pictures/huygenscoherence.pdf, id=1095, 386.19281pt x 471.26062pt>
 File: Pictures/huygenscoherence.pdf Graphic file (type pdf)
 
 <use Pictures/huygenscoherence.pdf>
@@ -2611,54 +2580,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 226--227
  []
 
 [50]
-Underfull \hbox (badness 10000) in paragraph at lines 241--245
-
- []
-
-
 
 pdfTeX warning: pdflatex (file ./Pictures/Hillaspars.pdf): PDF inclusion: found
  PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/Hillaspars.pdf, id=1136, 602.25pt x 454.69875pt>
+<Pictures/Hillaspars.pdf, id=1137, 602.25pt x 454.69875pt>
 File: Pictures/Hillaspars.pdf Graphic file (type pdf)
 
 <use Pictures/Hillaspars.pdf>
 Package pdftex.def Info: Pictures/Hillaspars.pdf used on input line 248.
 (pdftex.def)             Requested size: 259.32117pt x 195.79417pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--255
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
 
  []
 
-[51]
+
 
 pdfTeX warning: pdflatex (file ./Pictures/stereomode.pdf): PDF inclusion: found
  PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/stereomode.pdf, id=1152, 845.6935pt x 310.17784pt>
+<Pictures/stereomode.pdf, id=1142, 845.6935pt x 310.17784pt>
 File: Pictures/stereomode.pdf Graphic file (type pdf)
 
 <use Pictures/stereomode.pdf>
-Package pdftex.def Info: Pictures/stereomode.pdf used on input line 260.
+Package pdftex.def Info: Pictures/stereomode.pdf used on input line 259.
 (pdftex.def)             Requested size: 432.19756pt x 158.51517pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--267
+Underfull \hbox (badness 10000) in paragraph at lines 264--266
+
+ []
+
+[51] [52 <./Pictures/Hillaspars.pdf> <./Pictures/stereomode.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 268--272
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--273
+Underfull \hbox (badness 10000) in paragraph at lines 274--277
 
  []
 
 
-Underfull \vbox (badness 1226) has occurred while \output is active []
+Underfull \vbox (badness 2582) has occurred while \output is active []
 
- [52 <./Pictures/Hillaspars.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 275--278
-
- []
-
-[53 <./Pictures/stereomode.pdf>]
+ [53]
 
 pdfTeX warning: pdflatex (file ./Pictures/hesssurvey.pdf): PDF inclusion: found
  PDF version <1.7>, but at most version <1.5> allowed
@@ -2666,15 +2630,12 @@ pdfTeX warning: pdflatex (file ./Pictures/hesssurvey.pdf): PDF inclusion: found
 File: Pictures/hesssurvey.pdf Graphic file (type pdf)
 
 <use Pictures/hesssurvey.pdf>
-Package pdftex.def Info: Pictures/hesssurvey.pdf used on input line 281.
+Package pdftex.def Info: Pictures/hesssurvey.pdf used on input line 280.
 (pdftex.def)             Requested size: 432.19756pt x 324.25017pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
 
  []
-
-
-LaTeX Warning: Reference `cap:CTA' on page 54 undefined on input line 292.
 
 
 
@@ -2683,14 +2644,14 @@ DifferentialSensitivity-OtherInstruments.pdf): PDF inclusion: found PDF version
  <1.7>, but at most version <1.5> allowed
 
 <Pictures/CTA-Performance-prod3b-v2-Comparison-DifferentialSensitivity-OtherIns
-truments.pdf, id=1189, 845.05814pt x 540.95203pt>
+truments.pdf, id=1190, 845.05814pt x 540.95203pt>
 File: Pictures/CTA-Performance-prod3b-v2-Comparison-DifferentialSensitivity-Oth
 erInstruments.pdf Graphic file (type pdf)
 
 <use Pictures/CTA-Performance-prod3b-v2-Comparison-DifferentialSensitivity-Othe
 rInstruments.pdf>
 Package pdftex.def Info: Pictures/CTA-Performance-prod3b-v2-Comparison-Differen
-tialSensitivity-OtherInstruments.pdf used on input line 296.
+tialSensitivity-OtherInstruments.pdf used on input line 295.
 (pdftex.def)             Requested size: 432.19756pt x 276.66603pt.
 ) [54] [55 <./Pictures/hesssurvey.pdf>] [56 <./Pictures/CTA-Performance-prod3b-
 v2-Comparison-DifferentialSensitivity-OtherInstruments.pdf>]
@@ -2701,7 +2662,7 @@ Package pdftex.def Info: Pictures/head2.png used on input line 201.
 (pdftex.def)             Requested size: 614.295pt x 307.30548pt.
  (./Chapter3.tex
 
-LaTeX Warning: Command \textordmasculine invalid in math mode on input line 6.
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 7.
 
 
 Underfull \vbox (badness 4872) has occurred while \output is active []
@@ -2712,19 +2673,19 @@ Underfull \vbox (badness 4872) has occurred while \output is active []
 
 pdfTeX warning: pdflatex (file ./Pictures/Array-Layouts.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/Array-Layouts.pdf, id=1230, 845.26288pt x 346.55774pt>
+<Pictures/Array-Layouts.pdf, id=1231, 845.26288pt x 346.55774pt>
 File: Pictures/Array-Layouts.pdf Graphic file (type pdf)
 
 <use Pictures/Array-Layouts.pdf>
-Package pdftex.def Info: Pictures/Array-Layouts.pdf used on input line 48.
+Package pdftex.def Info: Pictures/Array-Layouts.pdf used on input line 49.
 (pdftex.def)             Requested size: 432.19756pt x 177.20216pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--58
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
 
  []
 
 [58] [59 <./Pictures/Array-Layouts.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
@@ -2734,14 +2695,14 @@ pdfTeX warning: pdflatex (file ./Pictures/CTA-Performance-prod3b-v2-South-20deg
 -EffectiveArea.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
 n <1.5> allowed
 
-<Pictures/CTA-Performance-prod3b-v2-South-20deg-EffectiveArea.pdf, id=1251, 723
+<Pictures/CTA-Performance-prod3b-v2-South-20deg-EffectiveArea.pdf, id=1252, 723
 .31227pt x 595.61523pt>
 File: Pictures/CTA-Performance-prod3b-v2-South-20deg-EffectiveArea.pdf Graphic 
 file (type pdf)
 
 <use Pictures/CTA-Performance-prod3b-v2-South-20deg-EffectiveArea.pdf>
 Package pdftex.def Info: Pictures/CTA-Performance-prod3b-v2-South-20deg-Effecti
-veArea.pdf used on input line 64.
+veArea.pdf used on input line 65.
 (pdftex.def)             Requested size: 216.09877pt x 177.94978pt.
 
 
@@ -2749,17 +2710,17 @@ pdfTeX warning: pdflatex (file ./Pictures/CTA-Performance-prod3b-v2-North-20deg
 -EffectiveArea.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
 n <1.5> allowed
 
-<Pictures/CTA-Performance-prod3b-v2-North-20deg-EffectiveArea.pdf, id=1252, 723
+<Pictures/CTA-Performance-prod3b-v2-North-20deg-EffectiveArea.pdf, id=1253, 723
 .31227pt x 595.61523pt>
 File: Pictures/CTA-Performance-prod3b-v2-North-20deg-EffectiveArea.pdf Graphic 
 file (type pdf)
 
 <use Pictures/CTA-Performance-prod3b-v2-North-20deg-EffectiveArea.pdf>
 Package pdftex.def Info: Pictures/CTA-Performance-prod3b-v2-North-20deg-Effecti
-veArea.pdf used on input line 67.
+veArea.pdf used on input line 68.
 (pdftex.def)             Requested size: 216.09877pt x 177.94978pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
@@ -2770,13 +2731,13 @@ pdfTeX warning: pdflatex (file ./Pictures/CTA-Performance-prod3b-v2-South-20deg
  version <1.5> allowed
 
 <Pictures/CTA-Performance-prod3b-v2-South-20deg-BackgroundRateSquDeg.pdf, id=12
-58, 723.31227pt x 595.61523pt>
+59, 723.31227pt x 595.61523pt>
 File: Pictures/CTA-Performance-prod3b-v2-South-20deg-BackgroundRateSquDeg.pdf G
 raphic file (type pdf)
 
 <use Pictures/CTA-Performance-prod3b-v2-South-20deg-BackgroundRateSquDeg.pdf>
 Package pdftex.def Info: Pictures/CTA-Performance-prod3b-v2-South-20deg-Backgro
-undRateSquDeg.pdf used on input line 76.
+undRateSquDeg.pdf used on input line 77.
 (pdftex.def)             Requested size: 216.09877pt x 177.94978pt.
 
 
@@ -2785,16 +2746,16 @@ pdfTeX warning: pdflatex (file ./Pictures/CTA-Performance-prod3b-v2-North-20deg
  version <1.5> allowed
 
 <Pictures/CTA-Performance-prod3b-v2-North-20deg-BackgroundRateSquDeg.pdf, id=12
-59, 723.31227pt x 595.61523pt>
+60, 723.31227pt x 595.61523pt>
 File: Pictures/CTA-Performance-prod3b-v2-North-20deg-BackgroundRateSquDeg.pdf G
 raphic file (type pdf)
 
 <use Pictures/CTA-Performance-prod3b-v2-North-20deg-BackgroundRateSquDeg.pdf>
 Package pdftex.def Info: Pictures/CTA-Performance-prod3b-v2-North-20deg-Backgro
-undRateSquDeg.pdf used on input line 79.
+undRateSquDeg.pdf used on input line 80.
 (pdftex.def)             Requested size: 216.09877pt x 177.94978pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
@@ -2806,14 +2767,14 @@ AngularResolution-OtherInstruments.pdf): PDF inclusion: found PDF version <1.7>
 , but at most version <1.5> allowed
 
 <Pictures/CTA-Performance-prod3b-v2-Comparison-AngularResolution-OtherInstrumen
-ts.pdf, id=1276, 723.31227pt x 595.61523pt>
+ts.pdf, id=1277, 723.31227pt x 595.61523pt>
 File: Pictures/CTA-Performance-prod3b-v2-Comparison-AngularResolution-OtherInst
 ruments.pdf Graphic file (type pdf)
 
 <use Pictures/CTA-Performance-prod3b-v2-Comparison-AngularResolution-OtherInstr
 uments.pdf>
 Package pdftex.def Info: Pictures/CTA-Performance-prod3b-v2-Comparison-AngularR
-esolution-OtherInstruments.pdf used on input line 88.
+esolution-OtherInstruments.pdf used on input line 89.
 (pdftex.def)             Requested size: 216.09877pt x 177.94978pt.
 
 
@@ -2821,17 +2782,17 @@ pdfTeX warning: pdflatex (file ./Pictures/CTA-Performance-prod3b-v2-North-20deg
 -AngularResolution.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<Pictures/CTA-Performance-prod3b-v2-North-20deg-AngularResolution.pdf, id=1277,
+<Pictures/CTA-Performance-prod3b-v2-North-20deg-AngularResolution.pdf, id=1278,
  723.31227pt x 595.61523pt>
 File: Pictures/CTA-Performance-prod3b-v2-North-20deg-AngularResolution.pdf Grap
 hic file (type pdf)
 
 <use Pictures/CTA-Performance-prod3b-v2-North-20deg-AngularResolution.pdf>
 Package pdftex.def Info: Pictures/CTA-Performance-prod3b-v2-North-20deg-Angular
-Resolution.pdf used on input line 91.
+Resolution.pdf used on input line 92.
 (pdftex.def)             Requested size: 216.09877pt x 177.94978pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
@@ -2852,7 +2813,7 @@ ic file (type pdf)
 
 <use Pictures/CTA-Performance-prod3b-v2-South-20deg-EnergyResolution.pdf>
 Package pdftex.def Info: Pictures/CTA-Performance-prod3b-v2-South-20deg-EnergyR
-esolution.pdf used on input line 100.
+esolution.pdf used on input line 101.
 (pdftex.def)             Requested size: 216.09877pt x 177.94978pt.
 
 
@@ -2867,15 +2828,15 @@ ic file (type pdf)
 
 <use Pictures/CTA-Performance-prod3b-v2-North-20deg-EnergyResolution.pdf>
 Package pdftex.def Info: Pictures/CTA-Performance-prod3b-v2-North-20deg-EnergyR
-esolution.pdf used on input line 103.
+esolution.pdf used on input line 104.
 (pdftex.def)             Requested size: 216.09877pt x 177.94978pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--121
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
 
  []
 
@@ -2884,128 +2845,133 @@ Pictures/CTA-Performance-prod3b-v2-North-20deg-EnergyResolution.pdf>]
 
 pdfTeX warning: pdflatex (file ./Pictures/LSTstructure.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/LSTstructure.pdf, id=1318, 783.67781pt x 571.38469pt>
+<Pictures/LSTstructure.pdf, id=1319, 783.67781pt x 571.38469pt>
 File: Pictures/LSTstructure.pdf Graphic file (type pdf)
 
 <use Pictures/LSTstructure.pdf>
-Package pdftex.def Info: Pictures/LSTstructure.pdf used on input line 129.
+Package pdftex.def Info: Pictures/LSTstructure.pdf used on input line 130.
 (pdftex.def)             Requested size: 216.09877pt x 157.55412pt.
 
 
 pdfTeX warning: pdflatex (file ./Pictures/LST1.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
-<Pictures/LST1.pdf, id=1319, 844.02927pt x 473.71176pt>
+<Pictures/LST1.pdf, id=1320, 844.02927pt x 473.71176pt>
 File: Pictures/LST1.pdf Graphic file (type pdf)
 
 <use Pictures/LST1.pdf>
-Package pdftex.def Info: Pictures/LST1.pdf used on input line 132.
+Package pdftex.def Info: Pictures/LST1.pdf used on input line 133.
 (pdftex.def)             Requested size: 216.09877pt x 121.2828pt.
  [63] [64 <./Pictures/LSTstructure.pdf> <./Pictures/LST1.pdf>]
 
 pdfTeX warning: pdflatex (file ./Pictures/LSTcamerastructure.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/LSTcamerastructure.pdf, id=1348, 658.54228pt x 595.12138pt>
+<Pictures/LSTcamerastructure.pdf, id=1349, 658.54228pt x 595.12138pt>
 File: Pictures/LSTcamerastructure.pdf Graphic file (type pdf)
 
 <use Pictures/LSTcamerastructure.pdf>
-Package pdftex.def Info: Pictures/LSTcamerastructure.pdf used on input line 151
+Package pdftex.def Info: Pictures/LSTcamerastructure.pdf used on input line 152
 .
 (pdftex.def)             Requested size: 302.53696pt x 273.405pt.
  [65 <./Pictures/LSTcamerastructure.pdf>]
 
 pdfTeX warning: pdflatex (file ./Pictures/2MSTpictures.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/2MSTpictures.pdf, id=1367, 848.9898pt x 538.73972pt>
+<Pictures/2MSTpictures.pdf, id=1368, 848.9898pt x 538.73972pt>
 File: Pictures/2MSTpictures.pdf Graphic file (type pdf)
 
 <use Pictures/2MSTpictures.pdf>
-Package pdftex.def Info: Pictures/2MSTpictures.pdf used on input line 175.
+Package pdftex.def Info: Pictures/2MSTpictures.pdf used on input line 176.
 (pdftex.def)             Requested size: 302.53696pt x 191.98145pt.
-
-Underfull \vbox (badness 3029) has occurred while \output is active []
-
- [66 <./Pictures/2MSTpictures.pdf>]
+ [66]
 
 pdfTeX warning: pdflatex (file ./Pictures/SCMSTMirrors.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/SCMSTMirrors.pdf, id=1383, 594.72188pt x 397.485pt>
+<Pictures/SCMSTMirrors.pdf, id=1382, 594.72188pt x 397.485pt>
 File: Pictures/SCMSTMirrors.pdf Graphic file (type pdf)
 
 <use Pictures/SCMSTMirrors.pdf>
-Package pdftex.def Info: Pictures/SCMSTMirrors.pdf used on input line 190.
+Package pdftex.def Info: Pictures/SCMSTMirrors.pdf used on input line 191.
 (pdftex.def)             Requested size: 302.53696pt x 202.19913pt.
- [67 <./Pictures/SCMSTMirrors.pdf>]
+ [67 <./Pictures/2MSTpictures.pdf>]
 
 pdfTeX warning: pdflatex (file ./Pictures/showerimagesMST.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/showerimagesMST.pdf, id=1400, 844.68773pt x 288.05518pt>
+<Pictures/showerimagesMST.pdf, id=1398, 844.68773pt x 288.05518pt>
 File: Pictures/showerimagesMST.pdf Graphic file (type pdf)
 
 <use Pictures/showerimagesMST.pdf>
-Package pdftex.def Info: Pictures/showerimagesMST.pdf used on input line 204.
+Package pdftex.def Info: Pictures/showerimagesMST.pdf used on input line 205.
 (pdftex.def)             Requested size: 432.19756pt x 147.38968pt.
- [68 <./Pictures/showerimagesMST.pdf>]
+ [68 <./Pictures/SCMSTMirrors.pdf> <./Pictures/showerimagesMST.pdf>]
 
 pdfTeX warning: pdflatex (file ./Pictures/ASTRI.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-<Pictures/ASTRI.pdf, id=1420, 697.40549pt x 595.50484pt>
+<Pictures/ASTRI.pdf, id=1418, 697.40549pt x 595.50484pt>
 File: Pictures/ASTRI.pdf Graphic file (type pdf)
 
 <use Pictures/ASTRI.pdf>
-Package pdftex.def Info: Pictures/ASTRI.pdf used on input line 220.
+Package pdftex.def Info: Pictures/ASTRI.pdf used on input line 221.
 (pdftex.def)             Requested size: 172.87637pt x 147.6128pt.
 
 
 pdfTeX warning: pdflatex (file ./Pictures/CHECcam.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<Pictures/CHECcam.pdf, id=1421, 842.76146pt x 470.33783pt>
+<Pictures/CHECcam.pdf, id=1419, 842.76146pt x 470.33783pt>
 File: Pictures/CHECcam.pdf Graphic file (type pdf)
 
 <use Pictures/CHECcam.pdf>
-Package pdftex.def Info: Pictures/CHECcam.pdf used on input line 223.
+Package pdftex.def Info: Pictures/CHECcam.pdf used on input line 224.
 (pdftex.def)             Requested size: 259.32117pt x 144.71953pt.
  [69 <./Pictures/ASTRI.pdf> <./Pictures/CHECcam.pdf>] [70]
 
 pdfTeX warning: pdflatex (file ./Pictures/photon_12_0deg.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/photon_12_0deg.pdf, id=1458, 422.88274pt x 845.76549pt>
+<Pictures/photon_12_0deg.pdf, id=1459, 422.88274pt x 845.76549pt>
 File: Pictures/photon_12_0deg.pdf Graphic file (type pdf)
 
 <use Pictures/photon_12_0deg.pdf>
-Package pdftex.def Info: Pictures/photon_12_0deg.pdf used on input line 253.
+Package pdftex.def Info: Pictures/photon_12_0deg.pdf used on input line 254.
 (pdftex.def)             Requested size: 142.62598pt x 285.24641pt.
 
 
 pdfTeX warning: pdflatex (file ./Pictures/proton_12_0deg.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/proton_12_0deg.pdf, id=1459, 422.88274pt x 845.76549pt>
+<Pictures/proton_12_0deg.pdf, id=1460, 422.88274pt x 845.76549pt>
 File: Pictures/proton_12_0deg.pdf Graphic file (type pdf)
 
 <use Pictures/proton_12_0deg.pdf>
-Package pdftex.def Info: Pictures/proton_12_0deg.pdf used on input line 256.
+Package pdftex.def Info: Pictures/proton_12_0deg.pdf used on input line 257.
 (pdftex.def)             Requested size: 142.62598pt x 285.24641pt.
 
 
 pdfTeX warning: pdflatex (file ./Pictures/iron_12_0deg.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/iron_12_0deg.pdf, id=1460, 422.88274pt x 845.76549pt>
+<Pictures/iron_12_0deg.pdf, id=1461, 422.88274pt x 845.76549pt>
 File: Pictures/iron_12_0deg.pdf Graphic file (type pdf)
 
 <use Pictures/iron_12_0deg.pdf>
-Package pdftex.def Info: Pictures/iron_12_0deg.pdf used on input line 259.
+Package pdftex.def Info: Pictures/iron_12_0deg.pdf used on input line 260.
 (pdftex.def)             Requested size: 142.62598pt x 285.24641pt.
  [71]
-Overfull \hbox (229.5853pt too wide) in paragraph at lines 276--291
+Underfull \vbox (badness 4291) has occurred while \output is active []
+
+ [72 <./Pictures/photon_12_0deg.pdf> <./Pictures/proton_12_0deg.pdf> <./Picture
+s/iron_12_0deg.pdf>]
+Overfull \hbox (228.93266pt too wide) in paragraph at lines 277--292
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--298
+Underfull \hbox (badness 10000) in paragraph at lines 296--299
 
  []
 
-[72 <./Pictures/photon_12_0deg.pdf> <./Pictures/proton_12_0deg.pdf> <./Pictures
-/iron_12_0deg.pdf>] [73] [74]) [75] [76
+[73]
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
+
+ []
+
+[74]) [75] [76
 
 ]
 File: Pictures/head2.png Graphic file (type png)
@@ -3161,9 +3127,6 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 0BB057BF5EB0A552FAF9BE5BCD64A48C;3355.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -3172,11 +3135,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  )
 (\end occurred when \iftrue on line 57 was incomplete) 
 Here is how much of TeX's memory you used:
- 41445 strings out of 493029
- 750913 string characters out of 6136234
- 1509974 words of memory out of 5000000
+ 41453 strings out of 493029
+ 750983 string characters out of 6136234
+ 1509997 words of memory out of 5000000
  43577 multiletter control sequences out of 15000+600000
- 58644 words of font info for 223 fonts, out of 8000000 for 9000
+ 58976 words of font info for 227 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,14n,94p,10507b,2460s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/e
@@ -3200,10 +3163,10 @@ r/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts/
 type1/public/cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
 rw/avantgar/uagd8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/avantgar/
 uagk8a.pfb>
-Output written on main.pdf (89 pages, 30728654 bytes).
+Output written on main.pdf (89 pages, 30729235 bytes).
 PDF statistics:
- 1801 PDF objects out of 2073 (max. 8388607)
- 1452 compressed objects within 15 object streams
+ 1802 PDF objects out of 2073 (max. 8388607)
+ 1453 compressed objects within 15 object streams
  426 named destinations out of 1000 (max. 500000)
  37562 words of extra memory for PDF output out of 42996 (max. 10000000)
 
