@@ -44838,6 +44838,132 @@
   \warn{\item Invalid format of field 'month'}
 \endentry
 
+\entry{2015CaliBox}{article}{}
+  \name{author}{8}{}{%
+    {{}%
+     {{Iori}}{I.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Majumdar}}{M.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{De Persio}}{D.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Chatterjee}}{C.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Ferrarotto}}{F.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Nagesh}}{N.}%
+     {B.~K.}{B.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Saha}}{S.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Singh}}{S.}%
+     {B.~B.}{B.~B.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Astrophysics - Instrumentation and Methods for Astrophysics}
+  \strng{namehash}{IM+1}
+  \strng{fullhash}{IMMPDFCAFFNBKSLSBB1}
+  \field{eid}{arXiv:1508.06752}
+  \verb{eprint}
+  \verb 1508.06752
+  \endverb
+  \field{pages}{arXiv:1508.06752}
+  \field{title}{{Design of a prototype device to calibrate the Large Size
+  Telescope camera of the Cherenkov Telescope Array}}
+  \field{journaltitle}{arXiv e-prints}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph.IM}
+  \field{month}{08}
+  \field{year}{2015}
+\endentry
+
+\entry{2019CaliBox}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {{Palatiello}}{P.}%
+     {Michele}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Iori}}{I.}%
+     {Maurizio}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Cassol}}{C.}%
+     {Franca}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Cauz}}{C.}%
+     {Diego}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Ferrarotto}}{F.}%
+     {Fabio}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Astrophysics - Instrumentation and Methods for Astrophysics,
+  Astrophysics - High Energy Astrophysical Phenomena}
+  \strng{namehash}{PM+1}
+  \strng{fullhash}{PMIMCFCDFF1}
+  \field{eid}{arXiv:1909.08475}
+  \verb{eprint}
+  \verb 1909.08475
+  \endverb
+  \field{pages}{arXiv:1909.08475}
+  \field{title}{{Performance of the INFN Camera calibration device of the first
+  Large Size Telescope in the Cherenkov Telescope Array}}
+  \field{journaltitle}{arXiv e-prints}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph.IM}
+  \field{month}{09}
+  \field{year}{2019}
+\endentry
+
+\entry{1997calibrationPMT}{inproceedings}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Mirzoyan}}{M.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MR1}
+  \strng{fullhash}{MR1}
+  \field{booktitle}{International Cosmic Ray Conference}
+  \field{pages}{265}
+  \field{series}{International Cosmic Ray Conference}
+  \field{title}{{On the Calibration Accuracy of Light Sensors in Atmospheric
+  Cherenkov Fluorescence and Neutrino Experiments}}
+  \field{volume}{7}
+  \field{month}{01}
+  \field{year}{1997}
+\endentry
+
 \lossort
 \endlossort
 

@@ -37,6 +37,9 @@
 \usepackage[utf8]{inputenc} % Required for including letters with accents
 \usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
 
+\usepackage{multirow}
+\usepackage{hhline}
+
 %Golssary
 
 \usepackage[acronym,nomain]{glossaries}
@@ -134,7 +137,8 @@
 \newacronym{corsika}{CORSIKA}{\textbf{CO}smic \textbf{R}ay \textbf{SI}mulations for \textbf{KA}scade}
 \newacronym{ts}{TS}{Test Statistics}
 \newacronym{irf}{IRF}{Instrument Response Function}
-
+\newacronym{rf}{RF}{Random Forest}
+\newacronym{rms}{RMS}{root mean square}
 \title{Prospects in Science with the Cherenkov Telescope Array}
 
 
@@ -198,8 +202,15 @@
 \chapter{Detection of $\gamma$-rays}
 \subfile{Chapter2}
 
+\chapterimage{head2.png} % Chapter heading image
+
 \chapter{The Cherenkov Telescope Array} \label{cap:CTA}
 \subfile{Chapter3}
+
+\chapterimage{head2.png} % Chapter heading image
+\chapter[Analysis chain of Single Telescope data and...]{Analysis chain of Single Telescope data and sensitivity calculation for the LST1} \label{cap:LST1}
+\subfile{Chapter4}
+
 
 \printbibliography
 \printglossaries

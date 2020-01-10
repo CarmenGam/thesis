@@ -2308,3 +2308,63 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{rf}{}%
+{%
+\gls@defglossaryentry{rf}%
+{%
+name={RF},%
+sort={RF},%
+type={acronym},%
+first={Random Forest\glsspace (RF)},%
+firstplural={Random Forests\glsspace (RFs)},%
+text={RF},%
+plural={RFs},%
+description={Random Forest},%
+descriptionplural={Random Forest\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Random Forest},%
+longplural={Random Forests},%
+short={RF},%
+shortplural={RFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{rms}{}%
+{%
+\gls@defglossaryentry{rms}%
+{%
+name={RMS},%
+sort={RMS},%
+type={acronym},%
+first={root mean square\glsspace (RMS)},%
+firstplural={root mean squares\glsspace (RMSs)},%
+text={RMS},%
+plural={RMSs},%
+description={root mean square},%
+descriptionplural={root mean square\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={root mean square},%
+longplural={root mean squares},%
+short={RMS},%
+shortplural={RMSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
