@@ -8108,7 +8108,7 @@
   \keyw{galaxies: active, galaxies: starburst, gamma rays: diffuse background,
   ISM: jets and outflows, Astrophysics - High Energy Astrophysical Phenomena,
   Astrophysics - Galaxy Astrophysics}
-  \strng{namehash}{SM+1}
+  \strng{namehash}{SM+2}
   \strng{fullhash}{SMSTRFDP1}
   \verb{doi}
   \verb 10.1088/0004-637X/724/2/1044
@@ -44961,6 +44961,163 @@
   Cherenkov Fluorescence and Neutrino Experiments}}
   \field{volume}{7}
   \field{month}{01}
+  \field{year}{1997}
+\endentry
+
+\entry{2019cleaningCNN}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {{Parsons}}{P.}%
+     {R.~D.}{R.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Ohm}}{O.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Astrophysics - Instrumentation and Methods for Astrophysics,
+  Astrophysics - High Energy Astrophysical Phenomena}
+  \strng{namehash}{PRDOS1}
+  \strng{fullhash}{PRDOS1}
+  \field{eid}{arXiv:1910.09435}
+  \verb{eprint}
+  \verb 1910.09435
+  \endverb
+  \field{pages}{arXiv:1910.09435}
+  \field{title}{{Background Rejection in Atmospheric Cherenkov Telescopes using
+  Recurrent Convolutional Neural Networks}}
+  \field{journaltitle}{arXiv e-prints}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph.IM}
+  \field{month}{10}
+  \field{year}{2019}
+\endentry
+
+\entry{2013neighborcleaning}{inproceedings}{}
+  \name{author}{2}{}{%
+    {{}%
+     {{Shayduk}}{S.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Consortium}}{C.}%
+     {Cta}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{image cleaning, Cherenkov telescopes, light of the night sky,
+  Astrophysics - Instrumentation and Methods for Astrophysics}
+  \strng{namehash}{SMCC1}
+  \strng{fullhash}{SMCC1}
+  \field{booktitle}{International Cosmic Ray Conference}
+  \verb{eprint}
+  \verb 1307.4939
+  \endverb
+  \field{pages}{3000}
+  \field{series}{International Cosmic Ray Conference}
+  \field{title}{{Optimized Next-neighbour Image Cleaning Method for Cherenkov
+  Telescopes}}
+  \field{volume}{33}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph.IM}
+  \field{year}{2013}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{2005Cleaningwithtimeinfo}{inproceedings}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Shayduk}{S.}%
+     {Maxim}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hengstebeck}{H.}%
+     {Thomas}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kalekin}{K.}%
+     {O.~R.}{O.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pavel}{P.}%
+     {Nicolaie~A.}{N.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schweizer}{S.}%
+     {Thomas}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SM+1}
+  \strng{fullhash}{SMHTKORPNAST1}
+  \field{title}{A New Image Cleaning Method for the MAGIC Telescope}
+  \field{year}{2005}
+\endentry
+
+\entry{2001waveletcleaning}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Lessard}{L.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cayón}{C.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sembroski}{S.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gaidos}{G.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LR+1}
+  \strng{fullhash}{LRCLSGGJ1}
+  \verb{doi}
+  \verb 10.1016/S0927-6505(01)00173-6
+  \endverb
+  \field{title}{Wavelet Imaging Cleaning Method for Atmospheric Cherenkov
+  Telescopes}
+  \field{volume}{17}
+  \field{journaltitle}{Astroparticle Physics}
+  \field{month}{10}
+  \field{year}{2001}
+\endentry
+
+\entry{1997HEGRAperformance}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{HEGRA Collaboration: A. Daum}}{H.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Astrophysics}
+  \strng{namehash}{H1}
+  \strng{fullhash}{H1}
+  \field{eid}{astro-ph/9704098}
+  \verb{eprint}
+  \verb astro-ph/9704098
+  \endverb
+  \field{pages}{astro\bibrangedash ph/9704098}
+  \field{title}{{First Results on the Performance of the HEGRA IACT Array}}
+  \field{journaltitle}{arXiv e-prints}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph}
+  \field{month}{04}
   \field{year}{1997}
 \endentry
 

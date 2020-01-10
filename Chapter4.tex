@@ -23,7 +23,7 @@ The main steps of the analysis chain can be summarized as: \\
 
 In the calibration phase, the raw signal known as \textit{waveform} is integrated after background subtraction, to obtain a total number of counts per pixel, which afterwards is multiplied by a factor to be converted in number of photoelectrons. Depending on if \gls{mc} data or real data is being analyzed, the following steps vary and will be explained for each case.
 
-\subsubsection{Signal extraction}
+\subsubsection{Signal extraction} \label{sec:signalext}
 
 For every triggered event, the signal in each pixel is recorded in a 40 samples window from the 4096 samples \gls{dsr4}. This signal contains information not only from the Cherenkov light, but also from background light from \gls{nsb} and from the intrinsic noise induced by the readout chain. Before integrating the signal, it is necessary to subtract this \textit{pedestal}. For simulated \gls{mc} events the pedestal value for each pixel in the camera is already stored, but for real data it is necessary to take special pedestal runs, with randomly activated trigger. Pedestal events are used to calculate the mean pedestal value for each \gls{dsr4} sample so typically, around 1000 events are needed to fill the ring. In \textit{cta-lstchain} a specific script is used to extract the pedestal values from pedestal runs and they are stored in a \textit{hdf5} file to be used later in the calibration.\\
 Once the pedestal is subtracted from the signal, the signal peak can be integrated. Typically a smaller window of a few samples around the maximum is used for the integration, which can be performed with one of the several integrators implemented in \textit{ctapipe}. By default, the integrator used in \textit{cta-lstchain} is the \textit{NeighborPeakWindowSum}, which sums the signal in a window around the peak defined by the waveform in neighbouring pixels. This allow to avoid integrating peaks which can arise from fluctuations. The default width of the integration window for this integrator is of 7 samples. When analyzing real data, the first and last two samples of the waveform should be dropped, to avoid integrating the spikes that can arise from ?? ¿¿. These calibration steps are performed for the two gain channels of \gls{lst}1 camera, if available. By default, the signal used is the high gain, unless it is saturated, meaning the maximum is above 4096 counts. In this case, the channel is switched to low gain for that pixel. 
@@ -47,11 +47,30 @@ The values of $<Q>$, $\sigma_{Q}$, $<ped>$ and $\sigma_{ped}$ are calaculated fr
 
 \subsection{Image cleaning and parametrization}
 
+In order to extract information from the image of Cherenkov light shower recorded by the camera, it is necessary to get rid of the background light not belonging to the Cherenkov event, which has arrived to all pixels. This backgrund light is usually related to fluctuations in the \gls{nsb}. A process named cleaning is used to eliminate all pixels which presumably do not contain light from the shower and after the \textit{clean} image is the one used to perform the parametrization. Besides there exist several proposed cleaning algorithms in the literature \cite{2019cleaningCNN}, \cite{2013neighborcleaning}, \cite{2005Cleaningwithtimeinfo}, \cite{2001waveletcleaning}, for the time being in \textit{cta-lstchain}, a classical two-level tailcuts cleaning is being used (e.g. the used in \cite{1997HEGRAperformance}). This method uses only the information of the amount of light in pixels (already converted to number of photoelectrons) and compares it to two levels of thresholds in the following way:
+
+\begin{itemize}
+
+\item Pixels with a number of photoelectrons over the highest threshold level are selected.
+\item If pixels selected in the previous step have at least one neighbor also above the highest level threshold, those pixels are marked as core pixels from the shower.
+
+ \item Neighbors of the core pixels with number of photoelectrons above the lower level threshold are selected as boundary pixels. For the rest of them not selected, their charge is set to zero. 
+\end{itemize}
+   
+   The stantdard values for the two levels used in \textit{cta-lstchain} are $Th_{high} = 10$ phes and $Th_{low} = 5$ phe, just the same values used by MAGIC telescopes. Note that these values have not been yet optimized for the particular case of the \gls{lst}1, and they can be changed easily in the configuration files. An optimization of the cleaning can lead to a better performance, specially for lower energies, because in those cases Cherenkov showers are small and a lot of information can be lost because of cleaning. Using other information apart from the number of photoelectrons, for example the arrival times of the signals to pixels, can help to improve the image parametrization. Low energy showers of $\gamma$s and hadrons are much more difficult to differentiate, for that reason, an image parametrization which highly depends on the settings of the cleaning parameters can be problematic when trying to lower the eneergy threshold of the telescope. In section \ref{sec:EM} a method for image parametrization not requiring previous cleaning is proposed as an alternative.\\
+   The parametrization of the shower image after cleaning, that is to say the calculation of the Hillas parameters (see section \ref{sec:IACTs} and figure \ref{fig:hillas}), is performed by a specific function from \textit{ctapipe}. The resulting parameters: intensity (total number of photoelectrons in the shower)width, length, coordinates of ellipse center of gravity, azimuthal angle $\phi$, the orientation angle $\psi$, and the third order moments, \textit{skewness}, which is a measure of the asymmetry of the distribution and \textit{kurtosis}, which is a measure of whether the distribution is peaked or flat relative to a normal distribution. The calculation of the Hillas parameters with \textit{ctapipe} only requires the image of the shower (i.e. the number of photoelectrons in each pixel) and the information of the camera geometry.\\
+   Besides the Hillas parameters, the time parameters are also calculated with other function in \textit{ctapipe}. This function requires the shower image and acamera geometry, plus the time position of the peak in the waveform of each pixel, which is obtained with the signal integrators mentioned in section \ref{sec:signalext}. The function performs a linear fit of the time positions versus the distance of the pixel from the vertical camera coordinate along the semimajor axis of the hillas elipse. The \textit{time gradient} is the slope of this line, and the \textit{intercept} is the free parameter of the linear fit. These two parameters are specially important for single telescope analysis, because they reflect the direction of development of the shower, which give information of the side of the ellipse where the source position is located in the camera frame.\\
+
+The calibration and image parametrization is performed \gls{cta-lstchain} using the scripts \textit{lstchain_data_r0_to_dl1.py}, \textit{lstchain_mc_r0_to_dl1.py}, depending on if the raw data used is simulated or real data. As is reflected in the script names, this steps reduces the data level from raw R0 data to DL1 (see table \ref{tab:CTAdatalevels}). In general, the image parameters can well describe the shower and therefore pixel wise information is not needed in further steps of the analysis. However, for testing and crosscheck purposes, \gls{cta-lstchain} scripts offer the possibility to store DL1 data with the full images, or only the parameters to save disk space.
+
+
 \subsection{Reconstruction of energy and source position}
+
+
 
 \subsection{$\gamma$-hadron separation}
 
-\section[Expectation-Maximization method for Hillas Parameters...]{Expectation-Maximization method for Hillas Parameters calculation without cleaning}
+\section[Expectation-Maximization method for Hillas Parameters...]{Expectation-Maximization method for Hillas Parameters calculation without cleaning} \label{sec:EM}
 \section{Sensitivity calculation}
 \section{Results on real data}
 
