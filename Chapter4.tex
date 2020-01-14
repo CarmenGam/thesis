@@ -60,13 +60,63 @@ In order to extract information from the image of Cherenkov light shower recorde
    The stantdard values for the two levels used in \textit{cta-lstchain} are $Th_{high} = 10$ phes and $Th_{low} = 5$ phe, just the same values used by MAGIC telescopes. Note that these values have not been yet optimized for the particular case of the \gls{lst}1, and they can be changed easily in the configuration files. An optimization of the cleaning can lead to a better performance, specially for lower energies, because in those cases Cherenkov showers are small and a lot of information can be lost because of cleaning. Using other information apart from the number of photoelectrons, for example the arrival times of the signals to pixels, can help to improve the image parametrization. Low energy showers of $\gamma$s and hadrons are much more difficult to differentiate, for that reason, an image parametrization which highly depends on the settings of the cleaning parameters can be problematic when trying to lower the eneergy threshold of the telescope. In section \ref{sec:EM} a method for image parametrization not requiring previous cleaning is proposed as an alternative.\\
    The parametrization of the shower image after cleaning, that is to say the calculation of the Hillas parameters (see section \ref{sec:IACTs} and figure \ref{fig:hillas}), is performed by a specific function from \textit{ctapipe}. The resulting parameters: intensity (total number of photoelectrons in the shower)width, length, coordinates of ellipse center of gravity, azimuthal angle $\phi$, the orientation angle $\psi$, and the third order moments, \textit{skewness}, which is a measure of the asymmetry of the distribution and \textit{kurtosis}, which is a measure of whether the distribution is peaked or flat relative to a normal distribution. The calculation of the Hillas parameters with \textit{ctapipe} only requires the image of the shower (i.e. the number of photoelectrons in each pixel) and the information of the camera geometry.\\
    Besides the Hillas parameters, the time parameters are also calculated with other function in \textit{ctapipe}. This function requires the shower image and acamera geometry, plus the time position of the peak in the waveform of each pixel, which is obtained with the signal integrators mentioned in section \ref{sec:signalext}. The function performs a linear fit of the time positions versus the distance of the pixel from the vertical camera coordinate along the semimajor axis of the hillas elipse. The \textit{time gradient} is the slope of this line, and the \textit{intercept} is the free parameter of the linear fit. These two parameters are specially important for single telescope analysis, because they reflect the direction of development of the shower, which give information of the side of the ellipse where the source position is located in the camera frame.\\
+Ultimately, there are two extra parameters calculated: The \textit{leakage2}, which indicates the percentage of the shower that falls in the two outer pixel rings of the camera; and the \textit{number of islands}, which accounts for the number of separated groups of pixels (a typical $\gamma$-ray shower will only have one island with elliptical form, but hadronic and heavier nuclei showers tend to produce messy light distributions with several islands of irregular shapes). Both parameters care calculated with respective functions from \textit{ctapipe}.
 
-The calibration and image parametrization is performed \gls{cta-lstchain} using the scripts \textit{lstchain_data_r0_to_dl1.py}, \textit{lstchain_mc_r0_to_dl1.py}, depending on if the raw data used is simulated or real data. As is reflected in the script names, this steps reduces the data level from raw R0 data to DL1 (see table \ref{tab:CTAdatalevels}). In general, the image parameters can well describe the shower and therefore pixel wise information is not needed in further steps of the analysis. However, for testing and crosscheck purposes, \gls{cta-lstchain} scripts offer the possibility to store DL1 data with the full images, or only the parameters to save disk space.
+The calibration and image parametrization is performed \textit{cta-lstchain} using the scripts \textit{$lstchain\_data\_r0\_to\_dl1.py$}, \textit{$lstchain\_mc\_r0\_to\_dl1.py$}, depending on if the raw data used is simulated or real data. As is reflected in the script names, this steps reduces the data level from raw R0 data to DL1 (see table \ref{tab:CTAdatalevels}). In general, the image parameters can well describe the shower and therefore pixel wise information is not needed in further steps of the analysis. However, for testing and crosscheck purposes, \textit{cta-lstchain} scripts offer the possibility to store DL1 data with the full images, or only the parameters to save disk space.
 
 
 \subsection{Reconstruction of energy and source position}
 
+After the calibration and image parametrization, the image parameters should be used to extract information of the primary particle, whereas is a $\gamma$-ray or a background event (protons, electrons, heavier nuclei...). In \textit{cta-lstchain} the first step is to reconstruct the energy and arrival direction of the event. It can be easily seen that the energy is going to be directly proportional to the amount of Cherenkov light in the shower, hence the \textit{intensity} parameter will be the key of energy reconstruction.\\
+The direction reconstruction is problematic in mono mode, because even knowing that the Hillas ellipse should point towards the source position in the camera frame, we do not know which side of the ellipse is correct (this is known as head-tail degeneracy). In stereo mode, this is solved because the source position will be in the cross point between the line which follows the semimajor axis of Hillas ellipses of all cameras, but for single telescope we must rely in other methods. In the case of \textit{cta-lstchain} we make use of a vector known as \textit{disp}. This is the vector going from the center of gravity of the ellipse to the source position.\\
+Originally, the disp quantity could be parametrized in terms of the elongation of the image, meaning the ratio between \textit{width} and \textit{length}. The first parametrization was proposed by the Whipple collaboration \cite{1994dispwhipple}:
 
+\begin{equation}
+  Disp = \xi \cdot \left(1 - \frac{width}{length}  \right)
+\end{equation}
+
+Where $\xi$ is a factor dependent on the amount of photoelectrons in the shower image (the \textit{intensity} parameter)
+And a more general parametrization was used for MAGIC-I \cite{2005DISPmagic}:
+
+\begin{equation}
+ Disp=A(intensity) + B(intensity) \cdot \frac{width}{length+\rho(intensity) \cdot leakage}  
+\end{equation}
+
+Where A and B and $\rho$ are the second order polynomial function of log(\textit{intensity}).
+
+Instead of using a parametrization, we reconstruct the disp vector using the image parameters. The time parameters will be very important to reconstruct this quantity, because the Cherenkov light from the upper parts of the shower arrive before the light from later developed lower parts, giving the time gradient. The time gradient will therefore give information on which side of the ellipse is pointing to the source position.\\
+
+The method used in \textit{cta-lstchain} for the reconstruction of these quantities, energy and disp vector, is based on a multidimensional regression technique relying on \glspl{rf}. \gls{rf} is a supervised learning algorithm which uses an ensemble of several decision trees (a \textit{bagging} technique). Decision trees are flow-chart-like structures where each internal node denotes a test on a selected feature. The result is a split in the dataset depending on the value of that feature. The best splitting criterion for regression is typically calculated using the \gls{mse}. For each node, the \gls{mse} of the two subsets is calculated for each feature and for each possible cut on that feature, until a minimum is reached. This step is repeated at each node until a condition is reached, typically that the \gls{mse} of the remaining data sample is below a threshold, or it has too few events to keep splitting. The termination nodes are also known as \textit{leaves}.
+In the \gls{rf}, a number of decision trees are trained using a randomly selected subset of the train data (\textit{'bootstrapping'}) and the prediction of all the trees is averaged to reach the final result. Also, the features are always randomly permuted at each split. These two sources of randomness in the \gls{rf} prevent the typical problem of overfitting from too complicated decision trees. 
+
+The \glspl{rf} for energy and disp reconstruction are trained using a set of \gls{mc} simulated $\gamma$ events triggering the \gls{lst}1, with diffuse arrival directions distributed in a 5º radius \gls{fov}. The set of simulated data is divided in two sets, one for training and other for testing. The freatures used for the splitting of the tree nodes are $log_{10}(intensity)$, \textit{width, length, x, y, psi, phi, width/length, skewness, kurtosis, r, time gradient, intercept, leakage} and \textit{number of islands}, where x, y and r are the coordinates and module of the vector from center of gravity of the Hillas ellipse to the center of the camera. The trained \gls{rf} is used later to reconstruct the desired values (energy and disp) in the test data.
+For energy reconstruction, we actually reconstruct the $\log_{10}(E)$. In the case of the disp vector, we reconstruct the two components of the vector (\textit{disp\_dx, disp\_dy}) using the same \gls{rf}.\\
+For the implementation of the \glspl{rf}, we use the Python package \textit{scikit-learn} \cite{2011scikit-learn}, a machine learning package which offers a large amount of tools for predictive data analysis. The class \textit{RandomForestRegressor} allow an easy training of the \glspl{rf}, which can be saved to be used later to fit any set of test data with the same format as the training. This class has a set of parameters that can be modified by the user to optimize the performance of the predictions. In \textit{cta-lstchain} these parameters can be modified by a configuration file. The most relevant parameters and their default values in \textit{cta-lstchain} are shown in table \ref{tab:RFpars}. 
+
+\begin{table}
+  \centering
+  \begin{tabular}{|l|l|l|l|}
+    \hline
+    Parameter name & Value          & Value              & Description\\
+                   & for regression & for classification &  \\ 
+    \hline
+    n\_estimators       & 150 & 100  & \small{Number of trees in the forest}\\
+    criterion           & mse & gini & \small{Function to measure the quality of a split}\\
+    max\_depth          & 50  & 100  & \small{Maximum depth of the tree}\\
+    min\_samples\_split & 2   & 2    & \small{Minimum number of samples required to}\\
+                        &     &      & \small{split an internal node} \\ 
+    min\_samples\_leaf  & 2   & 2    & \small{Minimum number of samples to be at a}\\
+                        &     &      & \small{leaf node} \\     
+    max\_features       & all & all  & \small{Number of features to consider when looking} \\
+                        &     &      & \small{for the best split}\\
+    random\_state       & 42  & 42   & \small{Control the randomness of the} \\
+                        &     &      & \small{bootstrapping and the sampling of features}\\
+    n\_jobs             & 4   & 4    & \small{Number of jobs to run in parallel}\\
+    \hline
+  \end{tabular}
+  \caption{Some parameters that can be configured for \textit{RandomForestRegressor} and \textit{RandomForestClassifier} classes, with the default values used in \textit{cta-lstchain}.}
+  \label{tab:RFpars}
+  \end{table}
 
 \subsection{$\gamma$-hadron separation}
 

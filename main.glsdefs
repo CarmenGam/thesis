@@ -2368,3 +2368,33 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{mse}{}%
+{%
+\gls@defglossaryentry{mse}%
+{%
+name={MSE},%
+sort={MSE},%
+type={acronym},%
+first={mean squared error\glsspace (MSE)},%
+firstplural={mean squared errors\glsspace (MSEs)},%
+text={MSE},%
+plural={MSEs},%
+description={mean squared error},%
+descriptionplural={mean squared error\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={mean squared error},%
+longplural={mean squared errors},%
+short={MSE},%
+shortplural={MSEs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
