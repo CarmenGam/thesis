@@ -2398,3 +2398,33 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{em}{}%
+{%
+\gls@defglossaryentry{em}%
+{%
+name={EM},%
+sort={EM},%
+type={acronym},%
+first={Expectation-Maximization\glsspace (EM)},%
+firstplural={Expectation-Maximizations\glsspace (EMs)},%
+text={EM},%
+plural={EMs},%
+description={Expectation-Maximization},%
+descriptionplural={Expectation-Maximization\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Expectation-Maximization},%
+longplural={Expectation-Maximizations},%
+short={EM},%
+shortplural={EMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

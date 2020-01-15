@@ -45,7 +45,7 @@ Where $<Q>$ is the mean value of the pixel signal and $\sigma_{Q}$ its \gls{rms}
 
 The values of $<Q>$, $\sigma_{Q}$, $<ped>$ and $\sigma_{ped}$ are calaculated from a sufficiently large number ($\sim$ 1000) of calibration and pedestal events, using a specific script from \textit{cta-lstchain}, which stores the resulting calibration coefficients in an HDF5 file to be used later in the calibration of data runs. For the LST1, the value of F factor used is the mean value for all \gls{pmt} which is 1.2.
 
-\subsection{Image cleaning and parametrization}
+\subsection{Image cleaning and parametrization} \label{sec:cleanpars}
 
 In order to extract information from the image of Cherenkov light shower recorded by the camera, it is necessary to get rid of the background light not belonging to the Cherenkov event, which has arrived to all pixels. This backgrund light is usually related to fluctuations in the \gls{nsb}. A process named cleaning is used to eliminate all pixels which presumably do not contain light from the shower and after the \textit{clean} image is the one used to perform the parametrization. Besides there exist several proposed cleaning algorithms in the literature \cite{2019cleaningCNN}, \cite{2013neighborcleaning}, \cite{2005Cleaningwithtimeinfo}, \cite{2001waveletcleaning}, for the time being in \textit{cta-lstchain}, a classical two-level tailcuts cleaning is being used (e.g. the used in \cite{1997HEGRAperformance}). This method uses only the information of the amount of light in pixels (already converted to number of photoelectrons) and compares it to two levels of thresholds in the following way:
 
@@ -89,7 +89,7 @@ Instead of using a parametrization, we reconstruct the disp vector using the ima
 The method used in \textit{cta-lstchain} for the reconstruction of these quantities, energy and disp vector, is based on a multidimensional regression technique relying on \glspl{rf}. \gls{rf} is a supervised learning algorithm which uses an ensemble of several decision trees (a \textit{bagging} technique). Decision trees are flow-chart-like structures where each internal node denotes a test on a selected feature. The result is a split in the dataset depending on the value of that feature. The best splitting criterion for regression is typically calculated using the \gls{mse}. For each node, the \gls{mse} of the two subsets is calculated for each feature and for each possible cut on that feature, until a minimum is reached. This step is repeated at each node until a condition is reached, typically that the \gls{mse} of the remaining data sample is below a threshold, or it has too few events to keep splitting. The termination nodes are also known as \textit{leaves}.
 In the \gls{rf}, a number of decision trees are trained using a randomly selected subset of the train data (\textit{'bootstrapping'}) and the prediction of all the trees is averaged to reach the final result. Also, the features are always randomly permuted at each split. These two sources of randomness in the \gls{rf} prevent the typical problem of overfitting from too complicated decision trees. 
 
-The \glspl{rf} for energy and disp reconstruction are trained using a set of \gls{mc} simulated $\gamma$ events triggering the \gls{lst}1, with diffuse arrival directions distributed in a 5º radius \gls{fov}. The set of simulated data is divided in two sets, one for training and other for testing. The freatures used for the splitting of the tree nodes are $log_{10}(intensity)$, \textit{width, length, x, y, psi, phi, width/length, skewness, kurtosis, r, time gradient, intercept, leakage} and \textit{number of islands}, where x, y and r are the coordinates and module of the vector from center of gravity of the Hillas ellipse to the center of the camera. The trained \gls{rf} is used later to reconstruct the desired values (energy and disp) in the test data.
+In the basic analysis of \textit{cta-lstchain}, and the one carried on in this thesis, we use a source independent approach where we do not assume  what is the true position of the source (which presumably will be close to the center of the camera, where the telescope is pointing). For that reason, the \glspl{rf} for energy and disp reconstruction are trained using a set of \gls{mc} simulated $\gamma$ events triggering the \gls{lst}1, with diffuse arrival directions distributed in a 5º radius \gls{fov}. The set of simulated data is divided in two sets, one for training and other for testing. The freatures used for the splitting of the tree nodes are $log_{10}(intensity)$, \textit{width, length, x, y, psi, phi, width/length, skewness, kurtosis, r, time gradient, intercept, leakage} and \textit{number of islands}, where x, y and r are the coordinates and module of the vector from center of gravity of the Hillas ellipse to the center of the camera. The trained \gls{rf} is used later to reconstruct the desired values (energy and disp) in the test data.
 For energy reconstruction, we actually reconstruct the $\log_{10}(E)$. In the case of the disp vector, we reconstruct the two components of the vector (\textit{disp\_dx, disp\_dy}) using the same \gls{rf}.\\
 For the implementation of the \glspl{rf}, we use the Python package \textit{scikit-learn} \cite{2011scikit-learn}, a machine learning package which offers a large amount of tools for predictive data analysis. The class \textit{RandomForestRegressor} allow an easy training of the \glspl{rf}, which can be saved to be used later to fit any set of test data with the same format as the training. This class has a set of parameters that can be modified by the user to optimize the performance of the predictions. In \textit{cta-lstchain} these parameters can be modified by a configuration file. The most relevant parameters and their default values in \textit{cta-lstchain} are shown in table \ref{tab:RFpars}. 
 
@@ -120,7 +120,98 @@ For the implementation of the \glspl{rf}, we use the Python package \textit{scik
 
 \subsection{$\gamma$-hadron separation}
 
+The majority of Cherenkov showers produced in the atmosphere are actually not produced by $\gamma$-rays, but by cosmic hadrons (mainly protons). These events trigger the telescopes $\sim 10^4$ times more than $\gamma$-rays, therefore it is necessary a very efficient background rejection method to discard hadronic showers and analyze only $\gamma$ events. The methods for $\gamma$-hadron separation in general rely on the morphological differences between the kind of showers produced by the two kinds of primaries, and temporal data. This job is much more efficient in stereo mode, because $\gamma$-ray showers which trigger different telescopes will produce images in the cameras with a Hillas ellipse pointing towards the source position, while hadronic showers will produce much less correlated images. In mono mode we can only rely on the morphological features of the images, knowing that hadronic shower images will be much more extended, without a clear definite shape and with a higher number of islands than $\gamma$ showers.\\
+The task of $\gamma$-hadron separation is done in \textit{cta-lstchain} with a \gls{rf} classifier, which follows similar principles as the \gls{rf} regressor explained in the previous section. Instead of calculating the value of a variable, it decides between a given number of classes to which each events belongs. In this case, its only a two classes problem: $\gamma$s or hadrons.
+The best splitting criterion for classification is calculated in terms of the so-called gini index. The gini index o gini impurity is a measure of how often a randomly chosen event would be incorrectly classified if it was classified randomly following the distribution of classes. The formula for the Gini index $I_G$ calculated for a set of events with J classes is:
+
+\begin{equation}
+  I_G(p) = 1 - \sum_{i=1}^J p_i^2
+\end{equation}
+
+Where $p_i$ is the probability of an event belonging to the class $i$ to be correctly classified.  The Gini index go from 0 to 1, where 0 means that all the events of a subset have been classified to one class, and 1 that the events of the subset are randomly distributed along all the possible classes. The splitting decision will be made minimizing the value of the Gini index.\\
+The training set for the $\gamma$-hadron classifier will consist on two sets of \gls{mc} simulated events, one of diffuse gammas $\gamma$s and one of protons, with arrival directions coming from a 10º \gls{fov}. Usually, the set of hadronic events used for training is taken from real background events recorded with the telescope when pointing to a direction in the sky without any $\gamma$-ray source, because the simulation of proton showers has a lot of uncertainties (see section \ref{sec:corsika}). However, as by the time this thesis was written there were not enough real data from \gls{lst}1 to build a big enough background data set, all the calculations have been made using \gls{mc} simulations.\\
+The features used for the splitting of the classifiers are the same from the ones used for the regressors of the previous section, but adding the reconstructed energies and disp vector. To do so, the original $\gamma$ events set is splitted in a training set for the regressor, and a test set, to which the energy and disp vector are reconstructed. The regressors are also used to reconstruct the energy and disp vector of the set of proton events. Afterwards, this new set of $\gamma$ and proton events, with reconstructed energy and disp is divided again in a training and test set to build the \gls{rf} classifier.
+The classifier is implemented using the \textit{RandomForestClassifier} class from \textit{scikit-learn} which input parameters are listed in table \ref{tab:RFpars}
+
 \section[Expectation-Maximization method for Hillas Parameters...]{Expectation-Maximization method for Hillas Parameters calculation without cleaning} \label{sec:EM}
+
+As explained in section \ref{sec:cleanpars}, cleaning methods often require the ajust of some parametrs, which have to be done 'by hand', trying to find a balance between a good enough background supression without loosing too much information from the shower. The cleaning parameters affect particularly the analysis of low energy showers. In the tailcuts method, too strong cleaning thresholds tend to eliminate too many pixels of the already small low energy showers, making the task of $\gamma$-hadron separation much more difficult. Also, losing the ellipse shape of $\gamma$ showers lead to wrong calculation of Hillas parameters and consequently of the disp vector.\\
+For all these reasons, with the aim on research for new analysis methods which could improve the performance of \gls{lst} I have developed a method of image parametrization which do not require a previous cleaning. It is based in the \gls{em} algorithm, where recursively the light content in each pixel is assigned to be part of the shower or the background. In the next sections, I will briefly summarize the basic concepts of the \gls{em} method and how it can be applied to images of showers. Then I will show some results comparing the \gls{em} with the classic cleaning method. 
+
+\subsection{The Expectation-Maximization algorithm}
+
+The \gls{em} algorithm \cite{1977EM} is an iterative method for calculatig maximum likelihood estimates of model parameters, where the model depends on unobserved data or latent variables. These latent variables would be those that cannot be observed in the data set, but still can influence other random variables. The algorithm will iterate until finding the model parameters and hidden variables that converge to a maximum likelihood estimation.\\
+Given a statistical model which has generated a set of $X$ observed data points, which depends on a set of latent variables $Z$ and unknown parameters $\theta$, the basic iteration of the \gls{em} consist on two steps:
+
+\begin{itemize}
+\item \textbf{Expectation}: Creates an expectation function $Q(\theta | \theta^{(t)})$, which is the evaluation of the log-likelihood with the current estimate of the model parameters $\theta^{(t)}$, meaning it calculate the latent variables $Z$.
+  \begin{equation}
+    Q(\theta | \theta^{(t)}) = E_{Z|X,\theta^(t)}
+  \end{equation}
+   
+\item \textbf{Maximization}: Maximizes the log-likelihood function found in the previous step to find a new set of estimated parameters.
+  \begin{equation}
+    \theta^{(t+1)} = arg max Q(\theta | \theta^{(t)})
+  \end{equation}  
+\end{itemize}
+
+A common problem that has been succesfully solved by the \gls{em} algorithm is the mixture models problem, where there is a set of data which has been produced by several density distributuon functions, but is impossible to know which distribution has produced each data point. This distinction between distributions would be the latent variable. This is the particular case we face with shower images. We have a distribution of light in the pixels of the camera, an we know that some photoelectrons in each pixel belong to Cherenkov light, and others belong to background light from the night sky. We want to know the fraction of light in each pixel which belongs to each of the distributions.\\
+We assume that the Cherenkov light will follow a bidimensional gaussian distribution, which will therefore produce the elliptical shape in the image, and the background is simply a two dimensional constant distribution. The parameters of the model will be the usual gaussian parameters (mean and standard deviation in two dimensions) $\{x_{0}, y_{0},\sigma_{xx}, \sigma_{yy}, \sigma_{xy}\}$ and the latent variables will be the fraction of photoelectrons from the Cherenkov shower $n_{Ch}/n$ and from the background $n_{bkg}/n$ in each pixel with n total photoelectrons.\\
+
+What we need to know is the number of photoelectrons belonging to each distribution:
+
+\begin{equation}
+  N_{i} = \sum_{pixels} P(pixel/i)\cdot N
+\end{equation}
+
+Where $N_i$ is the number of photoelectrons produced by the model $i$, N is the total number of photoelectrons in the image and $P(pixel/i)$ is the probability of a photoelectron in the pixel to have been produced by the model $i$.\\
+Using the Bayes theorem:
+
+\begin{equation}\label{eq:bayes}
+  P(pixel/i) = \frac{P_i(pixel) \cdot P_i}{P(pixel)}
+\end{equation}
+
+Where $P_i(pixel)$ is the probability of a photoelectron from the model $i$ to fall in the pixel, $P_i$ is the probability of a photoelectron to be produced by the model $i$ and $P(pixel)$ is the probability of a photoelectron to fall in the pixel. This last probability will actually be:
+
+\begin{equation}
+P(pixel) = \sum_{i} P_i \cdot P_i(pixel)
+\end{equation}
+
+Where probabilities $P_i=(P_{Ch}, P_{Bkg})$ are equal to the fraction of photoelectrons in the image belonging to the shower(background) with respect to the total number of photoelectrons. The probabilities $P_i(pixel)$ can be written as:
+
+\begin{equation}
+  \begin{split}
+  & P_{Ch}(pixel) = BiGaus(x_{0}, y_{0},\sigma_{xx}, \sigma_{yy}, \sigma_{xy}) \cdot A_{pixel}\\
+  & P_{bkg}(pixel) = A_{pixel}/A_{total}
+  \end{split}
+\end{equation}
+
+Where $A_{pixel}$ is the area of the pixel and $A_{total}$ the sum of the areas of all pixels.\\
+The loop in the \gls{em} to solve this problem will go as follows:
+\begin{enumerate}
+  \item We make an initial assumption of the gaussian parameters. Because the bidimensional gaussian corresponds to the Hillas ellipse, the means of the distribution will coincide with the center of gravity of the ellipse, which wil be close to the pixel with higher charge. To avoid committing a mistake choosing the initial value due to an outlier pixel, we take the initial means of the gaussian ($x_0$, $y_0$) as the coordinates of the baricenter of the three more luminous pixels. The initial values of the standard deviations are set to arbitrary high values $\sigma_{xx}=20000$, $\sigma_{yy}=20000$, $\sigma_{xy}=0$. Also we assume an initial estimation of the fraction of the light belonging to the shower and background as 50\% of the total number of photoelectrons for each.
+
+  \item Expectation: Using the previous estimation of gaussian parameters and fractions of photoelectrons, we solve equation \ref{eq:bayes} and obtain the distributions of the shower and the background, that is to say, for each pixel we calculate the number of photoelectrons belonging to the shower and to the background.
+
+  \item Maximization: Using the distributions from previous steps, we calculate the parameters of the bidimensional gaussian corresponding to the Cherenkov light distribution, and the fraction of the total photoelectrons produced by each distribution (which is simply the sum of all shower and background pixels content respectively). The new gaussian parameters will be:
+
+    \begin{equation}
+      \begin{split}
+        & mean_{x} = \frac{1}{N}\sum_{pixels} n_{Ch} x_{pix}\\
+        & mean_{y} = \frac{1}{N}\sum_{pixels} n_{Ch} y_{pix}\\
+        & \sigma_{xx} = \frac{1}{N}\sum_{pixels} n_{Ch} x_{pix}^{2} - mean_{x}^2\\
+        & \sigma_{yy} = \frac{1}{N}\sum_{pixels} n_{Ch} y_{pix}^{2} - mean_{y}^2\\
+        & \sigma_{xy} = \frac{1}{N}\sum_{pixels} n_{Ch} x_{pix}^{2} y_{pix}^{2} - mean_{x}mean_{y}\\
+      \end{split}
+    \end{equation}
+  
+  \item Steps 2 and 3 are repeated until convergence.
+
+
+\end{enumerate}
+
+
+
 \section{Sensitivity calculation}
 \section{Results on real data}
 

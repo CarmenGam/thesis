@@ -51,5 +51,6 @@
 \BOOKMARK [2][-]{subsection.4.2.3}{Reconstruction of energy and source position}{section.4.2}% 51
 \BOOKMARK [2][-]{subsection.4.2.4}{-hadron separation}{section.4.2}% 52
 \BOOKMARK [1][-]{section.4.3}{Expectation-Maximization method for Hillas Parameters...}{chapter.4}% 53
-\BOOKMARK [1][-]{section.4.4}{Sensitivity calculation}{chapter.4}% 54
-\BOOKMARK [1][-]{section.4.5}{Results on real data}{chapter.4}% 55
+\BOOKMARK [2][-]{subsection.4.3.1}{The Expectation-Maximization algorithm}{section.4.3}% 54
+\BOOKMARK [1][-]{section.4.4}{Sensitivity calculation}{chapter.4}% 55
+\BOOKMARK [1][-]{section.4.5}{Results on real data}{chapter.4}% 56
