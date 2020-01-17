@@ -52,5 +52,7 @@
 \BOOKMARK [2][-]{subsection.4.2.4}{-hadron separation}{section.4.2}% 52
 \BOOKMARK [1][-]{section.4.3}{Expectation-Maximization method for Hillas Parameters...}{chapter.4}% 53
 \BOOKMARK [2][-]{subsection.4.3.1}{The Expectation-Maximization algorithm}{section.4.3}% 54
-\BOOKMARK [1][-]{section.4.4}{Sensitivity calculation}{chapter.4}% 55
-\BOOKMARK [1][-]{section.4.5}{Results on real data}{chapter.4}% 56
+\BOOKMARK [1][-]{section.4.4}{Sensitivity of the LST1}{chapter.4}% 55
+\BOOKMARK [2][-]{subsection.4.4.1}{Reweighting}{section.4.4}% 56
+\BOOKMARK [2][-]{subsection.4.4.2}{Cut optimization}{section.4.4}% 57
+\BOOKMARK [1][-]{section.4.5}{Results on real data}{chapter.4}% 58

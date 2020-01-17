@@ -7,7 +7,7 @@
 The first \gls{lst} was inaugurated in October 2018 and since then has been in commissioning phase. Being the first \gls{cta} telescope installed on site (in La Palma island), and it is expected to be operating on its own until LST 2-4 are built. This mean that LST1 will need its own analysis chain in \textit{mono} mode, which differs in several aspecst from the stereo analysis included in the benchmark analysis tools of \gls{cta} (see section \ref{sec:ctapipe}). Although single telescope observations present a big challenge, specially regarding source position reconstruction and $\gamma$-hadron separation, it is expected that LST1 performance, thanks to its size and camera design, will be competitive enoughh to offer scientific results in the time it will be operating alone.\\
 This chapter will present a considerable amount of the work done during this thesis, which includes the development of the code for the single telescope analysis for LST1, the calculation of LST1 sensitivity based on \gls{mc} simulations, the development of a new technique for Hillas Parameters calculation without cleaning using the Expectation-Maximization algorithm and the application of the analysis chain to real LST1 data. 
 
-\section{The LST1 analysis chain overview}
+\section{The LST1 analysis chain overview} \label{sec:anachain}
 
 The analysis software for the single telescope analysis of LST1 named \textit{cta-lstchain} has been developed before the necessity of specific tools for single telescope analysis not included in \textit{ctapipe}, the benchmark analysis tools for low level data of \gls{cta}. It is written as a python package which heavily relies on \textit{ctapipe}, and it is structured in several modules containing functions destined to the different parts of the analysis. The first version of \textit{cta-lstchain} was written by the author of this thesis and many contributors have joined the project over the last two years to improve and optimize the repository to its current version, which is able to perform every analysis step both for simulated \gls{mc} data and real data. The analysis chain is divided in several steps, each of which can be executed through a python script which requires certain inputs and calls for the appropriate functions. All the configuration parameters of the different elements of the analysis are given through configuration files, which can be edited by the user or else a standard configuration will be used. The input of the analysis chain are the raw data files of LST1 events, which for \gls{mc} data are \textit{sim$\_$telarray} files and for real data are \textit{zfits} files with a similar internal format. The files contain the full information available per pixel, known as \textit{waveform} and which is the digitized signal amplitude vs. time sample for every triggered event, together with \gls{mc} information in the case of a simulated file (such as the true energy, source position, number of simulated events, and so on), or recorded information from the different telescope subsystems in the case of real data (such as time, pointing, trigger type...). Throughout the analysis chain, the data including the images and image parameters, is stored in containers designed in \textit{cta-lstchain} specifically for LST1, which can be dumped into \textit{pandas} dataframes and saved in \textit{hdf5} files.\\
 The main steps of the analysis chain can be summarized as: \\
@@ -166,26 +166,20 @@ What we need to know is the number of photoelectrons belonging to each distribut
 
 Where $N_i$ is the number of photoelectrons produced by the model $i$, N is the total number of photoelectrons in the image and $P(pixel/i)$ is the probability of a photoelectron in the pixel to have been produced by the model $i$.\\
 Using the Bayes theorem:
-
 \begin{equation}\label{eq:bayes}
   P(pixel/i) = \frac{P_i(pixel) \cdot P_i}{P(pixel)}
 \end{equation}
-
 Where $P_i(pixel)$ is the probability of a photoelectron from the model $i$ to fall in the pixel, $P_i$ is the probability of a photoelectron to be produced by the model $i$ and $P(pixel)$ is the probability of a photoelectron to fall in the pixel. This last probability will actually be:
-
 \begin{equation}
 P(pixel) = \sum_{i} P_i \cdot P_i(pixel)
 \end{equation}
-
 Where probabilities $P_i=(P_{Ch}, P_{Bkg})$ are equal to the fraction of photoelectrons in the image belonging to the shower(background) with respect to the total number of photoelectrons. The probabilities $P_i(pixel)$ can be written as:
-
 \begin{equation}
   \begin{split}
   & P_{Ch}(pixel) = BiGaus(x_{0}, y_{0},\sigma_{xx}, \sigma_{yy}, \sigma_{xy}) \cdot A_{pixel}\\
   & P_{bkg}(pixel) = A_{pixel}/A_{total}
   \end{split}
 \end{equation}
-
 Where $A_{pixel}$ is the area of the pixel and $A_{total}$ the sum of the areas of all pixels.\\
 The loop in the \gls{em} to solve this problem will go as follows:
 \begin{enumerate}
@@ -210,9 +204,94 @@ The loop in the \gls{em} to solve this problem will go as follows:
 
 \end{enumerate}
 
+\section{Sensitivity of the LST1}
 
+The sensitivity of a telescope is defined as the minimum flux of $\gamma$-rays over background that should be detected for a statistically signifcant detection. Using the simulated \gls{mc} data and the analysis techniques explained in section \ref{sec:anachain} we have calculated the differential sensitivity of \gls{lst}1 in mono mode.\\
+The sensitivity is calculated for the detection of a point source after 50 hours of observations. To do so, we are using the Li\&Ma method, extensively described in \cite{1983LiMa}, but here I will summarize the basic concept.\\
+We need to calculate the significance of detection of a source, meaning that we need a way to evaluate the statistical reliability of an observational result. A typical observation in $\gamma$-ray astronomy will consist on the pointing to a region where it is suppose to exists a source, recording $N_{on}$ counts in a time $t_{on}$. Then, to evaluate the background, a region without sources will be observed, recording $N_{off}$ counts in a time $t_{off}$. If the ratio between the observation time of the on and off regions is $\alpha = t_{on}/t_{off}$ then the number of backgroundf photons in the on region will be estimated by $\hat{N}_{B} = \alpha N_{off}$  and the probable number of photons contributed by the source is $N_{S} = N_{on}-\alpha N_{off}$. The significance can be estimated in terms of the likelihood ratio method, where the we test the 'null hypotheses', being the hypotheses where no source exist at all and all the excess counts detected in the on region are due to fluctuations in the background, therefore $N_{on}$ will follow a Poisson distribution with variance equal to that of the background $<N_{B}>$. The likelihood ratio can be written as:
 
-\section{Sensitivity calculation}
+\begin{equation}
+  \lambda = \frac{L(X | E_{0}, \hat{T}_{c})}{L(X|\hat{E},\hat{T})}
+\end{equation}
+
+Where X are the observed data and (\^{E},\^{T}) are the maximum likelihood estimation of the unknown parameters. In the null hypotheses, $E=E_{0}$ and $T=\hat{T}_{c}$ are the parameters for the conditional maximum likelihood estimation. In our case, the unknown parameters will be $N_{S}$, $N_{B}$ where in the null hypothesis $N_{S}=0$.\\
+The maximum likelihood ratio can be derived as:
+
+\begin{equation}
+  \lambda = \left[ \frac{\alpha}{1+\alpha}\left( \frac{N_{on}+N_{off}}{N_{on}}\right) \right]^{N_{on}} \left[ \frac{1}{1+\alpha}\left( \frac{N_{on}+N_{off}}{N_{off}}\right)\right]^{N_{off}}
+\end{equation}
+
+If the null hypothesis is true, and $N_{on}, N_{off} \gtrsim 10$, by the theorem exposed in \cite{1983LiMa}, the quantity $-2ln\lambda$ will asymptotically follow a $\chi^2$ distribution with one degree of freedom. Therefore $\sqrt(-2ln\lambda)$ will be equivalent to the absolute value of a standard normal variable, so we can take it as the significance:
+
+\begin{equation}
+  S = \sqrt(-2ln\lambda)
+\end{equation}
+
+Typically, a detection is claimed when the significance $S$ is equal to 5 ($5\sigma$ detection). To calculate the sensitivity of \gls{lst}1 we need to know the number of excess counts from a hypothetical source $N_{S}$ that will lead to $S=5$ for $\alpha=1/5$. \\
+To perform this calculation, we need to estimate the number of background (proton) events ($N_{B} = \alpha N_{off}$) that will be left after analyzing the data and doing the $\gamma$-hadron separation. The steps followed are described in the next sections.
+
+\subsection{Reweighting}
+
+The \gls{mc} simulations of \gls{eas} used for this work were simulated as if the particles ($\gamma$s or protons) followed a power law spectrum
+:
+\begin{equation} \label{eq:powerlaw}
+\frac{dN}{dE} = K E^{a}
+\end{equation}
+
+with a spectral index $a=-2$. However, we want to give the sensitivity with respect to the true spectrum of protons, and typically, the spectrum of the Crab nebula is used for the $\gamma$-rays. We need to transform the distribution of simulated events from number of events per energy to a rate of events (events per unit time) per energy which follow the desired spectral shapw. We will calculate a spectral weight $w(E)$ for each event, which will depend on its true energy.\\
+Suppose that $N$ \gls{mc} events have been generated in the energy range $(E_1,E_2)$, following the power law from \ref{eq:powerlaw}, with isotropically distributed directions in a solid angle $\Omega$ and impact parameters uniformly distributed in a circular area A, orthogonal to the incident direction of the particles.
+The quantity $K$ will be:
+
+\begin{equation}
+  K = \frac{N(a+1)}{E_{2}^{a+1}-E_{1}^{a+1}}
+\end{equation}
+
+We want to change the shape of this spectrum, and get a new differential spectrum of the shape:
+
+\begin{equation}
+  \frac{dF}{dE(E)} = \frac{dF}{dE(E_0)}\cdot f(E/E_0)
+\end{equation}
+
+Where $\frac{dF}{dE(E_0)}$ is a normalization factor refering to an arbitrary energy $E_0$, which should be between $E_{1}$ and $E_{2}$, with units $s^{-1}sr^{-1}m^{-2}TeV^{-1}$ and f is a function that satisfies $f(E=E_{0}) = 1$. In our case, f will simply be the new power law. To correct the $dN/dE$  simulated spectrum to the desired power law, we should multiply it by $(E/E_{0})^{-a}$, so it will become flat, and then by $f(E/E_{0})$ to get the correct form. Weighting by these two factors, the corrected number of \gls{mc} events $N'$ will be the integral:
+
+\begin{equation}
+  N' = \int^{E_{2}}_{E_{1}} \left(\frac{E}{E_{0}}\right)^{-a} f(E/E_{0}) dE = \int^{E_{2}}_{E_{1}} KE_{0}^{a}f(E/E_{0})dE
+\end{equation}
+
+We need to transform the number of events to a rate (in Hz), in order to calculate the sensitivity for a certain observation time. The total rate caclulated in the energy range $E_{1}, E_{2}$ will be:
+
+\begin{equation}
+  R = \int^{E_{1}}_{E_{2}} \frac{dF}{dE}dE d\Omega dA
+\end{equation}
+
+Therefore, the final weight $w(E)$ for which the spectrum of each event should me multiplied is:
+
+\begin{equation}
+  w(E) = \left(\frac{E}{E_0}\right)^{-a}\cdot f(E/E_{0}) \cdot \frac{N'}{R}
+\end{equation}
+
+Where $a=-2$ is the spectral index of the simulated events, $E_{0}$ is taken as 1 TeV and $f(E/E_{0})$ would depend on the spectral shape to be reproduced. For $\gamma$ events we take the spectrum of the Crab nebula measure by HEGRA \cite{2004CrabHEGRA}:
+
+\begin{equation}
+  \left(\frac{dF}{dE}\right)_{Crab} = 2.83\cdot 10^{-14} \left(\frac{E}{1 TeV}\right)^{-2.62} GeV^{-1}cm^{-2}s^{-1}
+\end{equation}
+
+And for protons, we use the results from the BESS spectrometer \cite{2000protonBESS}:
+
+\begin{equation}
+    \left(\frac{dF}{dE}\right)_{Crab} = 9.6\cdot 10^{-9} \left(\frac{E}{1 TeV}\right)^{-2.7} GeV^{-1}cm^{-2}s^{-1}
+\end{equation}
+
+The values of the differential sensitivity will be given for a certain number of energy bins, therefore, we must calculate the number of weighted events in each energy bin and multiply them by the observation time. This will give us the quantities $N_{S}$ and $N_{B}$. To calculate the sensitivity we only need $N_{B}$, which will be the number of weighted proton events divided by the factor $\alpha = 1/5$.
+
+\subsection{Cut optimization}
+
+To obtain the best possible sensitivity, instead of using all the weighted proton events, we can use the two parameters $gammaness$ and $\theta^2$ to perform cuts that will reject the majority of the background.\\
+$Gammaness$ is a number between 0 and 1 assigned by the \gls{rf} classifier to make the decission on the $\gamma$-hadron separation. Events close to 1 will be more $\gamma$-like, and events close to 0 will be more proton-like.
+$\theta^2$ is the angle between the reconstructed direction of the event and the true assumed direction of the source. Events with a high $\theta^2$ are most likely to be proton events, while $\gamma$s will have a $\theta^2$ close to 0. For protons, 
+\\
+To optimize the cuts in these parameters, we define several bins in $gammaness$ and $\theta^2$, calculate the number of weighted proton events left after the cuts in each bin and then use this quantity as $N_{B}$ for the sensitivity calculation. For each energy bin, we will select the combination of cuts which provides the best sensitivity. We require that after the cuts, at least 10 events of $\gamma$s and protons should remain in the energy bin.  
+
 \section{Results on real data}
 
 \end{document}
