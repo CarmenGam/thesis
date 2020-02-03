@@ -175,31 +175,65 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.4}$\gamma $-hadron separation}{85}{subsection.4.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Sensitivity of the LST1}{87}{section.4.3}
+\contentsline {section}{\numberline {4.3}Sensitivity of the LST1}{88}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Reweighting}{88}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.1}Reweighting}{89}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3.2}Cut optimization}{90}{subsection.4.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.3}Expected LST1 Performance}{90}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.3}Expected LST1 Performance}{91}{subsection.4.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Data}{90}{section*.78}
+\contentsline {subsubsection}{Data}{91}{section*.79}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Energy resolution}{91}{section*.80}
+\contentsline {subsubsection}{Energy resolution}{92}{section*.81}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Angular resolution}{91}{section*.82}
+\contentsline {subsubsection}{Angular resolution}{92}{section*.83}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{$\gamma $-hadron separation}{91}{section*.84}
+\contentsline {subsubsection}{$\gamma $-hadron separation}{92}{section*.85}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Effective Area}{93}{section*.86}
+\contentsline {subsubsection}{Effective Area}{93}{section*.87}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Sensitivity}{93}{section*.88}
+\contentsline {subsubsection}{Sensitivity}{93}{section*.89}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}Expectation-Maximization method for Hillas Parameters...}{93}{section.4.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.1}The Expectation-Maximization algorithm}{95}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Comparison of \gls {em} without cleaning and tailcuts cleaning}{97}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.2}Comparison of \gls {em} without cleaning and tailcuts cleaning}{98}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Results on real data}{99}{section.4.5}
+\contentsline {section}{\numberline {4.5}Results on real data}{98}{section.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Characterization of the Large Magellanic Cloud...}{101}{chapter.5}
+\ttl@stoptoc {default@4}
+\ttl@starttoc {default@5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Introduction}{101}{section.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Characterization of the Large Magellanic Cloud at TeV Energies}{103}{section.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Emission Model}{104}{section.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.1}Diffuse emission}{104}{subsection.5.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.2}Point Sources}{104}{subsection.5.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Pulsar Wind Nebula N157B}{104}{section*.92}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Supernova Remnant N132D}{104}{section*.93}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Superbubble 30 Dor C}{105}{section*.94}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Binary system LMC P3}{105}{section*.95}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Simulations and Analysis method}{105}{section.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.1}Region of Interest and Observational strategy}{105}{subsection.5.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.2}Simulation parameters}{106}{subsection.5.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.3}Fitting method}{107}{subsection.5.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{3D Likelihood Analysis for gamma-ray sources}{107}{section*.97}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Upper limits calculation}{108}{section*.98}
 \contentsfinish 

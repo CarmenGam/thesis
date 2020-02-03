@@ -13,7 +13,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 31966 items from 5000.
+Reallocated field_info (elt_size=4) to 37109 items from 5000.
 Database file #1: main-blx.bib
 Database file #2: bibliography.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
@@ -27,6 +27,26 @@ I was expecting a `,' or a `}'---line 4861 of file bibliography.bib
  :   
  :   year = "2005"
 (Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 5770 of file bibliography.bib
+ : @article{Zwicky
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5786 of file bibliography.bib
+ : @article{1978Rubin
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 5800 of file bibliography.bib
+ : @article{2014Planck
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6088 of file bibliography.bib
+ : @misc{CTAPerformance
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 6397 of file bibliography.bib
+ : @inproceedings{2017HESSLMCP3
+ :                             ,
 I'm skipping whatever remains of this entry
 Biblatex version: 3.3
 Warning--you've exceeded 250, the entry-string-size, for entry 2008crabmagic
@@ -125,10 +145,28 @@ while executing--line 2513 of file biblatex.bst
 Warning--you've exceeded 250, the entry-string-size, for entry 2013LST
 while executing--line 2513 of file biblatex.bst
 *Please notify the bibstyle designer*
+Warning--you've exceeded 250, the entry-string-size, for entry 2015HESSTeVLMC
+while executing--line 2513 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 250, the entry-string-size, for entry 2010FermiLATLMC11months
+while executing--line 2513 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 250, the entry-string-size, for entry 2019SciencewithCTA
+while executing--line 2513 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 250, the entry-string-size, for entry 2012HESSN157B
+while executing--line 2513 of file biblatex.bst
+*Please notify the bibstyle designer*
 Warning--you've exceeded 250, the entry-string-size, for entry 2018GPHESS
 while executing--line 2541 of file biblatex.bst
 *Please notify the bibstyle designer*
 Warning--you've exceeded 250, the entry-string-size, for entry 2013globularclustersHESS
+while executing--line 2541 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 250, the entry-string-size, for entry 2012HESSN157B
+while executing--line 2541 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 250, the entry-string-size, for entry 2015HESSTeVLMC
 while executing--line 2541 of file biblatex.bst
 *Please notify the bibstyle designer*
 Warning--you've exceeded 250, the entry-string-size, for entry 2015LMCHess
@@ -138,6 +176,9 @@ Warning--you've exceeded 250, the entry-string-size, for entry 2014compositeSNRh
 while executing--line 2541 of file biblatex.bst
 *Please notify the bibstyle designer*
 Warning--you've exceeded 250, the entry-string-size, for entry 2011detectionpulsationglobularcluster
+while executing--line 2541 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 250, the entry-string-size, for entry 2019SciencewithCTA
 while executing--line 2541 of file biblatex.bst
 *Please notify the bibstyle designer*
 Warning--you've exceeded 250, the entry-string-size, for entry 2019CTAScienceCase
@@ -212,6 +253,9 @@ while executing--line 2541 of file biblatex.bst
 Warning--you've exceeded 250, the entry-string-size, for entry 2010DSpheFermi
 while executing--line 2541 of file biblatex.bst
 *Please notify the bibstyle designer*
+Warning--you've exceeded 250, the entry-string-size, for entry 2010FermiLATLMC11months
+while executing--line 2541 of file biblatex.bst
+*Please notify the bibstyle designer*
 Warning--you've exceeded 250, the entry-string-size, for entry 2010LMCFermifirst
 while executing--line 2541 of file biblatex.bst
 *Please notify the bibstyle designer*
@@ -223,45 +267,45 @@ while executing--line 2541 of file biblatex.bst
 *Please notify the bibstyle designer*
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 194 entries,
+You've used 231 entries,
             6047 wiz_defined-function locations,
-            2651 strings with 208543 characters,
-and the built_in function-call counts, 2020904 in all, are:
-= -- 59878
-> -- 81685
-< -- 4300
-+ -- 45015
-- -- 46021
-* -- 303888
-:= -- 151188
+            2931 strings with 224562 characters,
+and the built_in function-call counts, 2400864 in all, are:
+= -- 70847
+> -- 98750
+< -- 5120
++ -- 54161
+- -- 55373
+* -- 359639
+:= -- 180779
 add.period$ -- 0
-call.type$ -- 194
-change.case$ -- 1979
-chr.to.int$ -- 932
-cite$ -- 386
-duplicate$ -- 258067
-empty$ -- 168363
-format.name$ -- 107530
-if$ -- 364352
+call.type$ -- 231
+change.case$ -- 2365
+chr.to.int$ -- 1142
+cite$ -- 460
+duplicate$ -- 304872
+empty$ -- 199329
+format.name$ -- 127829
+if$ -- 433296
 int.to.chr$ -- 0
-int.to.str$ -- 451
+int.to.str$ -- 555
 missing$ -- 0
-newline$ -- 45535
-num.names$ -- 7887
-pop$ -- 93460
+newline$ -- 53725
+num.names$ -- 9503
+pop$ -- 110827
 preamble$ -- 1
-purify$ -- 10536
+purify$ -- 12436
 quote$ -- 0
-skip$ -- 86425
+skip$ -- 103219
 stack$ -- 0
-substring$ -- 18434
-swap$ -- 95971
-text.length$ -- 11740
+substring$ -- 21931
+swap$ -- 113528
+text.length$ -- 13853
 text.prefix$ -- 11
 top$ -- 1
-type$ -- 7357
+type$ -- 8763
 warning$ -- 0
-while$ -- 3977
+while$ -- 4825
 width$ -- 0
-write$ -- 45340
-(There were 2 error messages)
+write$ -- 53493
+(There were 7 error messages)

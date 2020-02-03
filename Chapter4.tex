@@ -118,6 +118,16 @@ For the implementation of the \glspl{rf}, we use the Python package \textit{scik
   \label{tab:RFpars}
   \end{table}
 
+\begin{figure}
+\centering
+\includegraphics[width=0.45\textwidth]{Pictures/reg_energy_importances.pdf}
+\includegraphics[width=0.45\textwidth]{Pictures/reg_disp_vector_importances.pdf}
+\includegraphics[width=0.45\textwidth]{Pictures/gls_importances.pdf}
+  \caption{Feature importances for the trained \gls{rf} used in the analysis of \gls{mc} simulated \gls{lst}1 data. The higher the importance value, the more relevant is the feature for the regression/classification. }
+    \label{fig:importances}
+\end{figure}
+
+
 \subsection{$\gamma$-hadron separation}
 
 The majority of Cherenkov showers produced in the atmosphere are actually not produced by $\gamma$-rays, but by cosmic hadrons (mainly protons). These events trigger the telescopes $\sim 10^4$ times more than $\gamma$-rays, therefore it is necessary a very efficient background rejection method to discard hadronic showers and analyze only $\gamma$ events. The methods for $\gamma$-hadron separation in general rely on the morphological differences between the kind of showers produced by the two kinds of primaries, and temporal data. This job is much more efficient in stereo mode, because $\gamma$-ray showers which trigger different telescopes will produce images in the cameras with a Hillas ellipse pointing towards the source position, while hadronic showers will produce much less correlated images. In mono mode we can only rely on the morphological features of the images, knowing that hadronic shower images will be much more extended, without a clear definite shape and with a higher number of islands than $\gamma$ showers.\\
@@ -254,7 +264,7 @@ The point source $\gamma$s, together with a subset of hadron events as backgroun
 
 \subsubsection{Energy resolution}
 
-The energy resolution give information on the preciseness of the energy reconstruction. It is defined as the 68th percentile of the relative error $\Delta E/E = E_{reco}-E{true}/E_{true}$. If the relative error follows a normal distribution, the 68th percentile is equivalent to one $\sigma$. The results on energy resolution are shown in figure \ref{fig:energy}
+The energy resolution give information on the precission of the energy reconstruction. It is defined as the 68th percentile of the relative error $\Delta E/E = E_{reco}-E{true}/E_{true}$. If the relative error follows a normal distribution, the 68th percentile is equivalent to one $\sigma$. The results on energy resolution are shown in figure \ref{fig:energy}. The features used for the energy regression ordered by their importance can be sen in figure \ref{fig:importances}.
 
 \begin{figure}
 \centering
@@ -263,9 +273,11 @@ The energy resolution give information on the preciseness of the energy reconstr
     \label{fig:energy}
 \end{figure}
 
+
+
 \subsubsection{Angular resolution}
 
-The angular resolution is calculated in a similar way as the energy resolution, but in this case the relative error shown in figure \ref{fig:angres} refers to the angular difference between the true direction of the source and the reconstructed direction. 
+The angular resolution is calculated in a similar way as the energy resolution, but in this case the relative error shown in figure \ref{fig:angres} refers to the angular difference between the true direction of the source and the reconstructed direction. The features used for the disp vector regression ordered by their importance can be sen in figure \ref{fig:importances}.
 
 
 \begin{figure}
@@ -277,7 +289,7 @@ The angular resolution is calculated in a similar way as the energy resolution, 
 
 \subsubsection{$\gamma$-hadron separation}
 
-The performance in $\gamma$-hadron separation can be studied in terms of the \gls{roc} curve of the \gls{rf} classifier. The \gls{roc} curve illustrated the diagnostic ability of a binary classifier as its discrimination threshold is varied. It is produced plotting the true positive rate(the rate of $\gamma$s correctly classified as gammas) versus the false positive rare (the rate of protons incorrectly classified as $\gamma$s) at several thresholds (gammaness). A value of 1 in true positive rate, while 0 in the false positive rate would mean a perfect classification. The closest of the \gls{roc} curve to a diagonal, the more similar to an uniformly random distribution is the classification. For this result, a subset of protons were used to test the \gls{rf} classifier together with the point-like $\gamma$s. Result is shown in figure \ref{fig:roc}.
+The performance in $\gamma$-hadron separation can be studied in terms of the \gls{roc} curve of the \gls{rf} classifier. The \gls{roc} curve illustrated the diagnostic ability of a binary classifier as its discrimination threshold is varied. It is produced plotting the true positive rate(the rate of $\gamma$s correctly classified as gammas) versus the false positive rare (the rate of protons incorrectly classified as $\gamma$s) at several thresholds (gammaness). A value of 1 in true positive rate, while 0 in the false positive rate would mean a perfect classification. The closest of the \gls{roc} curve to a diagonal, the more similar to an uniformly random distribution is the classification. For this result, a subset of protons were used to test the \gls{rf} classifier together with the point-like $\gamma$s. Result is shown in figure \ref{fig:roc}. The features used for the $\gamma$/hadron classification ordered by their importance can be sen in figure \ref{fig:importances}.
 
 \begin{figure}
 \centering
@@ -399,7 +411,10 @@ The timing parameters are not included in the features for \gls{rf} training bec
     \label{fig:em_res}
 \end{figure}
 
-From figure \ref{fig:em_res} it can be appreciated that the results for the \gls{em} method are compatible with the tailcuts cleaning method, reassuring that this is a valid method of Hillas parameterization which allows to go through the step of cleaning which clearly can affect the performance results, as shown in section \ref{sec:performance}. The principal current caveat of the method is that it is much more time consuming than the simple tailcuts methods, but taking into account that no time optimization work has been done in the code, great improvements can be expected. 
+From figure \ref{fig:em_res} it can be appreciated that the results for the \gls{em} method are compatible with the tailcuts cleaning method, reassuring that this is a valid method of Hillas parameterization which allows to go through the step of cleaning which clearly can affect the performance results, as shown in section \ref{sec:performance}. The principal current caveat of the method is that it is much more time consuming than the simple tailcuts methods, but taking into account that no time optimization work has been done in the code, great improvements can be expected.
+
 \section{Results on real data}
+
+
 
 \end{document}
