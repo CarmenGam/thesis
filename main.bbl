@@ -45276,51 +45276,6 @@
   \field{year}{2011}
 \endentry
 
-\entry{1977EM}{article}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Dempster}{D.}%
-     {A.~P.}{A.~P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Laird}{L.}%
-     {N.~M.}{N.~M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Rubin}{R.}%
-     {D.~B.}{D.~B.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {[Royal Statistical Society, Wiley]}%
-  }
-  \strng{namehash}{DAP+1}
-  \strng{fullhash}{DAPLNMRDB1}
-  \field{abstract}{%
-  A broadly applicable algorithm for computing maximum likelihood estimates
-  from incomplete data is presented at various levels of generality. Theory
-  showing the monotone behaviour of the likelihood and convergence of the
-  algorithm is derived. Many examples are sketched, including missing value
-  situations, applications to grouped, censored or truncated data, finite
-  mixture models, variance component estimation, hyperparameter estimation,
-  iteratively reweighted least squares and factor analysis.%
-  }
-  \field{issn}{00359246}
-  \field{number}{1}
-  \field{pages}{1\bibrangedash 38}
-  \field{title}{Maximum Likelihood from Incomplete Data via the EM Algorithm}
-  \verb{url}
-  \verb http://www.jstor.org/stable/2984875
-  \endverb
-  \field{volume}{39}
-  \field{journaltitle}{Journal of the Royal Statistical Society. Series B
-  (Methodological)}
-  \field{year}{1977}
-\endentry
-
 \entry{1983LiMa}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -45832,6 +45787,51 @@
   \field{eprintclass}{astro-ph}
   \field{month}{12}
   \field{year}{2000}
+\endentry
+
+\entry{1977EM}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Dempster}{D.}%
+     {A.~P.}{A.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Laird}{L.}%
+     {N.~M.}{N.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rubin}{R.}%
+     {D.~B.}{D.~B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {[Royal Statistical Society, Wiley]}%
+  }
+  \strng{namehash}{DAP+1}
+  \strng{fullhash}{DAPLNMRDB1}
+  \field{abstract}{%
+  A broadly applicable algorithm for computing maximum likelihood estimates
+  from incomplete data is presented at various levels of generality. Theory
+  showing the monotone behaviour of the likelihood and convergence of the
+  algorithm is derived. Many examples are sketched, including missing value
+  situations, applications to grouped, censored or truncated data, finite
+  mixture models, variance component estimation, hyperparameter estimation,
+  iteratively reweighted least squares and factor analysis.%
+  }
+  \field{issn}{00359246}
+  \field{number}{1}
+  \field{pages}{1\bibrangedash 38}
+  \field{title}{Maximum Likelihood from Incomplete Data via the EM Algorithm}
+  \verb{url}
+  \verb http://www.jstor.org/stable/2984875
+  \endverb
+  \field{volume}{39}
+  \field{journaltitle}{Journal of the Royal Statistical Society. Series B
+  (Methodological)}
+  \field{year}{1977}
 \endentry
 
 \lossort

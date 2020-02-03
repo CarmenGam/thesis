@@ -47,12 +47,14 @@
 \BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 47
 \BOOKMARK [1][-]{section.4.2}{The LST1 analysis chain overview}{chapter.4}% 48
 \BOOKMARK [2][-]{subsection.4.2.1}{Calibration}{section.4.2}% 49
-\BOOKMARK [2][-]{subsection.4.2.2}{Image cleaning and parametrization}{section.4.2}% 50
+\BOOKMARK [2][-]{subsection.4.2.2}{Image cleaning and parameterization}{section.4.2}% 50
 \BOOKMARK [2][-]{subsection.4.2.3}{Reconstruction of energy and source position}{section.4.2}% 51
 \BOOKMARK [2][-]{subsection.4.2.4}{-hadron separation}{section.4.2}% 52
-\BOOKMARK [1][-]{section.4.3}{Expectation-Maximization method for Hillas Parameters...}{chapter.4}% 53
-\BOOKMARK [2][-]{subsection.4.3.1}{The Expectation-Maximization algorithm}{section.4.3}% 54
-\BOOKMARK [1][-]{section.4.4}{Sensitivity of the LST1}{chapter.4}% 55
-\BOOKMARK [2][-]{subsection.4.4.1}{Reweighting}{section.4.4}% 56
-\BOOKMARK [2][-]{subsection.4.4.2}{Cut optimization}{section.4.4}% 57
-\BOOKMARK [1][-]{section.4.5}{Results on real data}{chapter.4}% 58
+\BOOKMARK [1][-]{section.4.3}{Sensitivity of the LST1}{chapter.4}% 53
+\BOOKMARK [2][-]{subsection.4.3.1}{Reweighting}{section.4.3}% 54
+\BOOKMARK [2][-]{subsection.4.3.2}{Cut optimization}{section.4.3}% 55
+\BOOKMARK [2][-]{subsection.4.3.3}{Expected LST1 Performance}{section.4.3}% 56
+\BOOKMARK [1][-]{section.4.4}{Expectation-Maximization method for Hillas Parameters...}{chapter.4}% 57
+\BOOKMARK [2][-]{subsection.4.4.1}{The Expectation-Maximization algorithm}{section.4.4}% 58
+\BOOKMARK [2][-]{subsection.4.4.2}{Comparison of em without cleaning and tailcuts cleaning}{section.4.4}% 59
+\BOOKMARK [1][-]{section.4.5}{Results on real data}{chapter.4}% 60

@@ -2428,3 +2428,33 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{roc}{}%
+{%
+\gls@defglossaryentry{roc}%
+{%
+name={ROC},%
+sort={ROC},%
+type={acronym},%
+first={receiver operating characteristic\glsspace (ROC)},%
+firstplural={receiver operating characteristics\glsspace (ROCs)},%
+text={ROC},%
+plural={ROCs},%
+description={receiver operating characteristic},%
+descriptionplural={receiver operating characteristic\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={receiver operating characteristic},%
+longplural={receiver operating characteristics},%
+short={ROC},%
+shortplural={ROCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
