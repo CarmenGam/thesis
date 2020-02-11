@@ -121,35 +121,35 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.1}Large Size Telescope (LST)}{64}{subsection.3.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\gls {lst} Structure}{65}{section*.56}
+\contentsline {subsubsection}{\gls {lst} Structure}{66}{section*.57}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\gls {lst} Optics}{65}{section*.58}
+\contentsline {subsubsection}{\gls {lst} Optics}{67}{section*.59}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\gls {lst} Camera}{66}{section*.59}
+\contentsline {subsubsection}{\gls {lst} Camera}{67}{section*.60}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Medium Size Telescope (MST)}{67}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.2}Medium Size Telescope (MST)}{68}{subsection.3.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\gls {mst} Structure}{68}{section*.61}
+\contentsline {subsubsection}{\gls {mst} Structure}{69}{section*.62}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\gls {mst} Optics}{68}{section*.63}
+\contentsline {subsubsection}{\gls {mst} Optics}{69}{section*.64}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\gls {mst} Cameras}{69}{section*.65}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.3}Small Size Telescope (SST)}{70}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.3}Small Size Telescope (SST)}{71}{subsection.3.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\gls {sst}-ASTRI Structure}{71}{section*.67}
+\contentsline {subsubsection}{\gls {sst} Structure}{71}{section*.67}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\gls {sst}-ASTRI Optics}{71}{section*.69}
+\contentsline {subsubsection}{\gls {sst} Optics}{72}{section*.69}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\gls {sst}-CHEC Camera}{72}{section*.70}
+\contentsline {subsubsection}{\gls {sst} Camera}{72}{section*.70}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.4}Reconstruction and Analysis tools}{72}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Monte Carlo simulations}{72}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.1}Monte Carlo simulations}{73}{subsection.3.4.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{CORSIKA}{73}{section*.71}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{sim\_telarray}{73}{section*.73}
+\contentsline {subsubsection}{sim\_telarray}{74}{section*.73}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4.2}Low level analysis: ctapipe}{75}{subsection.3.4.2}
 \defcounter {refsection}{0}\relax 
@@ -209,31 +209,39 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.1}Introduction}{101}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Characterization of the Large Magellanic Cloud at TeV Energies}{103}{section.5.2}
+\contentsline {section}{\numberline {5.2}Emission Model}{104}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Emission Model}{104}{section.5.3}
+\contentsline {subsection}{\numberline {5.2.1}Diffuse emission}{104}{subsection.5.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Diffuse emission}{104}{subsection.5.3.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.2}Point Sources}{104}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.2.2}Point Sources}{104}{subsection.5.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Pulsar Wind Nebula N157B}{104}{section*.92}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Supernova Remnant N132D}{104}{section*.93}
+\contentsline {subsubsection}{Supernova Remnant N132D}{105}{section*.94}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Superbubble 30 Dor C}{105}{section*.94}
+\contentsline {subsubsection}{Superbubble 30 Dor C}{106}{section*.95}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Binary system LMC P3}{105}{section*.95}
+\contentsline {subsubsection}{Binary system LMC P3}{106}{section*.96}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Simulations and Analysis method}{105}{section.5.4}
+\contentsline {subsection}{\numberline {5.2.3}PWNe population in the LMC}{107}{subsection.5.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.1}Region of Interest and Observational strategy}{105}{subsection.5.4.1}
+\contentsline {section}{\numberline {5.3}Simulations and Analysis method}{108}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.2}Simulation parameters}{106}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.3.1}Region of Interest and Observational strategy}{108}{subsection.5.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.3}Fitting method}{107}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.3.2}Simulation parameters}{109}{subsection.5.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{3D Likelihood Analysis for gamma-ray sources}{107}{section*.97}
+\contentsline {subsection}{\numberline {5.3.3}Fitting method}{110}{subsection.5.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Upper limits calculation}{108}{section*.98}
+\contentsline {subsubsection}{3D Likelihood Analysis for gamma-ray sources}{110}{section*.99}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Upper limits calculation}{111}{section*.100}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Results}{112}{section.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.1}Point sources}{112}{subsection.5.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.2}Population of PWNe}{112}{subsection.5.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.3}Diffuse Emission}{112}{subsection.5.4.3}
 \contentsfinish 

@@ -268,6 +268,36 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{sne}{}%
+{%
+\gls@defglossaryentry{sne}%
+{%
+name={SNe},%
+sort={SNe},%
+type={acronym},%
+first={Supernovae\glsspace (SNe)},%
+firstplural={Supernovaes\glsspace (SNes)},%
+text={SNe},%
+plural={SNes},%
+description={Supernovae},%
+descriptionplural={Supernovae\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Supernovae},%
+longplural={Supernovaes},%
+short={SNe},%
+shortplural={SNes},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{dsa}{}%
 {%
 \gls@defglossaryentry{dsa}%
@@ -2453,6 +2483,216 @@ long={receiver operating characteristic},%
 longplural={receiver operating characteristics},%
 short={ROC},%
 shortplural={ROCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{mw}{}%
+{%
+\gls@defglossaryentry{mw}%
+{%
+name={MW},%
+sort={MW},%
+type={acronym},%
+first={Milky Way\glsspace (MW)},%
+firstplural={Milky Ways\glsspace (MWs)},%
+text={MW},%
+plural={MWs},%
+description={Milky Way},%
+descriptionplural={Milky Way\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Milky Way},%
+longplural={Milky Ways},%
+short={MW},%
+shortplural={MWs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ulrigs}{}%
+{%
+\gls@defglossaryentry{ulrigs}%
+{%
+name={ULRIGs},%
+sort={ULRIGs},%
+type={acronym},%
+first={Ultraluminous Infrarred Galaxies\glsspace (ULRIGs)},%
+firstplural={Ultraluminous Infrarred Galaxiess\glsspace (ULRIGss)},%
+text={ULRIGs},%
+plural={ULRIGss},%
+description={Ultraluminous Infrarred Galaxies},%
+descriptionplural={Ultraluminous Infrarred Galaxies\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Ultraluminous Infrarred Galaxies},%
+longplural={Ultraluminous Infrarred Galaxiess},%
+short={ULRIGs},%
+shortplural={ULRIGss},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sfh}{}%
+{%
+\gls@defglossaryentry{sfh}%
+{%
+name={SFH},%
+sort={SFH},%
+type={acronym},%
+first={Stellar Formation History\glsspace (SFH)},%
+firstplural={Stellar Formation Historys\glsspace (SFHs)},%
+text={SFH},%
+plural={SFHs},%
+description={Stellar Formation History},%
+descriptionplural={Stellar Formation History\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Stellar Formation History},%
+longplural={Stellar Formation Historys},%
+short={SFH},%
+shortplural={SFHs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ms}{}%
+{%
+\gls@defglossaryentry{ms}%
+{%
+name={MS},%
+sort={MS},%
+type={acronym},%
+first={Magellanic System\glsspace (MS)},%
+firstplural={Magellanic Systems\glsspace (MSs)},%
+text={MS},%
+plural={MSs},%
+description={Magellanic System},%
+descriptionplural={Magellanic System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Magellanic System},%
+longplural={Magellanic Systems},%
+short={MS},%
+shortplural={MSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ksp}{}%
+{%
+\gls@defglossaryentry{ksp}%
+{%
+name={KSP},%
+sort={KSP},%
+type={acronym},%
+first={Key Science Projects\glsspace (KSP)},%
+firstplural={Key Science Projectss\glsspace (KSPs)},%
+text={KSP},%
+plural={KSPs},%
+description={Key Science Projects},%
+descriptionplural={Key Science Projects\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Key Science Projects},%
+longplural={Key Science Projectss},%
+short={KSP},%
+shortplural={KSPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{roi}{}%
+{%
+\gls@defglossaryentry{roi}%
+{%
+name={ROI},%
+sort={ROI},%
+type={acronym},%
+first={Region of Interest\glsspace (ROI)},%
+firstplural={Region of Interests\glsspace (ROIs)},%
+text={ROI},%
+plural={ROIs},%
+description={Region of Interest},%
+descriptionplural={Region of Interest\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Region of Interest},%
+longplural={Region of Interests},%
+short={ROI},%
+shortplural={ROIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{cl}{}%
+{%
+\gls@defglossaryentry{cl}%
+{%
+name={CL},%
+sort={CL},%
+type={acronym},%
+first={Confidence Level\glsspace (CL)},%
+firstplural={Confidence Levels\glsspace (CLs)},%
+text={CL},%
+plural={CLs},%
+description={Confidence Level},%
+descriptionplural={Confidence Level\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Confidence Level},%
+longplural={Confidence Levels},%
+short={CL},%
+shortplural={CLs},%
 counter={page},%
 parent={},%
 %
