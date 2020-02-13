@@ -51887,6 +51887,398 @@
   \field{year}{2019}
 \endentry
 
+\entry{2012HIIinLMC}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Pellegrini}{P.}%
+     {E.~W.}{E.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Oey}{O.}%
+     {M.~S.}{M.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Winkler}{W.}%
+     {P.~F.}{P.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Points}{P.}%
+     {S.~D.}{S.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Smith}{S.}%
+     {R.~C.}{R.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jaskot}{J.}%
+     {A.~E.}{A.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zastrow}{Z.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {{IOP} Publishing}%
+  }
+  \strng{namehash}{PEW+1}
+  \strng{fullhash}{PEWOMSWPFPSDSRCJAEZJ1}
+  \verb{doi}
+  \verb 10.1088/0004-637x/755/1/40
+  \endverb
+  \field{number}{1}
+  \field{pages}{40}
+  \field{title}{{THE} {OPTICAL} {DEPTH} {OF} H {II} {REGIONS} {IN} {THE}
+  {MAGELLANIC} {CLOUDS}}
+  \verb{url}
+  \verb https://doi.org/10.1088%2F0004-637x%2F755%2F1%2F40
+  \endverb
+  \field{volume}{755}
+  \field{journaltitle}{The Astrophysical Journal}
+  \field{month}{07}
+  \field{year}{2012}
+\endentry
+
+\entry{201130Doradusstarforming}{article}{}
+  \name{author}{27}{}{%
+    {{}%
+     {{De Marchi}}{D.}%
+     {Guido}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Paresce}}{P.}%
+     {Francesco}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Panagia}}{P.}%
+     {Nino}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Beccari}}{B.}%
+     {Giacomo}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Spezzi}}{S.}%
+     {Loredana}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Sirianni}}{S.}%
+     {Marco}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Andersen}}{A.}%
+     {Morten}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Mutchler}}{M.}%
+     {Max}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Balick}}{B.}%
+     {Bruce}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Dopita}}{D.}%
+     {Michael~A.}{M.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Frogel}}{F.}%
+     {Jay~A.}{J.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Whitmore}}{W.}%
+     {Bradley~C.}{B.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Bond}}{B.}%
+     {Howard}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Calzetti}}{C.}%
+     {Daniela}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Carollo}}{C.}%
+     {C.~Marcella}{C.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Disney}}{D.}%
+     {Michael~J.}{M.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Hall}}{H.}%
+     {Donald N.~B.}{D.~N.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Holtzman}}{H.}%
+     {Jon~A.}{J.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Kimble}}{K.}%
+     {Randy~A.}{R.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{McCarthy}}{M.}%
+     {Patrick~J.}{P.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{O'Connell}}{O.}%
+     {Robert~W.}{R.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Saha}}{S.}%
+     {Abhijit}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Silk}}{S.}%
+     {Joseph~I.}{J.~I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Trauger}}{T.}%
+     {John~T.}{J.~T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Walker}}{W.}%
+     {Alistair~R.}{A.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Windhorst}}{W.}%
+     {Rogier~A.}{R.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Young}}{Y.}%
+     {Erick~T.}{E.~T.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{galaxies: star clusters: individual: 30 Dor, galaxies: stellar content,
+  Magellanic Clouds, stars: formation, stars: pre-main sequence, Astrophysics -
+  Solar and Stellar Astrophysics, Astrophysics - Astrophysics of Galaxies}
+  \strng{namehash}{DG+1}
+  \strng{fullhash}{DGPFPNBGSLSMAMMMBBDMAFJAWBCBHCDCCMDMJHDNBHJAKRAMPJORWSASJITJTWARWRAYET1}
+  \verb{doi}
+  \verb 10.1088/0004-637X/739/1/27
+  \endverb
+  \field{eid}{27}
+  \verb{eprint}
+  \verb 1106.2801
+  \endverb
+  \field{number}{1}
+  \field{pages}{27}
+  \field{title}{{Star Formation in 30 Doradus}}
+  \field{volume}{739}
+  \field{journaltitle}{\apj}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph.SR}
+  \field{month}{09}
+  \field{year}{2011}
+\endentry
+
+\entry{1991SNrates}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bergh}{B.}%
+     {Sidney Van~Den}{S.~V.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier Science}%
+  }
+  \strng{namehash}{BSVD1}
+  \strng{fullhash}{BSVD1}
+  \verb{doi}
+  \verb 10.1016/0370-1573(91)90034-j
+  \endverb
+  \field{issue}{6}
+  \field{title}{Supernova rates: A progress report}
+  \field{volume}{204}
+  \field{journaltitle}{Physics Reports}
+  \field{year}{1991}
+\endentry
+
+\entry{2006diffusionloss}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {{Berezinsky}}{B.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Gazizov}}{G.}%
+     {A.~Z.}{A.~Z.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{ISM: Cosmic Rays, Diffusion, Astrophysics}
+  \strng{namehash}{BVGAZ1}
+  \strng{fullhash}{BVGAZ1}
+  \verb{doi}
+  \verb 10.1086/502626
+  \endverb
+  \verb{eprint}
+  \verb astro-ph/0512090
+  \endverb
+  \field{number}{1}
+  \field{pages}{8\bibrangedash 13}
+  \field{title}{{Diffusion of Cosmic Rays in the Expanding Universe. I.}}
+  \field{volume}{643}
+  \field{journaltitle}{\apj}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph}
+  \field{month}{05}
+  \field{year}{2006}
+\endentry
+
+\entry{2014DustEMLMCismemission}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {{Stephens}}{S.}%
+     {Ian~W.}{I.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Evans}}{E.}%
+     {Jessica~Marie}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Xue}}{X.}%
+     {Rui}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Chu}}{C.}%
+     {You-Hua}{Y.-H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Gruendl}}{G.}%
+     {Robert~A.}{R.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Segura-Cox}}{S.}%
+     {Dominique~M.}{D.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{dust, extinction, H II regions, infrared: ISM, Magellanic Clouds,
+  Astrophysics - Astrophysics of Galaxies, Astrophysics - Solar and Stellar
+  Astrophysics}
+  \strng{namehash}{SIW+1}
+  \strng{fullhash}{SIWEJMXRCYHGRASDM1}
+  \verb{doi}
+  \verb 10.1088/0004-637X/784/2/147
+  \endverb
+  \field{eid}{147}
+  \verb{eprint}
+  \verb 1402.2631
+  \endverb
+  \field{number}{2}
+  \field{pages}{147}
+  \field{title}{{Spitzer Observations of Dust Emission from H II Regions in the
+  Large Magellanic Cloud}}
+  \field{volume}{784}
+  \field{journaltitle}{\apj}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph.GA}
+  \field{month}{04}
+  \field{year}{2014}
+\endentry
+
+\entry{2005LMCmagneticfield}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {{Gaensler}}{G.}%
+     {B.~M.}{B.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Haverkorn}}{H.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Staveley-Smith}}{S.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Dickey}}{D.}%
+     {J.~M.}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{McClure-Griffiths}}{M.}%
+     {N.~M.}{N.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Dickel}}{D.}%
+     {J.~R.}{J.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Wolleben}}{W.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{ASTRONOMY, Astrophysics}
+  \strng{namehash}{GBM+1}
+  \strng{fullhash}{GBMHMSLDJMMNMDJRWM1}
+  \verb{doi}
+  \verb 10.1126/science.1108832
+  \endverb
+  \verb{eprint}
+  \verb astro-ph/0503226
+  \endverb
+  \field{number}{5715}
+  \field{pages}{1610\bibrangedash 1612}
+  \field{title}{{The Magnetic Field of the Large Magellanic Cloud Revealed
+  Through Faraday Rotation}}
+  \field{volume}{307}
+  \field{journaltitle}{Science}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph}
+  \field{year}{2005}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
 \entry{2012HESSLMC}{article}{}
   \name{author}{7}{}{%
     {{}%
