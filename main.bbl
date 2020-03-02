@@ -3421,7 +3421,7 @@
   }
   \keyw{cosmic rays, ISM: supernova remnants, Astrophysics - High Energy
   Astrophysical Phenomena}
-  \strng{namehash}{CP+1}
+  \strng{namehash}{CP+2}
   \strng{fullhash}{CPGSTRHTB1}
   \verb{doi}
   \verb 10.1093/mnras/sty1589
@@ -17788,7 +17788,7 @@
 \endentry
 
 \entry{2010LMCFermifirst}{article}{}
-  \name{author}{179}{}{%
+  \name{author}{178}{}{%
     {{}%
      {{Abdo}}{A.}%
      {A.~A.}{A.~A.}%
@@ -18651,14 +18651,9 @@
      {}{}}%
     {{}%
      {{Waite}}{W.}%
-     {A.~P.}{A.~P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Wang}}{W.}%
      {P.}{P.}%
      {}{}%
-     {}{}}%
+     {A.~and~{Wang}}{A.~a.~W.}}%
     {{}%
      {{Weltevrede}}{W.}%
      {P.}{P.}%
@@ -55498,6 +55493,426 @@
   \field{journaltitle}{Ann. Math. Statist.}
   \field{month}{03}
   \field{year}{1938}
+\endentry
+
+\entry{2004DMcandidates}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Baltz}}{B.}%
+     {Edward~A.}{E.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Astrophysics}
+  \strng{namehash}{BEA1}
+  \strng{fullhash}{BEA1}
+  \field{eid}{astro-ph/0412170}
+  \verb{eprint}
+  \verb astro-ph/0412170
+  \endverb
+  \field{pages}{astro\bibrangedash ph/0412170}
+  \field{title}{{Dark Matter Candidates}}
+  \field{journaltitle}{arXiv e-prints}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph}
+  \field{month}{12}
+  \field{year}{2004}
+\endentry
+
+\entry{2005DMcandidates}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {{Bertone}}{B.}%
+     {Gianfranco}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Hooper}}{H.}%
+     {Dan}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Silk}}{S.}%
+     {Joseph}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{High Energy Physics - Phenomenology, Astrophysics}
+  \strng{namehash}{BG+1}
+  \strng{fullhash}{BGHDSJ1}
+  \verb{doi}
+  \verb 10.1016/j.physrep.2004.08.031
+  \endverb
+  \verb{eprint}
+  \verb hep-ph/0404175
+  \endverb
+  \field{number}{5-6}
+  \field{pages}{279\bibrangedash 390}
+  \field{title}{{Particle dark matter: evidence, candidates and constraints}}
+  \field{volume}{405}
+  \field{journaltitle}{\physrep}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ph}
+  \field{month}{01}
+  \field{year}{2005}
+\endentry
+
+\entry{2009DMcandidates}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Bergstr{\"o}m}}{B.}%
+     {Lars}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{High Energy Physics - Phenomenology, Astrophysics - Cosmology and
+  Extragalactic Astrophysics}
+  \strng{namehash}{BL1}
+  \strng{fullhash}{BL1}
+  \verb{doi}
+  \verb 10.1088/1367-2630/11/10/105006
+  \endverb
+  \field{eid}{105006}
+  \verb{eprint}
+  \verb 0903.4849
+  \endverb
+  \field{number}{10}
+  \field{pages}{105006}
+  \field{title}{{Dark matter candidates}}
+  \field{volume}{11}
+  \field{journaltitle}{New Journal of Physics}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ph}
+  \field{month}{10}
+  \field{year}{2009}
+\endentry
+
+\entry{LMCHI}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Kim}{K.}%
+     {Sungeun}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Staveley-Smith}{S.-S.}%
+     {Lister}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dopita}{D.}%
+     {Michael~A.}{M.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Freeman}{F.}%
+     {Ken~C.}{K.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sault}{S.}%
+     {Robert~J.}{R.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kesteven}{K.}%
+     {Mike~J.}{M.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McConnell}{M.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {{IOP} Publishing}%
+  }
+  \strng{namehash}{KS+1}
+  \strng{fullhash}{KSSSLDMAFKCSRJKMJMD1}
+  \verb{doi}
+  \verb 10.1086/306030
+  \endverb
+  \field{number}{2}
+  \field{pages}{674\bibrangedash 688}
+  \field{title}{An {HiAperture} Synthesis Mosaic of the Large Magellanic Cloud}
+  \verb{url}
+  \verb https://doi.org/10.1086%2F306030
+  \endverb
+  \field{volume}{503}
+  \field{journaltitle}{The Astrophysical Journal}
+  \field{month}{08}
+  \field{year}{1998}
+\endentry
+
+\entry{2015FermiLMCDM}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {{Buckley}}{B.}%
+     {Matthew~R.}{M.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Charles}}{C.}%
+     {Eric}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Gaskins}}{G.}%
+     {Jennifer~M.}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Brooks}}{B.}%
+     {Alyson~M.}{A.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Drlica-Wagner}}{D.}%
+     {Alex}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Martin}}{M.}%
+     {Pierrick}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Zhao}}{Z.}%
+     {Geng}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{95.35.+d, 95.30.Cq, 98.35.Gi, Dark matter, Elementary particle
+  processes, Galactic halo, Astrophysics - High Energy Astrophysical Phenomena,
+  Astrophysics - Cosmology and Nongalactic Astrophysics, High Energy Physics -
+  Phenomenology}
+  \strng{namehash}{BMR+1}
+  \strng{fullhash}{BMRCEGJMBAMDAMPZG1}
+  \verb{doi}
+  \verb 10.1103/PhysRevD.91.102001
+  \endverb
+  \field{eid}{102001}
+  \verb{eprint}
+  \verb 1502.01020
+  \endverb
+  \field{number}{10}
+  \field{pages}{102001}
+  \field{title}{{Search for gamma-ray emission from dark matter annihilation in
+  the large magellanic cloud with the fermi large area telescope}}
+  \field{volume}{91}
+  \field{journaltitle}{\prd}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph.HE}
+  \field{month}{05}
+  \field{year}{2015}
+\endentry
+
+\entry{1992gasLMC}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {LUKS}{L.}%
+     {K}{K}%
+     {}{}%
+     {T;~ROHLFS}{T.~R.}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \strng{namehash}{LTRK1}
+  \strng{fullhash}{LTRK1}
+  \field{issn}{0004-6361}
+  \field{title}{Structure and kinematics of neutral hydrogen gas in the Large
+  Magellanic Cloud}
+  \field{journaltitle}{Astronomy and astrophysics (Berlin. Print)}
+  \field{year}{1992}
+\endentry
+
+\entry{1990Hernquist}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Hernquist}}{H.}%
+     {Lars}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Computational Astrophysics, Elliptical Galaxies, Galactic Bulge,
+  Galactic Structure, Astronomical Models, Astronomical Photometry, Brightness
+  Distribution, Distribution Functions, Astrophysics, GALAXIES: PHOTOMETRY,
+  GALAXIES: STRUCTURE}
+  \strng{namehash}{HL2}
+  \strng{fullhash}{HL2}
+  \verb{doi}
+  \verb 10.1086/168845
+  \endverb
+  \field{pages}{359}
+  \field{title}{{An Analytical Model for Spherical Galaxies and Bulges}}
+  \field{volume}{356}
+  \field{journaltitle}{\apj}
+  \field{month}{06}
+  \field{year}{1990}
+\endentry
+
+\entry{1958starsinLMC}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {{de Vaucouleurs}}{d.}%
+     {Gerard}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{de Vaucouleurs}}{d.}%
+     {Antoinette}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{dGdA1}
+  \strng{fullhash}{dGdA1}
+  \verb{doi}
+  \verb 10.1086/107663
+  \endverb
+  \field{pages}{304}
+  \field{title}{{An analysis of the composite spectrum of the Large Magellanic
+  Cloud.}}
+  \field{volume}{63}
+  \field{journaltitle}{\aj}
+  \field{month}{02}
+  \field{year}{1958}
+\endentry
+
+\entry{2019CLUMPY}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {{H{\"u}tten}}{H.}%
+     {Moritz}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Combet}}{C.}%
+     {C{\'e}line}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Maurin}}{M.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Cosmology, Dark matter, Indirect detection, Gamma-rays, Neutrinos,
+  Astrophysics - Cosmology and Nongalactic Astrophysics}
+  \strng{namehash}{HM+1}
+  \strng{fullhash}{HMCCMD1}
+  \verb{doi}
+  \verb 10.1016/j.cpc.2018.10.001
+  \endverb
+  \verb{eprint}
+  \verb 1806.08639
+  \endverb
+  \field{pages}{336\bibrangedash 345}
+  \field{title}{{CLUMPY v3: {\ensuremath{\gamma}}-ray and {\ensuremath{\nu}}
+  signals from dark matter at all scales}}
+  \field{volume}{235}
+  \field{journaltitle}{Computer Physics Communications}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph.CO}
+  \field{month}{02}
+  \field{year}{2019}
+\endentry
+
+\entry{2011EWcorrections}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {{Ciafaloni}}{C.}%
+     {Paolo}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Comelli}}{C.}%
+     {Denis}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Riotto}}{R.}%
+     {Antonio}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Sala}}{S.}%
+     {Filippo}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Strumia}}{S.}%
+     {Alessandro}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Urbano}}{U.}%
+     {Alfredo}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{High Energy Physics - Phenomenology, Astrophysics - Cosmology and
+  Extragalactic Astrophysics}
+  \strng{namehash}{CP+1}
+  \strng{fullhash}{CPCDRASFSAUA1}
+  \verb{doi}
+  \verb 10.1088/1475-7516/2011/03/019
+  \endverb
+  \field{eid}{019}
+  \verb{eprint}
+  \verb 1009.0224
+  \endverb
+  \field{number}{3}
+  \field{pages}{019}
+  \field{title}{{Weak corrections are relevant for dark matter indirect
+  detection}}
+  \field{volume}{2011}
+  \field{journaltitle}{\jcap}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ph}
+  \field{month}{03}
+  \field{year}{2011}
+\endentry
+
+\entry{2019tevhalos}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {{Sudoh}}{S.}%
+     {Takahiro}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Linden}}{L.}%
+     {Tim}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Beacom}}{B.}%
+     {John~F.}{J.~F.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Astrophysics - High Energy Astrophysical Phenomena, Astrophysics -
+  Astrophysics of Galaxies, High Energy Physics - Phenomenology}
+  \strng{namehash}{ST+2}
+  \strng{fullhash}{STLTBJF1}
+  \verb{doi}
+  \verb 10.1103/PhysRevD.100.043016
+  \endverb
+  \field{eid}{043016}
+  \verb{eprint}
+  \verb 1902.08203
+  \endverb
+  \field{number}{4}
+  \field{pages}{043016}
+  \field{title}{{TeV halos are everywhere: Prospects for new discoveries}}
+  \field{volume}{100}
+  \field{journaltitle}{\prd}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph.HE}
+  \field{month}{08}
+  \field{year}{2019}
 \endentry
 
 \lossort

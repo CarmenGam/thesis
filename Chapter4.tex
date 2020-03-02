@@ -19,7 +19,7 @@ The main steps of the analysis chain can be summarized as: \\
 \item\textbf{$\gamma$-hadron separation:} For the $\gamma$-hadron separation, a multidimensional \gls{rf} classifier is used. Sets of simulated $\gamma$ and proton events, which energies and directions have been reconstructed in the previous step, are used to train the classifier.
 \end{itemize}
 
-\subsection{Calibration}
+\subsection{Calibration} \label{sec:calib}
 
 In the calibration phase, the raw signal known as \textit{waveform} is integrated after background subtraction, to obtain a total number of counts per pixel, which afterwards is multiplied by a factor to be converted in number of photoelectrons. Depending on if \gls{mc} data or real data is being analyzed, the following steps vary and will be explained for each case.
 
@@ -65,7 +65,7 @@ In order to extract information from the image of Cherenkov light recorded by th
 The calibration and image parameterization is performed in \textit{cta-lstchain} using the scripts \textit{$lstchain\_data\_r0\_to\_dl1.py$}, \textit{$lstchain\_mc\_r0\_to\_dl1.py$}, depending on if the raw data used is simulated or real data. As is reflected in the script names, this steps reduces the data level from raw R0 data to DL1 (see table \ref{tab:CTAdatalevels}). In general, the image parameters can well describe the shower and therefore pixel wise information is not needed in further steps of the analysis. However, for testing and crosscheck purposes, \textit{cta-lstchain} scripts offer the possibility to store DL1 data with the full images.
 
 
-\subsection{Reconstruction of energy and source position}
+\subsection{Reconstruction of energy and source position} \label{sec:recoe}
 
 After the calibration and image parameterization, the image parameters should be used to extract information of the primary particle, whereas is a $\gamma$-ray or a background event (protons, electrons, heavier nuclei...). In \textit{cta-lstchain} the first step is to reconstruct the energy and arrival direction of the event.\\ 
 The direction reconstruction is problematic in single telescope mode, because even knowing that the Hillas ellipse should point towards the source position in the camera frame, we do not know in which side of the ellipse is located (this is known as head-tail degeneracy). In stereo mode, this is solved because the source position will be in the cross point between the line which follows the semi major axis of Hillas ellipses of all cameras, but for single telescope we must rely in other methods. In the case of \textit{cta-lstchain} we make use of a vector known as \textit{disp}. This is the vector going from the center of gravity of the ellipse to the source position.\\
@@ -127,7 +127,7 @@ For the implementation of the \glspl{rf}, the Python package \textit{scikit-lear
 \end{figure}
 
 
-\subsection{$\gamma$-hadron separation}
+\subsection{$\gamma$-hadron separation} \label{sec:gammahsep}
 
 The majority of Cherenkov showers produced in the atmosphere are actually not produced by $\gamma$-rays, but by cosmic hadrons (mainly protons). These events trigger the telescopes $\sim 10^4$ times more than $\gamma$-rays, therefore it is necessary a very efficient background rejection method to discard hadronic showers and analyze only $\gamma$ events. The methods for $\gamma$-hadron separation in general rely on the morphological differences between the showers produced by the two kinds of particles, including temporal information. This job is much more efficient in stereo mode, because $\gamma$-ray showers which trigger different telescopes will produce images in the cameras with a Hillas ellipse pointing towards the source position, while hadronic showers will produce much less correlated images. In mono mode we can only rely on the morphological features of the images, knowing that hadronic shower images will be much more extended, without a clear definite shape and with a higher number of islands than $\gamma$ showers.\\
 The task of $\gamma$-hadron separation is done in \textit{cta-lstchain} with a \gls{rf} classifier, which follows similar principles as the \gls{rf} regressor explained in the previous section. Instead of calculating the value of a variable, it decides between a given number of classes to which each events belongs. In this case, its only a two classes problem: $\gamma$s or hadrons.
@@ -414,11 +414,71 @@ From figure \ref{fig:em_res} it can be appreciated that the results for the \gls
 
 \section{Results on real data}
 
+Since the start of the commissioning of the telescope, three datataking campaigns have been carried on, where the Crab nebula has been observed with the \gls{lst}1 during several nights, in order to test the performance of the whole instrument and the analysis tools.\\
+The analysis carried on in this section has been performed over the data taken during the second Crab campaign, from January 17 to February 02 202. Telescope data is taken in runs of a certain duration, where Cherenkov events are recorded and stored in files. Each night, four kinds of runs are taken: DSR4 calibration runs (for pedestar subtraction), camera calibration runs (see section \ref{sec:calib}), data on and data off runs. Data on runs are taken pointing with the telescope to the $\gamma$-ray source, in this case the Crab nebula. Data off runs are taken pointing to a region without a $\gamma$-ray sources, where the \gls{cr} background is similar to that of the on region, allowing to estimate the background and extracting the signal events.\\
+The data runs have been calibrated and parameterized using \textit{cta-lstchain} following the steps described in section \ref{sec:anachain}. The signal extractor used has been the \textit{GlobalPeakWindowSum}  and the cleaning method applied is a two level tailcuts with $Th_{high}=6$ and $T_{low}=3$. The \gls{rf} models for energy and direction reconstruction, and $\gamma$/hadron separation has been trained with \gls{mc} data, as described in sections \ref{sec:recoe} and \ref{sec:gammahsep}, and applied to the on and off data for reconstruction to DL2 data level.\\
+A set of cuts, summarized in table \ref{tab:cuts}, has been applied to the data to allow a good background rejection and avoid showers with few photoelectrons or which are truncated in the edges of the camera.
+
+\begin{table}
+  \centering
+    \begin{tabular}{|l|l|}
+      \hline
+      Intensity min & 500  \\
+      Intensity max & 80000 \\
+      Leakage       & < 0.2 \\
+      Width/Length  & > 0.1 \\
+      Gammaness     & > 0.6 \\
+      \hline
+      \end{tabular}
+  \caption{Set of cuts applied in the prameters of the reconstructed real data from the second Crab campaign.}\label{tab:cuts}
+\end{table}
+
+The goal of the analysis performed is to calculate the significance of the source. To do so, it is necessary to calculate the number of excess events in the ON region, compared to the OFF region. In the ON region, close to the source position, an excess of events should be observed compared to the background. At further distances, the number of events should be comparable to that of the OFF region, where there are only background events. The number of background events $N_{bkg}$ in the ON region can be estimated as $N_{off}$ multiplied by a normalization factor, $n = N_{on}/N_{off}$ at a high distance from the assumed source position (the center of the camera). The significance of the excess in the ON region is defined as: 
+
+\begin{equation}
+  S = N_{ex}/\sqrt{N_{off}}
+\end{equation}
+
+Where $N_{ex}$ is defined as the Number of excess counts in the on region, calculated as $N_ex=N_{on}-N_{off} * n$. \\
+The analysis can be performed following two different definitions for the distance from the source position. The first kind of analysis is the $\theta^2$ analysis, where the $\theta^2$ angle is defined as:
+
+\begin{equation}
+  \theta^2 = X_{S}^2 + Y_{S}^2 
+\end{equation}
+
+$X_{S}$ and $Y_{S}$ represent the reconstructed position of the source in camera coordinates. If the telescope is pointing to the source position, the closer of $\theta^2$ to 0 (the center of the camera), the closer to the true source position has been reconstructed the event. We can assume that background events have reconstructed source positions distributed randomly over the \gls{fov}, but the events of the source will have reconstructed positions with $\theta^2$ closer to 0. The normalization factor $n$ between the number of background events in the ON and OFF regions is calculated using events with $\theta^2$ > 0.5º. To calculate the number of excess counts and the significance, a cut in $\theta^2$ < 0.25º is applied. In picture ??, the value of $\theta^2$ is plotted for the ON and OFF regions, observing clearly an excess around $theta^2=0$. The rate of $\gamma$ events (number of events per second) can be calculated dividing the number of excess events $N_{ex}$ by the total observation time.\\
+
+The second type of analysis is made with respect to the alpha angle, which is defined as:
+
+\begin{equation}
+  \alpha = arc cos\left(\frac{X_{c.o.g.}cos(\psi) + Y_{c.o.g.} sin(\psi)}{X_{c.o.g.}^2 + Y_{c.o.g.}^2}\right)
+\end{equation}
+
+Where $X_{c.o.g.}$ and $Y_{c.o.g.}$ are the coordinates of the center of gravity of the Hillas ellipse of the shower image, and angle $\psi$ is the angle between the semimajor axis of the ellipse and the line between the center of the camera and the center of gravity of the ellipse. The alpha angle indicate how deviated is the hillas ellipse from pointing towards the center of the camera. Events with high alpha angle are more likely to be background events, whereas $\gamma$ events will point towards the same position, close to the center, having small alpha angles. To estimate the background normalization factor $n$, events with $\alpha$ angle between 20º and 80º are used. To calculate the excess signal and sensitivity a cut in $\alpha < 8º$ is applied.\\
+
+The $\theta^2$ and $\alpha$ plots are shown in picture \ref{fig:crabana} for the full campaign and for just one day of observation. The data was taken between January 15th and February 2nd, summing a total of 12.8 hours of observation, which combined lead to a final detection significance of 46.9 $\sigma$ for the $\theta^2$ analysis, and 21.26$\sigma$ for the $\alpha$ analysis, after applying the cuts listed in table \ref{tab:cuts}. 
+
+\begin{figure}
+  \centering
+  \minipage{0.5\textwidth}
+  \includegraphics[width=1\textwidth]{Pictures/thetaplot_20200118_int500_gammaness0-600000.pdf}
+  \endminipage
+  \minipage{0.5\textwidth}
+  \includegraphics[width=1\textwidth]{Pictures/alphaplot_20200118_int500_gammaness0-600000.pdf}
+  \endminipage \\
+  \minipage{0.5\textwidth}
+  \includegraphics[width=1\textwidth]{Pictures/thetaplot_int500_gammaness0-6.pdf}
+  \endminipage
+  \minipage{0.5\textwidth}
+  \includegraphics[width=1\textwidth]{Pictures/alphaplot_int500_gammaness0-6.pdf}
+  \endminipage \\
+  \caption{\textit{Top}: $\theta^2$ (\textit{left}) and $\alpha$ (\textit{right}) plots for the Crab data taken during the night of the 18/01/2020. \textit{Bottom}: $\theta^2$ (\textit{left}) and $\alpha$ (\textit{right}) plots for the data taken during full second Crab campaign, from 15/01/2020 to 02/02/2020. Results are calculated after applying the cuts from table \ref{tab:cuts}.} \label{fig:crabana}
+\end{figure}
 
 \section{Summary and conclusion}
 
-Along this chapter, the chain for the single telescope data analysis of \gls{lst}1 has been described, and successfully used to derive the performance of the \gls{lst1}, and to analyze the first real data taken with the instrument.\\
-About the performance estimated using \gls{mc} simulations, it has been shown that the energy resolution reaches an error as low as 20\% in the range from $\sim 100$ GeV to a few TeV and the angular resolution in the same energy range is $\sim 0.2$º. From the three sets for tailcuts parameters, the one giving best results has been the 6-3 tailcuts. The best sensitivity of \gls{lst1} for 50 hours of observation is reached in the range between 100 GeV and 1 TeV, going below the 10\% of the Crab flux.\\
+Along this chapter, the chain for the single telescope data analysis of \gls{lst}1 has been described, and successfully used to derive the performance of the \gls{lst}1, and to analyze the first real data taken with the instrument.\\
+About the performance estimated using \gls{mc} simulations, it has been shown that the energy resolution reaches an error as low as 20\% in the range from $\sim 100$ GeV to a few TeV and the angular resolution in the same energy range is $\sim 0.2$º. From the three sets for tailcuts parameters, the one giving best results has been the 6-3 tailcuts. The best sensitivity of \gls{lst}1 for 50 hours of observation is reached in the range between 100 GeV and 1 TeV, going below the 10\% of the Crab flux.\\
 The \gls{em} method for Hillas parameterization without cleaning has been presented as a potential alternative, with similar performance to the classic tailcuts cleaning (without time parameters), to avoid the necessity to adjust the tailcuts parameters which clearly affect the performance results. This method is useful for low energy events, with very few photoelectrons, where tailcuts cleaning can suppose the loss of information from the shower.  
 
 \end{document}

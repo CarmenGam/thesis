@@ -22,7 +22,7 @@ The emission model computed is also used as background for the potential detecti
 
 In this section, the emission model developed for the global $\gamma$-ray emission of the \gls{lmc} is described. The baseline model consist on four already-known \gls{vhe} point-like sources, galaxy-scale insterstellar emission of both hadronic and leptonic origin, and a population of \gls{pwne}. 
 
-\subsection{Diffuse emission}
+\subsection{Diffuse emission} \label{sec:diffusemodel}
 Interstellar diffuse emission of $\gamma$-rays in the \gls{lmc} is produced by the interaction of \gls{cr} with the \gls{ism}. Two kinds of interactions were considered to compute the diffuse emission model: \gls{ic} processes from \gls{cr} electrons and pion-decay from proton interactions. The distribution of \glspl{cr} in the \gls{lmc} has been computed under the assumptions of steady \gls{cr} injection from an ensemble of point sources, followed by diffusive transport in the \gls{ism} and interaction with simplified distributions for interstellar components (gas, photon and magnetic fields). The resulting interstellar emission model is obtained by convolving the distribution of injection sources with average emission kernels for pion-decay and \gls{ic} scattering, plus a correction by the actual gas distribution for the pion-decay.\\
 As has been discussed in chapter \ref{cap:gammarayastro}, \glspl{cr} are accelerated by the power provided by winds and outflows around massive stars, supernova explosions and compact objects. Star forming regions (H II regions) serve as tracers for this kind of objects. The HII regions catalog from \cite{2012HIIinLMC} was used as template for the distribution of \gls{cr} sources, taking only regions with $H\alpha$ luminosy above $10^{37}$ erg s$^{-1}$, where the assumption of steady \gls{cr} injection is valid. The most luminous HII region in the \gls{lmc} is 30 Doradus, with a luminosity of $10^{39.66}$ erg s$^{-1}$. It is not included in the injection model because its mostly populated by very young OB stars (< 4 Myrs) \cite{201130Doradusstarforming} and is unlikely that many \gls{sne} have exploded recently in the region. The \gls{cr} injection power is assumed to be proportional to the ionizing luminosity of the HII regions. The total \gls{cr} injection power is assumed to be constant in time, corresponding to the release of $E_{SN} = 10^{51}$ erg per \gls{sn} explosion, at an estimated rate of $r_{SN} =  0.002$ SN yr$^{-1}$ \cite{1991SNrates}, where the fraction of mechanical energy trapped by \gls{cr} acceleration is $\eta_{p} = 10^{-1}$ for protons and $\eta_{e} = 10^{-3}$ for electrons. This total power is dsitributed among all the different star forming regions in proportion to their ionizing luminosity.
 The injection spectra is assumed to follow a power-law distribution in momentum, with an spectral index for protons(electrons) of 2.45(2.65), starting at 1 GeV/c, with an exponential cut off at 1 PeV/s.\\
@@ -30,7 +30,7 @@ The diffusion of \gls{cr} away from their sources is assumed to occur due to spa
 About the decription used for the \gls{ism} medium in the \gls{lmc}  an average \gls{ism} model has been computed, which includes a description of the interstellar conditions in terms of gas mass and structure, stellar population feeding the radiation fields and magnetic field configuration. The \glspl{cr} transport and subsequent $\gamma$-ray emission will be strongly affected by the characteristics of this \gls{ism}. For the interstellar gas, a disk having a radius of 3.5 kpc and a scale height of h=0.18 kpc has been used, where the mass of atomic, molecular and ionised hydrogen has been computed. The interstellar radiation field model has been developed following the work of \cite{2014DustEMLMCismemission}, where the broadband infrared dust emission in the \gls{lmc} is computed for typical HII regions. About the magnetic field, the total magnetic field strenght in the \gls{lmc} is calculated to be 4.3 $\mu$G \cite{2005LMCmagneticfield}.     
 
 
-\subsection{Point Sources}
+\subsection{Point Sources}\label{sec:point}
 
 Observations in gamma-rays of the \gls{lmc} have provided a very interesting catalog of point-like sources of different nature, which have revealed very interesting features. For this work, we use the \gls{lmc} data collected by \textit{Fermi}-LAT \cite{2010FermiLATLMC11months} \cite{2016LMCFermiLAT} and \gls{hess} \cite{2012HESSLMC} \cite{2015HESSTeVLMC} \cite{2017HESSLMCP3} to build the emission models of the sources we have decided to include in this study. A description of the different point sources and their emission model is given in this section.
 
@@ -113,7 +113,7 @@ The baseline model requires a series of parameters which are listed in table \re
 \end{table}
 
 Three equally probable values of the injection index $\beta$ have been considered, and the interstellar magnetic and radiation fields have been adapted to the average conditions in the \gls{lmc}.\\
-The population of \gls{pwn} has been generated assuming that pulsars are born at a rate of $r_{CC} = 0.0011 SN yr^{-1}$, in agreement with the assumed rate of \gls{sne} explosion and ratio of core-collapse to thermonuclear \gls{sne}, assuming that all core-collapse \gls{sne} lead to the formation of a spinning neutron star. The lifetime assumed for each \gls{pwn} is of $\tau_{PWN} = 200 kyr$, which yields to an average number of $r_{CC} \times \tau_{PWN} = 220$ \gls{pwne} in the \gls{lmc} if the pulsar creation is assumed to be in steady state during the time $\tau_{PWN}$. The following spects have been carried on to generate the synthetic population of \gls{pwne}:
+The population of \gls{pwn} has been generated assuming that pulsars are born at a rate of $r_{CC} = 0.0011 SN yr^{-1}$, in agreement with the assumed rate of \gls{sne} explosion and ratio of core-collapse to thermonuclear \gls{sne}, assuming that all core-collapse \gls{sne} lead to the formation of a spinning neutron star. The lifetime assumed for each \gls{pwn} is of $\tau_{PWN} = 200 kyr$, which yields to an average number of $r_{CC} \times \tau_{PWN} = 220$ \gls{pwne} in the \gls{lmc} if the pulsar creation is assumed to be in steady state during the time $\tau_{PWN}$. The following steps have been carried on to generate the synthetic population of \gls{pwne}:
 
 \begin{itemize}
 \item (i) Draw a random number of objects from a Poisson distribution with mean $r_{CC} \times \tau_{PWN}$.
@@ -124,6 +124,8 @@ The population of \gls{pwn} has been generated assuming that pulsars are born at
 \item(vi) Add some luminosity scatter to reflect the properties of the observed \gls{pwne} population in the \gls{mw}.
   \item(vii) Apply two cuts in the synthetic population: First, remove objects younger than 2kyr, because we already know at least two objects of that age (SN 1987A and N158A); second, remove all objects with > 1TeV luminosity above $2.2 \times 10^{34}$ erg s$^{-1}$, because they would have been detected by \gls{hess} already, as shown in the upper limits calculated for SN1987A in \cite{2012HESSLMC}. 
 \end{itemize}
+
+The total number of 189 \gls{pwne} have been included in the simulated model, and their spectral energy distributions are shown in figure \ref{fig:PS}.
 
 \section{Simulations and Analysis method} \label{sec:simana}
 
@@ -177,9 +179,9 @@ We calculate the significance of a source in terms of the Test Statistics:
 Where $\mathcal{L}(\mu(A^{X})|n)$ is the maximum likelihood function and $\mathcal{L}_{null}$ is the value of the likelihood function of the null hypothesis for the specific source (making $A^X$ = 0). With this definition, typically a source is considered to be detected when $TS>25$, equivalent to $5\sigma$.\\
 The maximum likelihood analysis has been performed using the function \textit{ctlike} from \textit{ctools}. The inputs are the data mapcubes from the stacked analysis and the description of the emission model. We use for the likelihood fit the same emission model used for the simulations. \textit{ctlike} calculates the best fit parameters $A^X$ and the TS values for the requested sources (setting the variable tscalc=''1'').
 
-\subsubsection{Upper limits calculation}
+\subsubsection{Upper limits calculation} \label{sec:ulimits}
 
-For sources which have a flux too low to be detected ($TS < 25$) we calculate upper limits on the minimum flux needed for the source to be detected with \gls{cta}. We calculate this upper limits as the flux that leads to a decrease in the likelihood that corresponds to a 95\% \gls{cl}. Using the definition of TS from \ref{eq:ts}, according to Wilks' theorem \cite{wilks1938}, TS asymptotically approaches a $\chi^2$-distribution with one degree of freedom under the null hypothesis, therefore to get the flux that yields to the 95\% \gls{cl} upper limit, we must find the normalization parameter $A^X_{max} > A^{X}$ which corresponds to TS = 2.71.\\
+For sources which have a flux too low to be detected ($TS < 25$) we calculate upper limits on the minimum flux needed for the source to be detected with \gls{cta}. We calculate this upper limits as the flux that leads to a decrease in the likelihood that corresponds to a certain \gls{cl}. Using the definition of TS from \ref{eq:ts}, according to Wilks' theorem \cite{wilks1938}, TS asymptotically approaches a $\chi^2$-distribution with one degree of freedom under the null hypothesis, therefore to get the flux that yields to the 95\% \gls{cl} upper limit, we must find the normalization parameter $A^X_{max} > A^{X}$ which corresponds to TS = 2.71.\\
 This calculation is performed using the function \textit{ctulimit} from \textit{ctools}, which requires as input the mapcube of the mock data and a model with all the sources, including the source for which the upper limit will be calculated. In this case, we use the model resulting from the maximum likelihood fit. Again, the only free parameters are the normalizations. The results from \textit{ctulimit} are the upper limit in the differential flux for a reference energy, the integrated upper flux limit for a specific energy range and the integrated upper energy flux limit for the same range.\\
 We have used this method to set constraints on the \gls{dm} annihilation cross section $<\sigma v>$ as described in section \ref{sec:dminlmc}.
 
@@ -187,19 +189,200 @@ We have used this method to set constraints on the \gls{dm} annihilation cross s
         
 \subsection{Point sources}
 
-The results for the fitting of the four point sources tested in this work are given in table \ref{tab:psfitresults}. The significance of detection of the sources is given in terms of the Test Statistcs described in the previous section. For LMC P3 three cases have been tested: The case of a spectrum following a power-law with the on-peak parameters from \cite{2017HESSLMCP3}; the same power-law but with an exponential cut-off at 10 TeV; and a last case where no source has been simulated, but an upper limit on the flux for a source with the off-peak spectral parameters has been computed.\\
-The point sources have been fitted in the full energy range to the same models used for simulation, where the only free parameter is the normalization. Also, they have been fitted to a simple power-law in three energy ranges: from 100 GeV to 1 TeV, from 1 TeV to 10 TeV and from 10 TeV to 100 TeV. It can be seen that the spectral parameters in the range from 1 TeV to 10 TeV are in agreement with the parameters derived by \gls{hess} in \cite{2015HESSTeVLMC}.
-
+The results for the fitting of the four point sources tested in this work are given in table \ref{tab:fitsources}. The significance of detection of the sources is given in terms of the Test Statistcs described in the previous section. For LMC P3 three cases have been tested: The case of a spectrum following a power-law with the on-peak parameters from \cite{2017HESSLMCP3}; the same power-law but with an exponential cut-off at 10 TeV; and a last case where no source has been simulated, but an upper limit on the flux for a source with the off-peak spectral parameters has been computed.\\
+The point sources have been fitted in the full energy range to the same models used for simulation, where the only free parameter is the normalization.
 The results show that \gls{cta} will be able to detect with high significance all the known point sources in the \gls{lmc}, including the binary system \gls{lmc} during the on-peak orbital region, and will be able to test the flux of the off-peak region to lower values than the upper limits settled by \gls{hess}. 
+
+
+\begin{table}
+  \centering
+  \resizebox{\textwidth}{!}{%
+  \begin{tabular}{llllll}
+    \hline
+    Source name & RA(º) & Dec(º) & Normalization & TS & Significance($\sigma$) \\
+     &  &  & $(0.1 - 100 TeV)$ &  &  \\
+    \hline
+    & & Point Sources & & & \\
+    \hline
+    N157B/HESS J0537-691 & 84.44 & -69.18 & $1\pm 0.005$ & 130951.51 & 361.9 \\
+    N132D/HESS J0525-696 & 81.26 & -69.64 & $1\pm 0.019$ & 5370.19 & 73.3\\
+    30DorC/HESS J0535-691 & 83.96 & -69.2 & $0.999 \pm 0.022$ & 4762.83 & 69.0 \\
+    LMCP3/HESS J0536-675 & 84.0 & -67.59 & Prefactor: $4.99\pm0.05 \cdot 10^{-19}$ & 27353.83 & 165.4 \\
+    (on-peak)&  &  & $(cm^{-2}s^{-1}MeV^{-1})$ &  &  \\
+    & &  & Index: $2.1 \pm 0.01 $ &  &  \\
+    LMCP3/HESS J0536-675 & 84.0 & -67.59 & Int. flux ulimit: $1.23 \cdot 10^{-13}$ & - & - \\
+    (off-peak)&  &  & $(cm^{-2}s^{-1})$ &  &  \\
+    \hline
+    & & Diffuse emission components & & & \\
+    \hline
+    LMC Pion-decay & - & - & $1\pm0.185$ & 29.06 & 5.39 \\
+    LMC IC & - & - & Int. flux ulimit: $7.33 \cdot 10^{-12}$ & - & - \\
+     &  &  & $(cm^{-2}s^{-1})$ &  &  \\
+    
+    
+  \end{tabular}}
+  \caption{Results of the fit for the four individual point sources included in the emission model. For the first three sources, the normalization of the spectrum is the only free parameter to fit. For LMCP3, a power-law spectrum with exponential cut-off at 10 TeV has been fitted, acordingly with the results of \cite{2017HESSLMCP3}. For the off-peak region, the upper limit at 99\% \gls{cl} for the integrated flux has been calculated.}
+  \label{tab:fitsources}
+\end{table}
 
 \subsection{Population of PWNe}
 
-For the fitting of the \gls{pwne} population, a mapcube including all the artifically computed candidates has been used for simulation. Then, a recursive fitting to each candidate, ordered by their luminosity, has been performed to obtain the significance of detection. The recursive fitting is stopped when the significance obtaibed is less than TS=25, setting a limit on the flux that will be detetable with CTA. 
+For the fitting of the \gls{pwne} population, a mapcube including all the artificially computed candidates has been used for simulation. Then, a recursive fitting to each candidate, ordered by their luminosity, has been performed to obtain the significance of detection. The recursive fitting is stopped when the significance obtained is less than TS=25, setting a limit on the flux that will be detetable with CTA. The results show that ?? from the total of 189 simulated \gls{pwne} would be detected, giving an estimation of the number of new \gls{pwne} that will be discovered by \gls{cta}. It must be taken into account that this is a very optimistic result, giving that the true spectrum and position of each \gls{pwne} is being used for fitting. In reality, a totally blind search will be performed, scanning the full region in the search for excesses, and assuming a generic spectral shape.
 
 \subsection{Diffuse Emission}
 
+The diffuse emission models for pion-decay and \gls{ic} scattering have been fitted as mapcubes where the only free parmeter left is the normalization. The fit in the full energy range has resulted in a positive detection for the pion-decay component, with a mean TS value of 29.06 (5.39$\sigma$ significance). For the \gls{ic} component, the TS obtained is 0.282, resulting in a non-detection. Upper limits for this model have been calculated instead, giving an upper limit at 99\% confidence level in the integral flux limit of $7.33\cdot10^{-12}$ ph cm$^{-2}$s$^{-1}$ in the range 100 GeV-100TeV.   
 
 
-\section{Dark Matter in the LMC} \label{sec:dminlmc}
+\section{Dark Matter annihilation in the LMC} \label{sec:dminlmc}
+
+In this section, forecasts on the detection of an additional component of the diffuse $\gamma$-ray sky in the \gls{lmc}, due to the annihilation of \gls{dm} are developed. The assumption on the \gls{dm} model is that it is composed by stable particles which can annihilate and produce a shower of \gls{sm} particles, which in turn would lead to either direct opr secondary production of $\gamma$-rays, as explained in section \label{sec:DM}. The range of energies for this process can go from a few GeV to several TeV, making it potentially observed by \gls{cta}.\\
+It must be taken into account that there exists plenty of \gls{dm} candiates in the literature \cite{2004DMcandidates}, \cite{2005DMcandidates}, \cite{2009DMcandidates}, but in this work the model of \glspl{wimp} is the one explored.\\
+The goal is to explore whether \gls{cta} will be able to observe the annihilation of \glspl{wimp} in the \gls{lmc}, or in the negative case,what constraints on \gls{dm} candidates will it set.\\
+The flux of $\gamma$-rays produced by \gls{dm} annihilation was presented in equation \ref{eq:flux}, shown again here for convenience:
+
+\begin{equation}
+    \frac{d \Phi}{dE}=\frac{1}{8 \pi} \frac{<\sigma v>}{m_{\chi}^2} \frac{d N_{\gamma}}{dE} \int_{\Delta\Omega}\int_{l.o.s} dl \rho^2(\vec{l})
+\label{eq:flux}
+\end{equation}
+
+Where $dN/dE$ is the spectrum of $\gamma$-rays from annihilation of a pair of dark matter particles, $\langle\sigma v\rangle$ is the thermal velocity averaged annihilation cross section, $m_\chi$ is the \gls{dm} particle mass and $\rho$ is the dark matter density profile. If \gls{dm} particle is not its own antiparticle, equation \ref{eq:flux} should be multiplied by a factor 1/2. \\
+Along the full analysis, the mass of the \gls{dm} particle and the annihilation cross section will be treated as free parameters. A single annihilation spectra will be assumed where the branching ratio of the reaction is one, meaning that the entire annihilation happens in a specific channel. The results will be presented in the shape sensitivity curves where the minimum annihilation cross section needed for detection is presented against the mass of the \gls{dm} particle for a specific annihilation channel and \gls{dm} profile.
+
+\subsection{Dark Matter profile in the \gls{lmc}}
+
+The \gls{dm} distribution of the \gls{lmc} can be inferred by the gravitational structure of its disk, following the \textit{rotation curve method}. Assuming circular orbits, the mass of a galaxy enclosed in a certain radius can be calculated thanks to the rotation velocity, $v_{rot}$ = GM(<r)/r. Measurements of the rotation velocities of stars and gas in the \gls{lmc} allow to calculate the total mass \cite{LMCHI}, and substracting the contribution to the rotation curve of the luminous matter, the remaining \gls{dm} can be estimated. The dark matter profiles used in this section rely on the works of \cite{2015FermiLMCDM}, where the gas mass component of HI+He as a function of the radius is taken from \cite{1992gasLMC}; and the stellar mass is extracted from \cite{2006LMCkinematics}. The rotation curve of the \gls{lmc} can be seen in picture \ref{fig:rotcurve}.\\
+A generalized six-parameter Hernquist-Zhao \gls{dm} profile has been adopted for this work \cite{1990Hernquist}, \cite{1996Zhao}, following equation \ref{fig:gnfw} already shown in section \ref{sec:DM}, repeated here for convenience:
+
+
+\begin{equation}
+    \rho(r) = \frac{2^{\frac{\beta-\gamma}{\alpha}} \times \rho_{0}}{\left(\frac{r}{r_{S}}\right)^{\gamma}\left[ 1+\left(\frac{r}{r_{S}} \right)^{\alpha}\right]^{\frac{\beta-\gamma}{\alpha}}}\Theta(r_{max}-r)
+\end{equation} \label{fig:gnfw}
+
+Where $\Theta$ is the Heaviside step function, $r_{S}$ is the scale radius and $\rho_{0}$ is the characteristic density. These two last parameters depend on the specific \gls{dm} halo. Setting $(\alpha,\beta,\gamma) = (1,3,1)$ we retrieve the \gls{nfw} profile \cite{NFW}, with a cusp. An isothermal profile, with a core rather than a cusp is obtained setting $(\alpha,\beta,\gamma) = (2,2,0)$. Variations of these two kinds of profiles have been tested, with parameters shown in table \ref{tab:dmprofiles} and plotted in figure \ref{fig:dmprofiles}. 
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.7\textwidth]{Pictures/rotationcurvelmc.pdf}
+  \caption{\label{fig:rotcurve} Rotation curve of the \gls{lmc}, from \cite{LMCHI}. The solid black line is the total predicted rotation curve constructed from the following components: (\textit{a}) HI mass distribution from \cite{1992gasLMC}, and a 30\% He contribution (\textit{dotted line}). (\textit{b}) R stellar light distribution based on the data from \cite{1958starsinLMC} and $M/L_{R}=1.8$ (dashed line). (\textit{c}) Pseudoisothermal dark halo with core radius 2.5 kpc and central densiy $0.009 M_{\odot}$pc$^{-3}$.}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.7\textwidth]{Pictures/dmprofiles.pdf}
+  \caption{\gls{dm} profiles plotted against the radius $r$ from the \gls{lmc} center, with the parameters listed in table \ref{tab:dmprofiles}.} \label{fig:dmprofiles}
+\end{figure}
+
+\begin{table}
+  \centering
+  \resizebox{\textwidth}{!}{%
+    \begin{tabular}{llllllll}
+      \hline
+      Profile & $\alpha$ & $\beta$ & $\gamma$ & $r_{S} (kpc)$ & $\rho_{0} (M_{\odot}/kpc^3)$ & $J (GeV^{2}/cm^5)$ & Field of View(º) \\
+      \hline
+      NFW-mean & 1 & 3 & 1 & 12.6 & $2.6\times10^6$ & $8.5\times 10^{19}$ & 10 \\
+      Gamma0.5 & 1 & 3 & 0.5 & 12.6 & $2.6\times10^6$ & $2.9\times 10^{19}$ & 10 \\
+      Gamma1.5 & 1 & 3 & 1.5 & 12.6 & $2.6\times10^6$ &1.0 $\times 10^{20}$ & 10\\
+      Iso-min & 2 & 2 & 0 & 1 & $3.7\times10^7$ & $2.3\times 10^{20}$ & 20 \\
+      Iso-mean & 2 & 2 & 0 & 2.4 & $3.7\times10^7$ & $2.9\times 10^{20}$ & 20 \\
+      Iso-max & 2 & 2 & 0 & 3 & $3.7\times10^7$ & $8.5\times 5.4^{20}$ & 20 \\
+    \hline
+    \hline      
+    \end{tabular}}
+    \caption{Parameters of the \gls{dm} profiles used in this work. Values of NFW-mean and Iso-mean profiles are the same as of \cite{2015FermiLMCDM}. The $J$-factors are integrated in the \gls{fov} indicated by the last column.} \label{tab:dmprofiles}
+\end{table}
+
+The \gls{dm} profiles were simulated using the software \textit{clumpy}, a code for $\gamma$-ray and neutrino signals from \gls{dm} structures \cite{2019CLUMPY}. It allows to compute simulations of \gls{dm} halos characterized by a series of parameters depending on the \gls{dm} profile. \textit{Clumpy} was used in this work to simulate maps of the J-factor in the region of the \gls{lmc} in order to create the spatial distribution of the different \gls{dm} models, which afterwards were combined with the spectra of several annihilation channels to reproduce the $\gamma$-ray flux in the \gls{lmc}. 
+The 2D J-factor of the different profiles used in this work, compute with \textit{clumpy} can be seen in figure \ref{fig:jfactors}.
+
+\begin{figure}
+\centering
+\minipage{0.5\textwidth}
+\includegraphics[width=1\textwidth]{Pictures/lmc_nfw.pdf}
+\endminipage 
+\minipage{0.5\textwidth}
+\includegraphics[width=1\textwidth]{Pictures/lmc_iso-mean.pdf}
+\endminipage \\
+\minipage{0.5\textwidth}
+\includegraphics[width=1\textwidth]{Pictures/lmc_gamma0-5.pdf}
+\endminipage
+\minipage{0.5\textwidth}
+\includegraphics[width=1\textwidth]{Pictures/lmc_iso-min.pdf}
+\endminipage \\
+\minipage{0.5\textwidth}
+\includegraphics[width=1\textwidth]{Pictures/lmc_gamma1-5.pdf}
+\endminipage
+\minipage{0.5\textwidth}
+\includegraphics[width=1\textwidth]{Pictures/lmc_iso-max.pdf}
+\endminipage
+  \caption{2-D J-Factors of the \gls{lmc} \gls{dm} profiles probed in this work. The \gls{nfw} and Isothermal profiles were computed using the same parameters as in \cite{2015FermiLMCDM}.}
+    \label{fig:jfactors}
+\end{figure}
+
+\subsection{$\gamma$-ray spectrum}
+
+For the spectral part of the \gls{dm} emission model ($dN_{\gamma}/dE$ in equation \ref{eq:flux}), the recipes from \cite{2011cirelli} were used, where the energy spectra of $\gamma$-rays produced by different \gls{dm} annihilation channels are provided. For this thesis, the studied channels were $b \overline b$, $W^+ W^-$, $\tau^+\tau^-$, $\mu^+ \mu^-$ including electro-weak corrections as computed in \cite{2011EWcorrections}, and their spectra can be seen in figure \ref{fig:dmspec}, computed for a set of \gls{dm} particle masses.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.6\textwidth]{Pictures/1tevspectra.pdf}
+  \minipage{0.5\textwidth}
+  \includegraphics[width=1\textwidth]{Pictures/specW.pdf}
+  \endminipage 
+  \minipage{0.5\textwidth}
+  \includegraphics[width=1\textwidth]{Pictures/specb.pdf}
+  \endminipage \\
+  \minipage{0.5\textwidth}
+  \includegraphics[width=1\textwidth]{Pictures/specMu.pdf}
+  \endminipage
+  \minipage{0.5\textwidth}
+  \includegraphics[width=1\textwidth]{Pictures/specTau.pdf}
+  \endminipage \\
+  \caption{$\gamma$-ray spectra of \gls{dm} pair annihilation, for different annihilation channels and masses of \gls{dm} particle. }
+  \label{fig:dmspec}
+\end{figure}
+
+\subsection{Results on \gls{dm} sensitivity curves}
+
+Using the \gls{dm} profiles and spectra described in previous section, a likelihood analysis was performed to obtain the minimum flux needed for the \gls{lmc} \gls{dm} component to be detectable by \gls{cta}. The asimov data set with the astrophysical $\gamma$-ray sources described in section \ref{sec:model} is used for this task as a background on top of which we calculate the flux needed to be emitted by each \gls{dm} model in order to be detected. To do so, the procedure for upper limits calculation described in section \ref{sec:ulimits} is applied. Each \gls{dm} model is included in the fitted model as a new source, for which the differential upper flux limit for a reference energy, the integrated upper flux limit over the energy range 0.1 GeV-\gls{dm} particle mass, and the integrated energy limit are calculated.\\
+From the resulting flux $\frac{d \Phi_{ulim}}{dE}$, using equation \ref{eq:flux}, the velocity averaged annihilation cross section $<\sigma v>$ can be extracted. The sensitivity curves where $<\sigma v>$ plotted versus \gls{dm} particle masses are shown in figure \ref{fig:dmsensicurves}. Each curve corresponds to a specific \gls{dm} profile and annihilation channel. The space above the curves represent the parameter space of $<\sigma v>$ and \gls{dm} mass that could be detected by \gls{cta}.
+
+\begin{figure}
+\centering
+\minipage{0.5\textwidth}
+\includegraphics[width=1\textwidth]{Pictures/Limits_NFW.pdf}
+\endminipage 
+\minipage{0.5\textwidth}
+\includegraphics[width=1\textwidth]{Pictures/Limits_Isothermal.pdf}
+\endminipage \\
+\minipage{0.5\textwidth}
+\includegraphics[width=1\textwidth]{Pictures/Limits_Gamma0-5.pdf}
+\endminipage
+\minipage{0.5\textwidth}
+\includegraphics[width=1\textwidth]{Pictures/Limits_Iso-min.pdf}
+\endminipage \\
+\minipage{0.5\textwidth}
+\includegraphics[width=1\textwidth]{Pictures/Limits_Gamma1-5.pdf}
+\endminipage
+\minipage{0.5\textwidth}
+\includegraphics[width=1\textwidth]{Pictures/Limits_Iso-max.pdf}
+\endminipage
+  \caption{Sensitivity curves of $<\sigma v >$ vs. \gls{dm} particle mass, resulting for the profiles listed in table \ref{tab:dmprofiles}, and for four annihilation channels: $b\overline b$, $W^+W^-$, $\mu^+ \mu^-$, $\tau^+ \tau^-$.}
+    \label{fig:dmsensicurves}
+\end{figure}
+
+\section{Summary and conclusions}
+
+The deep survey of the \gls{lmc} will be an ambitious task which will account for many challenges, but that will potentially provide many scientific results and new discoveries. Besides a lot of work can be done in the subjects until \gls{cta} is fully available, in this work the first hints on the possible results of the survey have been studied.\\
+Regarding the known point sources observed by other $\gamma$-ray experiments, a remarckable high significance has been obtained for all of them, meaning they will be easily detetected within the survey with a binned likelihood analysis, which will allow to characterize the sources spectra in the \gls{cta} range, at least over 100 GeV. Given the duration of the survey (>300 h), it will also be possible to study the variability of LMC-P3, for which an upper flux limit for the off-peak emission has been derived. From the artificial population of \gls{pwne} introduced in the emission model, a big number of them have been fitted with a significance sufficiently large to be detected, providing an estimation of the number of new sources that \gls{cta} will be able to detect. The computed distribution of \gls{pwne} will serve as a trace for the blind search when dealing with real data from the survey.\\
+One of the most interesting aspects of the \gls{lmc} is the fact that, as an extended source, it is possible to study the structure of its $\gamma$-ray emission, allowing to probe models of \gls{cr} injection and propagation. In this work, two models of diffuse emission of \gls{cr} due to leptonic \gls{ic} scattering and hadronic interactions leading to pion decay have been tested. The possibility to take into account the structure and distribution of \gls{cr} sources in the \gls{lmc} leads to the positive result on the detection of pion-decay emission following the model described in section \ref{sec:diffusemodel}. This is however a best-case scenario, where uncertainties in the model are not taken into account. However, it is an encouraging result to make efforts on the refinement of the analysis and model computation of the diffuse emission in the \gls{lmc} for the future real data. The \gls{ic} component, on the other hand, has resulted in a too low significance, meaning it would be not possible to disentangle this emission component from the rest of the background. An upper flux limit has been derived instead for this model.\\
+
+Finally, prospects on the detection of a possible $\gamma$-ray signal from \gls{dm} annihlation have been calculated. The results have extablished the parameter space of \gls{dm} models which will be possible to study with \gls{cta}. The main reasons to point towards the \gls{lmc} were its extended nature, which allow to rely on \gls{dm} spatial structure for its disentanglement from the background; and its realively high J-factor, comparable to other popular \gls{dm} candidates such as \gls{dsphe}. However, the big population of other $\gamma$-ray emmiters difficults the task of extracting a $\gamma$-ray signal coming from \gls{dm} annihilation. In the results presented in this thesis, several \gls{dm} profiles, annihilation channels and \gls{dm} particle masses has been tested on top of the emission model of the \gls{lmc} to compute the velocity averaged anihilation cross section needed for the model to be detected. It can be seen from picture \ref{fig:dmsensicurves}, that the majority of the models lie several orders of magnitude over the canonical thermal cross section, which is the self-annihilation cross section of \gls{wimp} \gls{dm} in the case of being a thermal relic. This result predicts that \gls{cta} will unlikely be able to exclude the canonical cross section for the typical \gls{wimp} \gls{dm} models, except for the most cuspy ones(yet not very realistic) at \gls{dm} masses $\sim 1 TeV$ (case of Gamma 1.5 profile and $\tau^+ \tau^-$ channel).\\
+
+The work performed within the scope of this thesis will serve as a starting point for the future work that can be done regarding the \gls{lmc} \gls{ksp}. The emission model developed to perform the predictions presented will serve as a benchmark for future studies and for the analysis of real data from the \gls{lmc} survey.
+Other topics wich habe been left out of the scope of this thesis, but which still will benefit from its results could be: A more detailed and realistic study on the possible new discovered sources, performing a totally blind search over the \gls{pwne} population, setting a more realistic analysis approach. The \gls{pwne} model can also be used to study the possibilities of detecting TeV haloes in the \gls{lmc}, following a similar approach as \cite{2019tevhalos}. 
+Other known sources, not yet detected in the \gls{vhe} range in the \gls{lmc}, such as \gls{snr} 1987A can be studied on top of the emission model to predict its detectability within the \gls{lmc} survey.
+
 
 \end{document}
+ 
