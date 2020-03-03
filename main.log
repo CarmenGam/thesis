@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.14)  2 MAR 2020 16:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.1.14)  3 MAR 2020 16:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3276,27 +3276,20 @@ File: Pictures/head2.png Graphic file (type png)
 Package pdftex.def Info: Pictures/head2.png used on input line 231.
 (pdftex.def)             Requested size: 614.295pt x 307.30548pt.
  (./Chapter5.tex
-Underfull \hbox (badness 10000) in paragraph at lines 7--17
-
- []
-
-
 Underfull \vbox (badness 4872) has occurred while \output is active []
 
  [105]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [106]
-Underfull \vbox (badness 3439) has occurred while \output is active []
+[107] [108] [109]
+<Pictures/pointsourcesspec.pdf, id=2849, 569.12625pt x 283.0575pt>
+File: Pictures/pointsourcesspec.pdf Graphic file (type pdf)
 
- [107]
-[108] [109] <Pictures/PointSourcesSpec.pdf, id=2845, 569.12625pt x 283.0575pt>
-File: Pictures/PointSourcesSpec.pdf Graphic file (type pdf)
-
-<use Pictures/PointSourcesSpec.pdf>
-Package pdftex.def Info: Pictures/PointSourcesSpec.pdf used on input line 45.
+<use Pictures/pointsourcesspec.pdf>
+Package pdftex.def Info: Pictures/pointsourcesspec.pdf used on input line 45.
 (pdftex.def)             Requested size: 432.19756pt x 214.96611pt.
- [110 <./Pictures/PointSourcesSpec.pdf, page is rotated 90 degrees>] [111]
+ [110 <./Pictures/pointsourcesspec.pdf, page is rotated 90 degrees>] [111]
 Overfull \hbox (20.89078pt too wide) in paragraph at lines 93--111
  [][] 
  []
@@ -3307,7 +3300,7 @@ LaTeX Warning: Command \textordmasculine invalid in math mode on input line 134
 .
 
 
-<Pictures/lmc_hi_cdensity_flipped_plot_1000GeV_1TeV.pdf, id=2963, 534.30144pt x
+<Pictures/lmc_hi_cdensity_flipped_plot_1000GeV_1TeV.pdf, id=2967, 534.30144pt x
  548.70682pt>
 File: Pictures/lmc_hi_cdensity_flipped_plot_1000GeV_1TeV.pdf Graphic file (type
  pdf)
@@ -3317,128 +3310,180 @@ Package pdftex.def Info: Pictures/lmc_hi_cdensity_flipped_plot_1000GeV_1TeV.pdf
 (pdftex.def)             Requested size: 302.53696pt x 310.6981pt.
 
 [114] [115 <./Pictures/lmc_hi_cdensity_flipped_plot_1000GeV_1TeV.pdf>] [116]
-[117] [118]
+[117] [118] [119]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gls' on input line 252.
+(hyperref)                removing `\gls' on input line 254.
 
-[119]
+
 
 pdfTeX warning: pdflatex (file ./Pictures/rotationcurvelmc.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/rotationcurvelmc.pdf, id=3077, 845.98413pt x 597.99883pt>
+<Pictures/rotationcurvelmc.pdf, id=3080, 845.98413pt x 597.99883pt>
 File: Pictures/rotationcurvelmc.pdf Graphic file (type pdf)
 
 <use Pictures/rotationcurvelmc.pdf>
-Package pdftex.def Info: Pictures/rotationcurvelmc.pdf used on input line 266.
+Package pdftex.def Info: Pictures/rotationcurvelmc.pdf used on input line 268.
 (pdftex.def)             Requested size: 302.53696pt x 213.85596pt.
 
-<Pictures/dmprofiles.pdf, id=3084, 462.52798pt x 346.89601pt>
+<Pictures/dmprofiles.pdf, id=3087, 462.52798pt x 346.89601pt>
 File: Pictures/dmprofiles.pdf Graphic file (type pdf)
 
 <use Pictures/dmprofiles.pdf>
-Package pdftex.def Info: Pictures/dmprofiles.pdf used on input line 272.
+Package pdftex.def Info: Pictures/dmprofiles.pdf used on input line 274.
 (pdftex.def)             Requested size: 302.53696pt x 226.91418pt.
- [120] [121 <./Pictures/rotationcurvelmc.pdf> <./Pictures/dmprofiles.pdf>]
-<Pictures/lmc_nfw.pdf, id=3164, 569.12625pt x 315.1775pt>
+
+
+LaTeX Warning: Command \textordmasculine invalid in math mode on input line 293
+.
+
+<Pictures/lmc_nfw.pdf, id=3094, 569.12625pt x 315.1775pt>
 File: Pictures/lmc_nfw.pdf Graphic file (type pdf)
 
 <use Pictures/lmc_nfw.pdf>
-Package pdftex.def Info: Pictures/lmc_nfw.pdf used on input line 301.
+Package pdftex.def Info: Pictures/lmc_nfw.pdf used on input line 303.
 (pdftex.def)             Requested size: 216.09877pt x 119.6725pt.
 
-<Pictures/lmc_iso-mean.pdf, id=3165, 569.12625pt x 315.1775pt>
+<Pictures/lmc_iso-mean.pdf, id=3095, 569.12625pt x 315.1775pt>
 File: Pictures/lmc_iso-mean.pdf Graphic file (type pdf)
 
 <use Pictures/lmc_iso-mean.pdf>
-Package pdftex.def Info: Pictures/lmc_iso-mean.pdf used on input line 304.
+Package pdftex.def Info: Pictures/lmc_iso-mean.pdf used on input line 306.
 (pdftex.def)             Requested size: 216.09877pt x 119.6725pt.
 
-<Pictures/lmc_gamma0-5.pdf, id=3166, 569.12625pt x 315.1775pt>
+<Pictures/lmc_gamma0-5.pdf, id=3096, 569.12625pt x 315.1775pt>
 File: Pictures/lmc_gamma0-5.pdf Graphic file (type pdf)
 
 <use Pictures/lmc_gamma0-5.pdf>
-Package pdftex.def Info: Pictures/lmc_gamma0-5.pdf used on input line 307.
+Package pdftex.def Info: Pictures/lmc_gamma0-5.pdf used on input line 309.
 (pdftex.def)             Requested size: 216.09877pt x 119.6725pt.
 
-<Pictures/lmc_iso-min.pdf, id=3167, 569.12625pt x 315.1775pt>
+<Pictures/lmc_iso-min.pdf, id=3097, 569.12625pt x 315.1775pt>
 File: Pictures/lmc_iso-min.pdf Graphic file (type pdf)
 
 <use Pictures/lmc_iso-min.pdf>
-Package pdftex.def Info: Pictures/lmc_iso-min.pdf used on input line 310.
+Package pdftex.def Info: Pictures/lmc_iso-min.pdf used on input line 312.
 (pdftex.def)             Requested size: 216.09877pt x 119.6725pt.
 
-<Pictures/lmc_gamma1-5.pdf, id=3168, 569.12625pt x 315.1775pt>
+<Pictures/lmc_gamma1-5.pdf, id=3098, 569.12625pt x 315.1775pt>
 File: Pictures/lmc_gamma1-5.pdf Graphic file (type pdf)
 
 <use Pictures/lmc_gamma1-5.pdf>
-Package pdftex.def Info: Pictures/lmc_gamma1-5.pdf used on input line 313.
+Package pdftex.def Info: Pictures/lmc_gamma1-5.pdf used on input line 315.
 (pdftex.def)             Requested size: 216.09877pt x 119.6725pt.
 
-<Pictures/lmc_iso-max.pdf, id=3169, 569.12625pt x 315.1775pt>
+<Pictures/lmc_iso-max.pdf, id=3099, 569.12625pt x 315.1775pt>
 File: Pictures/lmc_iso-max.pdf Graphic file (type pdf)
 
 <use Pictures/lmc_iso-max.pdf>
-Package pdftex.def Info: Pictures/lmc_iso-max.pdf used on input line 316.
+Package pdftex.def Info: Pictures/lmc_iso-max.pdf used on input line 318.
 (pdftex.def)             Requested size: 216.09877pt x 119.6725pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 322.
+(hyperref)                removing `math shift' on input line 324.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 322.
+(hyperref)                removing `\gamma' on input line 324.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 322.
+(hyperref)                removing `math shift' on input line 324.
 
-<Pictures/1tevspectra.pdf, id=3176, 462.52798pt x 346.89601pt>
-File: Pictures/1tevspectra.pdf Graphic file (type pdf)
-
-<use Pictures/1tevspectra.pdf>
-Package pdftex.def Info: Pictures/1tevspectra.pdf used on input line 328.
-(pdftex.def)             Requested size: 259.32117pt x 194.49863pt.
-
-<Pictures/specW.pdf, id=3177, 462.52798pt x 346.89601pt>
-File: Pictures/specW.pdf Graphic file (type pdf)
-
-<use Pictures/specW.pdf>
-Package pdftex.def Info: Pictures/specW.pdf used on input line 330.
-(pdftex.def)             Requested size: 216.09877pt x 162.07777pt.
-
-<Pictures/specb.pdf, id=3178, 462.52798pt x 346.89601pt>
-File: Pictures/specb.pdf Graphic file (type pdf)
-
-<use Pictures/specb.pdf>
-Package pdftex.def Info: Pictures/specb.pdf used on input line 333.
-(pdftex.def)             Requested size: 216.09877pt x 162.07777pt.
-
-<Pictures/specMu.pdf, id=3179, 462.52798pt x 346.89601pt>
-File: Pictures/specMu.pdf Graphic file (type pdf)
-
-<use Pictures/specMu.pdf>
-Package pdftex.def Info: Pictures/specMu.pdf used on input line 336.
-(pdftex.def)             Requested size: 216.09877pt x 162.07777pt.
-
-<Pictures/specTau.pdf, id=3180, 462.52798pt x 346.89601pt>
-File: Pictures/specTau.pdf Graphic file (type pdf)
-
-<use Pictures/specTau.pdf>
-Package pdftex.def Info: Pictures/specTau.pdf used on input line 339.
-(pdftex.def)             Requested size: 216.09877pt x 162.07777pt.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gls' on input line 345.
-
+[120] [121 <./Pictures/rotationcurvelmc.pdf> <./Pictures/dmprofiles.pdf>]
 [122 <./Pictures/lmc_nfw.pdf, page is rotated 90 degrees> <./Pictures/lmc_iso-m
 ean.pdf, page is rotated 90 degrees> <./Pictures/lmc_gamma0-5.pdf, page is rota
 ted 90 degrees> <./Pictures/lmc_iso-min.pdf, page is rotated 90 degrees> <./Pic
 tures/lmc_gamma1-5.pdf, page is rotated 90 degrees> <./Pictures/lmc_iso-max.pdf
-, page is rotated 90 degrees>] [123 <./Pictures/1tevspectra.pdf> <./Pictures/sp
-ecW.pdf
+, page is rotated 90 degrees>]
+<Pictures/1tevspectra.pdf, id=3443, 462.52798pt x 346.89601pt>
+File: Pictures/1tevspectra.pdf Graphic file (type pdf)
+
+<use Pictures/1tevspectra.pdf>
+Package pdftex.def Info: Pictures/1tevspectra.pdf used on input line 330.
+(pdftex.def)             Requested size: 259.32117pt x 194.49863pt.
+
+<Pictures/specW.pdf, id=3444, 462.52798pt x 346.89601pt>
+File: Pictures/specW.pdf Graphic file (type pdf)
+
+<use Pictures/specW.pdf>
+Package pdftex.def Info: Pictures/specW.pdf used on input line 332.
+(pdftex.def)             Requested size: 216.09877pt x 162.07777pt.
+
+<Pictures/specb.pdf, id=3445, 462.52798pt x 346.89601pt>
+File: Pictures/specb.pdf Graphic file (type pdf)
+
+<use Pictures/specb.pdf>
+Package pdftex.def Info: Pictures/specb.pdf used on input line 335.
+(pdftex.def)             Requested size: 216.09877pt x 162.07777pt.
+
+<Pictures/specMu.pdf, id=3446, 462.52798pt x 346.89601pt>
+File: Pictures/specMu.pdf Graphic file (type pdf)
+
+<use Pictures/specMu.pdf>
+Package pdftex.def Info: Pictures/specMu.pdf used on input line 338.
+(pdftex.def)             Requested size: 216.09877pt x 162.07777pt.
+
+<Pictures/specTau.pdf, id=3447, 462.52798pt x 346.89601pt>
+File: Pictures/specTau.pdf Graphic file (type pdf)
+
+<use Pictures/specTau.pdf>
+Package pdftex.def Info: Pictures/specTau.pdf used on input line 341.
+(pdftex.def)             Requested size: 216.09877pt x 162.07777pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gls' on input line 347.
+
+<Pictures/Limits_NFW.pdf, id=3452, 462.52798pt x 346.89601pt>
+File: Pictures/Limits_NFW.pdf Graphic file (type pdf)
+
+<use Pictures/Limits_NFW.pdf>
+Package pdftex.def Info: Pictures/Limits_NFW.pdf used on input line 355.
+(pdftex.def)             Requested size: 216.09877pt x 162.07777pt.
+
+<Pictures/Limits_Isothermal.pdf, id=3453, 462.52798pt x 346.89601pt>
+File: Pictures/Limits_Isothermal.pdf Graphic file (type pdf)
+
+<use Pictures/Limits_Isothermal.pdf>
+Package pdftex.def Info: Pictures/Limits_Isothermal.pdf used on input line 358.
+
+(pdftex.def)             Requested size: 216.09877pt x 162.07777pt.
+
+<Pictures/Limits_Gamma0-5.pdf, id=3454, 462.52798pt x 346.89601pt>
+File: Pictures/Limits_Gamma0-5.pdf Graphic file (type pdf)
+
+<use Pictures/Limits_Gamma0-5.pdf>
+Package pdftex.def Info: Pictures/Limits_Gamma0-5.pdf used on input line 361.
+(pdftex.def)             Requested size: 216.09877pt x 162.07777pt.
+
+<Pictures/Limits_Iso-min.pdf, id=3455, 462.52798pt x 346.89601pt>
+File: Pictures/Limits_Iso-min.pdf Graphic file (type pdf)
+
+<use Pictures/Limits_Iso-min.pdf>
+Package pdftex.def Info: Pictures/Limits_Iso-min.pdf used on input line 364.
+(pdftex.def)             Requested size: 216.09877pt x 162.07777pt.
+
+<Pictures/Limits_Gamma1-5.pdf, id=3456, 462.52798pt x 346.89601pt>
+File: Pictures/Limits_Gamma1-5.pdf Graphic file (type pdf)
+
+<use Pictures/Limits_Gamma1-5.pdf>
+Package pdftex.def Info: Pictures/Limits_Gamma1-5.pdf used on input line 367.
+(pdftex.def)             Requested size: 216.09877pt x 162.07777pt.
+
+<Pictures/Limits_Iso-max.pdf, id=3457, 462.52798pt x 346.89601pt>
+File: Pictures/Limits_Iso-max.pdf Graphic file (type pdf)
+
+<use Pictures/Limits_Iso-max.pdf>
+Package pdftex.def Info: Pictures/Limits_Iso-max.pdf used on input line 370.
+(pdftex.def)             Requested size: 216.09877pt x 162.07777pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--381
+
+ []
+
+[123] [124 <./Pictures/1tevspectra.pdf> <./Pictures/specW.pdf
 
 pdfTeX warning: pdflatex (file ./Pictures/specW.pdf): PDF inclusion: multiple p
 dfs with page group included in a single page
@@ -3454,54 +3499,7 @@ pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./Pictures/specTau.pdf): PDF inclusion: multiple
  pdfs with page group included in a single page
->] <Pictures/Limits_NFW.pdf, id=3686, 462.52798pt x 346.89601pt>
-File: Pictures/Limits_NFW.pdf Graphic file (type pdf)
-
-<use Pictures/Limits_NFW.pdf>
-Package pdftex.def Info: Pictures/Limits_NFW.pdf used on input line 353.
-(pdftex.def)             Requested size: 216.09877pt x 162.07777pt.
-
-<Pictures/Limits_Isothermal.pdf, id=3687, 462.52798pt x 346.89601pt>
-File: Pictures/Limits_Isothermal.pdf Graphic file (type pdf)
-
-<use Pictures/Limits_Isothermal.pdf>
-Package pdftex.def Info: Pictures/Limits_Isothermal.pdf used on input line 356.
-
-(pdftex.def)             Requested size: 216.09877pt x 162.07777pt.
-
-<Pictures/Limits_Gamma0-5.pdf, id=3688, 462.52798pt x 346.89601pt>
-File: Pictures/Limits_Gamma0-5.pdf Graphic file (type pdf)
-
-<use Pictures/Limits_Gamma0-5.pdf>
-Package pdftex.def Info: Pictures/Limits_Gamma0-5.pdf used on input line 359.
-(pdftex.def)             Requested size: 216.09877pt x 162.07777pt.
-
-<Pictures/Limits_Iso-min.pdf, id=3689, 462.52798pt x 346.89601pt>
-File: Pictures/Limits_Iso-min.pdf Graphic file (type pdf)
-
-<use Pictures/Limits_Iso-min.pdf>
-Package pdftex.def Info: Pictures/Limits_Iso-min.pdf used on input line 362.
-(pdftex.def)             Requested size: 216.09877pt x 162.07777pt.
-
-<Pictures/Limits_Gamma1-5.pdf, id=3690, 462.52798pt x 346.89601pt>
-File: Pictures/Limits_Gamma1-5.pdf Graphic file (type pdf)
-
-<use Pictures/Limits_Gamma1-5.pdf>
-Package pdftex.def Info: Pictures/Limits_Gamma1-5.pdf used on input line 365.
-(pdftex.def)             Requested size: 216.09877pt x 162.07777pt.
-
-<Pictures/Limits_Iso-max.pdf, id=3691, 462.52798pt x 346.89601pt>
-File: Pictures/Limits_Iso-max.pdf Graphic file (type pdf)
-
-<use Pictures/Limits_Iso-max.pdf>
-Package pdftex.def Info: Pictures/Limits_Iso-max.pdf used on input line 368.
-(pdftex.def)             Requested size: 216.09877pt x 162.07777pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 376--379
-
- []
-
-[124] [125 <./Pictures/Limits_NFW.pdf> <./Pictures/Limits_Isothermal.pdf
+>] [125 <./Pictures/Limits_NFW.pdf> <./Pictures/Limits_Isothermal.pdf
 
 pdfTeX warning: pdflatex (file ./Pictures/Limits_Isothermal.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
@@ -3522,7 +3520,7 @@ multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./Pictures/Limits_Iso-max.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 380--381
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
 
  []
 
@@ -3952,10 +3950,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  )
 (\end occurred when \iftrue on line 61 was incomplete) 
 Here is how much of TeX's memory you used:
- 42542 strings out of 493029
- 771816 string characters out of 6136234
- 1639242 words of memory out of 5000000
- 44364 multiletter control sequences out of 15000+600000
+ 42541 strings out of 493029
+ 771812 string characters out of 6136234
+ 1634303 words of memory out of 5000000
+ 44363 multiletter control sequences out of 15000+600000
  56103 words of font info for 219 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,14n,94p,10507b,2460s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3981,10 +3979,10 @@ r/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr
 ype1/public/cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/avantgar/uagd8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/avantgar/u
 agk8a.pfb>
-Output written on main.pdf (143 pages, 46957738 bytes).
+Output written on main.pdf (143 pages, 46957540 bytes).
 PDF statistics:
- 4390 PDF objects out of 5155 (max. 8388607)
- 2544 compressed objects within 26 object streams
+ 4393 PDF objects out of 5155 (max. 8388607)
+ 2547 compressed objects within 26 object streams
  662 named destinations out of 1000 (max. 500000)
  37510 words of extra memory for PDF output out of 42996 (max. 10000000)
 
