@@ -1,0 +1,33 @@
+{
+  gROOT->Reset();
+
+
+ // Read back the ntuple
+  TFile in_file("allasicsdata.root");
+  TNtuple* asicsP=(TNtuple*)in_file.Get("Asics");
+  TNtuple &asics=*asicsP; // Carlos is lazy, para no tener que escribir ->
+
+
+for (int disc=0; disc < 2; disc ++){
+  for (int channel = 0; channel < 7; channel++){
+    for (int sum = 0; sum < 3; sum++){
+      
+      TString t= Form("Channel %i Disc %i Adder %c",channel, disc,'A'+sum);
+
+      TCanvas *canvas = new TCanvas(t,t);
+      
+      asics.Draw(
+		 "diff",
+		 Form("channel==%i && disc==%i && sum==%i",channel, disc, sum));
+
+      TH2F *h=gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+      h->GetXaxis()->SetTitle("Fit Offset - Analog Offset mV");
+      h->GetYaxis()->SetTitle("");
+      h->SetTitle(t);
+
+      gPad->Modified();
+      gPad->Update();
+    }
+  }
+ }
+}

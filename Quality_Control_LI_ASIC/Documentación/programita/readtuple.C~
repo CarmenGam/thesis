@@ -1,0 +1,46 @@
+#include "TFile.h"
+#include "TNtuple.h"
+#include "TGraph.h"
+
+#include <iostream>
+
+
+
+
+void readtuple(){
+  using namespace std;
+
+  TFile ofile("prueba_voltage.root","RECREATE");
+    TNtuple t("t","ejemplo","asic:channel:discriminator:mv:sumA:sumB:sumC");
+    t.ReadFile("voltage.txt");
+    t.Write();
+    ofile.Close();
+
+
+  /*TFile in_file("prueba_voltage.root");
+  // TNtuple* my_tuple=(TNtuple*)in_file.Get("t");
+  in_file.GetObject("t",my_tuple); // This is the same
+
+
+  float asic, channel, discriminator, mv, sumA, sumB,sumC; float* row_content;
+
+  for (int irow=0; irow<my_tuple->GetEntries();++irow){
+    my_tuple->GetEntry(irow);
+    row_content = my_tuple->GetArgs();
+    asic = row_content[0];
+    channel = row_content[1];
+    discriminator = row_content[2];
+    mv = row_content[3];
+    sumA = row_content[4];
+    sumB = row_content[5];
+    sumC = row_content[6];
+    
+    cout << asic << "\t" << channel << "\t" << discriminator << "\t" << mv << "\t" << sumA << "\t" << sumB << "\t" << sumC << endl;
+  }
+  
+  //  TGraph
+  //  t->Draw("sumA:mv", "channel==1 && discriminator == 0");*/
+	       
+}
+
+

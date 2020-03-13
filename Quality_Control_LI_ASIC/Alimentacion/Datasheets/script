@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+awk -f parser.awk ASIC_384_nuevo_generador_3.4.txt 
+awk -f parser.awk ASIC_373_nuevo_generador_3.4.txt
+awk -f parser.awk ASIC_393_nuevo_generador_3.4.txt
+awk -f parser.awk ASIC_403_nuevo_generador_3.4.txt
+awk -f parser.awk ASIC_413_nuevo_generador_3.4.txt
+awk -f parser.awk ASIC_423_nuevo_generador_3.4.txt
+awk -f parser.awk ASIC_433_nuevo_generador_3.4.txt
+awk -f parser.awk ASIC_375_nuevo_generador_3.4.txt
+awk -f parser.awk ASIC_385_nuevo_generador_3.4.txt
+awk -f parser.awk ASIC_395_nuevo_generador_3.4.txt
+
+awk  '{print  $1 "\t" "3.4" "\t" $2"\t"$3"\t"$4"\t"$5"\t"$6"\t"$7 }' voltage.txt >> voltages.txt
+
+#root plotvoltage.C -l -b -q
+#rm adders.txt dac_test.txt offset.txt analog_offset.txt voltage.txt
+#awk '{print $1"\t" $2"\t"  $3"\t"  $4"\t"  $5"\t"  $6"\t"  $7"\t"  $8"\t"  $9 "\t" $10 "\t" $11 "\t" $12 "\t" $13 }' offset_diff.txt >> allasicsdata.txt
+
+
+echo "Fin (Aplausos)"

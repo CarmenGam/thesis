@@ -1,0 +1,13 @@
+#!/bin/bash
+
+for i in {61..451}
+do
+awk -f parser.awk Datasheet_ASIC_L1_$i.txt 
+#root plotvoltage.C -l -b -q
+#rm adders.txt dac_test.txt offset.txt analog_offset.txt voltage.txt
+#awk '{print $1"\t" $2"\t"  $3"\t"  $4"\t"  $5"\t"  $6"\t"  $7"\t"  $8"\t"  $9 "\t" $10 "\t" $11 "\t" $12 "\t" $13 }' offset_diff.txt >> allasicsdata.txt
+done
+
+
+
+echo "Fin (Aplausos)"

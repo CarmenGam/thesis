@@ -1,0 +1,113 @@
+
+
+void analyzedata(){
+
+  
+
+  /* TFile data1("Thprob50_0-5.binning.root","RECREATE");
+  TNtuple bin05("Data","Data","mv:fitmin:fitmax:th50");
+  bin05.ReadFile("Thprob50_0-5binning.txt");
+  bin05.Write();
+
+  TFile data2("Thprob50_2.binning.root","RECREATE");
+  TNtuple bin2("Data","Data","mv:fitmin:fitmax:th50");
+  bin2.ReadFile("Thprob50_2binning.txt");
+  bin2.Write();
+
+  TFile data3("Thprob50_5.binning.root","RECREATE");
+  TNtuple bin5("Data","Data","mv:fitmin:fitmax:th50");
+  bin5.ReadFile("Thprob50_5binning.txt");
+  bin5.Write();
+
+  TFile data4("Thprob50_10.binning.root","RECREATE");
+  TNtuple bin10("Data","Data","mv:fitmin:fitmax:th50");
+  bin10.ReadFile("Thprob50_10binning.txt");
+  bin10.Write();*/
+  TCanvas *c = new TCanvas();
+
+  TFile data("Thprob50.root","RECREATE");
+  TNtuple bin("Data","Data","mv:th50:th50_3");
+  bin.ReadFile("Thprob50.txt");
+  bin.Write();
+ 
+  double p0, p1,p02,p12;
+
+  bin.SetMarkerStyle(2);
+  bin.SetMarkerSize(2);
+  bin.SetMarkerColor(46);
+  bin.Draw("th50:th50_3:mv","","goff");
+
+   
+  
+   //Fit con muchos puntos
+
+  TMultiGraph *mg = new TMultiGraph();
+
+   TGraph *g = new TGraph(bin.GetEntries(),bin.GetV3(),bin.GetV1());
+   TFitResultPtr r=g->Fit("pol1","qS","",0,60);
+   p0=r->Value(0);
+   p1=r->Value(1);
+
+   g->SetMarkerStyle(2);
+   g->SetMarkerSize(1.5);
+   g->SetMarkerColor(2);
+   mg->Add(g);
+   //g->Draw("ap");
+
+   gPad->Modified();
+   gPad->Update();
+// Fit solo con 3 puntos
+  
+   TGraph *g2 = new TGraph(bin.GetEntries(),bin.GetV3(),bin.GetV2());
+   TFitResultPtr r2=g2->Fit("pol1","qS","",0,60);
+   p02=r2->Value(0);
+   p12=r2->Value(1);
+
+   g2->SetMarkerStyle(4);
+   g2->SetMarkerSize(1.5);
+   g2->SetMarkerColor(4);
+   mg->Add(g2);
+   //g2->Draw("ap");
+
+   mg->Draw("ap");
+
+   mg->GetXaxis()->SetTitle("V in[mV]");
+   mg->GetYaxis()->SetTitle("Threshold(prob = 0.5) [mV]");
+
+   gPad->Modified();
+   gPad->Update();
+   
+   cout << "Fit all points: " << endl;
+   cout << p0 << "\t" << p1 << "\t" << endl;
+   cout << "Only 3 points: " << endl;
+   cout << p02 << "\t" << p12 << "\t" << endl;
+   
+   
+
+
+  
+  
+  /*bin05.SetMarkerStyle(2);
+  bin05.SetMarkerSize(2);
+  bin05.SetMarkerColor(46);
+  bin05.Draw("th50:mv","","p");
+
+  bin2.SetMarkerStyle(3);
+  bin2.SetMarkerSize(1);
+  bin2.SetMarkerColor(38);
+  bin2.Draw("th50:mv","","p same");
+
+  bin5.SetMarkerStyle(4);
+  bin5.SetMarkerSize(3);
+  bin5.SetMarkerColor(2);
+  bin5.Draw("th50:mv","","p same");
+
+  bin10.SetMarkerStyle(5);
+  bin10.SetMarkerSize(4);
+  bin10.SetMarkerColor(3);
+  bin10.Draw("th50:mv","","p same");*/
+
+
+
+ 
+}

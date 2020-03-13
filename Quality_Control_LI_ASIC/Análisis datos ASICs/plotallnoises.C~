@@ -1,0 +1,15 @@
+ // Read back the ntuple for Digital Offset data
+  TFile offset("offsetall.root");
+  TNtuple* offset_tupleP=(TNtuple*)offset.Get("Offset");
+  TNtuple &offset_tuple=*offset_tupleP; // Carlos is lazy, para no tener que escribir ->
+  
+for (int disc=0; disc < 2; disc ++){
+  for (int channel = 0; channel < 7; channel++){
+    for (int sum = 0; sum < 3; sum++){
+
+       TString t= Form("Noise, Channel %i Disc %i Adder %c",channel, disc,'A'+sum);
+        TCanvas *generalC = new TCanvas(t,t,1000,700);
+
+	offset_tuple.Draw(
+		 "noise",
+		 Form("channel==%i && disc==%i && sum==%i",channel, disc, sum));

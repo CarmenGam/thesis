@@ -1,0 +1,22 @@
+#!/bin/bash
+
+
+cd /ASIC61_v01
+awk '{print $1"\t" $2"\t"  $3"\t"  $4"\t"  $5"\t"  $6"\t"  $7"\t"  $8"\t"  $9}' offset_diff.txt >> ../allasicsdata.txt
+cd ..
+
+cd /ASIC62
+awk '{print $1"\t" $2"\t"  $3"\t"  $4"\t"  $5"\t"  $6"\t"  $7"\t"  $8"\t"  $9}' offset_diff.txt >> ../allasicsdata.txt
+cd ..
+
+cd /ASIC63
+awk '{print $1"\t" $2"\t"  $3"\t"  $4"\t"  $5"\t"  $6"\t"  $7"\t"  $8"\t"  $9}' offset_diff.txt >> ../allasicsdata.txt
+cd ..
+
+cd /ASIC64
+awk '{print $1"\t" $2"\t"  $3"\t"  $4"\t"  $5"\t"  $6"\t"  $7"\t"  $8"\t"  $9}' offset_diff.txt >> ../allasicsdata.txt
+cd ..
+
+cd /ASIC65
+awk '{print $1"\t" $2"\t"  $3"\t"  $4"\t"  $5"\t"  $6"\t"  $7"\t"  $8"\t"  $9}' offset_diff.txt >> ../allasicsdata.txt
+cd ..

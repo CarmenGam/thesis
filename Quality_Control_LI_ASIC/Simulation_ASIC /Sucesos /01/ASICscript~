@@ -1,0 +1,10 @@
+#!/bin/bash
+
+gcc ASIC.c -lm
+./a.out
+root -l -q storedata.C
+root -l -q plotsignals.C
+
+convert -density 300 plotsASIC.pdf plotsASIC.png
+convert plotsASIC.png -trim plotsASIC.png
+echo "Fin (Aplausos)"

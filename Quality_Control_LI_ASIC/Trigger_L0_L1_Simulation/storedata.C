@@ -1,0 +1,43 @@
+//Este Macro guarda los datos que salen del ASIC en formato root.
+
+#include "TMath.h"
+#include "TH1D.h"
+#include <iostream>
+#include "TNtuple.h"
+#include "TFile.h"
+#include "TCanvas.h"
+#include "TString.h"
+#include "TH2F.h"
+using namespace std;
+
+
+void storedata(int event)
+
+{
+  //TNtuple *input[Nevents];
+  // TNtuple *adder[Nevents];
+  //TNtuple *comp[Nevents];
+
+  TFile infile(
+	       Form("input_signal[%i].root",event),"RECREATE");
+  TNtuple input("Input","Input","time:channel1:channel2:channel3:channel4:channel5:channel6:channel7");
+    input.ReadFile(
+		   Form("inputL1[%i].txt", event));
+    input.Write();
+
+    TFile fadder( 
+		 Form("adder[%i].root",event),"RECREATE");
+   TNtuple adder("Adder","Adder", "time:adderA:adderB:adderC:threshold");
+    adder.ReadFile(
+		   Form("L1adder[%i].txt",event));
+    adder.Write();
+    
+
+    TFile fcomp(
+		Form("comp[%i].root",event),"RECREATE");
+    TNtuple comp("Comparator","Comparator", "time:Comp1:Comp2:Comp3");
+    comp.ReadFile(
+		  Form("comp[%i].txt",event));
+		  comp.Write();
+
+}

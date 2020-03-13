@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+gcc -c main.c
+gcc -o main main.o L0.o -lm
+./main
+root plotsL0.C -l 
+echo "Fin (Aplausos)"

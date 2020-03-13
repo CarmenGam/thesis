@@ -1,0 +1,15 @@
+\BOOKMARK [0][-]{chapter.1}{Characterization of analog ASIC for L1 Trigger decision}{}% 1
+\BOOKMARK [1][-]{section.1.1}{CTA Trigger System}{chapter.1}% 2
+\BOOKMARK [2][-]{subsection.1.1.1}{Pixel Level: L0 trigger decision}{section.1.1}% 3
+\BOOKMARK [2][-]{subsection.1.1.2}{Camera Level: L1 trigger decision}{section.1.1}% 4
+\BOOKMARK [2][-]{subsection.1.1.3}{Array Level trigger decision}{section.1.1}% 5
+\BOOKMARK [1][-]{section.1.2}{Analog ASIC for L1 Trigger System of LST camera}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.3}{Characterization of the ASIC}{chapter.1}% 7
+\BOOKMARK [2][-]{subsection.1.3.1}{Quality Control Tests}{section.1.3}% 8
+\BOOKMARK [2][-]{subsection.1.3.2}{Quality Control data analysis}{section.1.3}% 9
+\BOOKMARK [2][-]{subsection.1.3.3}{Characterization: Procedure}{section.1.3}% 10
+\BOOKMARK [2][-]{subsection.1.3.4}{Characterization: Summary}{section.1.3}% 11
+\BOOKMARK [1][-]{section.1.4}{TEST35}{chapter.1}% 12
+\BOOKMARK [1][-]{section.1.5}{L1 transfer function calibration}{chapter.1}% 13
+\BOOKMARK [2][-]{subsection.1.5.1}{Calibration algorithm}{section.1.5}% 14
+\BOOKMARK [2][-]{subsection.1.5.2}{Calibration result}{section.1.5}% 15

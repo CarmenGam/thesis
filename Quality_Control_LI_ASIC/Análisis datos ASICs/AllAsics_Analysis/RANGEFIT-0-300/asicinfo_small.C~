@@ -1,0 +1,67 @@
+void asicinfo_small(){
+
+  TFile in_file("allasicsdata.root");
+  TNtuple* asicsP=(TNtuple*)in_file.Get("Asics");
+  TNtuple &asics=*asicsP;
+  
+  TFile ftypo("typicalasic.root","RECREATE");
+  TNtuple typical("Typical","Typical","disc:channel:sum:gain:rmsgain:analog:rmsanalog:dig:rmsdig:fit:rmsfit:noise:rmsnoise");
+  typical.ReadFile("typicalasic.txt");
+  typical.Write();
+  
+  float *row_content;
+  int lines = typical.GetEntries();
+  double gain[2][7][3], rmsgain[2][7][3],analog[2][7][3],rmsanalog[2][7][3],noise[2][7][3],rmsnoise[2][7][3];
+  int disc, channel, sum;
+
+
+  for (int irow=0; irow < lines ; irow++){
+    typical.GetEntry(irow);
+    row_content = typical.GetArgs();
+    disc = row_content[0];
+    channel = row_content[1]-1;
+    sum = row_content[2];
+
+    cout << disc << "\t" << channel << "\t" << sum << endl;
+
+
+    gain[disc][channel][sum] = row_content[3];
+    rmsgain[disc][channel][sum] = row_content[4];
+    analog[disc][channel][sum] = row_content[5];
+    rmsanalog[disc][channel][sum] = row_content[6];
+    noise[disc][channel][sum] = row_content[11];
+    rmsnoise[disc][channel][sum] = row_content[12];
+  }
+
+
+
+  for (int asic = 61; asic < 62 ; asic++){
+    TCanvas *c1 = new TCanvas(Form("ASIC %i",asic),Form("ASIC %i",asic));
+    
+    for (int disc = 0; disc < 2; disc++){
+      for (int sum = 0; sum < 3; sum++){
+	
+	c1->cd(here);
+	
+	float min = gain[disc][0][sum];
+	float max = gain[disc][0][sum];  
+	for (int i =0; i < 7; i++){
+	  
+	  if (gain[disc][min][sum] < gain[disc][i][sum])
+	    min=gain[disc][i][sum];
+	}
+	for (int i =0; i < 7; i++){
+	  
+	  if (gain[disc][max][sum] > gain[disc][i][sum])
+	    min=gain[disc][i][sum];
+	}
+	
+	cout << min << "\t" << max << endl;
+	
+	
+      }
+    }        
+  }  
+  //c1->SaveAs(Form("ASIC%i_small.pdf",asic));
+}  
+

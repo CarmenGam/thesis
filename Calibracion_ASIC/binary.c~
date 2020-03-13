@@ -1,0 +1,58 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+#include <stddef.h>
+
+#define TH50 100.8 //mV
+#define step 4.8 //mV 
+
+int main()
+
+{
+
+  //Binary Search para encontrar el Threshold que me da una probabilidad de trigger del 50%
+  //Tengo 256 posibles valores de Threshold, ordenados de menor a mayor y que tienen un código hexadecimal asignado
+  // Voy a crear un array de 256 elementos (1,2,3... 256), cada uno de ellos correspondiente a un Threshold.
+  //Voy a hacer una búsqueda binaria en ese array tal que me devuelva el elemento que se corresponde con el Threshold que da una probabilidad del 50%
+  
+  int array[256];
+  int i;
+
+  for (i=0; i<256; i++){
+
+    array[i] = i;
+    //fprintf(stderr,"%d ",array[i]);
+  }
+
+  
+
+  int L,R,m; //Variables que uso para la búsqueda binaria.
+  L=0;
+  R=255;
+  m = 256/2;
+
+  fprintf(stderr,"%d , %d \n",L,R);
+
+  while (R > L){
+    m=floor((L+R)/2);
+    if (array[m]*step < TH50){
+      L=m+1;
+      m=floor((L+R)/2);
+    }
+    if (array[m]*step > TH50){
+      R=m-1; 
+    }
+    if (array[m]*step == TH50){
+      fprintf(stderr, "The Threshold for 50% prob is: %f",array[m]*step);
+      break;
+      //return 0;
+    }      
+    
+  }
+
+  // if (R < L){
+  // fprintf(stderr,"Error, bad termination. Exiting.\n");
+  //return 1;
+  //}
+  
+}

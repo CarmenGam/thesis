@@ -151,7 +151,11 @@
 \newacronym{ksp}{KSP}{Key Science Projects}
 \newacronym{roi}{ROI}{Region of Interest}
 \newacronym{cl}{CL}{Confidence Level}
-
+\newacronym{asic}{ASIC}{Application-Specific Integrated Circuit}
+\newacronym{dac}{DAC}{Digital to Analog Converter}
+\newacronym{lvds}{LVDS}{Low-Voltage Differential Signalling}
+\newacronym{scb}{SCB}{Slow Control Board}
+\newacronym{adc}{ADC}{Analog to Digital Converter}
 \title{Prospects in Science with the Cherenkov Telescope Array}
 
 
@@ -223,14 +227,35 @@
 
 \chapterimage{head2.png} % Chapter heading image
 
-\chapter[Analysis chain of Single Telescope data and...]{Analysis chain of Single Telescope data and sensitivity calculation for the LST1} \label{cap:LST1}
+\chapter[Analysis chain of Single Telescope data and sensitivity calculation for the LST1]{Analysis chain of Single Telescope data and sensitivity calculation for the LST1} \label{cap:LST1}
 \subfile{Chapter4}
 
 \chapterimage{head2.png} % Chapter heading image
 
-\chapter[Characterization of the Large Magellanic Cloud...]{Characterization of the Large Magellanic Cloud at TeV energies and prospects on Dark Matter detection for CTA} \label{cap:LMC}
+\chapter[Characterization of the Large Magellanic Cloud at TeV energies and prospects on Dark Matter detection for CTA]{Characterization of the Large Magellanic Cloud and prospects on Dark Matter detection for CTA}
+\label{cap:LMC}
 \subfile{Chapter5}
 
+\appendix
+\chapter[The L1 Trigger System of the LST1]{The L1 Trigger System of the LST}
+\label{app:trigger}
+\subfile{AppendixA}
+
+\chapter[Characterization of analogue ASIC for L1 trigger decision]{Characterization of analogue ASIC for L1 trigger decision}
+\label{app:asic}
+\subfile{AppendixB}
+
+\chapter[Calibration method for the L1 analog trigger system of LST camera]{Calibration method for the L1 analog trigger system of LST camera}
+\label{app:calib}
+\subfile{AppendixC}
+
+\chapter[Time calibration for implementation of the trigger distribution in the backplane network of LST camera]{Time calibration for implementation of the trigger distribution in the backplane network of LST camera}
+\label{app:timecal}
+\subfile{AppendixD}
+
+\chapter[Random Forests]{Random Forests}
+\label{app:rf}
+\subfile{AppendixE}
 
 \printbibliography
 \printglossaries

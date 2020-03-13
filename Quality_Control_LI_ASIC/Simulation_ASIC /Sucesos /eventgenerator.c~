@@ -1,0 +1,26 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+#include <stddef.h>
+#include "ASIC.h"
+
+int eventgenerator(int Nevents)
+{
+
+  FILE *phe[Nevents];
+  
+  double phe[7];
+  int i, j;
+
+  for (i=0; i<Nevents; i++){
+    for (j=0; j<7; j++){
+
+      
+      
+
+
+
+
+
+
+}

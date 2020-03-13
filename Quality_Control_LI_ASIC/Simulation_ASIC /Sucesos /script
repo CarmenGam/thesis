@@ -1,0 +1,5 @@
+#!/bin/bash
+
+./L1
+root plots.C -l 
+echo "Fin (Aplausos)"

@@ -1,0 +1,34 @@
+#include "TNtuple.h"
+#include "TROOT.h"
+#include "TLegend.h"
+#include "TGraph.h"
+#include "TCanvas.h"
+#include "TFile"
+
+void pruebamacro(){
+
+  //Creamos la Ntupla de todas las columnas
+  TNtuple t("","","asic:channel:discriminator:mv:sumA:sumB:sumC");
+  t.ReadFile("voltage.txt");
+  t.Scan("1000*sumA:mv","channel==1 && discriminator==0","");
+  t.Draw("1000*sumA:mv","channel==1 && discriminator==0","");
+    
+   TGraph gr(10,t.GetV2(),t.GetV1());
+   gr.SetMarkerStyle(20);
+   gr.Fit("pol1","","",0,500);
+   
+   TFile out_file("my_file.root","RECREATE");
+   gr.Write();
+
+   out_file.Close();
+   
+}
+
+
+
+
+int main(){
+
+  pruebamacro();
+
+}

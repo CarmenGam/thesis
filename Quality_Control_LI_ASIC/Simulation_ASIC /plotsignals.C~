@@ -1,0 +1,33 @@
+{
+  gROOT->Reset();
+ 
+  // Read back the ntuple
+    TNtuple input("Input","Input","time:channel1:channel2:channel3:channel4:channel5:channel6:channel7");
+    input.ReadFile("data.txt");
+
+  int color[7]={1,2,3,4,5,6,7};
+
+  TCanvas generalC;
+  generalC.Divide(4,4);
+  int where=1;
+ 
+  
+
+  for (int channel=1;channel<=7;channel++){
+  
+    input.SetLineColor(color[channel]);
+    input.SetMarkerColor(color[channel]);
+    
+    generalC.cd(where++);
+      input.Draw("AC");
+      input.Draw(
+		 Form("channel%i:time",channel)
+		 /*(channel==1?"p":"p same"))*/);
+      
+  
+
+
+  }
+  
+
+}

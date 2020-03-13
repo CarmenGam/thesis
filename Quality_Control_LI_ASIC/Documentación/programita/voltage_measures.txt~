@@ -1,0 +1,18 @@
+
+ASIC: 61
+#Cálculo de Gain y Offset mediante ajuste llinea Vout frente a Vin
+
+#Ajuste entre 0 y 500 mV
+#Channel    Discriminator 	   Adder   Gain	  Offset	Error Gain	Error Offset
+1	    0			   A	   0.884  13.8	   	0.0169706   	5.6285
+1	    0			   B	   0.874  -7.59999	0.0138564	4.59565
+1	    1			   A	   0.892  11.8		0.00832663	2.76163
+1	    1			   B	   0.907  -21.7		0.00971254	3.22129
+2	    0			   A	   0.872  18		0.0130128	4.31586
+2	    0			   B	   0.85	  -0.2	        0.014922	4.94907	
+2	    1			   A	   0.867  22.5		0.0106927	3.54637
+2	    1			   B	   0.874  -9.6		0.00565687	1.87617	
+3	    0			   A	   	
+3	    0			   B
+3	    1			   A
+3	    1			   B

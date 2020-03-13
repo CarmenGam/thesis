@@ -1,0 +1,28 @@
+void noiseanalysis()
+
+{
+
+  TFile in_file("allasicsdata.root");
+  TNtuple* asicsP=(TNtuple*)in_file.Get("Asics");
+  TNtuple &asics=*asicsP; // Carlos is lazy, para no tener que escribir ->
+ 
+
+  double mean, RMS, meandig, RMSdig, meanfit, RMSfit;
+  int color[3] = {1,2,4};
+  
+  TCanvas *c1 = new TCanvas("Noise per channel for all ASICs","Analog Offset per channel for all ASICs");
+  TCanvas *c2 = new TCanvas("Noise for all ASICs","Analog Offset for all ASICs");
+
+
+  c1->cd();
+  asics.SetMarkerStyle(20);
+  asics.SetMarkerColor(1);
+  asics.Draw("analog:channel","noise < 40 && noise != 0");
+
+  h=(TH2F*)gPad->FindObject("htemp");
+  h->SetTitle("Noise per channel for all ASICs");
+  h->GetXaxis()->SetTitle("Channel");
+  h->GetYaxis()->SetTitle("Noise [mV]");
+
+  c1->SaveAs("Noise-Channel.gif");
+  

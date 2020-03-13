@@ -1,0 +1,55 @@
+//Macro para calcular la desviación de Ganancia-Offset se la media por adder, para cada canal
+
+
+void deviations(){
+
+  TFile in_file("allasicsdata.root");
+  TNtuple* asicsP=(TNtuple*)in_file.Get("Asics");
+  TNtuple &asics=*asicsP;
+  
+  double gainmean;
+  double dev;
+  double rms;
+  double offsetmean;
+  double devoff;
+  double rmsoff;
+  
+  ofstream a_file("deviations.txt");
+
+
+  for (int asic = 61; asic < 452; asic++){
+    for (int disc = 0; disc < 2; disc++){
+      for (int sum = 0; sum < 3; sum++){
+	
+	asics.Draw("gain", Form("asic == %i && disc==%i && sum == %i",asic,disc,sum), "p");
+	TH2F *h=gPad->FindObject("htemp");
+	gainmean = h->GetMean();
+	
+	asics.Draw("analog", Form("asic == %i && disc==%i && sum == %i",asic,disc,sum), "p");
+	TH2F *h3=gPad->FindObject("htemp");
+	offsetmean = h3->GetMean();
+	
+	
+	asics.Draw(Form("abs(gain-%lf)",gainmean),Form("asic == %i && disc==%i && sum == %i",asic,disc,sum), "");
+	TH2F *h2=gPad->FindObject("htemp");
+	dev = h2->GetMean();
+	rms = h2->GetRMS();
+
+	asics.Draw(Form("abs(analog-%lf)",offsetmean),Form("asic == %i && disc==%i && sum == %i",asic,disc,sum), "");
+	TH2F *h4=gPad->FindObject("htemp");
+	devoff = h4->GetMean();
+	rmsoff = h4->GetRMS();
+	
+	if (gainmean < 2 && gainmean > 0.5){
+	
+	a_file << asic << "\t" << disc << "\t" << sum << "\t" << gainmean << "\t"<< dev << "\t" <<   rms << "\t" << offsetmean <<"\t" << devoff << "\t" << rmsoff << endl;
+
+	}
+
+      }
+    }
+  }
+  
+  
+
+}

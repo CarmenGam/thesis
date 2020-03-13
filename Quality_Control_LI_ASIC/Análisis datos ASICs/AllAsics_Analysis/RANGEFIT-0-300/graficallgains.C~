@@ -1,0 +1,123 @@
+void graficallgains(){
+
+  TFile in_file("allasicsdata.root");
+  TNtuple* asicsP=(TNtuple*)in_file.Get("Asics");
+  TNtuple &asics=*asicsP;
+
+  TCanvas *c1 = new TCanvas("Gain Distribution","Gain Distribution"); 
+  TCanvas *c2 = new TCanvas("Gain Distribution without Outliers", "Gain Distribution without Outliers"); 
+  
+  float outlier;
+  int lines = asics.GetEntries();
+  float *row_content;
+  float asic, gain;
+
+  for (int irow=0; irow < lines ; irow++){
+    asics.GetEntry(irow);
+    row_content = asics.GetArgs();
+    asic = row_content[0];
+    gain = row_content[9];
+
+    if (gain <= 0.7 || gain > 1.005){
+    
+    cout << asic << "\t" << gain << endl;
+    }
+     
+
+  }
+
+
+
+  c1->cd();
+  asics.Draw("gain");
+  h= (TH2F*)gPad->FindObject("htemp");
+  h->SetTitle("Distribution of gains for all ASICs");
+  h->SetFillColor(30);
+  h->GetXaxis()->SetTitle("Gain");
+  h->SetName("Gain");
+  h->Fit("gaus");
+
+  
+	      
+  TPad *pad1 = new TPad("Pad","Pad",0.129,0.175,0.376,0.434,0,-1,-2);
+  TPad *pad2 = new TPad("Pad2","Pad2",0.65,0.175,0.897,0.434,0,-1,-2);
+
+  pad1->Draw();
+  pad2->Draw();
+  
+  TArrow *ar1 = new TArrow(0.67,10,0.7,80,0.01,"<|");
+  ar1->SetLineColor(1);
+  ar1->SetLineWidth(2);
+  ar1->Draw();
+
+
+  TArrow *ar1 = new TArrow(1.05,10,1.025,80,0.01,"<|");
+  ar1->SetLineColor(1);
+  ar1->SetLineWidth(2);
+  ar1->Draw();
+  
+
+  pad1->cd();
+  asics.Draw("gain");
+  h= (TH2F*)gPad->FindObject("htemp");
+  h->GetXaxis()->SetRangeUser(0.64,0.7);
+  h->GetXaxis()->SetLabelSize(0.1);
+  h->GetXaxis()->SetNdivisions(5);
+  h->GetXaxis()->SetTitle();
+  h->GetYaxis()->SetRangeUser(0,6);
+  h->GetYaxis()->SetLabelSize(0.1);
+  h->GetYaxis()->SetNdivisions(5);
+  h->GetXaxis()->SetTitle();
+  h->SetStats(0);
+  h->SetTitle();
+  h->SetFillColor(30);
+  
+  TPaveText *pt = new TPaveText(0.6430928,3.48,0.6790971,6.48,"br");
+  text = pt->AddText(" ASIC #209");
+  text = pt->AddText(" ASIC #239");
+  pt->Draw();
+ 
+
+  pad2->cd();
+  asics.Draw("gain");
+  
+  h= (TH2F*)gPad->FindObject("htemp");
+  h->GetXaxis()->SetRangeUser(1,1.1);
+  h->GetXaxis()->SetLabelSize(0.1);
+  h->GetXaxis()->SetNdivisions(3);
+  h->GetXaxis()->SetTitle();
+  h->GetYaxis()->SetRangeUser(0,2);
+  h->GetYaxis()->SetLabelSize(0.1);
+  h->GetYaxis()->SetNdivisions(3);
+  h->GetXaxis()->SetTitle();
+  h->SetStats(0);
+  h->SetTitle();
+  h->SetFillColor(30);
+  
+  pt = new TPaveText(1.050114,1.135766,1.105323,2.215055,"br");
+  text = pt->AddText("ASIC #107");
+  text = pt->AddText("ASIC #243");
+  pt->Draw();
+  
+  gPad->Modified();
+  gPad->Update();
+  
+  c1->SaveAs("Gaindistrib.gif");
+
+  c2->cd();
+  asics.Draw("gain", "gain >= 0.7 && gain < 1.01");
+  h= (TH2F*)gPad->FindObject("htemp");
+  h->SetTitle("Distribution of gains for all ASICs without outliers");
+  h->SetFillColor(30);
+  h->GetXaxis()->SetTitle("Gain");
+  h->SetName("Gain");
+  h->Fit("gaus");
+
+  
+  
+  
+  c2->SaveAs("Gaindistrib_outliers.gif");
+
+
+
+}

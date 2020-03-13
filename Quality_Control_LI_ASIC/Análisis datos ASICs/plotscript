@@ -1,0 +1,24 @@
+#!/bin/bash
+
+awk -f parser.awk Datasheet_ASIC_L1_62.txt 
+root storevoltage.C -l -q
+root plotvoltage.C -l -q
+root storedata.C -l -q
+root plot_analogoffset.C -l -q
+root plot_fitoffset.C -l -q
+#root plot_offset.C -l -q
+#root plot_noise.C -l -q
+root plot_alloffsets.C -l -q
+convert -density 300 alloffsets.pdf alloffsets.png
+convert -density 300 analog.pdf analog.png
+convert -density 300 fitoffset.pdf fitoffset.png
+convert -density 300 gain.pdf gain.png
+convert -density 300 noise.pdf noise.png
+convert -density 300 offset.pdf offset.png
+convert -density 300 voltage.pdf voltage.png
+rm adders.txt dac_test.txt offset.txt analog_offset.txt voltage.txt
+
+
+
+
+echo "Fin (Aplausos)"

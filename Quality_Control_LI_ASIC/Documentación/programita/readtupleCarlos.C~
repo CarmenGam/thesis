@@ -1,0 +1,96 @@
+{
+  gROOT->Reset();
+  //  gInterpreter->Load("readtuple.C+");
+
+
+  // Read back the ntuple
+  TFile in_file("prueba_voltage.root");
+  TNtuple* my_tupleP=(TNtuple*)in_file.Get("t");
+  TNtuple &my_tuple=*my_tupleP; // Carlos is lazy, para no tener que escribir ->
+
+  int marker[3]={20,21,25};// Asignamos colores y  forma a los markers
+  int color[3]={1,2,4};
+
+
+  TCanvas generalC; // Creamos un Canvas multiple para ver todos los graficos
+  generalC.Divide(4,4);// a la vez
+  int where=1;// where nos va a decir en que grafico estamos (hay 14) 
+
+
+  TGraph *gfa[7][2][3]; // Creamos el grafico que usaremos luego para hacer Fit
+  double fit_result[7][2][3][4];
+
+  ofstream out_file("offset_fit_data.dat");
+
+
+  out_file<<"Channel\tDisc.\tAdder\tGain\t Offset  GainErr   OffsetErr\n"  << endl;
+  
+  for(int channel=1;channel<=7;channel++){ //Loops a canales, sumadores y discriminadores
+    for(int disc=0;disc<2;disc++){
+
+      TString t=Form("Channel %i Disc %i",channel,disc);// Form sustituye %i, %l, etc
+      //      TCanvas *canvas=new TCanvas(t,t);
+
+      TLegend *l=new TLegend(0.15,0.6,0.43,0.85);//Leyenda, tamaño de la leyenda
+
+      generalC.cd(where++);//Aqui le decimos en que parte del Canvas graficar
+
+      for(int sum=0;sum<3;sum++){//Vamos a poner los 3 sumadores en cada grafica
+
+	my_tuple.SetMarkerStyle(marker[sum]); //Para cada sumador un marker
+	my_tuple.SetMarkerColor(color[sum]);
+	
+	my_tuple.Draw(
+		      Form("1000*sum%c:mv",'A'+sum),//Dibuja sumador frente a señal de entrada
+		      Form("channel==%i && discriminator==%i",channel,disc),
+		      (sum==0?"p":"p same") //Pintar los ejes solo la primera vez
+		      );
+
+
+
+	TIter next(gPad->GetListOfPrimitives()); //Esta parte de codigo es para poder extraer la grafica 
+	//con la que podremos hacer fits y analisis
+
+	TObject *who=0;
+	TObject *temp;
+	while(temp=next()) if(temp->GetName()==TString("Graph")) who=temp;
+
+	gfa[channel-1][disc][sum]=(TGraph*)who; //Asigna las graficas a un array de graficas
+	
+	l->AddEntry(who, //Entradas de la leyenda
+		    Form("Adder %c",'A'+sum),
+		    "p");
+
+	TFitResultPtr r=gfa[channel-1][disc][sum]->Fit("pol1","0qS","",0,500);//Hacemos el fit linear a cada grafico
+	fit_result[channel-1][disc][sum][0]=r->Value(0);//Offset
+	fit_result[channel-1][disc][sum][1]=r->Value(1);//Gain
+	fit_result[channel-1][disc][sum][2]=r->Error(0);//Error Offset
+	fit_result[channel-1][disc][sum][3]=r->Error(1);//Error Gain
+
+	out_file<< channel-1 << "\t" << disc << "\t" << sum << "\t" << fit_result[channel-1][disc][sum][1] << "   " <<  fit_result[channel-1][disc][sum][0] << "   "<< fit_result[channel-1][disc][sum][3] << "   " <<  fit_result[channel-1][disc][sum][2] <<  endl;
+	
+
+      }
+
+      TH2F *h=gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+      h->GetXaxis()->SetTitle("Input Voltage [mV]");
+      h->GetYaxis()->SetTitle("Rate Scan Result [mV]");
+      h->SetTitle(t);
+
+      l->Draw();//Dibuja la leyenda
+
+      gPad->Modified();
+      gPad->Update();
+
+    }
+
+    
+  }
+
+
+
+
+
+
+
+}

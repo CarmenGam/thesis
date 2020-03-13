@@ -1,0 +1,147 @@
+General Information:
+Place
+Date and hour
+ASIC Number
+Operator's Name
+
+TEST Initialization: Pass?
+
+TEST DAC Procedure: Measurement of the maximum and minimum voltage of the DAc's (it is possible to know the range of the 6 DAC's) directly from the output pin
+of the ASIC by a Multimeter. Each DAC is composed by a 2 DAC's of 9 bits (Positive part P and negative part N) to get a final resolution of 10 bits. To measure
+this it is set the code in the register with the maximum values of the Positive part (P), the minimum value of P and the same with Negative part (N).
+
+(Values in Volts)
+High Limit Comparation Maximum P: 2,177 and 1,888	Low Limit Comparation Minimum P: 1,474 and 1,321
+High Limit Comparation Maximum N: 1,475 and 1,322	Low Limit Comparation Minimum N: 0,818 and 0,730
+
+Result of the Maximum P Chanel A:
+DAC0 DAC1 DAC2 DAC3 DAC4 DAC5
+Result of the Minimum N Chanel B:
+DAC0 DAC1 DAC2 DAC3 DAC4 DAC5 
+Result of the Minimum P Chanel A:
+DAC0 DAC1 DAC2 DAC3 DAC4 DAC5
+Result of the Maximum N Chanel B:
+DAC0 DAC1 DAC2 DAC3 DAC4 DAC5
+
+Result TEST DAC: Pass?
+ 
+TEST Voltage Procedure: Measurement of the gain of all seven input single channels and the two outputs for 10 different voltages (from 100mV to 1000mV)
+using a rate scan methodology, consisting on the comparison of the input trigger rate from a generator on the evaluation setup and the ASIC trigger output rate.
+This computation is performed with scalers implemented in the FPGA board.
+ 
+(Values in Volts)
+LoopX: Pulse Input (mV) - From 100mV to 1000mV (10 steps of 100 mV)
+Generator Parameters: 
+Frecuency;Amplitude;DC Offset;Width Time;Lead. Edge Time;Trail. Edge Time;Delay
+High Limit Comparation:
+Low Limit Comparation:
+Matrix Response:
+
+CH1AOut0	CH1BOut0	CH1COut0	CH1AOut1	CH1BOut1	CH1COut1
+CH2AOut0	CH2BOut0	CH2COut0	CH2AOut1	CH2BOut1	CH2COut1
+CH3AOut0	CH3BOut0	CH3COut0	CH3AOut1	CH3BOut1	CH3COut1
+CH4AOut0	CH4BOut0	CH4COut0	CH4AOut1	CH4BOut1	CH4COut1
+CH5AOut0	CH5BOut0	CH5COut0	CH5AOut1	CH5BOut1	CH5COut1
+CH6AOut0	CH6BOut0	CH6COut0	CH6AOut1	CH6BOut1	CH6COut1
+CH7AOut0	CH7BOut0	CH7COut0	CH7AOut1	CH7BOut1	CH7COut1
+
+LoopX: Result TEST Voltage:  Pass?
+
+TEST ADDER CHANNELS: The gain of different sum combinations obtained by the same rate scan methodology. There are 3 different methods combining different
+chanels of different adders.
+(Values in Volts)
+Mode (2, 3, and 4): Output 0 and 1
+Loop (400mV and 800mV): Pulse Input (mV)
+Generator Parameters: 
+Frecuency;Amplitude;DC Offset;Width Time;Lead. Edge Time;Trail. Edge Time;Delay
+High Limit Comparation:
+Low Limit Comparation:
+Matrix Response: 
+
+AdderAOut0	AdderBOut0	Adder1COut0	AdderAOut1	AdderBOut1	AdderCOut1
+
+LoopX: Result TEST ADDER:  Pass?
+
+ANALOG OFFSET TEST Procedure: Measurement of the offset in the Analog Adder Output test, which is the output of a multiplexor that selects among the
+available analog output adder, plus a buffer for the output pins. The measurement is directly from the differential output pin of the ASIC by a Multimeter.
+(Values in miliVolts [mV])
+Adders Analog Output	Multiplexed
+
+Result of the Analog Offset Channels and Adders:
+
+CH1A	CH1B	CH1C
+CH2A	CH2B	CH2C
+CH3A	CH3B	CH3C
+CH4A	CH4B	CH4C
+CH5A	CH5B	CH5C
+CH6A	CH6B	CH6C
+CH7A	CH7B	CH7C
+
+
+DIGITAL OFFSET TEST Procedure: Measurement of the offset in the LVDS digital outputs, 0 and 1, by the evaluation of the outputs status as a funtion of the threshold.
+The methodology consist on increasing the threshold from 0 Volts using the DAC's values until find the minimum value that the output crosses from 1 to 0, and the
+maximum cross from 0 to 1. The voltage between this two points is the noise of the digital output, and the mean point is the offset. Setting the Threshold to 0 it
+is possible 3 different behaviors: If the status of the digital output is always a logic "1" (tagged as type "Pos") it is possible to measure the minimum and the maximum points and therefore 
+it is possible to calculate the Offset and the noise.
+If the status of the digital ouput is always a logic '0' (tagged as type "Neg"), it is not possible to measure neither the minimum nor the maximum point, and then a value of zero is
+assigned by the program both to the noise and the offset.
+Finally, if the status of the digital ouput is switching (tagged as type "Com"), it is only possible to measure the maximum value, and the other is assigned to 0. In this case the noise is
+understimated and the threshold is overstimated
+
+(Maximum and minimum values are in Volts [V]. The Noise and the Offset are in miliVolts [mV])
+Digital Output	Out A & Out B
+
+Result of the Offset Channels and Adders in the both Outputs A & B: 
+OUTPUT 0 & OUTPUT 1
+Max Values (V)
+CH1A	CH1B	CH1C
+CH2A	CH2B	CH2C
+CH3A	CH3B	CH3C
+CH4A	CH4B	CH4C
+CH5A	CH5B	CH5C
+CH6A	CH6B	CH6C
+CH7A	CH7B	CH7C
+
+Min Values (V)
+CH1A	CH1B	CH1C
+CH2A	CH2B	CH2C
+CH3A	CH3B	CH3C
+CH4A	CH4B	CH4C
+CH5A	CH5B	CH5C
+CH6A	CH6B	CH6C
+CH7A	CH7B	CH7C
+
+
+Noise (mV)
+CH1A	CH1B	CH1C
+CH2A	CH2B	CH2C
+CH3A	CH3B	CH3C
+CH4A	CH4B	CH4C
+CH5A	CH5B	CH5C
+CH6A	CH6B	CH6C
+CH7A	CH7B	CH7C
+
+Offset (mV)
+CH1A	CH1B	CH1C
+CH2A	CH2B	CH2C
+CH3A	CH3B	CH3C
+CH4A	CH4B	CH4C
+CH5A	CH5B	CH5C
+CH6A	CH6B	CH6C
+CH7A	CH7B	CH7C
+
+type
+Pos Neg Neg 
+Pos Neg Neg 
+Com Neg Neg 
+Pos Neg Neg 
+Pos Neg Neg 
+Pos Neg Neg 
+Pos Neg Neg 
+
+END OF TEST Information
+
+Result TEST DAC: Pass?
+Result TEST Voltage: Pass?
+Result TEST Adder: Pass?
+RESULT TEST ASIC 61: Pass? --> If All the Test passed, the final test Pass!

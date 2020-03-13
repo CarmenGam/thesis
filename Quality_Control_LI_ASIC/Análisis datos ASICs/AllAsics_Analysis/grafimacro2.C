@@ -1,0 +1,268 @@
+{
+//=========Macro generated from canvas: Gain mean, Disc 0/Gain mean, Disc 0
+//=========  (Mon May 23 16:24:19 2016) by ROOT version5.34/32
+   TCanvas *c1 = new TCanvas("Gain mean, Disc 0", "Gain mean, Disc 0",12,51,700,500);
+   c1->Range(-0.8250001,0.8154375,7.425,0.8705625);
+   c1->SetFillColor(0);
+   c1->SetBorderMode(0);
+   c1->SetBorderSize(2);
+   c1->SetFrameBorderMode(0);
+   c1->SetFrameBorderMode(0);
+   
+   TH2F *htemp__2 = new TH2F("htemp__2","Gain mean, Disc 0",40,0,6.6,40,0.816,0.864);
+   htemp__2->SetDirectory(0);
+   htemp__2->SetStats(0);
+
+   Int_t ci;      // for color index setting
+   TColor *color; // for color definition with alpha
+   ci = TColor::GetColor("#000099");
+   htemp__2->SetLineColor(ci);
+   htemp__2->SetMarkerStyle(20);
+   htemp__2->GetXaxis()->SetTitle("Channel");
+   htemp__2->GetXaxis()->SetRange(1,40);
+   htemp__2->GetXaxis()->SetLabelFont(42);
+   htemp__2->GetXaxis()->SetLabelSize(0.035);
+   htemp__2->GetXaxis()->SetTitleSize(0.035);
+   htemp__2->GetXaxis()->SetTitleFont(42);
+   htemp__2->GetYaxis()->SetTitle("Gain Mean [mV]");
+   htemp__2->GetYaxis()->SetRange(0,41);
+   htemp__2->GetYaxis()->SetLabelFont(42);
+   htemp__2->GetYaxis()->SetLabelSize(0.035);
+   htemp__2->GetYaxis()->SetTitleSize(0.035);
+   htemp__2->GetYaxis()->SetTitleFont(42);
+   htemp__2->GetZaxis()->SetLabelFont(42);
+   htemp__2->GetZaxis()->SetLabelSize(0.035);
+   htemp__2->GetZaxis()->SetTitleSize(0.035);
+   htemp__2->GetZaxis()->SetTitleFont(42);
+   htemp__2->Draw("");
+   
+   TPaveText *pt = new TPaveText(0.1934384,0.9367722,0.5085673,0.995,"blNDC");
+   pt->SetName("title");
+   pt->SetBorderSize(0);
+   pt->SetFillColor(0);
+   pt->SetFillStyle(0);
+   pt->SetTextFont(42);
+   TText *text = pt->AddText("Gain mean, Disc 0");
+   pt->Draw();
+   
+   TGraph *graph = new TGraph(7);
+   graph->SetName("Graph0");
+   graph->SetTitle("Graph");
+
+   ci = TColor::GetColor("#000099");
+   graph->SetLineColor(ci);
+   graph->SetMarkerStyle(20);
+   graph->SetPoint(0,0,0.8523240089);
+   graph->SetPoint(1,1,0.8254730105);
+   graph->SetPoint(2,2,0.8611230254);
+   graph->SetPoint(3,3,0.8551009893);
+   graph->SetPoint(4,4,0.8564400077);
+   graph->SetPoint(5,5,0.8521490097);
+   graph->SetPoint(6,6,0.8577610254);
+   
+   TH1F *Graph_Graph4 = new TH1F("Graph_Graph4","Graph",100,0,6.6);
+   Graph_Graph4->SetMinimum(0.821908);
+   Graph_Graph4->SetMaximum(0.864688);
+   Graph_Graph4->SetDirectory(0);
+   Graph_Graph4->SetStats(0);
+
+   ci = TColor::GetColor("#000099");
+   Graph_Graph4->SetLineColor(ci);
+   Graph_Graph4->GetXaxis()->SetLabelFont(42);
+   Graph_Graph4->GetXaxis()->SetLabelSize(0.035);
+   Graph_Graph4->GetXaxis()->SetTitleSize(0.035);
+   Graph_Graph4->GetXaxis()->SetTitleFont(42);
+   Graph_Graph4->GetYaxis()->SetLabelFont(42);
+   Graph_Graph4->GetYaxis()->SetLabelSize(0.035);
+   Graph_Graph4->GetYaxis()->SetTitleSize(0.035);
+   Graph_Graph4->GetYaxis()->SetTitleFont(42);
+   Graph_Graph4->GetZaxis()->SetLabelFont(42);
+   Graph_Graph4->GetZaxis()->SetLabelSize(0.035);
+   Graph_Graph4->GetZaxis()->SetTitleSize(0.035);
+   Graph_Graph4->GetZaxis()->SetTitleFont(42);
+   graph->SetHistogram(Graph_Graph4);
+   
+   graph->Draw("p");
+   
+   TLegend *leg = new TLegend(0.704871,0.698312,0.901146,0.900844,NULL,"brNDC");
+   leg->SetBorderSize(1);
+   leg->SetLineColor(1);
+   leg->SetLineStyle(1);
+   leg->SetLineWidth(1);
+   leg->SetFillColor(0);
+   leg->SetFillStyle(1001);
+   TLegendEntry *entry=leg->AddEntry("Graph0","Adder A","p");
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(20);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("Graph","Adder B","p");
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(2);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("Graph","Adder C","p");
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(4);
+   entry->SetMarkerStyle(22);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   leg->Draw();
+   
+   graph = new TGraph(7);
+   graph->SetName("Graph1");
+   graph->SetTitle("Graph");
+
+   ci = TColor::GetColor("#000099");
+   graph->SetLineColor(ci);
+   graph->SetMarkerColor(2);
+   graph->SetMarkerStyle(21);
+   graph->SetPoint(0,0,0.8502290249);
+   graph->SetPoint(1,1,0.8201029897);
+   graph->SetPoint(2,2,0.8586450219);
+   graph->SetPoint(3,3,0.8535410166);
+   graph->SetPoint(4,4,0.8525500298);
+   graph->SetPoint(5,5,0.8477839828);
+   graph->SetPoint(6,6,0.8531079888);
+   
+   TH1F *Graph_Graph5 = new TH1F("Graph_Graph5","Graph",100,0,6.6);
+   Graph_Graph5->SetMinimum(0.8162488);
+   Graph_Graph5->SetMaximum(0.8624992);
+   Graph_Graph5->SetDirectory(0);
+   Graph_Graph5->SetStats(0);
+
+   ci = TColor::GetColor("#000099");
+   Graph_Graph5->SetLineColor(ci);
+   Graph_Graph5->GetXaxis()->SetLabelFont(42);
+   Graph_Graph5->GetXaxis()->SetLabelSize(0.035);
+   Graph_Graph5->GetXaxis()->SetTitleSize(0.035);
+   Graph_Graph5->GetXaxis()->SetTitleFont(42);
+   Graph_Graph5->GetYaxis()->SetLabelFont(42);
+   Graph_Graph5->GetYaxis()->SetLabelSize(0.035);
+   Graph_Graph5->GetYaxis()->SetTitleSize(0.035);
+   Graph_Graph5->GetYaxis()->SetTitleFont(42);
+   Graph_Graph5->GetZaxis()->SetLabelFont(42);
+   Graph_Graph5->GetZaxis()->SetLabelSize(0.035);
+   Graph_Graph5->GetZaxis()->SetTitleSize(0.035);
+   Graph_Graph5->GetZaxis()->SetTitleFont(42);
+   graph->SetHistogram(Graph_Graph5);
+   
+   graph->Draw("p ");
+   
+   leg = new TLegend(0.704871,0.698312,0.901146,0.900844,NULL,"brNDC");
+   leg->SetBorderSize(1);
+   leg->SetLineColor(1);
+   leg->SetLineStyle(1);
+   leg->SetLineWidth(1);
+   leg->SetFillColor(0);
+   leg->SetFillStyle(1001);
+   entry=leg->AddEntry("Graph0","Adder A","p");
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(20);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("Graph1","Adder B","p");
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(2);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("Graph","Adder C","p");
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(4);
+   entry->SetMarkerStyle(22);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   leg->Draw();
+   
+   graph = new TGraph(7);
+   graph->SetName("Graph2");
+   graph->SetTitle("Graph");
+
+   ci = TColor::GetColor("#000099");
+   graph->SetLineColor(ci);
+   graph->SetMarkerColor(4);
+   graph->SetMarkerStyle(22);
+   graph->SetPoint(0,0,0.8454419971);
+   graph->SetPoint(1,1,0.8182439804);
+   graph->SetPoint(2,2,0.8562030196);
+   graph->SetPoint(3,3,0.8465539813);
+   graph->SetPoint(4,4,0.8498479724);
+   graph->SetPoint(5,5,0.8479409814);
+   graph->SetPoint(6,6,0.8518429995);
+   
+   TH1F *Graph_Graph6 = new TH1F("Graph_Graph6","Graph",100,0,6.6);
+   Graph_Graph6->SetMinimum(0.8144481);
+   Graph_Graph6->SetMaximum(0.8599989);
+   Graph_Graph6->SetDirectory(0);
+   Graph_Graph6->SetStats(0);
+
+   ci = TColor::GetColor("#000099");
+   Graph_Graph6->SetLineColor(ci);
+   Graph_Graph6->GetXaxis()->SetLabelFont(42);
+   Graph_Graph6->GetXaxis()->SetLabelSize(0.035);
+   Graph_Graph6->GetXaxis()->SetTitleSize(0.035);
+   Graph_Graph6->GetXaxis()->SetTitleFont(42);
+   Graph_Graph6->GetYaxis()->SetLabelFont(42);
+   Graph_Graph6->GetYaxis()->SetLabelSize(0.035);
+   Graph_Graph6->GetYaxis()->SetTitleSize(0.035);
+   Graph_Graph6->GetYaxis()->SetTitleFont(42);
+   Graph_Graph6->GetZaxis()->SetLabelFont(42);
+   Graph_Graph6->GetZaxis()->SetLabelSize(0.035);
+   Graph_Graph6->GetZaxis()->SetTitleSize(0.035);
+   Graph_Graph6->GetZaxis()->SetTitleFont(42);
+   graph->SetHistogram(Graph_Graph6);
+   
+   graph->Draw("p ");
+   
+   leg = new TLegend(0.704871,0.698312,0.901146,0.900844,NULL,"brNDC");
+   leg->SetBorderSize(1);
+   leg->SetLineColor(1);
+   leg->SetLineStyle(1);
+   leg->SetLineWidth(1);
+   leg->SetFillColor(0);
+   leg->SetFillStyle(1001);
+   entry=leg->AddEntry("Graph0","Adder A","p");
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(20);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("Graph1","Adder B","p");
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(2);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   entry=leg->AddEntry("Graph2","Adder C","p");
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(4);
+   entry->SetMarkerStyle(22);
+   entry->SetMarkerSize(1);
+   entry->SetTextFont(42);
+   leg->Draw();
+   c1->Modified();
+   c1->cd();
+   c1->SetSelected(Gain mean, Disc 0);
+}

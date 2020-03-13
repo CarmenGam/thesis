@@ -1,0 +1,77 @@
+
+//===================15/07/2016==========================//
+- Pulsos en cada canal de 60 mV
+- El canal 2 (0,1,2...) no funciona.
+- Usamos ganancia 20
+- De momento solo pruebas en Disc 0
+
+ADDER A
+Disc  Adder	In[mV]Threshold
+0	0	0	15.54 <---Ruido
+0	0	60	25.24
+0	0	120	35.95
+0	0	180	45.67
+0	0	240	53.83
+0	0	300	62.57	
+0	0	360	71.22
+
+ADDER B
+
+0	1	0	15.92
+0	1	60	24.01
+0	1	120	33.88
+0	1	180	41.76
+0	1	240	50.53
+0	1	300	59.16
+0	1	360	67.96
+
+ADDER C 
+
+0	2	0	10.94
+0	2	60	19.16
+0	2	120	28.90
+0	2	180	37.35
+0	2	240	45.85
+0	2	300	54.62
+0	2	360	63.71
+
+Encuentro que los valores salen diferentes de los obtenidos el 14/07/16:
+
+ADDER A
+
+0	0	0	12.94 <---Ruido
+0	0	60	18.14
+0	0	120	29.52
+0	0	180	38.32
+0	0	240	46.35
+0	0	300	54.11	
+0	0	360	61.97        
+
+//===================18/07/2016==========================//
+
+Encontramos una dependencia fuerte con la temperatura. Cambiando de posición el módulo y enfriando con aire la placa, recuperamos valores similares a los del 14/7, se ve que el ruido baja.
+
+ADDER A
+
+0	0	0	13.52 <---Ruido
+0	0	60	18.63
+0	0	120	30.09
+0	0	180	39.08
+0	0	240	47.13
+0	0	300	55.22	
+0	0	360	63.19
+
+ADDER C
+
+0	0	0	9.72 <---Ruido
+0	0	60	14.47
+0	0	120	24.46
+0	0	180	32.67
+0	0	240	40.50
+0	0	300	48.56	
+0	0	360	56.87
+
+Al calentar con una botella de agua caliente y aire caliente, de nuevo el ruido sube y todos los valores son más altos.
+
+Dejamos que se enfríe unas horas.
+   

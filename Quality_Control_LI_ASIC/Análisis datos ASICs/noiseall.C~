@@ -1,0 +1,74 @@
+//This MACRO plots the digital Noise measured in function of the channel. 
+
+{
+  gROOT->Reset();
+ 
+  // Read back the ntuple
+  TFile in_file("offsetall.root");
+  TNtuple* my_tupleP=(TNtuple*)in_file.Get("Offset");
+  TNtuple &my_tuple=*my_tupleP; // Carlos is lazy, para no tener que escribir ->
+
+  ofstream a_file("weirdnoises.txt");
+
+  
+  for(int disc=0; disc<2; disc++){
+      for(int channel=1; channel <= 7; channel++){
+	for (int sum=1; sum <= 3; sum++){
+
+	  TString t=Form("Noise, Disc %i, Channel %i, Adder %c", disc,channel,'A'+sum-1);
+	  TCanvas *generalC= new TCanvas(t,t, 1000,800);
+
+	  my_tuple.SetFillColor(31);
+	my_tuple.SetTitle(t);
+	my_tuple.Draw(
+		      "noise",
+		      Form("channel==%i && sum==%i && comp==%i && noise != 0",channel, sum, disc));
+
+	
+ 
+	
+	     
+	TH2F *h=gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+
+	if (h==NULL)
+	  cout << "no existe h" << endl;
+	
+	h->SetFillColor(31);
+	h->GetYaxis()->SetTitle("Entries");
+	h->GetXaxis()->SetTitle("Noise [mV]");
+	h->SetTitle(t);
+	
+
+	generalC->SaveAs(Form("NOISE-DISC%iCH%iSUM%i.png", disc, channel,sum-1));
+
+	gPad->Modified();
+	gPad->Update();
+	//gPad->WaitPrimitive();
+
+	my_tuple.Draw(
+		      "noise:asic",
+		      Form("channel==%i && sum==%i && comp==%i && noise > 20.",channel, sum, disc), "goff");
+
+	a_file << *my_tuple.GetV2() << "\t" << *my_tuple.GetV1() << "\t" << disc << "\t" << channel << "\t" << sum << endl;
+
+      
+
+
+	}
+      }
+      }
+
+    
+    
+
+	  
+
+
+
+
+
+    
+}
+	
+
+

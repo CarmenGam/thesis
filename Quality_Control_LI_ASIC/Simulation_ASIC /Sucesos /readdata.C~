@@ -1,0 +1,64 @@
+#include "TMath.h"
+#include "TH1D.h"
+#include <iostream>
+#include "TNtuple.h"
+#include "TFile.h"
+#include "TCanvas.h"
+#include "TString.h"
+#include "TH2F.h"
+using namespace std;
+
+void graph(int event)
+{
+  
+  int color[7] = {1,2,3,4,5,6,7};
+
+ TFile finput(
+	      Form("input_signal[%i].root", event));
+ TNtuple* input=(TNtuple*)finput.Get("Input");
+
+
+  TFile fadder(
+	      Form("adder[%i].root",event));
+  TNtuple* adder=(TNtuple*)fadder.Get("Adder");
+ 
+    
+  TFile fcomp(
+	      Form("comp[%i].root", event));
+  TNtuple* comp=(TNtuple*)fcomp.Get("Adder");
+  
+
+  TString t=Form("Event %i", event);
+  TCanvas *canvas= new TCanvas(t,t);
+
+     for (int channel=0; channel < 7; channel++){
+
+       input->SetLineColor(color[channel-1]);
+       input->Draw(
+		   Form("channel%i:time",channel+1),
+		   "",
+		  (channel==1?"l":"l same")
+
+		   );
+
+
+       //TH2F *h=gPad->FindObject("htemp");
+
+       /*h->GetXaxis()->SetTitle("Time[ns])");
+       h->GetYaxis()->SetTitle("Amplitude [mV])");
+       //h->GetYaxis()->SetRangeUser(*/
+      
+      
+        gPad->Modified();
+        gPad->Update();
+     }
+
+
+
+}
+      
+
+
+
+
+

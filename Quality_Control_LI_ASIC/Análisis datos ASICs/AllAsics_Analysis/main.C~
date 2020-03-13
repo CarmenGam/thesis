@@ -1,0 +1,33 @@
+{
+  
+  gInterpreter->Load(".C+");
+  gInterpreter->Load(".C+");
+
+  int i,j,k;
+  char input[10000};
+  
+  
+  cout<<"====================================================================\n";
+  cout<<"This is a ROOT Macro to generate plots for the analysis of L1 Trigger system ASIC for CTA LST Camera";
+ 
+  cout<<"====================================================================\n";
+
+  cout<<"This Macro will generate a huge amount of plots, we recommend to run it in batch mode" << endl;
+  
+  cout<<"Type y (yes) if you want to generate the plots offered. Type n (no) to skip to the next option."  << endl;
+
+  cout<<"Plot histograms for Fit Offset, Gain and Fit Offset-Analog Offset difference?: " << endl;
+  cin.get(input,10000);
+  if (input=='y')
+    allascisplots();
+
+  cout<<"Plot the correlation of the fit offset and the offsets difference between channels, for fixed adder and discriminator?:  " << endl;
+  cin.get(input,10000);
+  if (input=='y')
+    diffcorrelation();
+
+  cout<<"Plot the correlation of the fit offset and the offsets difference between adders, for fixed channel and discriminator?: "<<endl;
+ cin.get(input,10000);
+  if (input=='y')
+    correlation_adders();
+  

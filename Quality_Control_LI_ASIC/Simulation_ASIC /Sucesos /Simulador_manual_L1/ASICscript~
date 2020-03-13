@@ -1,0 +1,7 @@
+#!/bin/bash
+
+gcc ASIC.c -lm
+./a.out
+root -l -q storedata.C
+root -l -q plotsignals.C
+echo "Fin (Aplausos)"

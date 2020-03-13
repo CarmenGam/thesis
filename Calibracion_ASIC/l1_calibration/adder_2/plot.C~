@@ -1,0 +1,150 @@
+{
+
+
+  ///////////////////// DATOS DE RATE SCAN DE LOS MODULOS ///////////////////
+
+  gSystem->Exec("grep '>>>>>' 192*.log | awk '{split($3,a,\".\");print a[4] \" \" $7 \" \" $9/100}' > digested");
+  TNtuple t("","","ip:pixels:value");
+  t.ReadFile("digested");
+  
+   int ips[31]={
+    142,    61,    24,    12,
+    130,    105,        144,
+    66,    77,    82,    135,
+    30,    149,    150,    74,
+    145,    83,    119,    108,
+        15,    10,    80,
+    20,        89,    
+    19,    78,    57,    14,
+    75,    73,    47  };
+
+  TGraph *gr[100];
+  double offset[100];
+  double slope[100];
+  double chi2[100];
+  //Double_t x1, y1, x2, y2;
+  double pulse = 60;
+  double dif;
+
+  TNtuple ntp("","","chi2:offset:slope:ip");
+  // TNtuple inputs("","","ip:interval:dif");
+
+  for(int ip=0;ip<31;ip++){
+    int n=t.Draw("value*4.8:pixels*70",Form("ip==%i && value>0",ips[ip]));
+    if(n<3) continue;
+    gr[ip]=new TGraph(n,t.GetV2(),t.GetV1()); 
+    gr[ip]->SetTitle(Form("IP = %i",ips[ip]));
+    gr[ip]->GetXaxis()->SetTitle("Pixels");
+    gr[ip]->GetYaxis()->SetTitle("Value*4.8");
+    gr[ip]->SetMarkerStyle(20);
+    gr[ip]->Draw("ap");
+
+    /*for (int p=0; p < n-1 ; p++){ 
+
+    gr[ip]->GetPoint( p, x1, y1);
+    gr[ip]->GetPoint(p+1, x2, y2);
+
+    dif = (y2-y1)/0.86;
+    //cout << (y1-y2)/0.86 << << endl;
+    inputs.Fill(ips[ip],p+1,dif);            
+    }*/
+
+
+    TFitResultPtr ret=gr[ip]->Fit("pol1","S","same");
+    const double *pars=ret->GetParams();
+    offset[ip]=pars[0];
+    slope[ip]=pars[1];
+    chi2[ip]=ret->Chi2();
+    ntp.Fill(chi2[ip],offset[ip],slope[ip],ips[ip]);
+
+    gPad->Update();    
+    gPad->Modified();
+    //gPad->WaitPrimitive();
+  }
+
+  for (int ip=0; ip < 31; ip++){
+    
+    
+    cout << ips[ip] <<"\t" << slope[ip] << "\t" << offset[ip] << endl;
+  }
+  
+
+  /*ntp.Draw("slope");
+  TH2F *h=gPad->FindObject("htemp");
+  h->GetMean();*/
+
+  
+  /*for (int ip=0;ip<35;ip++){
+    TCanvas *c = new TCanvas(Form("%i",ips[ip]),Form("%i",ips[ip]) );
+  inputs->SetMarkerColor(ip);
+    inputs->SetMarkerStyle(20);
+    inputs->Draw("dif:interval",Form("ip==%i",ips[ip]));
+    inputs->GetEntries();
+    
+    }*/
+
+
+  //////////////////////DATOS RATESCAN DE LOS ASICS ///////////////////////
+
+  TNtuple m("voltage","voltage","asic:channel:disc:input:sumA:sumB:sumC");
+  m.ReadFile("voltage_all.txt");
+
+
+  //NO HAY DATOS DEL ASIC 10
+  int asics[31]={
+
+    121, 113,  91,  119,
+    93,  86,   70,
+    69,  89,  100,  101,
+    66,  79,  111,  105,
+    112, 68,  107,  114,
+    10, 105, 112,
+    63,  88,  100 ,  
+    99,  96,  82,
+    114, 110,  102 };
+
+  TGraph *gr_as[100];
+  double offset_as[100];
+  double slope_as[100];
+  double chi2_as[100];
+  TNtuple ntp_as("","","chi2:offset:slope:asic");
+  
+  for (int asic=0; asic < 31; asic++){
+    
+   int n =  m->Draw("sumC*1000:input",Form("asic==%i && channel == 4 && disc == 0",asics[asic]));
+   if(n<3) continue;
+   gr_as[asic]=new TGraph(n,m.GetV2(),m.GetV1());   
+   gr_as[asic]->SetMarkerStyle(20);
+   gr_as[asic]->Draw("ap");
+   
+   TFitResultPtr ret_as=gr_as[asic]->Fit("pol1","S","same",0,300);
+   double *pars_as=ret_as->GetParams();
+   offset_as[asic]=pars_as[0];
+   slope_as[asic]=pars_as[1];
+   chi2_as[asic]=ret_as->Chi2();
+   ntp_as.Fill(chi2_as[asic],offset_as[asic],slope_as[asic],asic[asic]);
+
+  
+   
+   gPad->Update();    
+   gPad->Modified();
+   
+
+  }
+  TFile fout("ratescandata.root","RECREATE");
+  TNtuple all("all","all","asic:id:slopeid:slopeasic:offsetid:offsetasic");
+
+
+  for (int asic=0; asic < 31; asic++){
+    cout << asics[asic] <<"\t"<<ips[asic] << "\t"  << slope[asic] << "\t" <<  slope_as[asic] << "\t" <<  offset[asic] << "\t" <<  offset_as[asic] << endl;
+    all.Fill(asics[asic],ips[asic],slope[asic],slope_as[asic],offset[asic],offset_as[asic]);
+
+  }
+  all.Write();
+  /*ntp_as.Draw("slope");
+  TH2F *h=gPad->FindObject("htemp");
+  h->GetMean();*/
+
+
+
+}

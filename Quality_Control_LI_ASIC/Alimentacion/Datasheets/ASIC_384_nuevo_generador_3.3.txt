@@ -1,0 +1,285 @@
+CIEMAT, Madrid. 
+Date and Hour:  14/02/2017 18:35
+ASIC's Number: 384_nuevo_generador_3.3V
+Operator's Name: Alfredo
+
+TEST Inicialization: OK
+
+Start TEST DAC:
+High Limit Comparation Maximun P: 2,1335  and  1,9565	Low Limit Comparation Mínimum P: 1,477  and  1,333
+High Limit Comparation Maximun N: 1,477  and  1,333	Low Limit Comparation Mínimum N: 0,8115  and  0,7395
+
+Result of the Máximum P Chanel A: 
+2,043 2,045 2,045 2,007 2,007 2,007 
+Result of the Mínimum N Chanel B 
+0,776 0,776 0,777 0,779 0,781 0,781 
+Result of the Mínimum P Chanel A: 
+1,410 1,409 1,410 1,409 1,409 1,409 
+Result of the  Máximum N Chanel B: 
+1,409 1,410 1,410 1,410 1,410 1,409 
+
+Result TEST  DAC: OK 	14/02/2017 18:35:59
+
+Start TEST Voltage: 
+
+Loop1: 100mV
+Generator Parameters: 
+Frecuency;Amplitude;DC Offset;Width Time;Lead. Edge Time;Trail. Edge Time;Delay
+1E+6	0,054	0	3,3E-9	1E-9	1E-9	0
+High Limit Comparation:  0,131 
+Low Limit Comparation:  0,041
+Matrix Response: 
+
+0,067000	0,082000	0,078000	0,071000	0,081000	0,081000
+0,088000	0,087000	0,085000	0,080000	0,091000	0,088000
+0,093000	0,092000	0,093000	0,081000	0,095000	0,091000
+0,081000	0,093000	0,083000	0,081000	0,091000	0,087000
+0,084000	0,096000	0,093000	0,075000	0,091000	0,088000
+0,082000	0,093000	0,096000	0,082000	0,091000	0,088000
+0,204000	0,239000	0,269000	0,220000	0,245000	0,235000
+Loop1: Result  TEST Voltage:  FAILED
+
+Loop2: 200mV
+Generator Parameters: 
+Frecuency;Amplitude;DC Offset;Width Time;Lead. Edge Time;Trail. Edge Time;Delay
+1E+6	0,108	0	3,3E-9	1E-9	1E-9	0
+High Limit Comparation:  0,217 
+Low Limit Comparation:  0,125
+Matrix Response: 
+
+0,167000	0,176000	0,169000	0,157000	0,172000	0,162000
+0,166000	0,177000	0,166000	0,166000	0,171000	0,163000
+0,176000	0,180000	0,176000	0,173000	0,180000	0,177000
+0,168000	0,176000	0,183000	0,171000	0,177000	0,174000
+0,170000	0,176000	0,175000	0,167000	0,175000	0,167000
+0,171000	0,180000	0,172000	0,170000	0,179000	0,174000
+0,280000	0,284000	0,279000	0,272000	0,272000	0,275000
+Loop2: Result  TEST Voltage:  FAILED
+
+Loop3: 300mV
+Generator Parameters: 
+Frecuency;Amplitude;DC Offset;Width Time;Lead. Edge Time;Trail. Edge Time;Delay
+1E+6	0,162	0	3,3E-9	1E-9	1E-9	0
+High Limit Comparation:  0,308 
+Low Limit Comparation:  0,204
+Matrix Response: 
+
+0,242000	0,252000	0,247000	0,244000	0,252000	0,241000
+0,244000	0,251000	0,242000	0,243000	0,249000	0,239000
+0,253000	0,263000	0,262000	0,257000	0,263000	0,258000
+0,256000	0,259000	0,256000	0,251000	0,263000	0,250000
+0,252000	0,259000	0,250000	0,255000	0,253000	0,250000
+0,258000	0,259000	0,256000	0,252000	0,262000	0,252000
+0,359000	0,368000	0,361000	0,364000	0,366000	0,368000
+Loop3: Result  TEST Voltage:  FAILED
+
+Loop4: 400mV
+Generator Parameters: 
+Frecuency;Amplitude;DC Offset;Width Time;Lead. Edge Time;Trail. Edge Time;Delay
+1E+6	0,216	0	3,3E-9	1E-9	1E-9	0
+High Limit Comparation:  0,397 
+Low Limit Comparation:  0,281
+Matrix Response: 
+
+0,327000	0,334000	0,336000	0,331000	0,334000	0,321000
+0,324000	0,330000	0,325000	0,323000	0,328000	0,317000
+0,346000	0,348000	0,342000	0,345000	0,349000	0,340000
+0,346000	0,342000	0,341000	0,339000	0,344000	0,336000
+0,338000	0,343000	0,335000	0,336000	0,344000	0,331000
+0,348000	0,348000	0,340000	0,339000	0,348000	0,337000
+0,450000	0,444000	0,436000	0,412000	0,379000	0,455000
+Loop4: Result  TEST Voltage:  FAILED
+
+Loop5: 500mV
+Generator Parameters: 
+Frecuency;Amplitude;DC Offset;Width Time;Lead. Edge Time;Trail. Edge Time;Delay
+1E+6	0,27	0	3,3E-9	1E-9	1E-9	0
+High Limit Comparation:  0,481 
+Low Limit Comparation:  0,358
+Matrix Response: 
+
+0,411000	0,426000	0,412000	0,409000	0,417000	0,403000
+0,410000	0,413000	0,405000	0,398000	0,407000	0,393000
+0,426000	0,430000	0,429000	0,426000	0,435000	0,423000
+0,422000	0,425000	0,418000	0,420000	0,427000	0,415000
+0,423000	0,428000	0,419000	0,415000	0,423000	0,412000
+0,419000	0,428000	0,419000	0,420000	0,425000	0,419000
+0,523000	0,527000	0,513000	0,521000	0,539000	0,501000
+Loop5: Result  TEST Voltage:  FAILED
+
+Loop6: 600mV
+Generator Parameters: 
+Frecuency;Amplitude;DC Offset;Width Time;Lead. Edge Time;Trail. Edge Time;Delay
+1E+6	0,324	0	3,3E-9	1E-9	1E-9	0
+High Limit Comparation:  0,564 
+Low Limit Comparation:  0,433
+Matrix Response: 
+
+0,494000	0,497000	0,495000	0,488000	0,493000	0,485000
+0,482000	0,478000	0,469000	0,474000	0,479000	0,466000
+0,506000	0,514000	0,503000	0,507000	0,512000	0,504000
+0,504000	0,508000	0,498000	0,503000	0,508000	0,495000
+0,496000	0,511000	0,503000	0,497000	0,507000	0,494000
+0,506000	0,509000	0,502000	0,503000	0,509000	0,497000
+0,602000	0,596000	0,596000	0,599000	0,598000	0,603000
+Loop6: Result  TEST Voltage:  FAILED
+
+Loop7: 700mV
+Generator Parameters: 
+Frecuency;Amplitude;DC Offset;Width Time;Lead. Edge Time;Trail. Edge Time;Delay
+1E+6	0,378	0	3,3E-9	1E-9	1E-9	0
+High Limit Comparation:  0,645 
+Low Limit Comparation:  0,507
+Matrix Response: 
+
+0,564000	0,570000	0,564000	0,570000	0,575000	0,558000
+0,551000	0,556000	0,540000	0,551000	0,555000	0,538000
+0,584000	0,592000	0,579000	0,584000	0,588000	0,582000
+0,576000	0,576000	0,572000	0,578000	0,583000	0,572000
+0,576000	0,579000	0,573000	0,570000	0,579000	0,570000
+0,580000	0,586000	0,578000	0,580000	0,584000	0,570000
+0,660000	0,675000	0,674000	0,677000	0,674000	0,668000
+Loop7: Result  TEST Voltage:  FAILED
+
+Loop8: 800mV
+Generator Parameters: 
+Frecuency;Amplitude;DC Offset;Width Time;Lead. Edge Time;Trail. Edge Time;Delay
+1E+6	0,432	0	3,3E-9	1E-9	1E-9	0
+High Limit Comparation:  0,722 
+Low Limit Comparation:  0,579
+Matrix Response: 
+
+0,640000	0,647000	0,641000	0,643000	0,646000	0,629000
+0,620000	0,627000	0,603000	0,618000	0,632000	0,611000
+0,659000	0,667000	0,657000	0,660000	0,666000	0,648000
+0,651000	0,655000	0,650000	0,651000	0,656000	0,638000
+0,649000	0,657000	0,648000	0,653000	0,655000	0,638000
+0,663000	0,656000	0,651000	0,652000	0,661000	0,644000
+0,735000	0,741000	0,731000	0,738000	0,737000	0,726000
+Loop8: Result  TEST Voltage:  FAILED
+
+Loop9: 900mV
+Generator Parameters: 
+Frecuency;Amplitude;DC Offset;Width Time;Lead. Edge Time;Trail. Edge Time;Delay
+1E+6	0,486	0	3,3E-9	1E-9	1E-9	0
+High Limit Comparation:  0,787 
+Low Limit Comparation:  0,645
+Matrix Response: 
+
+0,703000	0,710000	0,696000	0,705000	0,713000	0,695000
+0,688000	0,687000	0,678000	0,685000	0,693000	0,672000
+0,726000	0,729000	0,722000	0,720000	0,726000	0,710000
+0,719000	0,716000	0,708000	0,712000	0,716000	0,700000
+0,715000	0,717000	0,707000	0,714000	0,714000	0,701000
+0,716000	0,730000	0,713000	0,714000	0,723000	0,707000
+0,768000	0,769000	0,776000	0,769000	0,775000	0,763000
+Loop9: Result TEST Voltage:  OK
+
+Loop10: 1000mV
+Generator Parameters: 
+Frecuency;Amplitude;DC Offset;Width Time;Lead. Edge Time;Trail. Edge Time;Delay
+1E+6	0,54	0	3,3E-9	1E-9	1E-9	0
+High Limit Comparation:  0,845 
+Low Limit Comparation:  0,699
+Matrix Response: 
+
+0,755000	0,755000	0,746000	0,755000	0,761000	0,738000
+0,732000	0,735000	0,730000	0,732000	0,741000	0,725000
+0,767000	0,767000	0,757000	0,771000	0,780000	0,763000
+0,759000	0,756000	0,753000	0,762000	0,767000	0,744000
+0,757000	0,766000	0,756000	0,763000	0,778000	0,743000
+0,759000	0,766000	0,756000	0,761000	0,776000	0,745000
+0,811000	0,826000	0,816000	0,820000	0,825000	0,817000
+Loop10: Result TEST Voltage:  OK
+
+Start TEST ADDER CHANNELS: 
+
+Mode 2 : Output 0 and 1
+Loop0: 400mV
+Generator Parameters: 
+Frecuency;Amplitude;DC Offset;Width Time;Lead. Edge Time;Trail. Edge Time;Delay
+1E+6	0,112	0	3,3E-9	1E-9	1E-9	0
+High Limit Comparation:  0,397 
+Low Limit Comparation:  0,282
+Matrix Response: 
+0,173000	0,299000	0,286000	0,172000	0,301000	0,283000
+
+Mode 2 : Output 0 and 1
+Loop0: 400mV
+Result  TEST:  FAILED
+
+Mode 2 : Output 0 and 1
+Loop0: 800mV
+Generator Parameters: 
+Frecuency;Amplitude;DC Offset;Width Time;Lead. Edge Time;Trail. Edge Time;Delay
+1E+6	0,224	0	3,3E-9	1E-9	1E-9	0
+High Limit Comparation:  0,722 
+Low Limit Comparation:  0,580
+Matrix Response: 
+0,352000	0,578000	0,558000	0,350000	0,580000	0,552000
+
+Mode 2 : Output 0 and 1
+Loop0: 800mV
+Result  TEST:  FAILED
+
+Mode 3 : Output 0 and 1
+Loop1: 400mV
+Generator Parameters: 
+Frecuency;Amplitude;DC Offset;Width Time;Lead. Edge Time;Trail. Edge Time;Delay
+1E+6	0,0746	0	3,3E-9	1E-9	1E-9	0
+High Limit Comparation:  0,397 
+Low Limit Comparation:  0,282
+Matrix Response: 
+0,195000	0,310000	0,390000	0,192000	0,316000	0,387000
+
+Mode 3 : Output 0 and 1
+Loop1: 400mV
+Result  TEST:  FAILED
+
+Mode 3 : Output 0 and 1
+Loop1: 800mV
+Generator Parameters: 
+Frecuency;Amplitude;DC Offset;Width Time;Lead. Edge Time;Trail. Edge Time;Delay
+1E+6	0,1492	0	3,3E-9	1E-9	1E-9	0
+High Limit Comparation:  0,722 
+Low Limit Comparation:  0,580
+Matrix Response: 
+0,385000	0,593000	0,648000	0,386000	0,593000	0,646000
+
+Mode 3 : Output 0 and 1
+Loop1: 800mV
+Result  TEST:  FAILED
+
+Mode 4 : Output 0 and 1
+Loop2: 400mV
+Generator Parameters: 
+Frecuency;Amplitude;DC Offset;Width Time;Lead. Edge Time;Trail. Edge Time;Delay
+1E+6	0,056	0	3,3E-9	1E-9	1E-9	0
+High Limit Comparation:  0,397 
+Low Limit Comparation:  0,282
+Matrix Response: 
+0,322000	0,230000	0,390000	0,321000	0,229000	0,395000
+
+Mode 4 : Output 0 and 1
+Loop2: 400mV
+Result  TEST:  FAILED
+
+Mode 4 : Output 0 and 1
+Loop2: 800mV
+Generator Parameters: 
+Frecuency;Amplitude;DC Offset;Width Time;Lead. Edge Time;Trail. Edge Time;Delay
+1E+6	0,112	0	3,3E-9	1E-9	1E-9	0
+High Limit Comparation:  0,722 
+Low Limit Comparation:  0,580
+Matrix Response: 
+0,535000	0,443000	0,658000	0,531000	0,443000	0,657000
+
+Mode 4 : Output 0 and 1
+Loop2: 800mV
+Result  TEST:  FAILED
+
+Result INICIALIZATION: OK
+Result TEST DAC: OK
+Result TEST Voltage Total: FAILED
+Result TEST AdderChannel Total: FAILED
+Result TEST  TOTAL ASIC:   384_nuevo_generador_3.3V	 FAILED	14/02/2017	18:58

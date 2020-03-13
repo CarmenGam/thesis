@@ -1,0 +1,6 @@
+#!/bin/bash
+
+./L1
+root -l -q storedata.C
+root -l -q plotsignals.C
+echo "Fin (Aplausos)"

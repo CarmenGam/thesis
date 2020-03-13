@@ -1,0 +1,183 @@
+#include "TMath.h"
+#include "TH1D.h"
+#include <iostream>
+#include "TNtuple.h"
+#include "TFile.h"
+#include "TCanvas.h"
+#include "TString.h"
+#include "TH2F.h"
+#include "TPad.h"
+#include "TGraphErrors.h"
+#include "TMultiGraph.h"
+#include "TLegend.h"
+#include "TObject.h"
+#include "TGraph.h"
+#include <fstream>
+using namespace std;
+
+void allasicsplots(int printoption)
+{
+ // Read back the ntuple
+  TFile in_file("allasicsdata.root");
+  TNtuple* asicsP=(TNtuple*)in_file.Get("Asics");
+  TNtuple &asics=*asicsP; // Carlos is lazy, para no tener que escribir ->
+ 
+  /*TFile in_file("allasicsdata.root","RECREATE");
+  TNtuple* asicsP= new TNtuple("Asics","Asics","asic:disc:channel:sum:fitoffset:analog:fiterr:diff:differr:gain:gainerr:digoffset");
+  TNtuple &asics=*asicsP;
+  asics.ReadFile("allasicsdata.txt");
+  asics.Write(); */ 
+
+
+  
+  TH2F *h = new TH2F;
+  TH2F *hg = new TH2F;
+  TH2F *hof = new TH2F;
+  TH2F *han = new TH2F;
+
+  ofstream a_file("statisticaldata.txt");
+
+for (int disc=0; disc < 2; disc ++){
+  for (int channel = 1; channel <= 7; channel++){
+    for (int sum = 0; sum < 3; sum++){
+      
+      TString t= Form("Offset Difference, Channel %i Disc %i Adder %c",channel, disc,'A'+sum);
+      TString t2= Form(" Gain, Channel %i Disc %i Adder %c",channel, disc,'A'+sum);
+      TString t3= Form("Offset, Channel %i Disc %i Adder %c",channel, disc,'A'+sum);
+      TString t4= Form("Analog Offset, Channel %i Disc %i Adder %c",channel, disc,'A'+sum);
+      TString t5= Form("Digital Offset, Channel %i Disc %i Adder %c",channel, disc,'A'+sum);
+      TString t6= Form("Noise, Channel %i Disc %i Adder %c",channel, disc,'A'+sum);
+
+      TCanvas *generalC = new TCanvas(t,t);
+      //generalC.Divide(1,2);
+      //generalC.cd(1);
+      
+      //TCanvas *canvas = new TCanvas(t,t);
+      
+      asics.Draw(
+		 "diff",
+		 Form("channel==%i && disc==%i && sum==%i",channel, disc, sum));
+
+      h= (TH2F*)gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+      h->GetXaxis()->SetTitle("Fit Offset - Analog Offset [mV]");
+      h->SetTitle(t);
+      h->SetFillColor(46);
+      h->SetName("FO-AO");
+      
+      a_file << disc << "\t" << channel << "\t" << sum <<"\t" <<  h->GetRMS() << "\t" << h->GetMean() << endl;
+
+       gPad->Modified();
+       gPad->Update();
+
+      
+
+      
+      TCanvas *c2 = new TCanvas(t2,t2);
+
+       asics.Draw(
+		 "gain",
+		 Form("channel==%i && disc==%i && sum==%i",channel, disc, sum));
+
+       hg=(TH2F*)gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+      hg->GetXaxis()->SetTitle("Gain [mV]");
+      hg->SetTitle(t2);
+      hg->SetFillColor(30);
+      hg->SetName("Gain");
+
+      gPad->Modified();
+      gPad->Update();
+
+      
+      
+       TCanvas *c3 = new TCanvas(t3,t3);
+       // c3.Divide(1,2);
+       // c3.cd(1);
+
+       asics.Draw(
+		 "fitoffset",
+		 Form("channel==%i && disc==%i && sum==%i",channel, disc, sum));
+
+      hof=(TH2F*)gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+      hof->GetXaxis()->SetTitle("Fit Offset [mV]");
+      hof->SetTitle(t3);
+      hof->SetFillColor(38);
+      hof->SetName("Fit Offset");
+
+      gPad->Modified();
+      gPad->Update();
+
+      
+      //c3.cd(2);
+      TCanvas *c4 = new TCanvas(t4,t4);
+
+      asics.Draw(
+		 "analog",
+		 Form("channel==%i && disc==%i && sum==%i",channel, disc, sum));
+
+      han=(TH2F*)gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+      han->GetXaxis()->SetTitle("Analog Offset [mV]");
+      han->SetTitle(t4);
+      han->SetFillColor(41);
+      han->SetName("Analog Offset");
+
+      gPad->Modified();
+      gPad->Update(); 
+
+       TCanvas *c5 = new TCanvas(t5,t5);
+
+      asics.Draw(
+		 "digoffset",
+		 Form("channel==%i && disc==%i && sum==%i && digoffset !=0 && digoffset < 50 ",channel, disc, sum));
+
+      han=(TH2F*)gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+      han->GetXaxis()->SetTitle("Digital Offset [mV]");
+      han->SetTitle(t5);
+      han->SetFillColor(63);
+      han->SetName("Digital Offset");
+
+      gPad->Modified();
+      gPad->Update(); 
+
+      
+      TCanvas *c6 = new TCanvas(t6,t6);
+
+      asics.Draw(
+		 "noise",
+		 Form("channel==%i && disc==%i && sum==%i && noise !=0",channel, disc, sum));
+
+      han=(TH2F*)gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+      han->GetXaxis()->SetTitle("Noise [mV]");
+      han->SetTitle(t6);
+      han->SetFillColor(93);
+      han->SetName("Noise");
+
+      gPad->Modified();
+      gPad->Update(); 
+
+      
+
+
+
+
+      if (printoption==0){
+
+      generalC->SaveAs(Form("DISC%iCH%iSUM%c.gif",disc,channel,'A'+sum));
+      c2->SaveAs(Form("GAIN-DISC%iCH%iSUM%c.gif",disc,channel,'A'+sum));
+      c3->SaveAs(Form("OFFSETS-DISC%iCH%iSUM%c.gif",disc,channel,'A'+sum));
+      c4->SaveAs(Form("ANALOG-DISC%iCH%iSUM%c.gif",disc,channel,'A'+sum));
+      c5->SaveAs(Form("DIGITAL-DISC%iCH%iSUM%c.gif",disc,channel,'A'+sum));
+      c6->SaveAs(Form("NOISE-DISC%iCH%iSUM%c.gif",disc,channel,'A'+sum));
+      }
+
+      if (printoption==1){
+	generalC->SaveAs(Form("DISC%iCH%iSUM%c.pdf",disc,channel,'A'+sum));
+      c2->SaveAs(Form("GAIN-DISC%iCH%iSUM%c.pdf",disc,channel,'A'+sum));
+      c3->SaveAs(Form("OFFSETS-DISC%iCH%iSUM%c.pdf",disc,channel,'A'+sum));
+      c4->SaveAs(Form("ANALOG-DISC%iCH%iSUM%c.pdf",disc,channel,'A'+sum));
+      c5->SaveAs(Form("DIGITAL-DISC%iCH%iSUM%c.pdf",disc,channel,'A'+sum));
+      c6->SaveAs(Form("NOISE-DISC%iCH%iSUM%c.pdf",disc,channel,'A'+sum));
+      }
+   }
+  }
+ }
+}

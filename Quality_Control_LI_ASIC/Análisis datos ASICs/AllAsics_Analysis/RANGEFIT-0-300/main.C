@@ -1,0 +1,90 @@
+{
+  
+  gInterpreter->Load("allasicsplots.C+");
+  gInterpreter->Load("offcorrelation.C+");
+  gInterpreter->Load("correlation_adders.C+");
+  gInterpreter->Load("correlations_disc.C+");
+  gInterpreter->Load("gaincorrelation.C+");
+  gInterpreter->Load("gainanalysis.C+");
+
+  TFile in_file("allasicsdata.root","RECREATE");
+  TNtuple asics("Asics","Asics","asic:disc:channel:sum:fitoffset:analog:fiterr:diff:differr:gain:gainerr:digoffset");
+  asics.ReadFile("allasicsdata.txt");
+  asics.Write();  
+
+  int printoption,choice;
+  char input[10000];
+  
+  
+  cout<<"====================================================================\n";
+  cout<<"This is a ROOT Macro to generate plots for the analysis of"<< endl;
+  
+  cout<<"L1 Trigger system ASIC for CTA LST Camera"<< endl;
+ 
+  cout<<"====================================================================\n";
+
+  cout<<"This Macro will generate a huge amount of plots, we recommend to run it in batch mode!" << endl;
+  
+  cout<<"Please, Select the output format." << endl;
+  cout <<"Type 0 for '.gif' or 1 for '.pdf' : " << endl;
+  cin.get(input,10000);
+  cin.ignore();
+  printoption = atoi(input);
+  
+  
+  cout<<"Type 1 if you want to generate the plots offered. Type 0 to skip to the next option."  << endl;
+
+  cout<<"Plot histograms for Fit Offset, Gain and Fit Offset-Analog Offset difference?: " << endl;
+  cin.get(input,10000);
+  cin.ignore();
+  choice = atoi(input);
+  if (choice==1)
+    allasicsplots(printoption);
+   
+  cout<<"Plot the correlation of the fit offset and the offsets difference between channels, for fixed adder and discriminator?:  " << endl;
+  cin.get(input,10000);
+  cin.ignore();
+  choice = atoi(input);
+  if (choice==1){
+    offcorrelation(printoption);
+  }
+
+  cout<<"Plot the correlation of the fit offset and the offsets difference between adders, for fixed channel and discriminator?: "<<endl;
+ cin.get(input,10000); 
+ cin.ignore();
+ choice = atoi(input);
+ if (choice==1){
+    correlation_adders(printoption);
+    
+ }
+  cout<<"Plot the correlation of the fit offset and the offsets difference between discriminators, for fixed channel and adder?: "<<endl;
+ cin.get(input,10000);
+ cin.ignore();
+ choice = atoi(input);
+
+ if (choice==1){
+    correlations_disc(printoption);
+ }
+
+cout<<"Plot the correlation of the Gain between channels, for fixed discriminator and adder?: "<<endl;
+ cin.get(input,10000);
+ cin.ignore();
+
+ if (choice==1){
+
+   gaincorrelation(printoption);
+    
+   
+ }
+  cout<<"Plot the result of the analysis of the gains?" << endl;
+  cin.get(input,10000);
+  cin.ignore();
+  choice = atoi(input);
+
+  if (choice==1){
+    gainanalysis(printoption);
+    
+  }
+  cout<<"Thank you, bye!" << endl;
+  
+}

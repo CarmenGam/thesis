@@ -1,0 +1,7 @@
+{
+  gROOT->Reset();
+
+
+TFile fasics("allasicsdata.root");
+TNtuple* asicsP=(TNtuple*)fasics.Get("Asics");
+ TNtuple ssics=*asicsP;

@@ -1,0 +1,326 @@
+
+void all_coefficientsmean()
+{
+  TFile a_file("fitoffset_coeff.root","RECREATE");
+  TNtuple fitch("Coeff","Coeff","disc:sum:channel:channely:corrdiff:corr:chi2diff:ndfdiff:chi2:ndf");
+  fitch.ReadFile("fit_coefficients.txt");
+  fitch.Write();
+
+  TFile b_file("fitoffset_addcoeff.root","RECREATE");
+  TNtuple fitadd("Coeff","Coeff","disc:sum:channel:channely:corrdiff:corr:chi2diff:ndfdiff:chi2:ndf");
+  fitadd.ReadFile("fit_adders_coeff.txt");
+  fitadd.Write();
+
+  TFile c_file("fitoffset_disccoeff.root","RECREATE");
+  TNtuple fitdisc("Coeff","Coeff","disc:sum:channel:channely:corrdiff:corr:chi2diff:ndfdiff:chi2:ndf");
+  fitdisc.ReadFile("fit_disc_coeff.txt");
+  fitdisc.Write();
+
+  TFile d_file("analog_channelcoeff.root","RECREATE");
+  TNtuple analogch("Coeff","Coeff","sum:channel:channely:corr:chi2:ndf");
+  analogch.ReadFile("analog_coefficients.txt");
+  analogch.Write();
+
+  TFile e_file("analog_addercoeff.root","RECREATE");
+  TNtuple analogadd("Coeff","Coeff","sum:channel:channely:corr:chi2:ndf");
+  analogadd.ReadFile("analog_adder_coeff.txt");
+  analogadd.Write();
+
+  TFile f_file("gain_channelcoeff.root","RECREATE");
+  TNtuple gainch("Coeff","Coeff","disc:sum:channel:channely:corr:chi2:ndf");
+  gainch.ReadFile("gain_channel_coeff.txt");
+  gainch.Write();
+
+  TFile g_file("gain_addcoeff.root","RECREATE");
+  TNtuple gainadd("Coeff","Coeff","disc:channel:sum:sumy:corr:chi2:ndf");
+  gainadd.ReadFile("gain_adders_coeff.txt");
+  gainadd.Write();
+
+  TFile h_file("gain_disccoeff.root","RECREATE");
+  TNtuple gaindisc("Coeff","Coeff","disc:channel:sum:sumy:corr:chi2:ndf");
+  gaindisc.ReadFile("gain_disc_coeff.txt");
+  gaindisc.Write();
+
+
+  
+  ofstream data("allcoefficients.txt");
+
+
+ 
+  
+  ////////////////FIT OFFSET CHANNEL CORRELATION/////////////////////
+
+  TCanvas *c1 = new TCanvas();
+  fitch.Draw("corr", "");
+
+  h= (TH2F*)gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+  h->GetXaxis()->SetTitle("Correlation Factor");
+  h->SetTitle("Fit Offset");
+  h->SetFillColor(46);
+  h->SetName("Correlation Factor");
+  double corrfit = h->GetMean();
+  double corrfitRMS = h->GetRMS();
+
+  TCanvas *c2 = new TCanvas();
+
+  fitch.Draw("chi2", "");
+
+  h= (TH2F*)gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+  h->GetXaxis()->SetTitle("Chi square");
+  h->SetTitle("Fit Offset");
+  h->SetFillColor(46);
+  h->SetName("Chi square");
+  double chi2fit = h->GetMean();
+  double chi2fitRMS = h->GetRMS();
+  
+  TCanvas *c3 = new TCanvas();
+  fitch.Draw("corrdiff", "");
+
+  h= (TH2F*)gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+  h->GetXaxis()->SetTitle("Correlation Factor");
+  h->SetTitle("Fit Offset - Analog Offset");
+  h->SetFillColor(38);
+  h->SetName("Correlation Factor");
+  double corrdiff = h->GetMean();
+  double corrdiffRMS = h->GetRMS();
+      
+  TCanvas *c4 = new TCanvas();
+  fitch.Draw("chi2diff", "");
+  
+  h= (TH2F*)gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+  h->GetXaxis()->SetTitle("Chi square");
+  h->SetTitle("Fit Offset - Analog Offset");
+  h->SetFillColor(38);
+  h->SetName("Chi square");
+  double chi2diff = h->GetMean();
+  double chi2diffRMS = h->GetRMS();
+  
+  ////////////////FIT OFFSET ADDERS CORRELATION///////////////////////
+
+  TCanvas *c5 = new TCanvas();
+  fitadd.Draw("corr", "");
+
+  h= (TH2F*)gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+  h->GetXaxis()->SetTitle("Correlation Factor");
+  h->SetTitle("Fit Offset");
+  h->SetFillColor(46);
+  h->SetName("Correlation Factor");
+  double corrfitadd = h->GetMean();
+  double corrfitaddRMS = h->GetRMS();
+
+  TCanvas *c6 = new TCanvas();
+
+  fitadd.Draw("chi2", "");
+
+  h= (TH2F*)gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+  h->GetXaxis()->SetTitle("Chi square");
+  h->SetTitle("Fit Offset");
+  h->SetFillColor(46);
+  h->SetName("Chi square");
+  double chi2fitadd = h->GetMean();
+  double chi2fitaddRMS = h->GetRMS();
+  
+  TCanvas *c7 = new TCanvas();
+  fitadd.Draw("corrdiff", "");
+
+  h= (TH2F*)gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+  h->GetXaxis()->SetTitle("Correlation Factor");
+  h->SetTitle("Fit Offset - Analog Offset");
+  h->SetFillColor(38);
+  h->SetName("Correlation Factor");
+  double corrdiffadd = h->GetMean();
+  double corrdiffaddRMS = h->GetRMS();
+    
+  TCanvas *c8 = new TCanvas();
+  fitadd.Draw("chi2diff", "");
+  
+  h= (TH2F*)gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+  h->GetXaxis()->SetTitle("Chi square");
+  h->SetTitle("Fit Offset - Analog Offset");
+  h->SetFillColor(38);
+  h->SetName("Chi square");
+  double chi2diffadd = h->GetMean();
+  double chi2diffaddRMS = h->GetRMS();
+  
+  ////////////////FIT OFFSET DISC CORRELATION///////////////////////
+
+  TCanvas *c5 = new TCanvas();
+  fitdisc.Draw("corr", "");
+
+  h= (TH2F*)gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+  h->GetXaxis()->SetTitle("Correlation Factor");
+  h->SetTitle("Fit Offset");
+  h->SetFillColor(46);
+  h->SetName("Correlation Factor");
+  double corrfitdisc = h->GetMean();
+  double corrfitdiscRMS = h->GetRMS();
+
+  TCanvas *c6 = new TCanvas();
+
+  fitdisc.Draw("chi2", "");
+
+  h= (TH2F*)gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+  h->GetXaxis()->SetTitle("Chi square");
+  h->SetTitle("Fit Offset");
+  h->SetFillColor(46);
+  h->SetName("Chi square");
+  double chi2fitdisc = h->GetMean();
+  double chi2fitdiscRMS = h->GetRMS();
+  
+  TCanvas *c7 = new TCanvas();
+  fitdisc.Draw("corrdiff", "");
+
+  h= (TH2F*)gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+  h->GetXaxis()->SetTitle("Correlation Factor");
+  h->SetTitle("Fit Offset - Analog Offset");
+  h->SetFillColor(38);
+  h->SetName("Correlation Factor");
+  double corrdiffdisc = h->GetMean();
+  double corrdiffdiscRMS = h->GetRMS();   
+  TCanvas *c8 = new TCanvas();
+  fitdisc.Draw("chi2diff", "");
+  
+  h= (TH2F*)gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+  h->GetXaxis()->SetTitle("Chi square");
+  h->SetTitle("Fit Offset - Analog Offset");
+  h->SetFillColor(38);
+  h->SetName("Chi square");
+  double chi2diffdisc = h->GetMean();
+  double chi2diffdiscRMS = h->GetRMS();
+ ////////////////ANALOG OFFSET CHANNEL CORRELATION///////////////////////
+
+  TCanvas *c9 = new TCanvas();
+  analogch.Draw("corr", "");
+
+  h= (TH2F*)gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+  h->GetXaxis()->SetTitle("Correlation Factor");
+  h->SetTitle("Analog Offset");
+  h->SetFillColor(46);
+  h->SetName("Correlation Factor");
+  double corranalogch = h->GetMean();
+  double corranalogchRMS = h->GetRMS();
+  TCanvas *c10 = new TCanvas();
+
+  analogch.Draw("chi2", "");
+
+  h= (TH2F*)gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+  h->GetXaxis()->SetTitle("Chi square");
+  h->SetTitle("Analog Offset");
+  h->SetFillColor(46);
+  h->SetName("Chi square");
+  double chi2analogch = h->GetMean();
+  double chi2analogchRMS = h->GetRMS();
+  
+////////////////ANALOG OFFSET ADDER CORRELATION///////////////////////
+
+  TCanvas *c9 = new TCanvas();
+  analogadd.Draw("corr", "");
+
+  h= (TH2F*)gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+  h->GetXaxis()->SetTitle("Correlation Factor");
+  h->SetTitle("Analog Offset");
+  h->SetFillColor(46);
+  h->SetName("Correlation Factor");
+  double corranalogadd = h->GetMean();
+  double corranalogaddRMS = h->GetRMS();
+  TCanvas *c10 = new TCanvas();
+
+  analogadd.Draw("chi2", "");
+
+  h= (TH2F*)gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+  h->GetXaxis()->SetTitle("Chi square");
+  h->SetTitle("Fit Offset");
+  h->SetFillColor(46);
+  h->SetName("Chi square");
+  double chi2analogadd = h->GetMean();
+  double chi2analogaddRMS = h->GetRMS();
+ ////////////////GAIN CHANNEL CORRELATION///////////////////////
+
+  TCanvas *c9 = new TCanvas();
+  gainch.Draw("corr", "");
+
+  h= (TH2F*)gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+  h->GetXaxis()->SetTitle("Correlation Factor");
+  h->SetTitle("Gain");
+  h->SetFillColor(46);
+  h->SetName("Correlation Factor");
+  double corrgainch = h->GetMean();
+  double corrgainchRMS = h->GetRMS();
+  TCanvas *c10 = new TCanvas();
+
+  gainch.Draw("chi2", "");
+
+  h= (TH2F*)gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+  h->GetXaxis()->SetTitle("Chi square");
+  h->SetTitle("Gain");
+  h->SetFillColor(46);
+  h->SetName("Chi square");
+  double chi2gainch = h->GetMean();
+  double chi2gainchRMS = h->GetRMS();
+  
+////////////////GAIN ADDER CORRELATION///////////////////////
+
+  TCanvas *c9 = new TCanvas();
+  gainadd.Draw("corr", "");
+
+  h= (TH2F*)gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+  h->GetXaxis()->SetTitle("Correlation Factor");
+  h->SetTitle("Analog Offset");
+  h->SetFillColor(46);
+  h->SetName("Correlation Factor");
+  double corrgainadd = h->GetMean();
+  double corrgainaddRMS = h->GetRMS();
+  TCanvas *c10 = new TCanvas();
+
+  gainadd.Draw("chi2", "");
+
+  h= (TH2F*)gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+  h->GetXaxis()->SetTitle("Chi square");
+  h->SetTitle("Gain");
+  h->SetFillColor(46);
+  h->SetName("Chi square");
+  double chi2gainadd = h->GetMean();
+  double chi2gainaddRMS = h->GetRMS();
+
+  ////////////////GAIN DISC CORRELATION///////////////////////
+
+  TCanvas *c9 = new TCanvas();
+  gaindisc.Draw("corr", "");
+
+  h= (TH2F*)gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+  h->GetXaxis()->SetTitle("Correlation Factor");
+  h->SetTitle("Analog Offset");
+  h->SetFillColor(46);
+  h->SetName("Correlation Factor");
+  double corrgaindisc = h->GetMean();
+  double corrgaindiscRMS = h->GetRMS();
+
+  TCanvas *c10 = new TCanvas();
+
+  gaindisc.Draw("chi2", "");
+
+  h= (TH2F*)gPad->FindObject("htemp"); //Asignamos los textos de los graficos
+  h->GetXaxis()->SetTitle("Chi square");
+  h->SetTitle("Gain");
+  h->SetFillColor(46);
+  h->SetName("Chi square");
+  double chi2gaindisc = h->GetMean();
+  double chi2gaindiscRMS = h->GetRMS();
+
+
+
+  data << "#CorrelationFactorMean/CF RMS/ Chi2 Mean/ Chi2 RMS" << endl;
+
+  data << "Analog Offset Ch-Ch"<< "\t" << corranalogch  << "\t" << corranalogchRMS  << "\t" << chi2analogch <<"\t" << chi2analogchRMS << "\n"
+       << "Analog Offset Add-Add"<< "\t" << corranalogadd  << "\t" << corranalogaddRMS  << "\t" << chi2analogadd <<"\t" << chi2analogaddRMS << "\n"
+       << "Gain Ch-Ch"<< "\t" << corrgainch  << "\t" << corrgainchRMS  << "\t" << chi2gainch <<"\t" << chi2gainchRMS << "\n"
+       << "Gain Add-Add"<< "\t" << corrgainadd  << "\t" << corrgainaddRMS  << "\t" << chi2gainadd <<"\t" << chi2gainaddRMS << "\n"
+       << "Gain Disc-Disc"<<"\t" << corrgaindisc  << "\t" << corrgaindiscRMS  << "\t" << chi2gaindisc <<"\t" << chi2gaindiscRMS << "\n"
+       << "Fit Offset Ch-Ch" <<"\t" << corrfit  << "\t" << corrfitRMS  << "\t" << chi2fit <<"\t" << chi2fitRMS << "\n"
+       << "Fit Offset Add-Add" <<"\t" << corrfitadd  << "\t" << corrfitaddRMS  << "\t" << chi2fitadd <<"\t" << chi2fitaddRMS << "\n"
+       << "Fit Offset Disc-Disc" <<"\t" << corrfitdisc  << "\t" << corrfitdiscRMS  << "\t" << chi2fitdisc <<"\t" << chi2fitdiscRMS << "\n"
+       << "Offsets diff. Ch-Ch" << corrdiff  << "\t" << corrdiffRMS  << "\t" << chi2diff <<"\t" << chi2diffRMS << "\n"
+       << "Offsets diff. Add-Add"<< corrdiffadd  << "\t" << corrdiffaddRMS  << "\t" << chi2diffadd <<"\t" << chi2diffaddRMS << "\n"
+       << "Offsets diff. Disc-Disc"<< corrdiffdisc  << "\t" << corrdiffdiscRMS  << "\t" << chi2diffdisc <<"\t" << chi2diffdiscRMS << endl;
+
+}

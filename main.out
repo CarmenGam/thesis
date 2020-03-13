@@ -43,7 +43,7 @@
 \BOOKMARK [2][-]{subsection.3.4.1}{Monte Carlo simulations}{section.3.4}% 43
 \BOOKMARK [2][-]{subsection.3.4.2}{Low level analysis: ctapipe}{section.3.4}% 44
 \BOOKMARK [2][-]{subsection.3.4.3}{Science analysis: ctools}{section.3.4}% 45
-\BOOKMARK [0][-]{chapter.4}{Analysis chain of Single Telescope data and...}{}% 46
+\BOOKMARK [0][-]{chapter.4}{Analysis chain of Single Telescope data and sensitivity calculation for the LST1}{}% 46
 \BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 47
 \BOOKMARK [1][-]{section.4.2}{The LST1 analysis chain overview}{chapter.4}% 48
 \BOOKMARK [2][-]{subsection.4.2.1}{Calibration}{section.4.2}% 49
@@ -59,7 +59,7 @@
 \BOOKMARK [2][-]{subsection.4.4.2}{Comparison of em without cleaning and tailcuts cleaning}{section.4.4}% 59
 \BOOKMARK [1][-]{section.4.5}{Results on real data}{chapter.4}% 60
 \BOOKMARK [1][-]{section.4.6}{Summary and conclusion}{chapter.4}% 61
-\BOOKMARK [0][-]{chapter.5}{Characterization of the Large Magellanic Cloud...}{}% 62
+\BOOKMARK [0][-]{chapter.5}{Characterization of the Large Magellanic Cloud at TeV energies and prospects on Dark Matter detection for CTA}{}% 62
 \BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 63
 \BOOKMARK [1][-]{section.5.2}{Emission Model}{chapter.5}% 64
 \BOOKMARK [2][-]{subsection.5.2.1}{Diffuse emission}{section.5.2}% 65
@@ -78,3 +78,36 @@
 \BOOKMARK [2][-]{subsection.5.5.2}{-ray spectrum}{section.5.5}% 78
 \BOOKMARK [2][-]{subsection.5.5.3}{Results on dm sensitivity curves}{section.5.5}% 79
 \BOOKMARK [1][-]{section.5.6}{Summary and conclusions}{chapter.5}% 80
+\BOOKMARK [0][-]{appendix.A}{The L1 Trigger System of the LST1}{}% 81
+\BOOKMARK [1][-]{section.A.1}{Introduction}{appendix.A}% 82
+\BOOKMARK [1][-]{section.A.2}{Pixel Level: L0 trigger decision}{appendix.A}% 83
+\BOOKMARK [2][-]{subsection.A.2.1}{Majority trigger}{section.A.2}% 84
+\BOOKMARK [2][-]{subsection.A.2.2}{Sum trigger}{section.A.2}% 85
+\BOOKMARK [2][-]{subsection.A.2.3}{Camera Level: L1 trigger decision}{section.A.2}% 86
+\BOOKMARK [2][-]{subsection.A.2.4}{Array Level trigger decision}{section.A.2}% 87
+\BOOKMARK [0][-]{appendix.B}{Characterization of analogue ASIC for L1 trigger decision}{}% 88
+\BOOKMARK [1][-]{section.B.1}{Introduction}{appendix.B}% 89
+\BOOKMARK [1][-]{section.B.2}{Quality control test}{appendix.B}% 90
+\BOOKMARK [2][-]{subsection.B.2.1}{Test DAC}{section.B.2}% 91
+\BOOKMARK [2][-]{subsection.B.2.2}{Voltage Test: Rate scan}{section.B.2}% 92
+\BOOKMARK [2][-]{subsection.B.2.3}{Test Adder Channels}{section.B.2}% 93
+\BOOKMARK [2][-]{subsection.B.2.4}{Analog Offset test}{section.B.2}% 94
+\BOOKMARK [2][-]{subsection.B.2.5}{Digital Offset test}{section.B.2}% 95
+\BOOKMARK [1][-]{section.B.3}{Characterization of the asic}{appendix.B}% 96
+\BOOKMARK [2][-]{subsection.B.3.1}{Rate Scan Fit}{section.B.3}% 97
+\BOOKMARK [2][-]{subsection.B.3.2}{Gain}{section.B.3}% 98
+\BOOKMARK [2][-]{subsection.B.3.3}{Offset}{section.B.3}% 99
+\BOOKMARK [2][-]{subsection.B.3.4}{Noise}{section.B.3}% 100
+\BOOKMARK [1][-]{section.B.4}{Characterization: Summary and discussion}{appendix.B}% 101
+\BOOKMARK [0][-]{appendix.C}{Calibration method for the L1 analog trigger system of LST camera}{}% 102
+\BOOKMARK [1][-]{section.C.1}{Introduction}{appendix.C}% 103
+\BOOKMARK [1][-]{section.C.2}{L1 transfer function calibration}{appendix.C}% 104
+\BOOKMARK [2][-]{subsection.C.2.1}{Calibration algorithm}{section.C.2}% 105
+\BOOKMARK [2][-]{subsection.C.2.2}{Calibration result}{section.C.2}% 106
+\BOOKMARK [0][-]{appendix.D}{Time calibration for implementation of the trigger distribution in the backplane network of LST camera}{}% 107
+\BOOKMARK [1][-]{section.D.1}{Introduction}{appendix.D}% 108
+\BOOKMARK [1][-]{section.D.2}{Time calibration procedure}{appendix.D}% 109
+\BOOKMARK [1][-]{section.D.3}{Time calibration setup and tests}{appendix.D}% 110
+\BOOKMARK [0][-]{appendix.E}{Random Forests}{}% 111
+\BOOKMARK [1][-]{section.E.1}{Introduction}{appendix.E}% 112
+\BOOKMARK [1][-]{section.E.2}{Gini Index}{appendix.E}% 113

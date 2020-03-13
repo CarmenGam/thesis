@@ -1,0 +1,13 @@
+{
+  gROOT->Reset();
+  TFile fin("gain.root");
+  TNtuple *nt=(TNtuple*)fin.Get("nt");
+  float *row_content;
+  //Find outliers
+  for (int nrow = 0; nrow < nt->GetEntries(); nrow++){
+    nt->GetEntry(irow);
+    row_content=nt->GetArgs();
+    if ( fabs(row_content[5]) < 0.5 || fabs(row_content[5]) 
+  }
+  
+}

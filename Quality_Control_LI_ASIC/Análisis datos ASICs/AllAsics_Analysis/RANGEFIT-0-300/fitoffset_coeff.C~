@@ -1,0 +1,16 @@
+
+void fitoffset_coeff()
+{
+  TFile in_file("fitoffset_coeff.root","RECREATE");
+  TNtuple data("Coeff","Coeff","disc:sum:channel:channely:corrdiff:corr");
+  data.ReadFile("coefficients.txt");
+  data.Write();
+  
+  TCanvas *c1 = new TCanvas();
+  data.Draw("corr", "");
+  
+  TCanvas *c2 = new TCanvas();
+  data.Draw("corrdiff", "");
+  
+
+}

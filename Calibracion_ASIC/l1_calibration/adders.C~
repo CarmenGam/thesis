@@ -1,0 +1,41 @@
+{
+
+  TNtuple t("t","","asic:id:slopeidA:slopeasicA:offsetidA:offsetasicA:slopeidB:slopeasicB:offsetidB:offsetasicB:slopeidC:slopeasicC:offsetidC:offsetasicC");
+
+  TCanvas *c = new TCanvas("Correlation","Correlation");
+  TGraph *gr;
+  t.ReadFile("adders.txt");
+  
+  t.Draw("slopeidA:slopeidB","slopeidA < 80 && slopeidB < 80");
+  //t.Draw("slopeasicA:slopeasicB","slopeasicA > 0 && slopeasicB > 0" );
+
+  int entries = t.GetEntries("slopeidA < 80 && slopeidB < 80");
+
+  gr = new TGraph(entries,t.GetV2(),t.GetV1());
+  gr.SetMarkerStyle(20);
+  gr.SetMarkerSize(0.5);
+  gr->GetXaxis()->SetTitle("Slope Adder B");
+  gr->GetYaxis()->SetTitle("Slope Adder A");
+  gr->Draw("ap");
+
+  TFitResultPtr fit=gr->Fit("pol1","S","same");
+  const double *pars=fit->GetParams();
+  double p0 = pars[0];
+  double p1 = pars[1];
+  TF1 *f = gr->GetFunction("pol1");
+
+  double x, y, resx[entries];
+  double res[entries];
+  
+  for (int i = 0; i< entries; i++){
+    gr->GetPoint(i, x, y);
+    resx[i] = x;
+    res[i] = y - f->Eval(x);
+      }
+
+  TGraph *r = new TGraph(30,resx,res);
+  r->SetMarkerStyle(20);
+  r->SetMarkerSize(0.5);
+  r->Draw("ap");
+  
+}

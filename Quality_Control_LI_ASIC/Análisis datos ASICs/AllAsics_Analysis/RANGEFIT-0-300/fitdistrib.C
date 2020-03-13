@@ -1,0 +1,40 @@
+void fitdistrib(){
+
+  TFile in_file("allasicsdata.root");
+  TNtuple* asicsP=(TNtuple*)in_file.Get("Asics");
+  TNtuple &asics=*asicsP;
+
+  TCanvas *c1 = new TCanvas("Fit Offset Distribution","Fit Offset Distribution"); 
+
+  TCanvas *c2 = new TCanvas("Fit-Analog Offset difference Distribution","Fit-Analog Offset difference Distribution"); 
+
+
+  c1->cd();
+  asics.Draw("fitoffset");
+  h= (TH2F*)gPad->FindObject("htemp");
+  h->SetTitle("Distribution of Fit Offsets for all ASICs");
+  h->SetFillColor(38);
+  h->GetXaxis()->SetTitle("Fit Offset[mV]");
+  h->SetName("Fit Offset");
+
+  c1->SaveAs("fitdistrib.gif");
+
+  c2->cd();
+  asics.Draw("diff/noise", "(asic < 100 || asic > 130) && noise != 0 && noise < 15");
+  h= (TH2F*)gPad->FindObject("htemp");
+  h->SetTitle("Distribution of Fit-Analog Offset differences for all ASICs");
+  h->SetFillColor(46);
+  h->GetXaxis()->SetTitle("Fit Offset - Analog Offset[mV]");
+  h->SetName("FO-AO");
+
+  c2->SaveAs("diffdistrib.gif");
+  
+
+
+  
+
+
+
+}
+
+

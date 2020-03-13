@@ -1,0 +1,11 @@
+{
+  gROOT->Reset();
+
+// Read back the ntuple for Adder data
+  TFile fadder("adders.root");
+  TNtuple* adder_tupleP=(TNtuple*)adder.Get("Adders");
+  TNtuple &adder_tuple=*adder_tupleP; // Carlos is lazy, para no tener que escribir ->
+
+  int lines = adder_tuple.GetEntries();
+  int modes = adder_tuple.GetEntries("disc==0 && mv==400")
+  float asic, mode[3], 

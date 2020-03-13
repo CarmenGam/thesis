@@ -2698,3 +2698,153 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{asic}{}%
+{%
+\gls@defglossaryentry{asic}%
+{%
+name={ASIC},%
+sort={ASIC},%
+type={acronym},%
+first={Application-Specific Integrated Circuit\glsspace (ASIC)},%
+firstplural={Application-Specific Integrated Circuits\glsspace (ASICs)},%
+text={ASIC},%
+plural={ASICs},%
+description={Application-Specific Integrated Circuit},%
+descriptionplural={Application-Specific Integrated Circuit\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Application-Specific Integrated Circuit},%
+longplural={Application-Specific Integrated Circuits},%
+short={ASIC},%
+shortplural={ASICs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{dac}{}%
+{%
+\gls@defglossaryentry{dac}%
+{%
+name={DAC},%
+sort={DAC},%
+type={acronym},%
+first={Digital to Analog Converter\glsspace (DAC)},%
+firstplural={Digital to Analog Converters\glsspace (DACs)},%
+text={DAC},%
+plural={DACs},%
+description={Digital to Analog Converter},%
+descriptionplural={Digital to Analog Converter\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Digital to Analog Converter},%
+longplural={Digital to Analog Converters},%
+short={DAC},%
+shortplural={DACs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{lvds}{}%
+{%
+\gls@defglossaryentry{lvds}%
+{%
+name={LVDS},%
+sort={LVDS},%
+type={acronym},%
+first={Low-Voltage Differential Signalling\glsspace (LVDS)},%
+firstplural={Low-Voltage Differential Signallings\glsspace (LVDSs)},%
+text={LVDS},%
+plural={LVDSs},%
+description={Low-Voltage Differential Signalling},%
+descriptionplural={Low-Voltage Differential Signalling\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Low-Voltage Differential Signalling},%
+longplural={Low-Voltage Differential Signallings},%
+short={LVDS},%
+shortplural={LVDSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{scb}{}%
+{%
+\gls@defglossaryentry{scb}%
+{%
+name={SCB},%
+sort={SCB},%
+type={acronym},%
+first={Slow Control Board\glsspace (SCB)},%
+firstplural={Slow Control Boards\glsspace (SCBs)},%
+text={SCB},%
+plural={SCBs},%
+description={Slow Control Board},%
+descriptionplural={Slow Control Board\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Slow Control Board},%
+longplural={Slow Control Boards},%
+short={SCB},%
+shortplural={SCBs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{adc}{}%
+{%
+\gls@defglossaryentry{adc}%
+{%
+name={ADC},%
+sort={ADC},%
+type={acronym},%
+first={Analog to Digital Converter\glsspace (ADC)},%
+firstplural={Analog to Digital Converters\glsspace (ADCs)},%
+text={ADC},%
+plural={ADCs},%
+description={Analog to Digital Converter},%
+descriptionplural={Analog to Digital Converter\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Analog to Digital Converter},%
+longplural={Analog to Digital Converters},%
+short={ADC},%
+shortplural={ADCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

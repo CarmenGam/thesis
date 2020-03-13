@@ -1,0 +1,11 @@
+\documentclass[main.tex]{subfiles}
+\begin{document}
+\glsresetall
+
+\section{Introduction}
+
+\gls{rf} is a supervised learning algorithm which uses an ensemble of several decision trees \cite{breiman2001random}.
+Decision trees are flow-chart-like structures where each internal node denotes a test on a selected feature. The result is a split in the dataset depending on the value of that feature. The best splitting criterion for regression is typically calculated using the \gls{mse}. For each node, the \gls{mse} of the two subsets is calculated for each feature and for each possible cut on that feature, until a minimum is reached. This step is repeated at each node until a condition is reached, typically that the \gls{mse} of the remaining data sample is below a threshold, or it has too few events to keep splitting. The termination nodes are also known as \textit{leaves}.
+In the \gls{rf}, a number of decision trees are trained using a randomly selected subset of the train data (\textit{'bootstrapping'}) and the prediction of all the trees is averaged to reach the final result. Also, the features are always randomly permuted at each split. These two sources of randomness in the \gls{rf} prevent the typical problem of over-fitting from too complicated decision trees.
+
+\end{document}

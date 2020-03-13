@@ -1,0 +1,12 @@
+\select@language {english}
+\contentsline {chapter}{Acknowledgements}{iii}{chapter*.2}
+\contentsline {chapter}{Authorship}{v}{chapter*.3}
+\contentsline {chapter}{Summary}{vii}{chapter*.4}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Large-scale structure of the Universe}{3}{chapter.2}
+\contentsline {chapter}{\numberline {3}Simulations and observations}{5}{chapter.3}
+\contentsline {chapter}{\numberline {4}The Dark Energy Survey}{7}{chapter.4}
+\contentsline {chapter}{\numberline {5}Photo-z: GAz}{9}{chapter.5}
+\contentsline {chapter}{\numberline {6}Counts-in-Cells}{11}{chapter.6}
+\contentsline {chapter}{\numberline {7}Baryon Acoustic Oscillations}{13}{chapter.7}
+\contentsline {chapter}{\numberline {8}Closure}{15}{chapter.8}

@@ -1,0 +1,5 @@
+{
+  TNtuple data("data","data","t:a");
+  data.ReadFile("data1.txt");
+  data.Draw("a:t");
+}

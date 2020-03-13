@@ -1,0 +1,12 @@
+void noisedistribution.C(){
+
+
+  TFile in_file("allasicsdata.root");
+  TNtuple* asicsP=(TNtuple*)in_file.Get("Asics");
+  TNtuple &asics=*asicsP;
+
+  TCanvas *c1 = new TCanvas("Noise Distribution", "Noise Distribution");
+
+  asics.Draw("noise");
+
+  

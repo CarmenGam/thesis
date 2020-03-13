@@ -1,0 +1,103 @@
+\documentclass{book}%[oneside]
+\usepackage[right=2.5cm,left=3cm,top=2cm,bottom=2cm,headsep=0cm,footskip=0.5cm]{geometry}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}  
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{titlesec} %\titleformat para poner raya debajo de los chapter title
+%\\usepackage[backend=bibtex, maxnames=4, sorting=none]{biblatex}
+%\\bibliography{cosmo.bib} %sudo apt-get install texlive-bibtex-extra biber
+
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\bes}{\begin{equation*}}
+\newcommand{\ees}{\end{equation*}}
+\newcommand{\sun}{\ensuremath{\odot}}
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+ 
+\titleformat{\chapter}[display]{\normalfont\huge\bfseries}{\chaptertitlename\thechapter}{10pt}{\Huge}[\vspace{0.1ex}\titlerule]
+  
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{titlepage}
+\vspace*{-0.5cm}
+\center 
+%-TITLE SECTION-----------------------------------------------------------------------------------------------------------
+\HRule \\
+{\huge \bfseries \textsc{Cosmology\\[0.1cm] with the\\[0.1cm] Dark Energy Survey:\\[0.2cm] Counts-in-Cells\\[0.1cm] and\\[0.1cm] Baryon Acoustic Oscillations\\}}% Title of your document
+\HRule \\[1.5cm]
+%--AUTHOR SECTION-----------------------------------------------------------------------------------------------------------
+{\LARGE \scshape{ \textsc{by Ana Isabel Salvador Junco}}}\\[1.5cm]% Your name
+{\large \textsc{ PhD Thesis in Theoretical Physics}}\\[0.5cm]
+%--DATE SECTION-------------------------------------------------------------------------------------------------------------
+{\large \today}\\[1.5cm] % Date, change the \today to a set date if you want to be precise
+%--SUPERVISOR SECTION-----------------------------------------------------------------------------------------------------------
+{\large \textsc{ supervised by}}\\[0.5cm]% Your name
+{\Large  \textsc{Juan Garc\'ia-Bellido Capdevila}}\\[2cm] % Supervisor's Name
+%--HEADING SECTIONS-----------------------------------------------------------------------------------------------------------
+\textsc{\Large \textsc{Universidad Aut\'onoma de Madrid}}\\ [0.3cm]% Name of your university/college
+\textsc{\Large $\&$}\\[0.3cm]% Name of your university/college
+\textsc{\Large \textsc{Instituto de F\'isica Te\'orica (UAM-CSIC)}}\\[2cm] 
+%-LOGO SECTION---------------------------------------------------------------------------------------------------------------
+ %----------------------------------------------------------------------------------------
+%\vfill % Fill the rest of the page with whitespace
+\end{titlepage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\frontmatter
+
+\tableofcontents
+
+\chapter{Acknowledgements}
+\input{acknowledgements}
+
+\chapter{Authorship}
+\input{authorship}
+
+%Notation and conventions\\
+%List of figures.\\
+%List of Tables.\\
+
+\chapter{Summary}
+\input{summary}
+
+\mainmatter %turns on chapter numbering, resets page numbering
+
+\chapter{Introduction}
+\input{Intro}
+
+\chapter{Large-scale structure of the Universe}
+%\input{LSS}
+
+\chapter{Simulations and observations}
+%\input{Sims}
+
+\chapter{The Dark Energy Survey}
+%\input{des}
+
+\chapter{Photo-z: GAz}
+%\input{gaz}
+
+\chapter{Counts-in-Cells}
+%\input{CiC}
+
+\chapter{Baryon Acoustic Oscillations}
+%\input{BAO}
+
+\chapter{Closure}
+%\input{closure}
+
+%\appendix %resets chapter numbering, uses letters for chapter numbers and doesn't fiddle with page numbering
+
+\backmatter %turns off chapter numbering and doesn't fiddle with page numbering.
+
+\addcontentsline{toc}{chapter}{Bibliography}
+%\\printbibliography
+
+\end{document}

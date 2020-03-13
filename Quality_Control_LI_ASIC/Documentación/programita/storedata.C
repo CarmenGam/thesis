@@ -1,0 +1,28 @@
+//Este Macro guarda los datos que salen del parser.awk en formato root. 
+void storedata(){
+ 
+
+  TFile fanalog("analog_offset.root","RECREATE");
+    TNtuple analog("Analog","Analog","asic:channel:sumA:sumB:sumC");
+    analog.ReadFile("analog_offset.txt");
+    analog.Write();
+    
+
+    TFile foffset("offset.root","RECREATE");
+    TNtuple offset("Offset","Offset", "asic:channel:comp:sum:max:min:noise:offset");
+    offset.ReadFile("offset.txt");
+    offset.Write();
+
+    TFile ffitoff("fit_offset.root","RECREATE");
+    TNtuple fitoff("OffsetFit","OffsetFit", "channel:disc:sum:gain:offset:gainerr:offseterr");
+    fitoff.ReadFile("offset_fit_data.dat");
+    fitoff.Write();
+
+    TFile fadders("adders.root","RECREATE");
+    TNtuple adders("Adders","Adders", "asic:mode:disc:mv:sumA:sumB:sumC");
+    adders.ReadFile("adders.txt");
+    adders.Write();
+
+
+
+}
