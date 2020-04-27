@@ -8108,7 +8108,7 @@
   \keyw{galaxies: active, galaxies: starburst, gamma rays: diffuse background,
   ISM: jets and outflows, Astrophysics - High Energy Astrophysical Phenomena,
   Astrophysics - Galaxy Astrophysics}
-  \strng{namehash}{SM+3}
+  \strng{namehash}{SM+2}
   \strng{fullhash}{SMSTRFDP1}
   \verb{doi}
   \verb 10.1088/0004-637X/724/2/1044
@@ -45266,6 +45266,191 @@
   \field{year}{1977}
 \endentry
 
+\entry{2005LiMa}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {{Gillessen}}{G.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Harney}}{H.}%
+     {H.~L.}{H.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{methods: statistical, gamma rays: observations, Astrophysics}
+  \strng{namehash}{GSHHL1}
+  \strng{fullhash}{GSHHL1}
+  \verb{doi}
+  \verb 10.1051/0004-6361:20035839
+  \endverb
+  \verb{eprint}
+  \verb astro-ph/0411660
+  \endverb
+  \field{pages}{355\bibrangedash 362}
+  \field{title}{{Significance in gamma-ray astronomy - the Li \&amp; Ma problem
+  in Bayesian statistics}}
+  \field{volume}{430}
+  \field{journaltitle}{\aap}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph}
+  \field{month}{01}
+  \field{year}{2005}
+\endentry
+
+\entry{2008SocratesCRandSF}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Socrates}{S.}%
+     {Aristotle}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Davis}{D.}%
+     {Shane~W.}{S.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ramirez-Ruiz}{R.-R.}%
+     {Enrico}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {{IOP} Publishing}%
+  }
+  \strng{namehash}{SA+1}
+  \strng{fullhash}{SADSWRRE1}
+  \verb{doi}
+  \verb 10.1086/590046
+  \endverb
+  \field{number}{1}
+  \field{pages}{202\bibrangedash 215}
+  \field{title}{The Eddington Limit in Cosmic Rays: An Explanation for the
+  Observed Faintness of Starbursting Galaxies}
+  \verb{url}
+  \verb https://doi.org/10.1086%2F590046
+  \endverb
+  \field{volume}{687}
+  \field{journaltitle}{The Astrophysical Journal}
+  \field{month}{11}
+  \field{year}{2008}
+\endentry
+
+\entry{2010PapadopoulosCRinSF}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Papadopoulos}{P.}%
+     {Padelis~P.}{P.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {{IOP} Publishing}%
+  }
+  \strng{namehash}{PPP1}
+  \strng{fullhash}{PPP1}
+  \verb{doi}
+  \verb 10.1088/0004-637x/720/1/226
+  \endverb
+  \field{number}{1}
+  \field{pages}{226\bibrangedash 232}
+  \field{title}{A {COSMIC}-{RAY}-{DOMINATED} {INTERSTELLAR} {MEDIUM} {IN}
+  {ULTRA} {LUMINOUS} {INFRARED} {GALAXIES}: {NEW} {INITIAL} {CONDITIONS} {FOR}
+  {STAR} {FORMATION}}
+  \verb{url}
+  \verb https://doi.org/10.1088%2F0004-637x%2F720%2F1%2F226
+  \endverb
+  \field{volume}{720}
+  \field{journaltitle}{The Astrophysical Journal}
+  \field{month}{08}
+  \field{year}{2010}
+\endentry
+
+\entry{2008ICgammaray}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {{Porter}}{P.}%
+     {Troy~A.}{T.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Moskalenko}}{M.}%
+     {Igor~V.}{I.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Strong}}{S.}%
+     {Andrew~W.}{A.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Orlando}}{O.}%
+     {Elena}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Bouchet}}{B.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{cosmic rays, elementary particles, gamma rays: theory, Astrophysics}
+  \strng{namehash}{PTA+1}
+  \strng{fullhash}{PTAMIVSAWOEBL1}
+  \verb{doi}
+  \verb 10.1086/589615
+  \endverb
+  \verb{eprint}
+  \verb 0804.1774
+  \endverb
+  \field{number}{1}
+  \field{pages}{400\bibrangedash 407}
+  \field{title}{{Inverse Compton Origin of the Hard X-Ray and Soft Gamma-Ray
+  Emission from the Galactic Ridge}}
+  \field{volume}{682}
+  \field{journaltitle}{\apj}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph}
+  \field{month}{07}
+  \field{year}{2008}
+\endentry
+
+\entry{1963Pimesonsproducegammarays}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Pollack}{P.}%
+     {J.~B.}{J.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fazio}{F.}%
+     {G.~G.}{G.~G.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {American Physical Society}%
+  }
+  \strng{namehash}{PJBFGG1}
+  \strng{fullhash}{PJBFGG1}
+  \verb{doi}
+  \verb 10.1103/PhysRev.131.2684
+  \endverb
+  \field{issue}{6}
+  \field{pages}{2684\bibrangedash 2691}
+  \field{title}{Production of $\ensuremath{\pi}$ Mesons and Gamma Radiation in
+  the Galaxy by Cosmic Rays}
+  \verb{url}
+  \verb https://link.aps.org/doi/10.1103/PhysRev.131.2684
+  \endverb
+  \field{volume}{131}
+  \field{journaltitle}{Phys. Rev.}
+  \field{month}{09}
+  \field{year}{1963}
+\endentry
+
 \entry{2013LMCdistance1}{article}{}
   \name{author}{28}{}{%
     {{}%
@@ -47593,6 +47778,1156 @@
   \field{eprintclass}{astro-ph.HE}
   \field{month}{01}
   \field{year}{2017}
+\endentry
+
+\entry{2010FermiLATLMC11months}{article}{}
+  \name{author}{179}{}{%
+    {{}%
+     {{Abdo}}{A.}%
+     {A.~A.}{A.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Ackermann}}{A.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Ajello}}{A.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Atwood}}{A.}%
+     {W.~B.}{W.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Baldini}}{B.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Ballet}}{B.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Barbiellini}}{B.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Bastieri}}{B.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Baughman}}{B.}%
+     {B.~M.}{B.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Bechtol}}{B.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Bellazzini}}{B.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Berenji}}{B.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Blandford}}{B.}%
+     {R.~D.}{R.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Bloom}}{B.}%
+     {E.~D.}{E.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Bonamente}}{B.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Borgland}}{B.}%
+     {A.~W.}{A.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Bregeon}}{B.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Brez}}{B.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Brigida}}{B.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Bruel}}{B.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Burnett}}{B.}%
+     {T.~H.}{T.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Buson}}{B.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Caliandro}}{C.}%
+     {G.~A.}{G.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Cameron}}{C.}%
+     {R.~A.}{R.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Caraveo}}{C.}%
+     {P.~A.}{P.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Casandjian}}{C.}%
+     {J.~M.}{J.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Cecchi}}{C.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{{\c{C}}elik}}{{\c{C}}.}%
+     {{\"O}.}{{\"O}.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Chekhtman}}{C.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Cheung}}{C.}%
+     {C.~C.}{C.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Chiang}}{C.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Ciprini}}{C.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Claus}}{C.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Cohen-Tanugi}}{C.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Cominsky}}{C.}%
+     {L.~R.}{L.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Conrad}}{C.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Cutini}}{C.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Dermer}}{D.}%
+     {C.~D.}{C.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{de Angelis}}{d.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{de Palma}}{d.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Digel}}{D.}%
+     {S.~W.}{S.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Silva}}{S.}%
+     {E.~Do Couto~E.}{E.~D. C.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Drell}}{D.}%
+     {P.~S.}{P.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Dubois}}{D.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Dumora}}{D.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Farnier}}{F.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Favuzzi}}{F.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Fegan}}{F.}%
+     {S.~J.}{S.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Focke}}{F.}%
+     {W.~B.}{W.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Fortin}}{F.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Frailis}}{F.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Fukazawa}}{F.}%
+     {Y.}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Fusco}}{F.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Gargano}}{G.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Gasparrini}}{G.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Gehrels}}{G.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Germani}}{G.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Giavitto}}{G.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Giebels}}{G.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Giglietto}}{G.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Giordano}}{G.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Glanzman}}{G.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Godfrey}}{G.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Gotthelf}}{G.}%
+     {E.~V.}{E.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Grenier}}{G.}%
+     {I.~A.}{I.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Grondin}}{G.}%
+     {M.~H.}{M.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Grove}}{G.}%
+     {J.~E.}{J.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Guillemot}}{G.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Guiriec}}{G.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Hanabata}}{H.}%
+     {Y.}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Harding}}{H.}%
+     {A.~K.}{A.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Hayashida}}{H.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Hays}}{H.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Horan}}{H.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Hughes}}{H.}%
+     {R.~E.}{R.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Jackson}}{J.}%
+     {M.~S.}{M.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Jean}}{J.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{J{\'o}hannesson}}{J.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Johnson}}{J.}%
+     {A.~S.}{A.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Johnson}}{J.}%
+     {R.~P.}{R.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Johnson}}{J.}%
+     {T.~J.}{T.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Johnson}}{J.}%
+     {W.~N.}{W.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Kamae}}{K.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Katagiri}}{K.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Kataoka}}{K.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Kawai}}{K.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Kerr}}{K.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Kn{\"o}dlseder}}{K.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Kocian}}{K.}%
+     {M.~L.}{M.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Kuss}}{K.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Land e}}{L.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Latronico}}{L.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Lemoine-Goumard}}{L.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Longo}}{L.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Loparco}}{L.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Lott}}{L.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Lovellette}}{L.}%
+     {M.~N.}{M.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Lubrano}}{L.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Madejski}}{M.}%
+     {G.~M.}{G.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Makeev}}{M.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Marshall}}{M.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Martin}}{M.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Mazziotta}}{M.}%
+     {M.~N.}{M.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{McConville}}{M.}%
+     {W.}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{McEnery}}{M.}%
+     {J.~E.}{J.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Meurer}}{M.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Michelson}}{M.}%
+     {P.~F.}{P.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Mitthumsiri}}{M.}%
+     {W.}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Mizuno}}{M.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Moiseev}}{M.}%
+     {A.~A.}{A.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Monte}}{M.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Monzani}}{M.}%
+     {M.~E.}{M.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Morselli}}{M.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Moskalenko}}{M.}%
+     {I.~V.}{I.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Murgia}}{M.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Nolan}}{N.}%
+     {P.~L.}{P.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Norris}}{N.}%
+     {J.~P.}{J.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Nuss}}{N.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Ohsugi}}{O.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Omodei}}{O.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Orlando}}{O.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Ormes}}{O.}%
+     {J.~F.}{J.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Paneque}}{P.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Parent}}{P.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Pelassa}}{P.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Pepe}}{P.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Pesce-Rollins}}{P.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Piron}}{P.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Porter}}{P.}%
+     {T.~A.}{T.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Rain{\`o}}}{R.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Rando}}{R.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Razzano}}{R.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Reimer}}{R.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Reimer}}{R.}%
+     {O.}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Reposeur}}{R.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Ritz}}{R.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Rodriguez}}{R.}%
+     {A.~Y.}{A.~Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Romani}}{R.}%
+     {R.~W.}{R.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Roth}}{R.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Ryde}}{R.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Sadrozinski}}{S.}%
+     {H.~F.~W.}{H.~F.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Sanchez}}{S.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Sand er}}{S.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Saz Parkinson}}{S.}%
+     {P.~M.}{P.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Scargle}}{S.}%
+     {J.~D.}{J.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Sellerholm}}{S.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Sgr{\`o}}}{S.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Siskind}}{S.}%
+     {E.~J.}{E.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Smith}}{S.}%
+     {D.~A.}{D.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Smith}}{S.}%
+     {P.~D.}{P.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Spandre}}{S.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Spinelli}}{S.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Starck}}{S.}%
+     {J.~L.}{J.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Strickman}}{S.}%
+     {M.~S.}{M.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Strong}}{S.}%
+     {A.~W.}{A.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Suson}}{S.}%
+     {D.~J.}{D.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Tajima}}{T.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Takahashi}}{T.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Tanaka}}{T.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Thayer}}{T.}%
+     {J.~B.}{J.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Thayer}}{T.}%
+     {J.~G.}{J.~G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Thompson}}{T.}%
+     {D.~J.}{D.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Tibaldo}}{T.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Torres}}{T.}%
+     {D.~F.}{D.~F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Tosti}}{T.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Tramacere}}{T.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Uchiyama}}{U.}%
+     {Y.}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Usher}}{U.}%
+     {T.~L.}{T.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Vasileiou}}{V.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Venter}}{V.}%
+     {C.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Vilchez}}{V.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Vitale}}{V.}%
+     {V.}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Waite}}{W.}%
+     {A.~P.}{A.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Wang}}{W.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Weltevrede}}{W.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Winer}}{W.}%
+     {B.~L.}{B.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Wood}}{W.}%
+     {K.~S.}{K.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Ylinen}}{Y.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Ziegler}}{Z.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{acceleration of particles, cosmic rays, Magellanic Clouds, gamma rays:
+  galaxies, Astrophysics - High Energy Astrophysical Phenomena, Astrophysics -
+  Astrophysics of Galaxies}
+  \strng{namehash}{AAA+1}
+  \strng{fullhash}{AAAAMAMAWBBLBJBGBDBBMBKBRBBBRDBEDBEBAWBJBABMBPBTHBSCGACRACPACJMCCCOCACCCCJCSCRCJCLRCJCSDCDdAdFDSWSEDCEDPSDRDDFCFCFSJFWBFPFMFYFPGFGDGNGSGGGBGNGFGTGGGEVGIAGMHGJEGLGSHYHAKHMHEHDHREJMSJPJGJASJRPJTJJWNKTKHKJKNKMKJKMLKMLJLLLMLFLFLBLMNLPMGMMAMFMPMMNMWMJEMCM}
+  \verb{doi}
+  \verb 10.1051/0004-6361/200913474
+  \endverb
+  \field{eid}{A7}
+  \verb{eprint}
+  \verb 1001.3298
+  \endverb
+  \field{pages}{A7}
+  \field{title}{{Observations of the Large Magellanic Cloud with Fermi}}
+  \field{volume}{512}
+  \field{journaltitle}{\aap}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph.HE}
+  \field{month}{03}
+  \field{year}{2010}
+\endentry
+
+\entry{2012CRinLMC30Doradus}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Murphy}{M.}%
+     {E.~J.}{E.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Porter}{P.}%
+     {T.~A.}{T.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Moskalenko}{M.}%
+     {I.~V.}{I.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Helou}{H.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Strong}{S.}%
+     {A.~W.}{A.~W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {{IOP} Publishing}%
+  }
+  \strng{namehash}{MEJ+1}
+  \strng{fullhash}{MEJPTAMIVHGSAW1}
+  \verb{doi}
+  \verb 10.1088/0004-637x/750/2/126
+  \endverb
+  \field{number}{2}
+  \field{pages}{126}
+  \field{title}{{CHARACTERIZING} {COSMIC}-{RAY} {PROPAGATION} {IN} {MASSIVE}
+  {STAR}-{FORMING} {REGIONS}: {THE} {CASE} {OF} 30 {DORADUS} {AND} {THE}
+  {LARGE} {MAGELLANIC} {CLOUD}}
+  \verb{url}
+  \verb https://doi.org/10.1088%2F0004-637x%2F750%2F2%2F126
+  \endverb
+  \field{volume}{750}
+  \field{journaltitle}{The Astrophysical Journal}
+  \field{month}{04}
+  \field{year}{2012}
+\endentry
+
+\entry{2002LMCkinematics}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {{van der Marel}}{v.}%
+     {Roeland~P.}{R.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Alves}}{A.}%
+     {David~R.}{D.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Hardy}}{H.}%
+     {Eduardo}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Suntzeff}}{S.}%
+     {Nicholas~B.}{N.~B.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Galaxies: Distances and Redshifts, Galaxies: Kinematics and Dynamics,
+  Galaxies: Local Group, Galaxies: Magellanic Clouds, Astrophysics}
+  \strng{namehash}{vRP+1}
+  \strng{fullhash}{vRPADRHESNB1}
+  \verb{doi}
+  \verb 10.1086/343775
+  \endverb
+  \verb{eprint}
+  \verb astro-ph/0205161
+  \endverb
+  \field{number}{5}
+  \field{pages}{2639\bibrangedash 2663}
+  \field{title}{{New Understanding of Large Magellanic Cloud Structure,
+  Dynamics, and Orbit from Carbon Star Kinematics}}
+  \field{volume}{124}
+  \field{journaltitle}{\aj}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph}
+  \field{month}{11}
+  \field{year}{2002}
+\endentry
+
+\entry{1999LMCbulge}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Sofue}}{S.}%
+     {Yoshiaki}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{DARK MATTER, MAGELLANIC CLOUDS, MASS DISTRIBUTION, ROTATION,
+  Astrophysics}
+  \strng{namehash}{SY2}
+  \strng{fullhash}{SY2}
+  \verb{doi}
+  \verb 10.1093/pasj/51.4.445
+  \endverb
+  \verb{eprint}
+  \verb astro-ph/9906222
+  \endverb
+  \field{pages}{445\bibrangedash 448}
+  \field{title}{{Dark Bulge, Exponential Disk, and Massive Halo in the Large
+  Magellanic Cloud}}
+  \field{volume}{51}
+  \field{journaltitle}{\pasj}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph}
+  \field{month}{08}
+  \field{year}{1999}
+\endentry
+
+\entry{2013MWbulge}{inbook}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Sofue}}{S.}%
+     {Yoshiaki}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{2}{}{%
+    {{}%
+     {{Oswalt}}{O.}%
+     {Terry~D.}{T.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Gilmore}}{G.}%
+     {Gerard}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Physics, Astrophysics - Astrophysics of Galaxies}
+  \strng{namehash}{SY2}
+  \strng{fullhash}{SY2}
+  \field{booktitle}{Planets, Stars and Stellar Systems Vol. 5, by Oswalt, Terry
+  D.; Gilmore, Gerard, ISBN 978-94-007-5611-3. Springer Science+Business Media
+  Dordrecht, 2013, p. 985}
+  \verb{doi}
+  \verb 10.1007/978-94-007-5612-0_19
+  \endverb
+  \field{pages}{985}
+  \field{title}{{Mass Distribution and Rotation Curve in the Galaxy}}
+  \field{volume}{5}
+  \field{year}{2013}
+\endentry
+
+\entry{2011cirelli}{article}{}
+  \name{author}{9}{}{%
+    {{}%
+     {{Cirelli}}{C.}%
+     {Marco}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Corcella}}{C.}%
+     {Gennaro}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Hektor}}{H.}%
+     {Andi}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{H{\"u}tsi}}{H.}%
+     {Gert}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Kadastik}}{K.}%
+     {Mario}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Panci}}{P.}%
+     {Paolo}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Raidal}}{R.}%
+     {Martti}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Sala}}{S.}%
+     {Filippo}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Strumia}}{S.}%
+     {Alessandro}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{High Energy Physics - Phenomenology, Astrophysics - Cosmology and
+  Extragalactic Astrophysics}
+  \strng{namehash}{CM+1}
+  \strng{fullhash}{CMCGHAHGKMPPRMSFSA1}
+  \verb{doi}
+  \verb 10.1088/1475-7516/2011/03/051
+  \endverb
+  \field{eid}{051}
+  \verb{eprint}
+  \verb 1012.4515
+  \endverb
+  \field{number}{3}
+  \field{pages}{051}
+  \field{title}{{PPPC 4 DM ID: a poor particle physicist cookbook for dark
+  matter indirect detection}}
+  \field{volume}{2011}
+  \field{journaltitle}{\jcap}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{hep-ph}
+  \field{month}{03}
+  \field{year}{2011}
 \endentry
 
 \entry{2019SciencewithCTA}{book}{}
@@ -50517,1407 +51852,6 @@
   \field{year}{2019}
 \endentry
 
-\entry{2008SocratesCRandSF}{article}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Socrates}{S.}%
-     {Aristotle}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Davis}{D.}%
-     {Shane~W.}{S.~W.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Ramirez-Ruiz}{R.-R.}%
-     {Enrico}{E.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {{IOP} Publishing}%
-  }
-  \strng{namehash}{SA+1}
-  \strng{fullhash}{SADSWRRE1}
-  \verb{doi}
-  \verb 10.1086/590046
-  \endverb
-  \field{number}{1}
-  \field{pages}{202\bibrangedash 215}
-  \field{title}{The Eddington Limit in Cosmic Rays: An Explanation for the
-  Observed Faintness of Starbursting Galaxies}
-  \verb{url}
-  \verb https://doi.org/10.1086%2F590046
-  \endverb
-  \field{volume}{687}
-  \field{journaltitle}{The Astrophysical Journal}
-  \field{month}{11}
-  \field{year}{2008}
-\endentry
-
-\entry{2010PapadopoulosCRinSF}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Papadopoulos}{P.}%
-     {Padelis~P.}{P.~P.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {{IOP} Publishing}%
-  }
-  \strng{namehash}{PPP1}
-  \strng{fullhash}{PPP1}
-  \verb{doi}
-  \verb 10.1088/0004-637x/720/1/226
-  \endverb
-  \field{number}{1}
-  \field{pages}{226\bibrangedash 232}
-  \field{title}{A {COSMIC}-{RAY}-{DOMINATED} {INTERSTELLAR} {MEDIUM} {IN}
-  {ULTRA} {LUMINOUS} {INFRARED} {GALAXIES}: {NEW} {INITIAL} {CONDITIONS} {FOR}
-  {STAR} {FORMATION}}
-  \verb{url}
-  \verb https://doi.org/10.1088%2F0004-637x%2F720%2F1%2F226
-  \endverb
-  \field{volume}{720}
-  \field{journaltitle}{The Astrophysical Journal}
-  \field{month}{08}
-  \field{year}{2010}
-\endentry
-
-\entry{2009SFHofLMC}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {{Harris}}{H.}%
-     {Jason}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Zaritsky}}{Z.}%
-     {Dennis}{D.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{galaxies: evolution, galaxies: individual: Large Magellanic Cloud,
-  galaxies: stellar content, Magellanic Clouds, Astrophysics - Cosmology and
-  Nongalactic Astrophysics, Astrophysics - Astrophysics of Galaxies}
-  \strng{namehash}{HJZD1}
-  \strng{fullhash}{HJZD1}
-  \verb{doi}
-  \verb 10.1088/0004-6256/138/5/1243
-  \endverb
-  \verb{eprint}
-  \verb 0908.1422
-  \endverb
-  \field{number}{5}
-  \field{pages}{1243\bibrangedash 1260}
-  \field{title}{{The Star Formation History of the Large Magellanic Cloud}}
-  \field{volume}{138}
-  \field{journaltitle}{\aj}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{astro-ph.CO}
-  \field{month}{11}
-  \field{year}{2009}
-\endentry
-
-\entry{2013InfrarredLMC}{article}{}
-  \name{author}{6}{}{%
-    {{}%
-     {Siudek}{S.}%
-     {M.}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Pollo}{P.}%
-     {A.}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Takeuchi}{T.}%
-     {T.~T.}{T.~T.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Ita}{I.}%
-     {Y.}{Y.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Kato}{K.}%
-     {D.}{D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Onaka}{O.}%
-     {T.}{T.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{SM+2}
-  \strng{fullhash}{SMPATTTIYKDOT1}
-  \field{abstract}{%
-  The evolution of galaxies and the history of star formation in the Universe
-  are among the most important topics in today's astrophysics. Especially, the
-  role of small, irregular galaxies in the star-formation history of the
-  Universe is not yet clear. Using the data from the AKARI IRC survey of the
-  Large Magellanic Cloud at 3.2, 7, 11, 15, and 24 $\mu$m wavelengths, i.e., at
-  the mid- and near-infrared, we have constructed a multiwavelength catalog
-  containing data from a cross-correlation with a number of other databases at
-  different wavelengths. We present the separation of different classes of
-  stars in the LMC in color-color, and color-magnitude, diagrams, and analyze
-  their contribution to the total LMC flux, related to point sources at
-  different infrared wavelengths.%
-  }
-  \verb{doi}
-  \verb 10.5047/eps.2012.09.001
-  \endverb
-  \field{issn}{1880-5981}
-  \field{number}{3}
-  \field{pages}{13}
-  \field{title}{Infrared composition of the Large Magellanic Cloud}
-  \verb{url}
-  \verb https://doi.org/10.5047/eps.2012.09.001
-  \endverb
-  \field{volume}{65}
-  \field{journaltitle}{Earth, Planets and Space}
-  \field{month}{03}
-  \field{year}{2013}
-\endentry
-
-\entry{2008ICgammaray}{article}{}
-  \name{author}{5}{}{%
-    {{}%
-     {{Porter}}{P.}%
-     {Troy~A.}{T.~A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Moskalenko}}{M.}%
-     {Igor~V.}{I.~V.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Strong}}{S.}%
-     {Andrew~W.}{A.~W.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Orlando}}{O.}%
-     {Elena}{E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Bouchet}}{B.}%
-     {L.}{L.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{cosmic rays, elementary particles, gamma rays: theory, Astrophysics}
-  \strng{namehash}{PTA+1}
-  \strng{fullhash}{PTAMIVSAWOEBL1}
-  \verb{doi}
-  \verb 10.1086/589615
-  \endverb
-  \verb{eprint}
-  \verb 0804.1774
-  \endverb
-  \field{number}{1}
-  \field{pages}{400\bibrangedash 407}
-  \field{title}{{Inverse Compton Origin of the Hard X-Ray and Soft Gamma-Ray
-  Emission from the Galactic Ridge}}
-  \field{volume}{682}
-  \field{journaltitle}{\apj}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{astro-ph}
-  \field{month}{07}
-  \field{year}{2008}
-\endentry
-
-\entry{1963Pimesonsproducegammarays}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Pollack}{P.}%
-     {J.~B.}{J.~B.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Fazio}{F.}%
-     {G.~G.}{G.~G.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {American Physical Society}%
-  }
-  \strng{namehash}{PJBFGG1}
-  \strng{fullhash}{PJBFGG1}
-  \verb{doi}
-  \verb 10.1103/PhysRev.131.2684
-  \endverb
-  \field{issue}{6}
-  \field{pages}{2684\bibrangedash 2691}
-  \field{title}{Production of $\ensuremath{\pi}$ Mesons and Gamma Radiation in
-  the Galaxy by Cosmic Rays}
-  \verb{url}
-  \verb https://link.aps.org/doi/10.1103/PhysRev.131.2684
-  \endverb
-  \field{volume}{131}
-  \field{journaltitle}{Phys. Rev.}
-  \field{month}{09}
-  \field{year}{1963}
-\endentry
-
-\entry{2010FermiLATLMC11months}{article}{}
-  \name{author}{179}{}{%
-    {{}%
-     {{Abdo}}{A.}%
-     {A.~A.}{A.~A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Ackermann}}{A.}%
-     {M.}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Ajello}}{A.}%
-     {M.}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Atwood}}{A.}%
-     {W.~B.}{W.~B.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Baldini}}{B.}%
-     {L.}{L.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Ballet}}{B.}%
-     {J.}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Barbiellini}}{B.}%
-     {G.}{G.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Bastieri}}{B.}%
-     {D.}{D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Baughman}}{B.}%
-     {B.~M.}{B.~M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Bechtol}}{B.}%
-     {K.}{K.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Bellazzini}}{B.}%
-     {R.}{R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Berenji}}{B.}%
-     {B.}{B.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Blandford}}{B.}%
-     {R.~D.}{R.~D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Bloom}}{B.}%
-     {E.~D.}{E.~D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Bonamente}}{B.}%
-     {E.}{E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Borgland}}{B.}%
-     {A.~W.}{A.~W.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Bregeon}}{B.}%
-     {J.}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Brez}}{B.}%
-     {A.}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Brigida}}{B.}%
-     {M.}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Bruel}}{B.}%
-     {P.}{P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Burnett}}{B.}%
-     {T.~H.}{T.~H.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Buson}}{B.}%
-     {S.}{S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Caliandro}}{C.}%
-     {G.~A.}{G.~A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Cameron}}{C.}%
-     {R.~A.}{R.~A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Caraveo}}{C.}%
-     {P.~A.}{P.~A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Casandjian}}{C.}%
-     {J.~M.}{J.~M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Cecchi}}{C.}%
-     {C.}{C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{{\c{C}}elik}}{{\c{C}}.}%
-     {{\"O}.}{{\"O}.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Chekhtman}}{C.}%
-     {A.}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Cheung}}{C.}%
-     {C.~C.}{C.~C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Chiang}}{C.}%
-     {J.}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Ciprini}}{C.}%
-     {S.}{S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Claus}}{C.}%
-     {R.}{R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Cohen-Tanugi}}{C.}%
-     {J.}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Cominsky}}{C.}%
-     {L.~R.}{L.~R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Conrad}}{C.}%
-     {J.}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Cutini}}{C.}%
-     {S.}{S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Dermer}}{D.}%
-     {C.~D.}{C.~D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{de Angelis}}{d.}%
-     {A.}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{de Palma}}{d.}%
-     {F.}{F.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Digel}}{D.}%
-     {S.~W.}{S.~W.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Silva}}{S.}%
-     {E.~Do Couto~E.}{E.~D. C.~E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Drell}}{D.}%
-     {P.~S.}{P.~S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Dubois}}{D.}%
-     {R.}{R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Dumora}}{D.}%
-     {D.}{D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Farnier}}{F.}%
-     {C.}{C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Favuzzi}}{F.}%
-     {C.}{C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Fegan}}{F.}%
-     {S.~J.}{S.~J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Focke}}{F.}%
-     {W.~B.}{W.~B.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Fortin}}{F.}%
-     {P.}{P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Frailis}}{F.}%
-     {M.}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Fukazawa}}{F.}%
-     {Y.}{Y.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Fusco}}{F.}%
-     {P.}{P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Gargano}}{G.}%
-     {F.}{F.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Gasparrini}}{G.}%
-     {D.}{D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Gehrels}}{G.}%
-     {N.}{N.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Germani}}{G.}%
-     {S.}{S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Giavitto}}{G.}%
-     {G.}{G.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Giebels}}{G.}%
-     {B.}{B.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Giglietto}}{G.}%
-     {N.}{N.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Giordano}}{G.}%
-     {F.}{F.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Glanzman}}{G.}%
-     {T.}{T.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Godfrey}}{G.}%
-     {G.}{G.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Gotthelf}}{G.}%
-     {E.~V.}{E.~V.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Grenier}}{G.}%
-     {I.~A.}{I.~A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Grondin}}{G.}%
-     {M.~H.}{M.~H.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Grove}}{G.}%
-     {J.~E.}{J.~E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Guillemot}}{G.}%
-     {L.}{L.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Guiriec}}{G.}%
-     {S.}{S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Hanabata}}{H.}%
-     {Y.}{Y.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Harding}}{H.}%
-     {A.~K.}{A.~K.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Hayashida}}{H.}%
-     {M.}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Hays}}{H.}%
-     {E.}{E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Horan}}{H.}%
-     {D.}{D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Hughes}}{H.}%
-     {R.~E.}{R.~E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Jackson}}{J.}%
-     {M.~S.}{M.~S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Jean}}{J.}%
-     {P.}{P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{J{\'o}hannesson}}{J.}%
-     {G.}{G.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Johnson}}{J.}%
-     {A.~S.}{A.~S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Johnson}}{J.}%
-     {R.~P.}{R.~P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Johnson}}{J.}%
-     {T.~J.}{T.~J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Johnson}}{J.}%
-     {W.~N.}{W.~N.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Kamae}}{K.}%
-     {T.}{T.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Katagiri}}{K.}%
-     {H.}{H.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Kataoka}}{K.}%
-     {J.}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Kawai}}{K.}%
-     {N.}{N.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Kerr}}{K.}%
-     {M.}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Kn{\"o}dlseder}}{K.}%
-     {J.}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Kocian}}{K.}%
-     {M.~L.}{M.~L.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Kuss}}{K.}%
-     {M.}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Land e}}{L.}%
-     {J.}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Latronico}}{L.}%
-     {L.}{L.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Lemoine-Goumard}}{L.}%
-     {M.}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Longo}}{L.}%
-     {F.}{F.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Loparco}}{L.}%
-     {F.}{F.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Lott}}{L.}%
-     {B.}{B.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Lovellette}}{L.}%
-     {M.~N.}{M.~N.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Lubrano}}{L.}%
-     {P.}{P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Madejski}}{M.}%
-     {G.~M.}{G.~M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Makeev}}{M.}%
-     {A.}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Marshall}}{M.}%
-     {F.}{F.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Martin}}{M.}%
-     {P.}{P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Mazziotta}}{M.}%
-     {M.~N.}{M.~N.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{McConville}}{M.}%
-     {W.}{W.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{McEnery}}{M.}%
-     {J.~E.}{J.~E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Meurer}}{M.}%
-     {C.}{C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Michelson}}{M.}%
-     {P.~F.}{P.~F.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Mitthumsiri}}{M.}%
-     {W.}{W.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Mizuno}}{M.}%
-     {T.}{T.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Moiseev}}{M.}%
-     {A.~A.}{A.~A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Monte}}{M.}%
-     {C.}{C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Monzani}}{M.}%
-     {M.~E.}{M.~E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Morselli}}{M.}%
-     {A.}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Moskalenko}}{M.}%
-     {I.~V.}{I.~V.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Murgia}}{M.}%
-     {S.}{S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Nolan}}{N.}%
-     {P.~L.}{P.~L.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Norris}}{N.}%
-     {J.~P.}{J.~P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Nuss}}{N.}%
-     {E.}{E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Ohsugi}}{O.}%
-     {T.}{T.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Omodei}}{O.}%
-     {N.}{N.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Orlando}}{O.}%
-     {E.}{E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Ormes}}{O.}%
-     {J.~F.}{J.~F.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Paneque}}{P.}%
-     {D.}{D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Parent}}{P.}%
-     {D.}{D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Pelassa}}{P.}%
-     {V.}{V.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Pepe}}{P.}%
-     {M.}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Pesce-Rollins}}{P.}%
-     {M.}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Piron}}{P.}%
-     {F.}{F.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Porter}}{P.}%
-     {T.~A.}{T.~A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Rain{\`o}}}{R.}%
-     {S.}{S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Rando}}{R.}%
-     {R.}{R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Razzano}}{R.}%
-     {M.}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Reimer}}{R.}%
-     {A.}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Reimer}}{R.}%
-     {O.}{O.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Reposeur}}{R.}%
-     {T.}{T.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Ritz}}{R.}%
-     {S.}{S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Rodriguez}}{R.}%
-     {A.~Y.}{A.~Y.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Romani}}{R.}%
-     {R.~W.}{R.~W.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Roth}}{R.}%
-     {M.}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Ryde}}{R.}%
-     {F.}{F.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Sadrozinski}}{S.}%
-     {H.~F.~W.}{H.~F.~W.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Sanchez}}{S.}%
-     {D.}{D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Sand er}}{S.}%
-     {A.}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Saz Parkinson}}{S.}%
-     {P.~M.}{P.~M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Scargle}}{S.}%
-     {J.~D.}{J.~D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Sellerholm}}{S.}%
-     {A.}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Sgr{\`o}}}{S.}%
-     {C.}{C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Siskind}}{S.}%
-     {E.~J.}{E.~J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Smith}}{S.}%
-     {D.~A.}{D.~A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Smith}}{S.}%
-     {P.~D.}{P.~D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Spandre}}{S.}%
-     {G.}{G.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Spinelli}}{S.}%
-     {P.}{P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Starck}}{S.}%
-     {J.~L.}{J.~L.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Strickman}}{S.}%
-     {M.~S.}{M.~S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Strong}}{S.}%
-     {A.~W.}{A.~W.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Suson}}{S.}%
-     {D.~J.}{D.~J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Tajima}}{T.}%
-     {H.}{H.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Takahashi}}{T.}%
-     {H.}{H.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Tanaka}}{T.}%
-     {T.}{T.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Thayer}}{T.}%
-     {J.~B.}{J.~B.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Thayer}}{T.}%
-     {J.~G.}{J.~G.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Thompson}}{T.}%
-     {D.~J.}{D.~J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Tibaldo}}{T.}%
-     {L.}{L.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Torres}}{T.}%
-     {D.~F.}{D.~F.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Tosti}}{T.}%
-     {G.}{G.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Tramacere}}{T.}%
-     {A.}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Uchiyama}}{U.}%
-     {Y.}{Y.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Usher}}{U.}%
-     {T.~L.}{T.~L.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Vasileiou}}{V.}%
-     {V.}{V.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Venter}}{V.}%
-     {C.}{C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Vilchez}}{V.}%
-     {N.}{N.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Vitale}}{V.}%
-     {V.}{V.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Waite}}{W.}%
-     {A.~P.}{A.~P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Wang}}{W.}%
-     {P.}{P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Weltevrede}}{W.}%
-     {P.}{P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Winer}}{W.}%
-     {B.~L.}{B.~L.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Wood}}{W.}%
-     {K.~S.}{K.~S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Ylinen}}{Y.}%
-     {T.}{T.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Ziegler}}{Z.}%
-     {M.}{M.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{acceleration of particles, cosmic rays, Magellanic Clouds, gamma rays:
-  galaxies, Astrophysics - High Energy Astrophysical Phenomena, Astrophysics -
-  Astrophysics of Galaxies}
-  \strng{namehash}{AAA+1}
-  \strng{fullhash}{AAAAMAMAWBBLBJBGBDBBMBKBRBBBRDBEDBEBAWBJBABMBPBTHBSCGACRACPACJMCCCOCACCCCJCSCRCJCLRCJCSDCDdAdFDSWSEDCEDPSDRDDFCFCFSJFWBFPFMFYFPGFGDGNGSGGGBGNGFGTGGGEVGIAGMHGJEGLGSHYHAKHMHEHDHREJMSJPJGJASJRPJTJJWNKTKHKJKNKMKJKMLKMLJLLLMLFLFLBLMNLPMGMMAMFMPMMNMWMJEMCM}
-  \verb{doi}
-  \verb 10.1051/0004-6361/200913474
-  \endverb
-  \field{eid}{A7}
-  \verb{eprint}
-  \verb 1001.3298
-  \endverb
-  \field{pages}{A7}
-  \field{title}{{Observations of the Large Magellanic Cloud with Fermi}}
-  \field{volume}{512}
-  \field{journaltitle}{\aap}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{astro-ph.HE}
-  \field{month}{03}
-  \field{year}{2010}
-\endentry
-
-\entry{2012CRinLMC30Doradus}{article}{}
-  \name{author}{5}{}{%
-    {{}%
-     {Murphy}{M.}%
-     {E.~J.}{E.~J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Porter}{P.}%
-     {T.~A.}{T.~A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Moskalenko}{M.}%
-     {I.~V.}{I.~V.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Helou}{H.}%
-     {G.}{G.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Strong}{S.}%
-     {A.~W.}{A.~W.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {{IOP} Publishing}%
-  }
-  \strng{namehash}{MEJ+1}
-  \strng{fullhash}{MEJPTAMIVHGSAW1}
-  \verb{doi}
-  \verb 10.1088/0004-637x/750/2/126
-  \endverb
-  \field{number}{2}
-  \field{pages}{126}
-  \field{title}{{CHARACTERIZING} {COSMIC}-{RAY} {PROPAGATION} {IN} {MASSIVE}
-  {STAR}-{FORMING} {REGIONS}: {THE} {CASE} {OF} 30 {DORADUS} {AND} {THE}
-  {LARGE} {MAGELLANIC} {CLOUD}}
-  \verb{url}
-  \verb https://doi.org/10.1088%2F0004-637x%2F750%2F2%2F126
-  \endverb
-  \field{volume}{750}
-  \field{journaltitle}{The Astrophysical Journal}
-  \field{month}{04}
-  \field{year}{2012}
-\endentry
-
-\entry{2002LMCkinematics}{article}{}
-  \name{author}{4}{}{%
-    {{}%
-     {{van der Marel}}{v.}%
-     {Roeland~P.}{R.~P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Alves}}{A.}%
-     {David~R.}{D.~R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Hardy}}{H.}%
-     {Eduardo}{E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Suntzeff}}{S.}%
-     {Nicholas~B.}{N.~B.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{Galaxies: Distances and Redshifts, Galaxies: Kinematics and Dynamics,
-  Galaxies: Local Group, Galaxies: Magellanic Clouds, Astrophysics}
-  \strng{namehash}{vRP+1}
-  \strng{fullhash}{vRPADRHESNB1}
-  \verb{doi}
-  \verb 10.1086/343775
-  \endverb
-  \verb{eprint}
-  \verb astro-ph/0205161
-  \endverb
-  \field{number}{5}
-  \field{pages}{2639\bibrangedash 2663}
-  \field{title}{{New Understanding of Large Magellanic Cloud Structure,
-  Dynamics, and Orbit from Carbon Star Kinematics}}
-  \field{volume}{124}
-  \field{journaltitle}{\aj}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{astro-ph}
-  \field{month}{11}
-  \field{year}{2002}
-\endentry
-
-\entry{1999LMCbulge}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{Sofue}}{S.}%
-     {Yoshiaki}{Y.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{DARK MATTER, MAGELLANIC CLOUDS, MASS DISTRIBUTION, ROTATION,
-  Astrophysics}
-  \strng{namehash}{SY2}
-  \strng{fullhash}{SY2}
-  \verb{doi}
-  \verb 10.1093/pasj/51.4.445
-  \endverb
-  \verb{eprint}
-  \verb astro-ph/9906222
-  \endverb
-  \field{pages}{445\bibrangedash 448}
-  \field{title}{{Dark Bulge, Exponential Disk, and Massive Halo in the Large
-  Magellanic Cloud}}
-  \field{volume}{51}
-  \field{journaltitle}{\pasj}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{astro-ph}
-  \field{month}{08}
-  \field{year}{1999}
-\endentry
-
-\entry{2013MWbulge}{inbook}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{Sofue}}{S.}%
-     {Yoshiaki}{Y.}%
-     {}{}%
-     {}{}}%
-  }
-  \name{editor}{2}{}{%
-    {{}%
-     {{Oswalt}}{O.}%
-     {Terry~D.}{T.~D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Gilmore}}{G.}%
-     {Gerard}{G.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{Physics, Astrophysics - Astrophysics of Galaxies}
-  \strng{namehash}{SY2}
-  \strng{fullhash}{SY2}
-  \field{booktitle}{Planets, Stars and Stellar Systems Vol. 5, by Oswalt, Terry
-  D.; Gilmore, Gerard, ISBN 978-94-007-5611-3. Springer Science+Business Media
-  Dordrecht, 2013, p. 985}
-  \verb{doi}
-  \verb 10.1007/978-94-007-5612-0_19
-  \endverb
-  \field{pages}{985}
-  \field{title}{{Mass Distribution and Rotation Curve in the Galaxy}}
-  \field{volume}{5}
-  \field{year}{2013}
-\endentry
-
-\entry{2011cirelli}{article}{}
-  \name{author}{9}{}{%
-    {{}%
-     {{Cirelli}}{C.}%
-     {Marco}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Corcella}}{C.}%
-     {Gennaro}{G.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Hektor}}{H.}%
-     {Andi}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{H{\"u}tsi}}{H.}%
-     {Gert}{G.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Kadastik}}{K.}%
-     {Mario}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Panci}}{P.}%
-     {Paolo}{P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Raidal}}{R.}%
-     {Martti}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Sala}}{S.}%
-     {Filippo}{F.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Strumia}}{S.}%
-     {Alessandro}{A.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{High Energy Physics - Phenomenology, Astrophysics - Cosmology and
-  Extragalactic Astrophysics}
-  \strng{namehash}{CM+1}
-  \strng{fullhash}{CMCGHAHGKMPPRMSFSA1}
-  \verb{doi}
-  \verb 10.1088/1475-7516/2011/03/051
-  \endverb
-  \field{eid}{051}
-  \verb{eprint}
-  \verb 1012.4515
-  \endverb
-  \field{number}{3}
-  \field{pages}{051}
-  \field{title}{{PPPC 4 DM ID: a poor particle physicist cookbook for dark
-  matter indirect detection}}
-  \field{volume}{2011}
-  \field{journaltitle}{\jcap}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{hep-ph}
-  \field{month}{03}
-  \field{year}{2011}
-\endentry
-
 \entry{2012HIIinLMC}{article}{}
   \name{author}{7}{}{%
     {{}%
@@ -51975,6 +51909,42 @@
   \field{journaltitle}{The Astrophysical Journal}
   \field{month}{07}
   \field{year}{2012}
+\endentry
+
+\entry{Halphaluminosiyfunctions}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Bradley}{B.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Knapen}{K.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Beckman}{B.}%
+     {J.E.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Folkes}{F.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BT+1}
+  \strng{fullhash}{BTKJBJFS1}
+  \verb{doi}
+  \verb 10.1051/0004-6361:20066151
+  \endverb
+  \field{title}{A composite HII region luminosity function in H alpha of
+  unprecedented statistical weight}
+  \field{volume}{459}
+  \field{journaltitle}{Astronomy & Astrophysics - ASTRON ASTROPHYS}
+  \field{month}{11}
+  \field{year}{2006}
 \endentry
 
 \entry{201130Doradusstarforming}{article}{}
@@ -52192,6 +52162,41 @@
   \field{eprintclass}{astro-ph}
   \field{month}{05}
   \field{year}{2006}
+\endentry
+
+\entry{2009SFHofLMC}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {{Harris}}{H.}%
+     {Jason}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{Zaritsky}}{Z.}%
+     {Dennis}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{galaxies: evolution, galaxies: individual: Large Magellanic Cloud,
+  galaxies: stellar content, Magellanic Clouds, Astrophysics - Cosmology and
+  Nongalactic Astrophysics, Astrophysics - Astrophysics of Galaxies}
+  \strng{namehash}{HJZD1}
+  \strng{fullhash}{HJZD1}
+  \verb{doi}
+  \verb 10.1088/0004-6256/138/5/1243
+  \endverb
+  \verb{eprint}
+  \verb 0908.1422
+  \endverb
+  \field{number}{5}
+  \field{pages}{1243\bibrangedash 1260}
+  \field{title}{{The Star Formation History of the Large Magellanic Cloud}}
+  \field{volume}{138}
+  \field{journaltitle}{\aj}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph.CO}
+  \field{month}{11}
+  \field{year}{2009}
 \endentry
 
 \entry{2014DustEMLMCismemission}{article}{}

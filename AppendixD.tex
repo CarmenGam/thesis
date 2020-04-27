@@ -10,7 +10,7 @@ In the \gls{lst}, the L1 trigger signal time must be be equalized throughout the
 
 The time calibration is performed in cycles, where one module is the ''reference'' which distributes the signal (it is also the ''pulser'') and another module is the ''victim'', which receives the signal and must adjust a delay to be equalized with the previous module. The goal of the calibration is to set an outgoing delay ($oD^{V}$) and ingoing ($iD^{V}$) delay, in a way that the time for a signal to be transmitted from the central module to the victim ($t_{C}$), and from the victim to the center ($t_{L1}$) is the same as for the reference module. An scheme of the cycle is shown in picture \ref{fig:calibcicle}. 
 
-\begin{figure}
+\begin{figure}[h]
   \centering
   \includegraphics[width=0.7\textwidth]{./Pictures/timecalib.pdf}
   \caption{Flux diagram of the calibration algorithm.}
@@ -41,7 +41,8 @@ The calibration algorithm was implemented in a scripting language specifically d
 
 \section{Time calibration setup and tests}
 
-Two calibration setups were configured at CIEMAT, to implement the time calbration procedure. At first, four modules were set as shown in picture \ref{fig:timecalfig1}, allowing to run three time calibration cycles as described in the previous section. The test consisted in setting initial default values in the delays, given by the position of the modules, and running the calibration several times for different initial values to ensure the reliability of the procedure. After the success of the first implementation, a second setup was prepared involving eight modules. The calibration procedure was performed several times, to check the stability of the final TDC values and that the deviations with every backplane were in the allowed range of 300 ps.
+Two calibration setups were configured at CIEMAT, to implement the time calbration procedure. At first, four modules were set as shown in picture \ref{fig:timecalfig1}, allowing to run three time calibration cycles as described in the previous section. The test consisted in setting initial default values in the delays, given by the position of the modules, and running the calibration several times for different initial values to ensure the reliability of the procedure. An example of the results obtained in the first set-up is shown in table \ref{tab:timecal-test1}. This first test allowed to fix a bug in the calibration algorithm regarding the neighbour asignment to the center module, which resulted in a drop in the TDC between the second and third module. 
+After the success of the first implementation, a second setup was prepared involving eight modules. The calibration procedure was performed several times, to check the stability of the final TDC values and that the deviations with every backplane were in the allowed range of 300 ps. The results for six of these runs are shown in table \ref{tab:timecal-test2} as an example. It can be seen that the differences between TDC values of the eight modules after the calibration is less than the required 300 ps, verifying the calibration method.
 
 \begin{figure}[!htb]
 \minipage{0.5\textwidth}
@@ -53,6 +54,48 @@ Two calibration setups were configured at CIEMAT, to implement the time calbrati
 \caption{\label{fig:timecalfig1}\textit{Left:} Diagram of the four modules setup. \textit{Right:} Picture of the actual setup at CIEMAT clean room.}
 \end{figure}
 
-Thanks to these two setups, the time calibration procedure was succesfully verified. The algorithm was then adapted to perform the calibration of the full camera, following the predefined paths of signal distribution as shown in picture \ref{fig:trigpaths}. This time calibration procedure must be run at last once every night of operation of the telescope.
+\begin{table}
+  \centering
+  \begin{tabular}{cccccccc}
+    \hline
+    \multicolumn{4}{c}{Initial Delays} & \multicolumn{4}{c}{TDC of bp. no. (ps)} \\
+    \hline
+    Coarse up & Coarse down & Fine up & Fine down & \#1 & \#2 & \#3 & \#4 \\
+    \hline
+    8 & 15 & 202 & 254 & 211619 & 211615 & 211085 & 211061 \\
+    8 & 15 & 194 & 250 & 211361 & 211343 & 210733 & 210709 \\
+    7 & 15 & 202 & 254 & 202125 & 202196 & 201684 & 201671 \\
+    7 & 15 & 194 & 254 & 201848 & 201881 & 201326 & 201417 \\
+    \hline
+  \end{tabular}
+  \caption{TDC measurements in the four backplanes of first set up for different initial delays. As can be seen, there is a drop in the TDC values between the second and the third backplanes. This problem was an issue regarding the assignment of the neighbours of the center module, which was solved for the second test.}
+  \label{tab:timecal-test1}
+\end{table}
+
+\begin{table}
+  \centering
+  \begin{tabular}{ccccccc}
+    \hline
+    \multicolumn{1}{c}{Module no.} & \multicolumn{6}{c}{TDC(ps)} \\
+    \hline
+     & Run 1 & Run 2 & Run 3 & Run 4 & Run 5 & Run 6 \\
+    \hline
+    1 & 254723 & 254940 & 255040 & 254951 & 255047 & 254988 \\
+    2 & 254771 & 254983 & 255047 & 254968 & 255136 & 255003 \\
+    3 & 254846 & 254960 & 255082 & 255143 & 255117 & 255031 \\
+    4 & 254804 & 255042 & 255103 & 255090 & 255132 & 255047 \\
+    5 & 254739 & 255119 & 255039 & 255079 & 255110 & 254975 \\
+    6 & 254741 & 254948 & 255052 & 255099 & 255110 & 254923 \\
+    7 & 254779 & 254962 & 255112 & 255162 & 255177 & 254989 \\
+    8 & 254794 & 254999 & 255202 & 255225 & 255234 & 254931 \\
+    \hline
+    Average & 254775 & 254973 & 255067 & 255095 & 255125 & 254984 \\
+    \hline
+  \end{tabular}
+  \caption{TDC measurements for six calibration runs performed in the second set up. The differences in TDC values for the eight backplanes are well within the 300 ps required margin.}
+  \label{tab:timecal-test2}
+\end{table}
+
+The time calibration algorithm was then adapted to perform the calibration of the full camera, following the predefined paths of signal distribution as shown in picture \ref{fig:trigpaths}. This time calibration procedure is currently being used in the commissioning of the \gls{lst}1 and must be run at last once every night of operation of the telescope.
 
 \end{document}

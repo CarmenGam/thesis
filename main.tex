@@ -40,6 +40,8 @@
 \usepackage{multirow}
 \usepackage{hhline}
 
+\usepackage[spanish,english]{babel}
+
 %Golssary
 
 \usepackage[acronym,nomain]{glossaries}
@@ -50,11 +52,13 @@
 \addbibresource{bibliography.bib} % BibTeX bibliography file
 \defbibheading{bibempty}{}
 
+
 % Other packages
 \usepackage{subcaption}
 \usepackage{graphicx}
 \usepackage{subfiles}
 \usepackage{amsmath}
+
 
 \input{structure} % Insert the commands.tex file which contains the majority of the structure behind the template
 
@@ -148,7 +152,7 @@
 \newacronym{ulrigs}{ULRIGs}{Ultraluminous Infrarred Galaxies}
 \newacronym{sfh}{SFH}{Stellar Formation History}
 \newacronym{ms}{MS}{Magellanic System}
-\newacronym{ksp}{KSP}{Key Science Projects}
+\newacronym{ksp}{KSP}{Key Science Project}
 \newacronym{roi}{ROI}{Region of Interest}
 \newacronym{cl}{CL}{Confidence Level}
 \newacronym{asic}{ASIC}{Application-Specific Integrated Circuit}
@@ -156,21 +160,23 @@
 \newacronym{lvds}{LVDS}{Low-Voltage Differential Signalling}
 \newacronym{scb}{SCB}{Slow Control Board}
 \newacronym{adc}{ADC}{Analog to Digital Converter}
-\title{Prospects in Science with the Cherenkov Telescope Array}
+
+
+\title{Preparation of the exploitation of the Cherenkov Telescope Array: LST analysis and prospects for the studies of the Large Magellanic Cloud}
 
 
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
-\iffalse
+
 \begingroup
 \thispagestyle{empty}
-\AddToShipoutPicture*{\put(0,0){\includegraphics[scale=1.25]{esahubble}}} % Image background
+\AddToShipoutPicture*{\put(0,0){\includegraphics[scale=1.25]{Pictures/LMCgrande.jpg}}} % Image background
 \centering
 \vspace*{5cm}
 \par\normalfont\fontsize{32}{32}\sffamily\selectfont
-\textbf{Prospects on Science with the Cherenkov Telescope Array}\\
-{\LARGE Dark Matter searches in the Large Magellanic Cloud}\par % Book title
+\textbf{Preparation of the exploitation of the Cherenkov Telescope Array:}\\
+{\LARGE LST analysis and prospects for the studies of the Large Magellanic Cloud}\par % Book title
 \vspace*{0.7cm}
 {\Huge María Isabel Bernardos Martín}\par % Author name
 \endgroup
@@ -190,12 +196,29 @@
 \noindent This research was done under the supervision of Dr. Carlos José Delgado with the financial support of the ... within a total duration of 4 years from April 1st 2016 to April 1st 2020.\\ % License information
 
 \noindent \textit{First release, April 2020} % Printing/edition date
-\fi
+
+
+%Resumen
+
+\newpage
+\pagestyle{empty} % No headers
+\chapter*{Resumen}
+\subfile{Resumen}
+
+%Abstract
+\newpage
+\pagestyle{empty} % No headers
+\chapter*{Abstract}
+\subfile{Abstract}
+
+
+
+
 %----------------------------------------------------------------------------------------
 %	TABLE OF CONTENTS
 %----------------------------------------------------------------------------------------
 
-\chapterimage{head1.png} % Table of contents heading image
+\chapterimage{Pictures/LMCsuave.jpg} % Table of contents heading image
 
 \pagestyle{empty} % No headers
 
@@ -205,38 +228,53 @@
 
 \pagestyle{fancy} % Print headers again
 
+
 %----------------------------------------------------------------------------------------
 %	CHAPTER 1
 %----------------------------------------------------------------------------------------
 
-\chapterimage{head2.png} % Chapter heading image
+\chapterimage{Pictures/Crab_Nebula.jpg} % Chapter heading image
 
 \chapter{Introduction to $\gamma$-Ray Astronomy} \label{cap:gammarayastro}
 \subfile{Chapter1}
 
-\chapterimage{head2.png} % Chapter heading image
+\chapterimage{Pictures/fermisurvey.jpg} % Chapter heading image
 
 \chapter{Detection of $\gamma$-rays}
-\subfile{Chapter2}
+\subfile{Chapter2} \label{cap:detection}
 
-\chapterimage{head2.png} % Chapter heading image
+\chapterimage{Pictures/cta.jpg} % Chapter heading image
 
 \chapter{The Cherenkov Telescope Array} \label{cap:CTA}
 
 \subfile{Chapter3}
 
-\chapterimage{head2.png} % Chapter heading image
+\chapterimage{LST_02_crop.jpg} % Chapter heading image
 
 \chapter[Analysis chain of Single Telescope data and sensitivity calculation for the LST1]{Analysis chain of Single Telescope data and sensitivity calculation for the LST1} \label{cap:LST1}
 \subfile{Chapter4}
 
-\chapterimage{head2.png} % Chapter heading image
+\chapterimage{Pictures/LMCnasa.jpg} % Chapter heading image
 
 \chapter[Characterization of the Large Magellanic Cloud at TeV energies and prospects on Dark Matter detection for CTA]{Characterization of the Large Magellanic Cloud and prospects on Dark Matter detection for CTA}
 \label{cap:LMC}
 \subfile{Chapter5}
 
+%Conclusiones
+
+\newpage
+\pagestyle{empty} % No headers
+\chapter*{Conclusiones}
+\subfile{Conclusiones}
+
+%Conclusions
+\newpage
+\pagestyle{empty} % No headers
+\chapter*{Conclusions}
+\subfile{Conclusions}
+
 \appendix
+\chapterimage{LST_02_crop.jpg} % Chapter heading image
 \chapter[The L1 Trigger System of the LST1]{The L1 Trigger System of the LST}
 \label{app:trigger}
 \subfile{AppendixA}
@@ -257,6 +295,11 @@
 \label{app:rf}
 \subfile{AppendixE}
 
+\chapter[Evolution of LST1 camera uniformity]{Evolution of LST1 camera uniformity}
+\label{app:lstcamevo}
+\subfile{AppendixF}
+
+\chapterimage{Pictures/LMCsuave.jpg} % Chapter heading image
 \printbibliography
 \printglossaries
 \end{document}

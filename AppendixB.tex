@@ -67,7 +67,7 @@ For the calculation of the gain, the output of the Voltage test is used to perfo
 
 In figure~\ref{fig:linearfit} the rate scan result versus ten input voltages for a certain path (channel, adder, discriminator) of one \gls{asic} is shown. The linearity can be easily appreciated, specially for low input voltages (under 500 mV).
 
-\begin{figure}
+\begin{figure}[h]
   \centering
   \includegraphics[width=0.6\textwidth]{./Pictures/linearfit.pdf}
   \caption{Rate scan result from one of the voltage tests for \gls{asic} \#61. It can be observed a linear tendency which deteriorates at high voltages.
@@ -81,7 +81,7 @@ Where $V_{rs}$ represents the threshold voltage that gives a rate of 50\% trigge
 
 The gain was caclulated with the model fitting decribed in the previous section. Figure~\ref{fig:gaindist} shows the distribution of gain values over the paths of the 389 asics. A clear gaussian profile is observed, centered in the characteristic gain of 0.87, the expected result according to the design specifications. Some outliers were identified having gain values that are too low for the requisites of the \gls{asic}, which could mean a malfunctioning in the \gls{asic}. Fitting the distribution to a gaussian, it is possible to see that the probability of an \gls{asic} to have a gain lower than 0.7 in any of its paths is lower than 0.025\%. There are some outliers with higher gain values, but the probability of any entry to have a gain over 1.05 is lower than 0.007\%. The outliers are identified in image~\ref{fig:gaindist} by their \gls{asic} number.
 \\
-\begin{figure}
+\begin{figure}[h]
   \centering
   \includegraphics[width=0.8\textwidth]{./Pictures/gaindistribution.pdf}
   \caption{Distribution of gains for all \glspl{asic}. Each entry represents the gain of one possible path (combination of channel-adder-discriminator). The red line represents a gaussian fit with mean 0,8704 and sigma 0,3669.
@@ -124,7 +124,7 @@ To find if any part of the \gls{asic} is dominating the fluctuations of the gain
 The offset has been measured in three different ways. In the tests, the analog offset was directly measured with a multimeter, the digital offset was measured using the procedure described in section~\ref{sec:digoff},
 and finally, from equation~\ref{eq:fit} an offset value that will be called fit offset was calculated.\\
 In figure~\ref{fig:offsetdist} the distribution of the analog and digital offsets are shown. It must be noted that it was not possible to measure the digital offset for all the configurations, only the ones with an output status tagged as ``Pos'', so it's not possible to measure negative values of digital offset. Some outliers were detected, with digital offset values very deviated from the mean, which has been removed from the sample at the final characterizaton. Those outiers correspond to \glspl{asic} 110, 209,248 and 437.
-\begin{figure}
+\begin{figure}[h]
   \centering
   \minipage{0.5\textwidth}
     \includegraphics[width=\textwidth]{./Pictures/analogdist.pdf}\\
@@ -137,7 +137,7 @@ In figure~\ref{fig:offsetdist} the distribution of the analog and digital offset
 \end{figure}
 
 The averaged value of the analog offset is $-6.138 $ mV with RMS of $13.01 $ mV while for the digital offset the mean is $8.41$ mV with RMS of $6.17 $ mV. Plotting the correlation between the two measured offsets(~\ref{fig:offsetcor} it can be seen that there is a correlation between the two ways of measuring the offset.
-\begin{figure}
+\begin{figure}[h]
   \centering
   \minipage{0.5\textwidth}
   \includegraphics[width=\textwidth]{./Pictures/offsetscor.pdf}
@@ -149,7 +149,7 @@ The averaged value of the analog offset is $-6.138 $ mV with RMS of $13.01 $ mV 
   \label{fig:offsetcor}
 \end{figure}
 Regarding the fit offset, the distribution of the obtained values is shown in figure~\ref{fig:fitoffdist}. To check the validity of this method of obtaining the offset value, the difference between the fit offset and the analog offset has been studied. The averaged value of the fit offset is $0.1334$ mV  with RMS $13.75$ mV. The mean difference between the analog offset and the fit offset is of $5.55$ mV with RMS $8.06$ mV.
-\begin{figure}
+\begin{figure}[h]
   \centering
   \minipage{0.5\textwidth}
   \includegraphics[width=\textwidth]{./Pictures/fitoffsetdist.pdf}
@@ -164,7 +164,7 @@ Checking the correlation between the two offset values (fig~\ref{fig:offsetcor})
 In figure~\ref{fig:offch} the averaged offsets to all \glspl{asic}, separated by channels and adders are plotted. In general the offset takes similar values for all the channels and adders, without any remarkable outlier.
 In table \ref{tab:allasicsdata} the average offsets to all \glspl{asic} in every single path are shown.
 
-\begin{figure}
+\begin{figure}[h]
   \centering
   \minipage{0.5\textwidth}
   \includegraphics[width=\textwidth]{./Pictures/analogch.pdf}

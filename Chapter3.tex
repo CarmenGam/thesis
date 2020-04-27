@@ -14,7 +14,7 @@ In this chapter the main features of \gls{cta} are covered. A description of per
 The current generation of Cherenkov telescope observatories consist on arrays of 2 to 5 telescopes which reach sensitivities of about 1\% of the Crab flux at the range of 0.1-1 TeV for 50h observation time. Their typical angular resolution is about 0.1º, but it can reach 0.02º for intense point sources of 20 to 30 arc seconds. The goal of \gls{cta} design is to advance the state of the art in $\gamma$-ray astronomy, improving sensitivity, energy range, angular and timing resolution and offering full sky coverage. The performance goals of \gls{cta} are shown in table \ref{tab:CTAgoals}. As a consequence of these goals, \gls{cta} will provide for two unique features: the ability to produce a deep survey of the \gls{vhe} sky, potentially discovering hundreds of new sources; and the possibility to observe short time-scale phenomena, such as flares and jets from black holes in the center of active galaxies or periodic emission like such of pulsars. 
 To achieve these improvements with respect to current \gls{iact} facilities, different types of telescopes are required and they should be spread over large areas to reach a collection area of several km$^2$ \cite{CTAconcept}.
 
-\begin{table}
+\begin{table}[h]
   \centering
   \begin{tabular}{ccc}
     \hline
@@ -44,7 +44,7 @@ The final performance of \gls{cta} depends on the design of the telescopes, whic
 To optimize the observatory configuration and estimate its performance,  detailed Monte Carlo simulations were made \cite{2013CTAMonteCarlo}, comprising simulations of shower development in the atmosphere, detector response and event reconstruction.
 A deep study of these simulations \cite{2017CTAMCPerformance} for different configurations of telescopes and sites came up with the final array layout illustrated in picture \ref{fig:arraylayout}.
 
-\begin{figure}
+\begin{figure}[h]
 \centering
  \includegraphics[width=1\textwidth]{Pictures/Array-Layouts.pdf}
   \caption{Array layout selected for \gls{cta} from \cite{CTAPerformance}. Left is Northern site where also \gls{magic} telescopes are located. Right is Southern location.}
@@ -108,7 +108,7 @@ An overview of the mentioned metrics for performance evaluation is the following
   
 \item \textbf{Differential sensitivity:} The most important feature at evaluating the performance is the differential sensitivity, which indicates the minimum flux needed by \gls{cta} to detect a point-like source at $5\sigma$ in 50 hours. The sensitivity is calculated in five energy bins per decade, where it is required that at least 10 $\gamma$-rays are detected and the signal to background ratio is al least 1/20. The cuts in gammaness and source direction ($\theta^2$) are optimized to improve this quantity. The differential sensitivity of \gls{cta} compared to that of other instruments for 50h observation time is shown in figure \ref{fig:ctaperformance}.\\
 
-\begin{figure}
+\begin{figure}[h]
     \centering
     \includegraphics[width=1\textwidth]{Pictures/CTA-Performance-prod3b-v2-Comparison-DifferentialSensitivity-OtherInstruments.pdf}
     \caption{Differential sensitivity of \gls{cta} for 50 h observation compared to other $\gamma$-ray experiments, from \cite{CTAPerformance}.}
@@ -124,7 +124,7 @@ In this section an overview of these subsystems and the particularities of each 
 
 \subsection{Large Size Telescope (LST)}
 
-The \gls{lst} has been designed to reach an effective energy threshold down to20-30 GeV. This energy range has a particular interest because it covers the barely explored gap between the highest energies detected by satellite experiments, and the lowest by \glspl{iact}. The main science goals for \glspl{lst} are to observe high redshift \gls{agn}, \glspl{grb}, pulsars and galactic transients. The first prototype for the \glspl{lst} (\gls{lst}1) was installed in the CTA North site, in La Palma island, in 2018.\\
+The \gls{lst} has been designed to reach an effective energy threshold down to 20-30 GeV. This energy range has a particular interest because it covers the barely explored gap between the highest energies detected by satellite experiments, and the lowest by \glspl{iact}. The main science goals for \glspl{lst} are to observe high redshift \gls{agn}, \glspl{grb}, pulsars and galactic transients. The first prototype for the \glspl{lst} (\gls{lst}1) was installed in the CTA North site, in La Palma island, in 2018.\\
 A detailed description of \gls{lst} subsystems can be found in \cite{2013LST}, next sections offer a summary of each subsystem of the telescope, which consists of: the structure of the telescope, to support the optics, camera and driving system; the optics, composed by the 23 m diameter mirror which collects the Cherenkov light and focus it in the camera; and the camera, to record the photons coming from the showers.  
 
 \subsubsection{\gls{lst} Structure}
@@ -154,7 +154,7 @@ Mirrors are fixed to the telescope structure by three knots, two of them mounted
   The load bearing structure is mounted inside the tubular structure which holds the camera external walls, doors and interfaces with the camera frame. In the front part of the camera there is the front window which can be totally covered by a shutter to avoid the entrance of sunlight during the day to maximize the life of the \glspl{pmt}. In the back part of the camera lies all the cabling and auxiliary electronics. The total dimensions of the camera is $2.9\times2.9\times 1$ m$^3$ and the weight is less than 2000 kg. Since all the electronics are stored inside the camera, the structure was required to accomplish a series of requirements related to the exposure to environmental conditions such as the protection to the entrance of dust, water and sunlight and guarantee a stable temperature between 20ºC and 40ºC \cite{2013LSTCamMech}. Temperature regulation is possible thanks to the water cooling system, based on cold plates and a temperature controlled air flow cooling system.\\
  An access tower allows to intervene in the camera during day-time operations when the telescope rests in park position, and also acts as an anchor in case of strong winds. 
 
-\begin{figure}
+\begin{figure}[h]
 \centering
  \includegraphics[width=0.7\textwidth]{Pictures/LSTcamerastructure.pdf}
   \caption{Different \gls{lst} camera mechanical elements from \cite{2013LSTCamMech}.}
@@ -175,9 +175,9 @@ The drive assemblies are designed to reach any object above 30º in elevation in
 To account for the possible sources of excitation, like wind gusts or structure flexibility, which can lead to oscillations of the structure, an active vibration damping control is used to reduce their effect on the pointing accuracy of the telescope.
 The dish structure is designed to host the mirrors and the camera support structure is attached to it \cite{2015DCMSTstatus}.
 
-\begin{figure}
+\begin{figure}[h]
 \centering
- \includegraphics[width=0.7\textwidth]{Pictures/MST.pdf}
+ \includegraphics[width=0.6\textwidth]{Pictures/MST.pdf}
   \caption{\gls{dcmst} prototype with FlashCam in Adlershof, from \cite{2018MSTandLSTstatus}.}
     \label{fig:2MST}
 \end{figure}
@@ -193,7 +193,7 @@ Two camera prototypes have been designed and tested in the structure installed i
 The first design named FlashCam have 1764 \gls{pmt}-based pixels divided in 147 modules of 12 pixels each. It implements a fully-digital trigger and readout system operating at 250 MS/s which allows to define flexible trigger patterns relying on the digitized \gls{pmt} signals. The readout system is designed for a dead-time-free operation with trigger rates up to 30 kHz. FlashCam uses only one gain channel, reducing the required bandwidth for data transfer. 
 The second camera design named NectarCAM counts with 1855 pixels, divided in 256 groups of 7 modules. The camera mechanics and many auxiliary systems have been designed to be equivalent to the \gls{lst} camera. The signal digitizing of NecatrCAM relies on a dedicated Nectar ASIC which digitizes the \gls{pmt} signals at sampling speeds of around 1 GHz. It implements a digital trigger based on the binary outputs of individual pixels after comparing their analog signals with a threshold (Level 0 trigger).\\
 
-\begin{figure}
+\begin{figure}[h]
 \centering
  \includegraphics[width=\textwidth]{Pictures/showerimagesMST.pdf}
   \caption{Left: \gls{dcmst} Showers obtained with FlashCam(\textit{left}), NectarCAM(\textit{middle}) and \gls{scmst} camera (\textit{right}) prototypes, from \cite{2019MSTreport}.}
@@ -264,6 +264,7 @@ The simulation of ray-tracing follows the trajectory of photons since they reach
 The analysis of \gls{cta} data, both real and simulated, goes through different steps before turning into a format with which real science can be done. A description of the different \gls{cta} data levels is given in table \ref{tab:CTAdatalevels}. 
 \begin{table}
   \centering
+  \resizebox{\textwidth}{!}{%
   \begin{tabular}{|l|l|}
     \hline
     Data level & Description \\
@@ -278,7 +279,7 @@ The analysis of \gls{cta} data, both real and simulated, goes through different 
     DL4 & High level binned data products, like spectra, skymaps or light curves.\\
     DL5 & Legacy observatory data, like survey sky maps or source catalog. \\
     \hline
-  \end{tabular}
+  \end{tabular}}
   \caption{The different \gls{cta} data levels, based on \cite{ctapipe} and \cite{2015CTAdata}}
   \label{tab:CTAdatalevels}
 \end{table}

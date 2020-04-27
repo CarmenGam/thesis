@@ -115,7 +115,7 @@ For the implementation of the \glspl{rf}, the Python package \textit{scikit-lear
   \label{tab:RFpars}
   \end{table}
 
-\begin{figure}
+\begin{figure}[h]
 \centering
 \includegraphics[width=0.45\textwidth]{Pictures/reg_energy_importances.pdf}
 \includegraphics[width=0.45\textwidth]{Pictures/reg_disp_vector_importances.pdf}
@@ -160,7 +160,7 @@ If the null hypothesis is true, and $N_{on}, N_{off} \gtrsim 10$, by the theorem
 Typically, a detection is claimed when the significance $S$ is equal to or higher than 5 ($5\sigma$ detection). To calculate the sensitivity of \gls{lst}1 we need to know the number of excess counts with respect to the background from a hypothetical source $N_{S}$ that will lead to $S=5$ for $\alpha=1/5$. \\
 To perform this calculation, we need to estimate the number of background (proton) events ($N_{B} = \alpha N_{off}$) that will remain after analyzing the data and doing the $\gamma$-hadron separation. The steps followed to do so are described in the next sections.
 
-\subsection{Reweigh ting}
+\subsection{Reweighting}
 
 The \gls{mc} simulations of \gls{eas} used for this work follow a power law spectrum:
 \begin{equation} \label{eq:powerlaw}
@@ -255,21 +255,19 @@ The point source $\gamma$s, together with a subset of hadron events as backgroun
 
 The energy resolution gives information on the error committed in the reconstruction of the energy of the event. It is defined as the 68th percentile of the relative error $\Delta E/E = (E_{reco}-E_{true})/E_{true}$. If the relative error follows a normal distribution, the 68th percentile is equivalent to one $\sigma$. The results on energy resolution are shown in figure \ref{fig:energy}. The features used for the energy regression ordered by their importance can be seen in figure \ref{fig:importances}.
 
-\begin{figure}
+\begin{figure}[h]
 \centering
  \includegraphics[width=1\textwidth]{Pictures/energy_resolution.pdf}
   \caption{Energy resolution for the \gls{lst}1 analysis applied to a \gls{mc} production of point-like $\gamma$ events, for three different sets of cleaning parameters (low level-high level threshold in number of photoelectrons). As a reference, the energy resolution requirement for \gls{cta}-north is also shown. The energy resolution plot of the \textit{left} has been bias corrected.}
     \label{fig:energy}
 \end{figure}
 
-
-
 \subsubsection{Angular resolution}
 
-The angular resolution is calculated similarly to the energy resolution, but in this case the relative error shown in figure \ref{fig:angres} refers to the angular difference between the true direction of the source and the reconstructed direction. The features used for the disp vector regression ordered by their importance can be seen in figure \ref{fig:importances}.
+The angular resolution is calculated similarly to the energy resolution, but in this case the relative error shown in figure \ref{fig:angres} refers to the angular difference between the true direction of the source and the reconstructed direction. As can be seen in the left plot from figure \ref{fig:angres}, the majority of gamma events concentrate in low $\theta^2$ angles. Making cuts in this angle allows to discard background events and will be used to calculate the detection significance of a source, as explained in section \ref{sec:realdata}, where the cut applied is $\theta^2$ < 0.25º. The features used for the disp vector regression ordered by their importance can be seen in figure \ref{fig:importances}.
 
 
-\begin{figure}
+\begin{figure}[h]
 \centering
  \includegraphics[width=1\textwidth]{Pictures/angular_resolution.pdf}
   \caption{\textit{Left:} $\theta^2$ plot for the \gls{mc} simulated $\gamma$ point-like events, using three sets of cleaning parameters. \textit{Right}: Angular resolution as a function of reconstructed energy.}
@@ -280,30 +278,19 @@ The angular resolution is calculated similarly to the energy resolution, but in 
 
 The performance in $\gamma$-hadron separation can be studied in terms of the \gls{roc} curve of the \gls{rf} classifier. The \gls{roc} curve illustrates the diagnostic ability of a binary classifier as its discrimination threshold is varied. It is produced plotting the true positive rate (the rate of $\gamma$s correctly classified) versus the false positive rate (the rate of protons incorrectly classified as $\gamma$s) at several thresholds in gammaness. A value of 1 in true positive rate, while 0 in the false positive rate would mean a perfect classification. The closest of the \gls{roc} curve to a diagonal, the more similar to an uniformly random distribution is the classification. For this result, a subset of protons was used to test the \gls{rf} classifier together with the point-like $\gamma$s, resulting in the plots shown in figure \ref{fig:roc}. The features used for the $\gamma$/hadron classification ordered by their importance can be seen in figure \ref{fig:importances}.
 
-\begin{figure}
+\begin{figure}[h]
 \centering
  \includegraphics[width=0.6\textwidth]{Pictures/ROC.pdf}
   \caption{\gls{roc} curve of the \gls{rf} classifier applied to point-like gamma and diffuse proton events, for three different sets of cleaning parameters.}
     \label{fig:roc}
 \end{figure}
 
-\subsubsection{Effective Area}
-
-The effective area calculated for the detection of showers from a point source with the \gls{lst}1 is shown in figure \ref{fig:effarea}.  
-
-
-\begin{figure}
-\centering
- \includegraphics[width=0.6\textwidth]{Pictures/effective_area.pdf}
-  \caption{Effective area per energy bin for the \gls{mc} simulated $\gamma$ point-like events, using three sets of cleaning parameters.}
-    \label{fig:effarea}
-\end{figure}
 
 \subsubsection{Sensitivity}
 
 For the calculation of the sensitivity, a subset of proton events was used as background (off) events. The point-like $\gamma$ events were used together with the protons to calculate the cuts in gammaness and $\theta^2$ which provided the best sensitivity in each of the 20 energy bins taken. To do so, the sensitivity was calculated for 10 cuts in gammaness and in $\theta^2$ for each energy. The combination of cuts giving the lower value in sensitivity, keeping a minimum of 10 $\gamma$ and proton events in the bin (both before and after re-weighting), was selected. The resulting sensitivity curve is shown in picture \ref{fig:sens}.   
 
-\begin{figure}
+\begin{figure}[h]
 \centering
  \includegraphics[width=0.8\textwidth]{Pictures/sensitivity.pdf}
   \caption{Sensitivity plot for 50h of observation of a point-like $\gamma$-ray source with a Crab-like spectrum, obtained by selecting the cuts in gammaness and $\theta2$ which provided the best differential sensitivity per energy bin. As a reference, the spectra of Crab, 10\% of Crab and 1 \% of Crab emission are shown.}
@@ -315,7 +302,7 @@ For the calculation of the sensitivity, a subset of proton events was used as ba
 As explained in section \ref{sec:cleanpars}, cleaning methods often require the adjust of some parameters, which have to be done empirically, trying to find a balance between a good enough background suppression without losing too much information from the shower. The cleaning parameters affect particularly the analysis of low energy showers. In the tailcuts method, too strong cleaning thresholds tend to eliminate too many pixels of the already small low energy showers, making the task of $\gamma$-hadron separation much more difficult. Also, losing the ellipse shape of $\gamma$ showers lead to wrong calculation of Hillas parameters and consequently of the disp vector.\\
 For all these reasons, with the aim to research for new analysis methods which could improve the performance of \gls{lst}, a method for image parameterization which do not require a previous cleaning has been developed. It is based in the \gls{em} algorithm, where recursively the light content in each pixel is assigned to be part of the shower or the background. In the next sections, the basic concepts of the \gls{em} method and how it can be applied to images of showers will be summarized. Then some results comparing the \gls{em} with the classic cleaning method will be shown. 
 
-\subsection{The Expectation-Maximization algorithm}
+\subsection{The Expectation-Maximization algorithm} \label{sec:em}
 
 The \gls{em} algorithm \cite{1977EM} is an iterative method for calculating maximum likelihood estimates of model parameters, where the model depends on unobserved data or latent variables. These latent variables would be those that cannot be observed in the data set, but still can influence other random variables. The algorithm will iterate until finding the model parameters and hidden variables that converge to a maximum likelihood estimation.\\
 Given a statistical model which has generated a set of $X$ observed data points, which depends on a set of latent variables $Z$ and unknown parameters $\theta$, the basic iteration of the \gls{em} consist on two steps:
@@ -386,89 +373,488 @@ In this section, results on energy resolution, angular resolution and $\gamma$-h
 The time parameters are not included in the features for \gls{rf} training because
  the \gls{em} code developed for this work is not compatible with the function for the calculation of time parameters in \textit{ctapipe}. 
 
-\begin{figure}
+\begin{figure}[h!]
 \centering
 \includegraphics[width=0.8\textwidth]{Pictures/em_energy_resolution.pdf}
 \includegraphics[width=0.8\textwidth]{Pictures/em_angular_resolution.pdf}
 \minipage{0.5\textwidth}
-\includegraphics[width=1\textwidth]{Pictures/em_effective_area.pdf}
-\endminipage
-\minipage{0.5\textwidth}
 \includegraphics[width=1\textwidth]{Pictures/em_ROC.pdf}
 \endminipage
-  \caption{Energy resolution (\textit{top}), angular resolution (\textit{middle}), effective area (\textit{bottom-left}) and \gls{roc} curve (textit{bottom-right}) plots for a small subset of events analyzed using the \gls{em} method for Hillas parameterization without cleaning, compared to three different subsets of tailcuts cleaning parameters. }
+  \caption{Energy resolution (\textit{top}), angular resolution (\textit{middle}) and \gls{roc} curve (textit{bottom}) plots for a small subset of events analyzed using the \gls{em} method for Hillas parameterization without cleaning, compared to three different subsets of tailcuts cleaning parameters. }
     \label{fig:em_res}
 \end{figure}
 
 From figure \ref{fig:em_res} it can be appreciated that the results for the \gls{em} method are compatible with the tailcuts cleaning method, reassuring that this is a valid method of Hillas parameterization which allows to go through the step of cleaning which clearly can affect the performance results, as shown in section \ref{sec:performance}. The principal current caveat of the method is that it is much more time consuming than the simple tailcuts methods. Taking into account that no time optimization work has been done in the code, great improvements can be expected from the method, to become a potential useful tool for the analysis of low energy events. 
 
-\section{Results on real data}
+\section{Results on real data} \label{sec:realdata}
 
 Since the beginning of the commissioning of the telescope, three Crab datataking campaigns have been carried on, where the Crab nebula has been observed with the \gls{lst}1 during several nights, in order to study the performance of the whole instrument and the analysis tools.\\
-In this section the data taken during the second Crab campaign, from January 17 to February 02 202, has been analyzed following the methods described in previous sections, deriving the final detection significance of the Crab over the full campaign. Telescope data is taken in several runs of a certain duration, where events are recorded and stored in fits files. Each night, four kinds of runs are taken: DSR4 calibration runs (for pedestal subtraction), camera calibration runs (see section \ref{sec:calib}) and data runs of two types: ON and OFF runs. Data ON runs are taken pointing with the telescope to the $\gamma$-ray source, in this case the Crab nebula. OFF runs are taken pointing to a region without a $\gamma$-ray sources, where the \gls{cr} background is similar to that of the ON region, allowing to estimate the background in the region of interest to extract the signal events as an excess over the background.\\
+In this section the data taken during the three Crab campaigns has been analyzed following the methods described in previous sections, deriving the final detection significance of the Crab over the full campaigns after applying different cuts in intensity and gammaness. Telescope data is taken in several runs of a certain duration, where events are recorded and stored in fits files. Each night, four kinds of runs are taken: DSR4 calibration runs (for pedestal subtraction), camera calibration runs (see section \ref{sec:calib}) and data runs of two types: ON and OFF runs. Data ON runs are taken pointing with the telescope to the $\gamma$-ray source, in this case the Crab nebula. OFF runs are taken pointing to a region without a $\gamma$-ray sources, where the \gls{cr} background is similar to that of the ON region, allowing to estimate the background in the region of interest to extract the signal events as an excess over the background.\\
 The data runs have been calibrated and parameterized using \textit{cta-lstchain} following the steps described in section \ref{sec:anachain}. The signal extractor used has been the \textit{GlobalPeakWindowSum}  and the cleaning method applied is a two level tailcuts with $Th_{high}=6$ phe and $T_{low}=3$ phe. The \gls{rf} models for energy and direction reconstruction, and $\gamma$/hadron separation has been trained with \gls{mc} data, as described in sections \ref{sec:recoe} and \ref{sec:gammahsep}, and applied to the ON and OFF data for reconstruction to DL2 data level.\\
-A set of cuts, summarized in table \ref{tab:cuts}, has been applied to the data to allow a good background rejection and avoid showers with few photoelectrons (high cut in intensity) or which are truncated in the edges of the camera (cut in leakage).
 
-\begin{table}
-  \centering
-    \begin{tabular}{|l|l|}
-      \hline
-      Intensity min & 500  \\
-      Intensity max & 80000 \\
-      Leakage       & < 0.2 \\
-      Width/Length  & > 0.1 \\
-      Gammaness     & > 0.6 \\
-      \hline
-      \end{tabular}
-  \caption{Set of cuts applied in the parameters of the reconstructed real data from the second Crab campaign.}\label{tab:cuts}
-\end{table}
-
-In the ON region, close to the source position, an excess of events should be observed compared to the background. At further distances, the number of events should be comparable to that of the OFF region, where there are only background events. The number of background events $N_{bkg}$ in the ON region can be estimated as $N_{off}$ multiplied by a normalization factor, $n = N_{on}/N_{off}$ calculated at a large distance from the assumed source position (the center of the camera), which accounts for the difference in observation time of the two regions. The significance of the excess in the ON region is defined as: 
+In the ON region, close to the source position, an excess of events should be observed compared to the background. At further distances, the number of events should be comparable to that of the OFF region, where there are only background events. The number of background events $N_{bkg}$ in the ON region can be estimated as $N_{off}$ multiplied by a normalization factor, $n = N_{on}/N_{off}$ calculated at a large distance from the assumed source position (the center of the camera), which accounts for the difference in observation time of the two regions. The significance of the excess in the ON region is calculated using the Li\&Ma formula \cite{1983LiMa}, \cite{2005LiMa}: 
 
 \begin{equation}
-  S = N_{ex}/\sqrt{N_{off}}
+  S = \sqrt{2} \left(N_{on}\cdot ln\left( \frac{(1+n)N_{on}}{n(N_{on}+N_{off})}\right)+N_{off}\cdot ln\left( \frac{(1+n)N_{off}}{N_{on}+N_{off}}\right) \right)^{1/2} 
 \end{equation}
 
-Where $N_{ex}$ is defined as the number of excess counts in the ON region, calculated as $N_ex=N_{on}-N_{off} * n$. \\
-The analysis can be performed following two different definitions for the distance from the source position. The first approach is the $\theta^2$ analysis, where the $\theta^2$ angle is defined as:
-
-\begin{equation}
-  \theta^2 = X_{S}^2 + Y_{S}^2 
-\end{equation}
-
-$X_{S}$ and $Y_{S}$ represent the reconstructed position of the source in camera coordinates. If the telescope is pointing to the source position, the closer of $\theta^2$ to 0 (the center of the camera), the closer to the true source position has been reconstructed the event direction. We can assume that background events have reconstructed source positions distributed uniformly over the \gls{fov}, but the events from the $\gamma$-ray source will have reconstructed positions with smaller $\theta^2$. The normalization factor $n$ between the number of background events in the ON and OFF regions is calculated using events with $\theta^2$ > 0.5º. To calculate the number of excess counts and the significance, a cut in $\theta^2$ < 0.25º is applied. In picture \ref{fig:crabana}, the value of $\theta^2$ is plotted for the ON and OFF regions, observing clearly an excess around $theta^2=0$. The rate of $\gamma$ events (number of events per minute) can be calculated dividing the number of excess events $N_{ex}$ by the total observation time.\\
-
-The second analysis approach is made with respect to the $\alpha$ angle, which is defined as:
+The normalization factor $n$ has been calculated using the $\alpha$ angle, which is defined as:
 
 \begin{equation}
   \alpha = arc cos\left(\frac{X_{c.o.g.}cos(\psi) + Y_{c.o.g.} sin(\psi)}{X_{c.o.g.}^2 + Y_{c.o.g.}^2}\right)
 \end{equation}
 
 Where $X_{c.o.g.}$ and $Y_{c.o.g.}$ are the coordinates of the center of gravity of the Hillas ellipse of the shower image, and angle $\psi$ is the angle between the semi-major axis of the ellipse and the line between the center of the camera and the centroid of the ellipse. The $\alpha$ angle is a measure of how deviated is the Hillas ellipse from pointing towards the center of the camera. Events with high alpha angle are more likely to be background events, whereas $\gamma$ events will point towards the same position, close to the center, having small $\alpha$ angles. To estimate the background normalization factor $n$, events with $\alpha$ angle between 20º and 80º are used. To calculate the excess signal and sensitivity a cut in $\alpha < 8º$ is applied.\\
+The rate of $\gamma$ events (number of events per minute) can be calculated dividing the number of excess events $N_{ex}=N_{on}-n N_{off}$ by the total observation time.\\
 
-The $\theta^2$ and $\alpha$ plots are shown in picture \ref{fig:crabana} for the full campaign and for just one day of observation. The data was taken between January 15th and February 2nd, summing a total of 12.8 hours of observation, which combined lead to a final detection significance of 46.9 $\sigma$ for the $\theta^2$ analysis, and 21.26$\sigma$ for the $\alpha$ analysis, after applying the cuts listed in table \ref{tab:cuts}. 
+The $\alpha$ plots of the three campaigns are shown in pictures \ref{fig:1st-crab-campaign}, \ref{fig:2st-crab-campaign} and \ref{fig:3st-crab-campaign}, for different cuts in intensity and gammaness to show the effect of these cuts in the significance. For the first Crab campaign, the best cuts of intensity > 1000 and gammaness > 0.6 resulted in a significance of $23.10 \sigma$ in 4.5 h of total observation time. For the second Crab campaign the best cuts were intensity > 500 and gammaness > 0.6, giving a total significance of $20.65\sigma$ for 11.3h of observation. The same cuts for the trid Crab campaign resulted in a significance of $15.48\sigma$ for 6.1 h of observation.\\
+The $\alpha$ plots for each day of the campaigns, using the best cuts of intensity and gammaness are shown in pictures \ref{fig:1st-crab-campaign-daily}, \ref{fig:2nd-crab-campaign-daily} and \ref{fig:3rd-crab-campaign-daily}.\\
+During the commissioning of the telescope, several tests are performed in all the subsystems, along with updates and changes in the configuration. These activities affect to the performance of the telescope, for that reason, it is necessary to keep track on how the performace varies from one campaign to the next. In picture \ref{fig:sig_evolution} the evolution of the significance with the square root of observation time along the three campaigns can be observed. It shows that for the last two campaigns, the significance achieved with respect to the observation time has stabilized around $6\sigma / \sqrt(h)$. This result will be compared with the future data taking campaigns, to characterize the telescope in the commissioning phase. 
 
-\begin{figure}
-  \centering
-  \minipage{0.5\textwidth}
-  \includegraphics[width=1\textwidth]{Pictures/thetaplot_20200118_int500_gammaness0-600000.pdf}
-  \endminipage
-  \minipage{0.5\textwidth}
-  \includegraphics[width=1\textwidth]{Pictures/alphaplot_20200118_int500_gammaness0-600000.pdf}
-  \endminipage \\
-  \minipage{0.5\textwidth}
-  \includegraphics[width=1\textwidth]{Pictures/thetaplot_int500_gammaness0-6.pdf}
-  \endminipage
-  \minipage{0.5\textwidth}
-  \includegraphics[width=1\textwidth]{Pictures/alphaplot_int500_gammaness0-6.pdf}
-  \endminipage \\
-  \caption{\textit{Top}: $\theta^2$ (\textit{left}) and $\alpha$ (\textit{right}) plots for the Crab data taken during the night of the 18/01/2020. \textit{Bottom}: $\theta^2$ (\textit{left}) and $\alpha$ (\textit{right}) plots for the data taken during full second Crab campaign, from 15/01/2020 to 02/02/2020. Results are calculated after applying the cuts from table \ref{tab:cuts}.} \label{fig:crabana}
+\begin{figure}[h!]
+\centering
+ \includegraphics[width=\textwidth]{Pictures/daily_sigmas.pdf}
+  \caption{Evolution of significance per square root of time during the three Crab Campaigns. Vertical axis represent the sigmas per hour achieved in a specific date, shown in the horizontal axis. The dashed areas show the duration of the three campaigns. Horizontal colored lines show the sigmas per hour achieved in the full campaign, combining the data from all the days. Days 01/02/2020, and 02/02/2020 are not shown because the total significance achieved along the full nights was too low for the data to be reliable. Days 27/01/2020 and 27/02/2020 have been removed from the total significance calculation due to discrepancies in the alpha plots (too few events or strange structure in the direction reconstruction.)}
+    \label{fig:sig_evolution}
 \end{figure}
+
+\begin{figure}[h]
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_1stCrabCampaign_int100_gammaness0.50}.pdf}
+\caption{\small Intensity > 100, gammaness > 0.5} \label{fig:1st-a}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_1stCrabCampaign_int100_gammaness0.60}.pdf}
+\caption{\small Intensity > 100, gammaness > 0.6} \label{fig:1st-b}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_1stCrabCampaign_int100_gammaness0.70}.pdf}
+\caption{\small Intensity > 100, gammaness > 0.7} \label{fig:1st-c} 
+\end{subfigure} \\
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_1stCrabCampaign_int500_gammaness0.50}.pdf}
+\caption{\small Intensity > 500, gammaness > 0.5} \label{fig:1st-d}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_1stCrabCampaign_int500_gammaness0.60}.pdf}
+\caption{\small Intensity > 500, gammaness > 0.6} \label{fig:1st-e}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_1stCrabCampaign_int500_gammaness0.70}.pdf}
+\caption{\small Intensity > 500, gammaness > 0.7} \label{fig:1st-f} 
+\end{subfigure}
+\\
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_1stCrabCampaign_int1000_gammaness0.50}.pdf}
+\caption{\small Intensity > 1000, gammaness > 0.5} \label{fig:1st-g}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_1stCrabCampaign_int1000_gammaness0.60}.pdf}
+\caption{\small Intensity > 1000, gammaness > 0.6} \label{fig:1st-h}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_1stCrabCampaign_int1000_gammaness0.70}.pdf}
+\caption{\small Intensity > 1000, gammaness > 0.7} \label{fig:1st-i} 
+\end{subfigure}
+\caption{Results of $\alpha$ plot of the First Crab Campaign of \gls{lst} for different cuts in intensity and gammaness. In each plot the reached significance is shown, defined as explained in section \ref{sec:realdata}, together with the rate of $\gamma$s per minute and the total observation time. \label{fig:1st-crab-campaign}.}
+\end{figure}
+
+\begin{figure}[h]
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_2ndCrabCampaign_int100_gammaness0.50}.pdf}
+\caption{\small Intensity > 100, gammaness > 0.5} \label{fig:2nd-a}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_2ndCrabCampaign_int100_gammaness0.60}.pdf}
+\caption{\small Intensity > 100, gammaness > 0.6} \label{fig:2nd-b}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_2ndCrabCampaign_int100_gammaness0.70}.pdf}
+\caption{\small Intensity > 100, gammaness > 0.7} \label{fig:2nd-c} 
+\end{subfigure} \\
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_2ndCrabCampaign_int500_gammaness0.50}.pdf}
+\caption{\small Intensity > 500, gammaness > 0.5} \label{fig:2nd-d}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_2ndCrabCampaign_int500_gammaness0.60}.pdf}
+\caption{\small Intensity > 500, gammaness > 0.6} \label{fig:2nd-e}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_2ndCrabCampaign_int500_gammaness0.70}.pdf}
+\caption{\small Intensity > 500, gammaness > 0.7} \label{fig:2nd-f} 
+\end{subfigure}
+\\
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_2ndCrabCampaign_int1000_gammaness0.50}.pdf}
+\caption{\small Intensity > 1000, gammaness > 0.5} \label{fig:2nd-g}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_2ndCrabCampaign_int1000_gammaness0.60}.pdf}
+\caption{\small Intensity > 1000, gammaness > 0.6} \label{fig:2nd-h}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_2ndCrabCampaign_int1000_gammaness0.70}.pdf}
+\caption{\small Intensity > 1000, gammaness > 0.7} \label{fig:2nd-i} 
+\end{subfigure}
+\caption{Results of $\alpha$ plot of the Second Crab Campaign of \gls{lst} for different cuts in intensity and gammaness. In each plot the reached significance is shown, defined as explained in section \ref{sec:realdata}, together with the rate of $\gamma$s per minute and the total observation time. \label{fig:2nd-crab-campaign}.}
+\end{figure}
+
+
+\begin{figure}[h]
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_3rdCrabCampaign_int100_gammaness0.50}.pdf}
+\caption{\small Intensity > 100, gammaness > 0.5} \label{fig:3rd-a}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_3rdCrabCampaign_int100_gammaness0.60}.pdf}
+\caption{\small Intensity > 100, gammaness > 0.6} \label{fig:3rd-b}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_3rdCrabCampaign_int100_gammaness0.70}.pdf}
+\caption{\small Intensity > 100, gammaness > 0.7} \label{fig:3rd-c} 
+\end{subfigure} \\
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_3rdCrabCampaign_int500_gammaness0.50}.pdf}
+\caption{\small Intensity > 500, gammaness > 0.5} \label{fig:3rd-d}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_3rdCrabCampaign_int500_gammaness0.60}.pdf}
+\caption{\small Intensity > 500, gammaness > 0.6} \label{fig:3rd-e}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_3rdCrabCampaign_int500_gammaness0.70}.pdf}
+\caption{\small Intensity > 500, gammaness > 0.7} \label{fig:3rd-f} 
+\end{subfigure}
+\\
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_3rdCrabCampaign_int1000_gammaness0.50}.pdf}
+\caption{\small Intensity > 1000, gammaness > 0.5} \label{fig:3rd-g}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_3rdCrabCampaign_int1000_gammaness0.60}.pdf}
+\caption{\small Intensity > 1000, gammaness > 0.6} \label{fig:3rd-h}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_3rdCrabCampaign_int1000_gammaness0.70}.pdf}
+\caption{\small Intensity > 1000, gammaness > 0.7} \label{fig:3rd-i} 
+\end{subfigure}
+\caption{Results of $\alpha$ plot of the Third Crab Campaign of \gls{lst} for different cuts in intensity and gammaness. In each plot the reached significance is shown, defined as explained in section \ref{sec:realdata}, together with the rate of $\gamma$s per minute and the total observation time. \label{fig:3rd-crab-campaign}.}
+\end{figure}
+
+
+\begin{figure}[h]
+\begin{subfigure}{0.45\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_1stCrabCampaign_20191123_int1000_gammaness0.60}.pdf}
+\caption{\small 23/11/2019} \label{fig:1st-daily-a}
+\end{subfigure}
+\begin{subfigure}{0.45\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_1stCrabCampaign_20191124_int1000_gammaness0.60}.pdf}
+\caption{\small 24/11/2019} \label{fig:1st-daily-b}
+\end{subfigure} \\
+\begin{subfigure}{0.45\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_1stCrabCampaign_20191126_int1000_gammaness0.60}.pdf}
+\caption{\small 26/11/2019} \label{fig:1st-daily-c} 
+\end{subfigure}
+\begin{subfigure}{0.45\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_1stCrabCampaign_20191129_int1000_gammaness0.60}.pdf}
+\caption{\small 29/11/2019} \label{fig:1st-daily-d}
+\end{subfigure}
+\caption{Daily results of $\alpha$ plot of the First Crab Campaign of \gls{lst} for cuts intensity > 1000 and gammaness > 0.6. In each plot the reached significance is shown, defined as explained in section \ref{sec:realdata}, together with the rate of $\gamma$s per minute and the total observation time. \label{fig:1st-crab-campaign-daily}.}
+\end{figure}
+
+\begin{figure}[h]
+\begin{subfigure}{0.45\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_2ndCrabCampaign_20200115_int1000_gammaness0.60}.pdf}
+\caption{\small 15/01/2020} \label{fig:2nd-daily-a}
+\end{subfigure}
+\begin{subfigure}{0.45\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_2ndCrabCampaign_20200117_int1000_gammaness0.60}.pdf}
+\caption{\small 17/01/2020} \label{fig:2nd-daily-b}
+\end{subfigure} \\
+\begin{subfigure}{0.45\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_2ndCrabCampaign_20200118_int500_gammaness0.60}.pdf}
+\caption{\small 18/01/2020} \label{fig:2nd-daily-c} 
+\end{subfigure}
+\begin{subfigure}{0.45\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_2ndCrabCampaign_20200127_int500_gammaness0.60}.pdf}
+\caption{\small 27/01/2020} \label{fig:2nd-daily-d}
+\end{subfigure} \\
+\begin{subfigure}{0.45\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_2ndCrabCampaign_20200128_int500_gammaness0.60}.pdf}
+\caption{\small 28/01/2020} \label{fig:2nd-daily-c} 
+\end{subfigure}
+\caption{Daily results of $\alpha$ plot of the Second Crab Campaign of \gls{lst} for cuts intensity > 500 and gammaness > 0.6, except for days 15/01/2020 and 17/01/2020 where a cut in intensity > 1000 resulted in a better significance. In each plot the reached significance is shown, defined as explained in section \ref{sec:realdata}, together with the rate of $\gamma$s per minute and the total observation time. \label{fig:2nd-crab-campaign-daily}.}
+\end{figure}
+
+
+\begin{figure}[h]
+\begin{subfigure}{0.45\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_3rdCrabCampaign_20200213_int500_gammaness0.60}.pdf}
+\caption{\small 13/02/2020} \label{fig:3rd-daily-a}
+\end{subfigure}
+\begin{subfigure}{0.45\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_3rdCrabCampaign_20200215_int500_gammaness0.60}.pdf}
+\caption{\small 15/02/2020} \label{fig:3rd-daily-b}
+\end{subfigure} \\
+\begin{subfigure}{0.45\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_3rdCrabCampaign_20200217_int500_gammaness0.60}.pdf}
+\caption{\small 17/02/2020} \label{fig:3rd-daily-c} 
+\end{subfigure}
+\begin{subfigure}{0.45\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_3rdCrabCampaign_20200218_int1000_gammaness0.60}.pdf}
+\caption{\small 18/02/2020} \label{fig:3rd-daily-d}
+\end{subfigure} \\
+\begin{subfigure}{0.45\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/alphaplot_3rdCrabCampaign_20200228_int500_gammaness0.60}.pdf}
+\caption{\small 28/02/2020} \label{fig:3rd-daily-d}
+\end{subfigure}\\
+\caption{Daily results of $\alpha$ plot of the Third Crab Campaign of \gls{lst} for cuts intensity > 500 and gammaness > 0.6, except for 18/02/2020 where a cut in intensity > 1000 resulted in a better significance. In each plot the reached significance is shown, defined as explained in section \ref{sec:realdata}, together with the rate of $\gamma$s per minute and the total observation time. \label{fig:3rd-crab-campaign-daily}.}
+\end{figure}
+
+\subsection{Analysis of Crab Campaigns with Expectation-Maximization method for Hillas Parameterization}
+
+The data from the full three Crab campaigns was reduced from R0 to DL2 using the \gls{em} method to calculate the Hillas parameters, without using the tailcuts cleaning. To reconstruct the energy and direction of the primaries, and to perform the $\gamma$-hadron separation a new set of \glspl{rf} was trained were the \gls{mc} data was also parameterized using the \gls{em} method. The alpha plots for the three campaigns are shown in pictures \ref{fig:em_1st-crab-campaign}, \ref{fig:em_2nd-crab-campaign} and \ref{fig:em_3rd-crab-campaign} .\\
+
+\begin{figure}[h]
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_1stCrabCampaign_int100_gammaness0.60}.pdf}
+\caption{\small Intensity > 100, gammaness > 0.6} \label{fig:em_1st-a}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_1stCrabCampaign_int100_gammaness0.70}.pdf}
+\caption{\small Intensity > 100, gammaness > 0.7} \label{fig:em_1st-b}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_1stCrabCampaign_int100_gammaness0.80}.pdf}
+\caption{\small Intensity > 100, gammaness > 0.8} \label{fig:em_1st-c} 
+\end{subfigure} \\
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_1stCrabCampaign_int500_gammaness0.60}.pdf}
+\caption{\small Intensity > 500, gammaness > 0.6} \label{fig:em_1st-d}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_1stCrabCampaign_int500_gammaness0.70}.pdf}
+\caption{\small Intensity > 500, gammaness > 0.7} \label{fig:em_1st-e}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_1stCrabCampaign_int500_gammaness0.80}.pdf}
+\caption{\small Intensity > 500, gammaness > 0.8} \label{fig:em_1st-f} 
+\end{subfigure}
+\\
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_1stCrabCampaign_int1000_gammaness0.60}.pdf}
+\caption{\small Intensity > 1000, gammaness > 0.6} \label{fig:em_1st-g}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_1stCrabCampaign_int1000_gammaness0.70}.pdf}
+\caption{\small Intensity > 1000, gammaness > 0.7} \label{fig:em_1st-h}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_1stCrabCampaign_int1000_gammaness0.80}.pdf}
+\caption{\small Intensity > 1000, gammaness > 0.8} \label{fig:em_1st-i} 
+\end{subfigure}
+\caption{Results of $\alpha$ plot of the First Crab Campaign of \gls{lst}, analyzed using the \gls{em} method for Hillas parameterization, for different cuts in intensity and gammaness. In each plot the reached significance is shown, defined as explained in section \ref{sec:realdata}, together with the rate of $\gamma$s per minute and the total observation time. \label{fig:em_1st-crab-campaign}.}
+\end{figure}
+
+\begin{figure}[h]
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_2ndCrabCampaign_int100_gammaness0.60}.pdf}
+\caption{\small Intensity > 100, gammaness > 0.6} \label{fig:em_2nd-a}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_2ndCrabCampaign_int100_gammaness0.70}.pdf}
+\caption{\small Intensity > 100, gammaness > 0.7} \label{fig:em_2nd-b}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_2ndCrabCampaign_int100_gammaness0.80}.pdf}
+\caption{\small Intensity > 100, gammaness > 0.8} \label{fig:em_2nd-c} 
+\end{subfigure} \\
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_2ndCrabCampaign_int500_gammaness0.60}.pdf}
+\caption{\small Intensity > 500, gammaness > 0.6} \label{fig:em_2nd-d}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_2ndCrabCampaign_int500_gammaness0.70}.pdf}
+\caption{\small Intensity > 500, gammaness > 0.7} \label{fig:em_2nd-e}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_2ndCrabCampaign_int500_gammaness0.80}.pdf}
+\caption{\small Intensity > 500, gammaness > 0.8} \label{fig:em_2nd-f} 
+\end{subfigure}
+\\
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_2ndCrabCampaign_int1000_gammaness0.60}.pdf}
+\caption{\small Intensity > 1000, gammaness > 0.6} \label{fig:em_2nd-g}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_2ndCrabCampaign_int1000_gammaness0.70}.pdf}
+\caption{\small Intensity > 1000, gammaness > 0.7} \label{fig:em_2nd-h}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_2ndCrabCampaign_int1000_gammaness0.80}.pdf}
+\caption{\small Intensity > 1000, gammaness > 0.8} \label{fig:em_2nd-i} 
+\end{subfigure}
+\caption{Results of $\alpha$ plot of the Second Crab Campaign of \gls{lst}, analyzed using the \gls{em} method for Hillas parameterization, for different cuts in intensity and gammaness. In each plot the reached significance is shown, defined as explained in section \ref{sec:realdata}, together with the rate of $\gamma$s per minute and the total observation time. \label{fig:em_2nd-crab-campaign}.}
+\end{figure}
+
+
+\begin{figure}[h]
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_3rdCrabCampaign_int100_gammaness0.60}.pdf}
+\caption{\small Intensity > 100, gammaness > 0.6} \label{fig:em_3rd-a}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_3rdCrabCampaign_int100_gammaness0.70}.pdf}
+\caption{\small Intensity > 100, gammaness > 0.7} \label{fig:em_3rd-b}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_3rdCrabCampaign_int100_gammaness0.80}.pdf}
+\caption{\small Intensity > 100, gammaness > 0.8} \label{fig:em_3rd-c} 
+\end{subfigure} \\
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_3rdCrabCampaign_int500_gammaness0.60}.pdf}
+\caption{\small Intensity > 500, gammaness > 0.6} \label{fig:em_3rd-d}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_3rdCrabCampaign_int500_gammaness0.70}.pdf}
+\caption{\small Intensity > 500, gammaness > 0.7} \label{fig:em_3rd-e}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_3rdCrabCampaign_int500_gammaness0.80}.pdf}
+\caption{\small Intensity > 500, gammaness > 0.8} \label{fig:em_3rd-f} 
+\end{subfigure}
+\\
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_3rdCrabCampaign_int1000_gammaness0.60}.pdf}
+\caption{\small Intensity > 1000, gammaness > 0.6} \label{fig:em_3rd-g}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_3rdCrabCampaign_int1000_gammaness0.70}.pdf}
+\caption{\small Intensity > 1000, gammaness > 0.7} \label{fig:em_3rd-h}
+\end{subfigure}
+\hspace*{\fill} % separation between the subfigures
+\begin{subfigure}{0.32\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_3rdCrabCampaign_int1000_gammaness0.80}.pdf}
+\caption{\small Intensity > 1000, gammaness > 0.8} \label{fig:em_3rd-i} 
+\end{subfigure}
+\caption{Results of $\alpha$ plot of the Third Crab Campaign of \gls{lst}, analyzed using the \gls{em} method for Hillas parameterization, for different cuts in intensity and gammaness. In each plot the reached significance is shown, defined as explained in section \ref{sec:realdata}, together with the rate of $\gamma$s per minute and the total observation time. \label{fig:em_3rd-crab-campaign}.}
+\end{figure}
+
+When using the \gls{em} method, the higher significance is reached with the lower cuts in intensity (intensity > 100), and a moderate gammaness cut (gammaness > 0.7), discarding less events than the baseline analysis from previous section, resulting in a higher $\gamma$ rate. However, it also raises the level of background events, as more events are classified with higher values of gammaness. The result show that the parameterization using the \gls{em} method allow to reconstruct and classify with higher gammaness showers with low number of photons, as was advanced in section \ref{sec:em}. This recover a large number of $\gamma$ events which do not survive the gammaness cut when using the tailcuts method, but on the other hand, keeps a large background of hadron events. These two effects compensate in the end resulting in a similar final significance as when using the tailcuts cleaning, with a lower cut in intensity and higher cut in gammaness.
+Being able to keep low energy events and still have a good background rejection is fundamental to lower the energy threshold of \gls{lst}1 in single telescope mode. The \gls{em} method has proven to be a potential tool to accomplish this task and its refinement and better understaning on its effect in the reconstruction can suppose an improvement in the performance of the telescope in future data taking campaigns.     
+
+
+\begin{figure}[h]
+\begin{subfigure}{0.45\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_1stCrabCampaign_20191123_int100_gammaness0.70}.pdf}
+\caption{\small 23/11/2019} \label{fig:em_1st-daily-a}
+\end{subfigure}
+\begin{subfigure}{0.45\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_1stCrabCampaign_20191124_int100_gammaness0.70}.pdf}
+\caption{\small 24/11/2019} \label{fig:em_1st-daily-b}
+\end{subfigure} \\
+\begin{subfigure}{0.45\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_1stCrabCampaign_20191126_int100_gammaness0.70}.pdf}
+\caption{\small 26/11/2019} \label{fig:em_1st-daily-c} 
+\end{subfigure}
+\begin{subfigure}{0.45\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_1stCrabCampaign_20191129_int100_gammaness0.70}.pdf}
+\caption{\small 29/11/2019} \label{fig:em_1st-daily-d}
+\end{subfigure}
+\caption{Daily results of $\alpha$ plot of the First Crab Campaign of \gls{lst} for cuts intensity > 100 and gammaness > 0.6. In each plot the reached significance is shown, defined as explained in section \ref{sec:realdata}, together with the rate of $\gamma$s per minute and the total observation time. \label{fig:em_1st-crab-campaign-daily}.}
+\end{figure}
+
+\begin{figure}[h]
+\begin{subfigure}{0.45\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_2ndCrabCampaign_20200115_int100_gammaness0.70}.pdf}
+\caption{\small 15/01/2020} \label{fig:em_2nd-daily-a}
+\end{subfigure}
+\begin{subfigure}{0.45\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_2ndCrabCampaign_20200117_int100_gammaness0.70}.pdf}
+\caption{\small 17/01/2020} \label{fig:em_2nd-daily-b}
+\end{subfigure} \\
+\begin{subfigure}{0.45\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_2ndCrabCampaign_20200118_int100_gammaness0.70}.pdf}
+\caption{\small 18/01/2020} \label{fig:em_2nd-daily-c} 
+\end{subfigure}
+\begin{subfigure}{0.45\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_2ndCrabCampaign_20200127_int100_gammaness0.70}.pdf}
+\caption{\small 27/01/2020} \label{fig:em_2nd-daily-d}
+\end{subfigure} \\
+\begin{subfigure}{0.45\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_2ndCrabCampaign_20200128_int100_gammaness0.70}.pdf}
+\caption{\small 28/01/2020} \label{fig:em_2nd-daily-c} 
+\end{subfigure}
+\caption{Daily results of $\alpha$ plot of the Second Crab Campaign of \gls{lst} for cuts intensity > 100 and gammaness > 0.6, except for days 15/01/2020 and 17/01/2020 where a cut in intensity > 100 resulted in a better significance. In each plot the reached significance is shown, defined as explained in section \ref{sec:realdata}, together with the rate of $\gamma$s per minute and the total observation time. \label{fig:em_2nd-crab-campaign-daily}.}
+\end{figure}
+
+
+\begin{figure}[h]
+\begin{subfigure}{0.45\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_3rdCrabCampaign_20200213_int100_gammaness0.70}.pdf}
+\caption{\small 13/02/2020} \label{fig:em_3rd-daily-a}
+\end{subfigure}
+\begin{subfigure}{0.45\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_3rdCrabCampaign_20200215_int100_gammaness0.70}.pdf}
+\caption{\small 15/02/2020} \label{fig:em_3rd-daily-b}
+\end{subfigure} \\
+\begin{subfigure}{0.45\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_3rdCrabCampaign_20200217_int100_gammaness0.70}.pdf}
+\caption{\small 17/02/2020} \label{fig:em_3rd-daily-c} 
+\end{subfigure}
+\begin{subfigure}{0.45\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_3rdCrabCampaign_20200218_int100_gammaness0.70}.pdf}
+\caption{\small 18/02/2020} \label{fig:em_3rd-daily-d}
+\end{subfigure} \\
+\begin{subfigure}{0.45\textwidth}
+\includegraphics[width=\linewidth]{{Pictures/em_alphaplot_3rdCrabCampaign_20200228_int100_gammaness0.70}.pdf}
+\caption{\small 28/02/2020} \label{fig:em_3rd-daily-d}
+\end{subfigure}
+\caption{Daily results of $\alpha$ plot of the Third Crab Campaign of \gls{lst} for cuts intensity > 100 and gammaness > 0.6, except for 18/02/2020 where a cut in intensity > 100 resulted in a better significance. In each plot the reached significance is shown, defined as explained in section \ref{sec:realdata}, together with the rate of $\gamma$s per minute and the total observation time. \label{fig:em_3rd-crab-campaign-daily}.}
+\end{figure}
+
 
 \section{Summary and conclusion}
 
 Along this chapter, the chain for the single telescope data analysis of \gls{lst}1 has been described, and successfully used to derive the performance of the \gls{lst}1, and to analyze the first real data taken with the instrument.\\
 About the performance estimated using \gls{mc} simulations, it has been shown that the energy resolution reaches an error as low as 20\% in the range from $\sim 100$ GeV to a few TeV and the angular resolution in the same energy range is $\sim 0.2$º. From the three sets for tailcuts parameters, the one giving best results has been the 6-3 tailcuts. The best sensitivity of \gls{lst}1 for 50 hours of observation is reached in the range between 100 GeV and 1 TeV, going below the 10\% of the Crab flux.\\
-The \gls{em} method for Hillas parameterization without cleaning has been presented as a potential alternative, with similar performance to the classic tailcuts cleaning (without time parameters), to avoid the necessity to adjust the tailcuts parameters which clearly affect the performance results. This method is useful for low energy events, with very few photoelectrons, where tailcuts cleaning can suppose the loss of information from the shower.  
+The \gls{em} method for Hillas parameterization without cleaning has been presented as a potential alternative, with similar performance to the classic tailcuts cleaning (without time parameters), to avoid the necessity to adjust the tailcuts parameters which clearly affect the performance results. This method is useful for low energy events, with very few photoelectrons, where tailcuts cleaning can suppose the loss of information from the shower.\\
+Regarding real data, the analysis chain designed for \gls{lst}1 has been succesfully applied to the three Crab campaigns where Crab nebula data has been taken using the \gls{lst}1. The code has allowed to reconstruct the recorded events and to calculate the significance of detection of the source using the $\alpha$ angle. A study on the evolution of the significance achieved with respect to the observation time has been performed, showing that the performance has stabilized during the two last campaigns around $6\sigma/\sqrt{h}$. Future campaigns will be compared to these results to characterize the performance of the telescope in the commissioning phase.
 
 \end{document}

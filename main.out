@@ -51,63 +51,69 @@
 \BOOKMARK [2][-]{subsection.4.2.3}{Reconstruction of energy and source position}{section.4.2}% 51
 \BOOKMARK [2][-]{subsection.4.2.4}{-hadron separation}{section.4.2}% 52
 \BOOKMARK [1][-]{section.4.3}{Sensitivity of the LST1}{chapter.4}% 53
-\BOOKMARK [2][-]{subsection.4.3.1}{Reweigh ting}{section.4.3}% 54
+\BOOKMARK [2][-]{subsection.4.3.1}{Reweighting}{section.4.3}% 54
 \BOOKMARK [2][-]{subsection.4.3.2}{Cut optimization}{section.4.3}% 55
 \BOOKMARK [2][-]{subsection.4.3.3}{Expected LST1 Performance}{section.4.3}% 56
 \BOOKMARK [1][-]{section.4.4}{Expectation-Maximization method for Hillas Parameters...}{chapter.4}% 57
 \BOOKMARK [2][-]{subsection.4.4.1}{The Expectation-Maximization algorithm}{section.4.4}% 58
 \BOOKMARK [2][-]{subsection.4.4.2}{Comparison of em without cleaning and tailcuts cleaning}{section.4.4}% 59
 \BOOKMARK [1][-]{section.4.5}{Results on real data}{chapter.4}% 60
-\BOOKMARK [1][-]{section.4.6}{Summary and conclusion}{chapter.4}% 61
-\BOOKMARK [0][-]{chapter.5}{Characterization of the Large Magellanic Cloud at TeV energies and prospects on Dark Matter detection for CTA}{}% 62
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 63
-\BOOKMARK [1][-]{section.5.2}{Emission Model}{chapter.5}% 64
-\BOOKMARK [2][-]{subsection.5.2.1}{Diffuse emission}{section.5.2}% 65
-\BOOKMARK [2][-]{subsection.5.2.2}{Point Sources}{section.5.2}% 66
-\BOOKMARK [2][-]{subsection.5.2.3}{PWNe population in the LMC}{section.5.2}% 67
-\BOOKMARK [1][-]{section.5.3}{Simulations and Analysis method}{chapter.5}% 68
-\BOOKMARK [2][-]{subsection.5.3.1}{Region of Interest and Observational strategy}{section.5.3}% 69
-\BOOKMARK [2][-]{subsection.5.3.2}{Simulation parameters}{section.5.3}% 70
-\BOOKMARK [2][-]{subsection.5.3.3}{Fitting method}{section.5.3}% 71
-\BOOKMARK [1][-]{section.5.4}{Results}{chapter.5}% 72
-\BOOKMARK [2][-]{subsection.5.4.1}{Point sources}{section.5.4}% 73
-\BOOKMARK [2][-]{subsection.5.4.2}{Population of PWNe}{section.5.4}% 74
-\BOOKMARK [2][-]{subsection.5.4.3}{Diffuse Emission}{section.5.4}% 75
-\BOOKMARK [1][-]{section.5.5}{Dark Matter annihilation in the LMC}{chapter.5}% 76
-\BOOKMARK [2][-]{subsection.5.5.1}{Dark Matter profile in the lmc}{section.5.5}% 77
-\BOOKMARK [2][-]{subsection.5.5.2}{-ray spectrum}{section.5.5}% 78
-\BOOKMARK [2][-]{subsection.5.5.3}{Results on dm sensitivity curves}{section.5.5}% 79
-\BOOKMARK [1][-]{section.5.6}{Summary and conclusions}{chapter.5}% 80
-\BOOKMARK [0][-]{appendix.A}{The L1 Trigger System of the LST1}{}% 81
-\BOOKMARK [1][-]{section.A.1}{Introduction}{appendix.A}% 82
-\BOOKMARK [1][-]{section.A.2}{Pixel Level: L0 trigger decision}{appendix.A}% 83
-\BOOKMARK [2][-]{subsection.A.2.1}{Majority trigger}{section.A.2}% 84
-\BOOKMARK [2][-]{subsection.A.2.2}{Sum trigger}{section.A.2}% 85
-\BOOKMARK [2][-]{subsection.A.2.3}{Camera Level: L1 trigger decision}{section.A.2}% 86
-\BOOKMARK [2][-]{subsection.A.2.4}{Array Level trigger decision}{section.A.2}% 87
-\BOOKMARK [0][-]{appendix.B}{Characterization of analogue ASIC for L1 trigger decision}{}% 88
-\BOOKMARK [1][-]{section.B.1}{Introduction}{appendix.B}% 89
-\BOOKMARK [1][-]{section.B.2}{Quality control test}{appendix.B}% 90
-\BOOKMARK [2][-]{subsection.B.2.1}{Test DAC}{section.B.2}% 91
-\BOOKMARK [2][-]{subsection.B.2.2}{Voltage Test: Rate scan}{section.B.2}% 92
-\BOOKMARK [2][-]{subsection.B.2.3}{Test Adder Channels}{section.B.2}% 93
-\BOOKMARK [2][-]{subsection.B.2.4}{Analog Offset test}{section.B.2}% 94
-\BOOKMARK [2][-]{subsection.B.2.5}{Digital Offset test}{section.B.2}% 95
-\BOOKMARK [1][-]{section.B.3}{Characterization of the asic}{appendix.B}% 96
-\BOOKMARK [2][-]{subsection.B.3.1}{Rate Scan Fit}{section.B.3}% 97
-\BOOKMARK [2][-]{subsection.B.3.2}{Gain}{section.B.3}% 98
-\BOOKMARK [2][-]{subsection.B.3.3}{Offset}{section.B.3}% 99
-\BOOKMARK [2][-]{subsection.B.3.4}{Noise}{section.B.3}% 100
-\BOOKMARK [1][-]{section.B.4}{Characterization: Summary and discussion}{appendix.B}% 101
-\BOOKMARK [0][-]{appendix.C}{Calibration method for the L1 analog trigger system of LST camera}{}% 102
-\BOOKMARK [1][-]{section.C.1}{Introduction}{appendix.C}% 103
-\BOOKMARK [1][-]{section.C.2}{L1 transfer function calibration}{appendix.C}% 104
-\BOOKMARK [2][-]{subsection.C.2.1}{Calibration algorithm}{section.C.2}% 105
-\BOOKMARK [2][-]{subsection.C.2.2}{Calibration result}{section.C.2}% 106
-\BOOKMARK [0][-]{appendix.D}{Time calibration for implementation of the trigger distribution in the backplane network of LST camera}{}% 107
-\BOOKMARK [1][-]{section.D.1}{Introduction}{appendix.D}% 108
-\BOOKMARK [1][-]{section.D.2}{Time calibration procedure}{appendix.D}% 109
-\BOOKMARK [1][-]{section.D.3}{Time calibration setup and tests}{appendix.D}% 110
-\BOOKMARK [0][-]{appendix.E}{Random Forests}{}% 111
-\BOOKMARK [1][-]{section.E.1}{Introduction}{appendix.E}% 112
-\BOOKMARK [1][-]{section.E.2}{Gini Index}{appendix.E}% 113
+\BOOKMARK [2][-]{subsection.4.5.1}{Analysis of Crab Campaigns with Expectation-Maximization method for Hillas Parameterization}{section.4.5}% 61
+\BOOKMARK [1][-]{section.4.6}{Summary and conclusion}{chapter.4}% 62
+\BOOKMARK [0][-]{chapter.5}{Characterization of the Large Magellanic Cloud at TeV energies and prospects on Dark Matter detection for CTA}{}% 63
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 64
+\BOOKMARK [1][-]{section.5.2}{Emission Model}{chapter.5}% 65
+\BOOKMARK [2][-]{subsection.5.2.1}{Diffuse emission}{section.5.2}% 66
+\BOOKMARK [2][-]{subsection.5.2.2}{Point Sources}{section.5.2}% 67
+\BOOKMARK [2][-]{subsection.5.2.3}{PWNe population in the LMC}{section.5.2}% 68
+\BOOKMARK [1][-]{section.5.3}{Simulations and Analysis method}{chapter.5}% 69
+\BOOKMARK [2][-]{subsection.5.3.1}{Region of Interest and Observational strategy}{section.5.3}% 70
+\BOOKMARK [2][-]{subsection.5.3.2}{Simulation parameters}{section.5.3}% 71
+\BOOKMARK [2][-]{subsection.5.3.3}{Fitting method}{section.5.3}% 72
+\BOOKMARK [1][-]{section.5.4}{Results}{chapter.5}% 73
+\BOOKMARK [2][-]{subsection.5.4.1}{Point sources}{section.5.4}% 74
+\BOOKMARK [2][-]{subsection.5.4.2}{Population of PWNe}{section.5.4}% 75
+\BOOKMARK [2][-]{subsection.5.4.3}{Diffuse Emission}{section.5.4}% 76
+\BOOKMARK [1][-]{section.5.5}{Dark Matter annihilation in the LMC}{chapter.5}% 77
+\BOOKMARK [2][-]{subsection.5.5.1}{Dark Matter profile in the lmc}{section.5.5}% 78
+\BOOKMARK [2][-]{subsection.5.5.2}{-ray spectrum}{section.5.5}% 79
+\BOOKMARK [2][-]{subsection.5.5.3}{Results on dm sensitivity curves}{section.5.5}% 80
+\BOOKMARK [2][-]{subsection.5.5.4}{Effect of the diffuse emission on the DM sensitivity curves}{section.5.5}% 81
+\BOOKMARK [1][-]{section.5.6}{Summary and conclusions}{chapter.5}% 82
+\BOOKMARK [0][-]{appendix.A}{The L1 Trigger System of the LST1}{}% 83
+\BOOKMARK [1][-]{section.A.1}{Introduction}{appendix.A}% 84
+\BOOKMARK [1][-]{section.A.2}{Pixel Level: L0 trigger decision}{appendix.A}% 85
+\BOOKMARK [2][-]{subsection.A.2.1}{Majority trigger}{section.A.2}% 86
+\BOOKMARK [2][-]{subsection.A.2.2}{Sum trigger}{section.A.2}% 87
+\BOOKMARK [2][-]{subsection.A.2.3}{Camera Level: L1 trigger decision}{section.A.2}% 88
+\BOOKMARK [2][-]{subsection.A.2.4}{Array Level trigger decision}{section.A.2}% 89
+\BOOKMARK [0][-]{appendix.B}{Characterization of analogue ASIC for L1 trigger decision}{}% 90
+\BOOKMARK [1][-]{section.B.1}{Introduction}{appendix.B}% 91
+\BOOKMARK [1][-]{section.B.2}{Quality control test}{appendix.B}% 92
+\BOOKMARK [2][-]{subsection.B.2.1}{Test DAC}{section.B.2}% 93
+\BOOKMARK [2][-]{subsection.B.2.2}{Voltage Test: Rate scan}{section.B.2}% 94
+\BOOKMARK [2][-]{subsection.B.2.3}{Test Adder Channels}{section.B.2}% 95
+\BOOKMARK [2][-]{subsection.B.2.4}{Analog Offset test}{section.B.2}% 96
+\BOOKMARK [2][-]{subsection.B.2.5}{Digital Offset test}{section.B.2}% 97
+\BOOKMARK [1][-]{section.B.3}{Characterization of the asic}{appendix.B}% 98
+\BOOKMARK [2][-]{subsection.B.3.1}{Rate Scan Fit}{section.B.3}% 99
+\BOOKMARK [2][-]{subsection.B.3.2}{Gain}{section.B.3}% 100
+\BOOKMARK [2][-]{subsection.B.3.3}{Offset}{section.B.3}% 101
+\BOOKMARK [2][-]{subsection.B.3.4}{Noise}{section.B.3}% 102
+\BOOKMARK [1][-]{section.B.4}{Characterization: Summary and discussion}{appendix.B}% 103
+\BOOKMARK [0][-]{appendix.C}{Calibration method for the L1 analog trigger system of LST camera}{}% 104
+\BOOKMARK [1][-]{section.C.1}{Introduction}{appendix.C}% 105
+\BOOKMARK [1][-]{section.C.2}{L1 transfer function calibration}{appendix.C}% 106
+\BOOKMARK [2][-]{subsection.C.2.1}{Calibration algorithm}{section.C.2}% 107
+\BOOKMARK [2][-]{subsection.C.2.2}{Calibration result}{section.C.2}% 108
+\BOOKMARK [0][-]{appendix.D}{Time calibration for implementation of the trigger distribution in the backplane network of LST camera}{}% 109
+\BOOKMARK [1][-]{section.D.1}{Introduction}{appendix.D}% 110
+\BOOKMARK [1][-]{section.D.2}{Time calibration procedure}{appendix.D}% 111
+\BOOKMARK [1][-]{section.D.3}{Time calibration setup and tests}{appendix.D}% 112
+\BOOKMARK [0][-]{appendix.E}{Random Forests}{}% 113
+\BOOKMARK [1][-]{section.E.1}{Introduction}{appendix.E}% 114
+\BOOKMARK [1][-]{section.E.2}{Gini Index}{appendix.E}% 115
+\BOOKMARK [0][-]{appendix.F}{Evolution of LST1 camera uniformity}{}% 116
+\BOOKMARK [1][-]{section.F.1}{Introduction}{appendix.F}% 117
+\BOOKMARK [1][-]{section.F.2}{Distribution of centroid of Hillas ellipses for standard analysis}{appendix.F}% 118
+\BOOKMARK [1][-]{section.F.3}{Distribution of centroid of Hillas ellipses for Expectation-Maximization analysis}{appendix.F}% 119

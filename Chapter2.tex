@@ -11,7 +11,7 @@ More on \gls{eas} and ground-based detectors can be found in sections \ref{sec:e
 
 Space detectors and ground based detectors complement perfectly well, supplying the limitations of one another to cover the full $\gamma$-ray spectrum. Lower energy $\gamma$-rays are abundant, but so are hadronic backgrounds (\glspl{cr}). Space detectors are perfectly suited to study these part of the spectrum, because beside their rather small collection areas ($\sim 1 m^2$), they have very good background rejection. At higher energies, the $\gamma$-ray flux decay strongly and much higher collection areas are needed. Ground based instruments detect the extended secondary products of $\gamma$-rays interacting in the atmosphere, they are designed to cover big areas, capturing even events from the highest energy $\gamma$-rays.\\
 
-\begin{figure}
+\begin{figure}[h]
 \centering
  \includegraphics[width=1\textwidth]{EM.pdf}
   \caption{Atmospheric transparency for the whole electromagnetic spectrum, from \cite{highenergyastrophy}. The continuous line represents the height in the atmosphere where 50\% of the light is absorbed.}
@@ -28,7 +28,7 @@ In this section, different types of space detectors are described.\\
 
 Compton scattering occurs when a photon transfers part of its energy to an electron. At the low end of the $\gamma$-ray energy range (from 20 keV to 30 GeV) this is the process that dominates interactions between light and matter. Compton detectors are based on this interaction. Usually, they count on two parts: In the first level, the interaction between the $\gamma$ photon and an electron occurs inside a scintillator. The trajectory deviation of the photon is measured, and then is possible to reconstruct its original direction. Afterwards, the photon travels to a second level where it is absorbed by a calorimeter and its energy is measured. The \gls{comptel} instrument from the \gls{cgro} was operative between 1991 and 2000 and was able to do a survey of the galactic plane using this technique, detecting more than 60 sources (figure \ref{fig:comptel}). Currently, the \gls{ibis} \cite{IBIS} telescope \cite{INTEGRAL} is the present representative of this kind of detectors.
 
-\begin{figure}
+\begin{figure}[h]
 \centering
  \includegraphics[width=1\textwidth]{Pictures/comptel.pdf}
   \caption{Skymap from \gls{comptel} source catalog. Credits to NASA.}
@@ -48,7 +48,7 @@ The Fermi Gamma-ray Space Telescope was launched in 2008 with the goal of perfor
 \begin{itemize}
     \item \textbf{The \gls{lat}}: This is the principal instrument of the Fermi telescope, a pair production $\gamma$-ray detector able to observe photons with energies from 20 MeV to more than 300 GeV \cite{2009FermiLAT}. It consists of 16 modular towers with 18 tungsten converter layers, where the pair production takes place, and 16 dual silicon tracker planes which measure the trajectory of the $e^{\pm}$ pair. The 16 calorimeter modules have 96 long, narrow CsI scintillators which measure the deposited energy. When any particle enters the detector, it first passes through an anticoincidence plastic scintillator where, if it is a charged particle, it will produce a flash of light, making it possible to distinguish it from true $\gamma$-ray events.\\
     
-    \begin{figure}
+    \begin{figure}[h]
     \centering
     \includegraphics[width=0.60\textwidth]{Pictures/LAT.pdf}
     \caption{Schematic picture of the \gls{lat} from \cite{2009FermiLAT}. Dimensions are 1.8 m $\times$ 1.8 m $\times$ 0.72 m.}
@@ -58,7 +58,7 @@ The Fermi Gamma-ray Space Telescope was launched in 2008 with the goal of perfor
     \item \textbf{The \gls{gbm}}: Complementary to the \gls{lat}, the \gls{gbm} is destined to detect \glspl{grb} and quickly alert the main instrument to reposition towards its direction. It is sensible to X-rays and $\gamma$-rays in the range between 8 keV to 40 MeV. The detector includes 12  \gls{nai}  scintillation detectors which cover the lower part of the spectrum (up to 1 MeV) and  provide the burst trigger, and 2 \gls{bgo} scintillation detectors with an energy range from $\sim 150$ keV to $\sim 30$ MeV, aimed to overlap the \gls{lat} energy range. 
     
     
-    \begin{figure}
+    \begin{figure}[h]
     \centering
     \includegraphics[width=0.75\textwidth]{Pictures/GBM.pdf}
     \caption{Schematic picture of the \gls{gbm} integrated between the \gls{lat} and the shroud envelope of the Fermi's spacecraft.}
@@ -80,9 +80,9 @@ As explained in the beginning of this chapter, the atmosphere absorbs the totali
 
 When a primary $\gamma$-ray enters the atmosphere, it will produce a pair of $e^{\pm}$ in the electric field of an atomic nucleus, typically after traversing one radiation length ($\xi_{0}$ defined as the mean distance for a charged particle to reduce its energy by a factor \textit{e} due to interactions with the medium), at about 20 km of altitude. This pair of particles, emitted in the forward direction will again interact with other atmospheric nuclei through bremsstrahlung, producing high energy photons. The result is a chain of pair production-bremsstrahlung processes, where a certain amount of energy is lost in each interaction, until the high energy photons reach a critical energy $E_{c} \sim$ 83 MeV. When this happens, ionization and Compton scattering of electrons and positrons become dominant over bremsstrahlung so the production of high energy photons is reduced until the shower slowly dies. Since the angle of emission in all the processes is proportional to $\propto m_e c / E$ rad, the shower will not spread too much laterally, from an axis pointing towards the primary direction \cite{weekes2003HEAstrophy}. \\
 
- \begin{figure}
+ \begin{figure}[h]
     \centering
-    \includegraphics[width=0.75\textwidth]{Pictures/eas.pdf}
+    \includegraphics[width=0.6\textwidth]{Pictures/eas.pdf}
     \caption{Montecarlo simulations of a 320 GeV $\gamma$-ray shower and a 1 TeV proton shower from \cite{weekes2003HEAstrophy}. The top panel show a schematic diagram of shower development with their secondary particles.}
     \label{fig:EAS}
     \end{figure}
@@ -115,7 +115,7 @@ While $N_{e}$ describes the longitudinal distribution of the shower, the lateral
 
 Where r is the distance from the shower longitudinal axis and $r_{m}$ is the Molière radius, characteristic from multiple scattering theory,  and $\Gamma$ is the gamma function. 
 
-\begin{figure}
+\begin{figure}[h]
     \centering
     \includegraphics[width=1\textwidth]{Pictures/showerdevelop.pdf}
     \caption{Longitudinal development of an electromagnetic shower in the Greisen approximation, from \cite{IOyaThesis} and \cite{TarekThesis}.}
@@ -153,7 +153,7 @@ The Cherenkov radiation is a kind of electromagnetic radiation which is emitted 
 Cherenkov radiation is a very important effect for ground-based $\gamma$-ray detectors because \gls{eas}, which contain a large number of relativistic charged particles, are able to produce this kind of radiation in the atmosphere. Characterization of the Cherenkov signal from \gls{eas} allow to trace back the nature of the primaries.\\
 This effect can be explained through the reaction of the atoms of a material when a charged particle is traveling through it. For example, in the case of an electron travelling through a glass, if the electron is travelling at a slow velocity, along its trajectory the electric field of the particle will distort the atoms, attracting the positively charged nucleus and repelling the negative electrons (see figure \ref{fig:polarization} a). The medium becomes polarized around the position of the particle, each atom behaving like a dipole and the region of the glass receiving a small electromagnetic pulse. Since the distribution of dipoles  is symmetric, there will not be a resulting field thus no radiation will be emitted.
 
-\begin{figure}
+\begin{figure}[h]
     \centering
     \includegraphics[width=1\textwidth]{Pictures/polarization.pdf}
     \caption{Polarization of a dielectric material at the passing of a charged particle by the point P at a) low velocity b) high velocity. Image from \cite{jelley1958Cherenkov}.}
@@ -162,7 +162,7 @@ This effect can be explained through the reaction of the atoms of a material whe
 
 In the case the electron travels almost at the velocity of light in the medium the resulting field is not symmetric anymore along the direction axis of the particle (see \ref{fig:polarization} b). The dipole field will be noticeable even at long distances and the electron will produce the emission of wavelets of radiation at each point of its trajectory. In general, those wavelets will interfere destructively so that the resulting intensity of the field will be zero. If the velocity of the electron is higher than the speed of light in the medium, the wavelets can be in phase and produce a global field visible in the distance and thus, emit radiation. Figure \ref{fig:huygens} shows a diagram of a Huygens construction of this effect. If a particle travels from A to B faster than the speed of light in the medium, it can travel that distance in the same amount of time that light will go from A to C, therefore when seen under an angle $\theta$ all the waves emitted along the trajectory will be in phase and form a plane wave from B to C. 
 
-\begin{figure}
+\begin{figure}[h]
     \centering
     \includegraphics[width=0.6\textwidth]{Pictures/huygenscoherence.pdf}
     \caption{Diagram of Huygens construction showing coherence of waves emitted by a charged particle travelling faster than the speed of light in the medium, from \cite{jelley1958Cherenkov}.}
@@ -244,7 +244,7 @@ Because Cherenkov light flashes are very short, cameras need to be very fast to 
 The reconstruction of the energy and incident direction of the primary photon as well as the separation of $\gamma$ and hadron events can be achieved through a parameterization of the shower images, based on the work done by Michael Hillas \cite{1985Hillas}. With this method, the moments of the observed light distribution in the camera, which for $\gamma$-rays looks like an ellipse (named Hillas ellipse), are used as parameters to characterize the shower, which subsequantly allow to distinguish between $\gamma$  and hadronic showers. 
 The intensity of Cherenkov light in the image is directly proportional to the energy of the primary and the orientation of the ellipse can be used to reconstruct their direction of arrival. Several techniques are used to reconstruct the primary information from Hillas parameterization, most of them based on modern Machine Learning algorithms. A quantity named \textit{gammaness} (or \textit{hadroness}) is used to designate how likely is an event to be a $\gamma$-ray (or hadron). The closer to 1, the more $\gamma$-like (hadron-like) the event is. Other important reconstructed quantity is the denominated $\theta^2$ angle, which is the square of the angle between the reconstructed source position and the true source position. 
 
-\begin{figure}
+\begin{figure}[h]
     \centering
     \includegraphics[width=0.6\textwidth]{Pictures/Hillaspars.pdf}
     \caption{Geometrical definition of the Hillas parameters. L for Length (W for Width) is the RMS spread of light along the major(minor) axis of the image, it carries information of the longitudinal(lateral) development of the shower. Nominal distance d is the angular distance between the centre of the camera and the image centre of gravity. Angle $\phi$ is the azimuthal angle of the image major axis and orientation angle $\alpha$ is the angle between the major axis and the center of the camera. Figure from \cite{2006analysismethodscherenkovtels}. }
@@ -256,7 +256,7 @@ Other techniques make use of the entire information of the camera image, compari
 
 Either of the techniques improve substantially when using stereoscopy, taking shower images with several telescopes at the same time. This not only improves the reconstruction power, but also helps rejecting the hadronic background very efficiently. When pointing the telescopes to a $\gamma$-ray sources, in general, shower images from $\gamma$ primaries will be oriented towards the position of the source in the cameras of all telescopes. Hadronic showers, which come from random directions in the sky, will point towards random directions in the camera, so they can be easily discarded. 
 
-\begin{figure}
+\begin{figure}[h]
     \centering
     \includegraphics[width=1\textwidth]{Pictures/stereomode.pdf}
     \caption{Geometric reconstruction of shower direction in stereo mode, from \cite{2015groundbasedtechniques}. \textit{Left and middle}: The shower image from 4 telescopes is combined to get the source position in the intersection of the main axis. \textit{Right}: Intersection of the planes which contain the shower tracks and the telescopes give the shower Impact Parameter on the ground.}
@@ -277,7 +277,7 @@ The current generation of \glspl{iact} is formed by \gls{magic} \cite{2011magic}
     The energy range of \gls{hess} goes from 30 GeV to 100 TeV, being the widest of \gls{iact} observatories.\\
     Because it is located in the South, \gls{hess} has been able to perform a galactic plane survey in \gls{vhe} range, complementary to the \gls{he} survey done  by \textit{Fermi}-LAT (see picture \ref{fig:hessurvey}). Some important scientific highlights of \gls{hess} are the detection of the Vela pulsar and the colliding wind binary system Eta Carinae; the discovery of new \glspl{snr} in the galactic plane; the detection of \gls{vhe} emission from the LMC P3 binary system discovered by \textit{Fermi}-LAT, with a binary phase of $\sim$ 0.3, being the most luminous binary system detected up to date;  direct measures of the \gls{ebl} spectral density thanks to the observations of a large number of \gls{agn} spectra; and observation of flares and variability  in the \glspl{agn} Mrk 501 and 3C 279. A detailed summary on these topics among many more scientific highlights of \gls{hess} can be found in \cite{2018HESS}.\\
     
-    \begin{figure}
+    \begin{figure}[h]
     \centering
     \includegraphics[width=1\textwidth]{Pictures/hesssurvey.pdf}
     \caption{Illustration of the \gls{hess} I galactic plane survey. The region surveyed is shown in the top panel as a white rectangle on top of the carbon monoxide gas sky map measured with the Planck satellite. Previous surveys from \gls{hegra} and \gls{veritas} are also represented. Triangles are sources detected at lower energies by \textit{Fermi}-LAT and stars are galactic sources detected outside the survey region. Middle and lower panels show the observed flux and observation time. Picture from \cite{2018HESS}.}
@@ -292,7 +292,7 @@ The current generation of \glspl{iact} is formed by \gls{magic} \cite{2011magic}
 The future of ground based $\gamma$-ray astronomy is in hands of the \gls{cta} currently in construction. \gls{cta} will be a $\gamma$-ray observatory without precedents, as the result of combined efforts of scientists from all over the astroparticle physics community. It will have two locations, one observatory in the northern hemisphere in the island of La Palma, Spain, and the other in the south, in the Atacama desert, Chile. This will allow to do full sky observations, with a sensitivity one order of magnitude better than the current generation of \gls{iact} observatories (see figure \ref{fig:ctaperformance}).
 An extended summary on \gls{cta} can be found in chapter \ref{cap:CTA}.
 
-\begin{figure}
+\begin{figure}[h]
     \centering
     \includegraphics[width=1\textwidth]{Pictures/CTA-Performance-prod3b-v2-Comparison-DifferentialSensitivity-OtherInstruments.pdf}
     \caption{Differential sensitivity of \gls{cta} for 50 h observation compared to other $\gamma$-ray experiments, from \cite{CTAPerformance}.}

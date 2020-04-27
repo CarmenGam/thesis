@@ -2,317 +2,335 @@
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Introduction to $\gamma $-Ray Astronomy}{5}{chapter.1}
+\select@language {spanish}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Cosmic-ray physics}{6}{section.1.1}
+\select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Acceleration mechanisms}{7}{section.1.2}
+\contentsline {chapter}{\numberline {1}Introduction to $\gamma $-Ray Astronomy}{13}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}Electric field acceleration}{10}{subsection.1.2.1}
+\contentsline {section}{\numberline {1.1}Cosmic-ray physics}{14}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Stochastic acceleration}{10}{subsection.1.2.2}
+\contentsline {section}{\numberline {1.2}Acceleration mechanisms}{16}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.3}Diffusive Shock Acceleration}{12}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.1}Electric field acceleration}{16}{subsection.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Production of $\gamma $-rays}{12}{section.1.3}
+\contentsline {subsection}{\numberline {1.2.2}Stochastic acceleration}{17}{subsection.1.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.1}Bremsstrahlung}{13}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.2.3}Diffusive Shock Acceleration}{19}{subsection.1.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.2}Inverse Compton scattering}{15}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.3}Production of $\gamma $-rays}{20}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.3}Synchrotron emission}{15}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.1}Bremsstrahlung}{21}{subsection.1.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.4}Curvature radiation}{16}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {1.3.2}Inverse Compton scattering}{21}{subsection.1.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.5}Matter-Antimatter annihilation}{16}{subsection.1.3.5}
+\contentsline {subsection}{\numberline {1.3.3}Synchrotron emission}{23}{subsection.1.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3.6}Hadronic collisions}{17}{subsection.1.3.6}
+\contentsline {subsection}{\numberline {1.3.4}Curvature radiation}{23}{subsection.1.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}$\gamma $-ray Absorption mechanisms}{18}{section.1.4}
+\contentsline {subsection}{\numberline {1.3.5}Matter-Antimatter annihilation}{24}{subsection.1.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.1}Interaction with electrons: Compton effect}{18}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.3.6}Hadronic collisions}{24}{subsection.1.3.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.2}Pair production processes}{18}{subsection.1.4.2}
+\contentsline {section}{\numberline {1.4}$\gamma $-ray Absorption mechanisms}{25}{section.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.3}The Extragalactic Background Light}{18}{subsection.1.4.3}
+\contentsline {subsection}{\numberline {1.4.1}Interaction with electrons: Compton effect}{25}{subsection.1.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.5}Dark Matter and $\gamma $-rays: WIMP annihilation}{20}{section.1.5}
+\contentsline {subsection}{\numberline {1.4.2}Pair production processes}{26}{subsection.1.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.6}$\gamma $-ray sources}{23}{section.1.6}
+\contentsline {subsection}{\numberline {1.4.3}The Extragalactic Background Light}{26}{subsection.1.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.6.1}Galactic sources}{23}{subsection.1.6.1}
+\contentsline {section}{\numberline {1.5}Dark Matter and $\gamma $-rays: WIMP annihilation}{27}{section.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Pulsars}{24}{section*.12}
+\contentsline {section}{\numberline {1.6}$\gamma $-ray sources}{31}{section.1.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Supernova Remnants}{25}{section*.14}
+\contentsline {subsection}{\numberline {1.6.1}Galactic sources}{31}{subsection.1.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{$\gamma $-ray binaries}{27}{section*.16}
+\contentsline {subsubsection}{Pulsars}{32}{section*.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Novae}{28}{section*.17}
+\contentsline {subsubsection}{Supernova Remnants}{32}{section*.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The Galactic Center and the Fermi Bubbles}{28}{section*.19}
+\contentsline {subsubsection}{$\gamma $-ray binaries}{35}{section*.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Globular Clusters}{30}{section*.21}
+\contentsline {subsubsection}{Novae}{36}{section*.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.6.2}Extragalactic sources}{30}{subsection.1.6.2}
+\contentsline {subsubsection}{The Galactic Center and the Fermi Bubbles}{36}{section*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Active Galactic Nuclei}{30}{section*.22}
+\contentsline {subsubsection}{Globular Clusters}{37}{section*.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Gamma Ray Bursts}{31}{section*.24}
+\contentsline {subsection}{\numberline {1.6.2}Extragalactic sources}{38}{subsection.1.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Starburst galaxies}{33}{section*.26}
+\contentsline {subsubsection}{Active Galactic Nuclei}{38}{section*.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Galaxy clusters}{34}{section*.27}
+\contentsline {subsubsection}{Gamma Ray Bursts}{39}{section*.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Neighbour galaxies}{34}{section*.28}
+\contentsline {subsubsection}{Starburst galaxies}{39}{section*.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.6.3}Potential Dark Matter annihilation emission sources}{35}{subsection.1.6.3}
+\contentsline {subsubsection}{Galaxy clusters}{41}{section*.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Milky Way Galactic Center}{35}{section*.29}
+\contentsline {subsubsection}{Neighbour galaxies}{42}{section*.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Dwarf Spheroidal Galaxies and Dark Clumps}{35}{section*.31}
+\contentsline {subsection}{\numberline {1.6.3}Potential Dark Matter annihilation emission sources}{42}{subsection.1.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Galaxy Clusters}{36}{section*.33}
+\contentsline {subsubsection}{Milky Way Galactic Center}{42}{section*.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The Large Magellanic Cloud}{36}{section*.34}
+\contentsline {subsubsection}{Dwarf Spheroidal Galaxies and Dark Clumps}{43}{section*.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Detection of $\gamma $-rays}{39}{chapter.2}
+\contentsline {subsubsection}{Galaxy Clusters}{44}{section*.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Space detectors}{40}{section.2.1}
+\contentsline {subsubsection}{The Large Magellanic Cloud}{44}{section*.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Compton detectors}{41}{subsection.2.1.1}
+\contentsline {chapter}{\numberline {2}Detection of $\gamma $-rays}{47}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Pair production detectors}{41}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.1}Space detectors}{48}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{The Fermi Gamma-ray Space Telescope}{41}{section*.37}
+\contentsline {subsection}{\numberline {2.1.1}Compton detectors}{49}{subsection.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Extensive Air Showers}{44}{section.2.2}
+\contentsline {subsection}{\numberline {2.1.2}Pair production detectors}{50}{subsection.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Electromagnetic Showers}{44}{subsection.2.2.1}
+\contentsline {subsubsection}{The Fermi Gamma-ray Space Telescope}{50}{section*.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Hadronic showers}{47}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.2}Extensive Air Showers}{51}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Electronic showers}{48}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.1}Electromagnetic Showers}{52}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Cherenkov radiation}{48}{section.2.3}
+\contentsline {subsection}{\numberline {2.2.2}Hadronic showers}{55}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Ground-based detectors}{51}{section.2.4}
+\contentsline {subsection}{\numberline {2.2.3}Electronic showers}{56}{subsection.2.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}Particle detectors}{52}{subsection.2.4.1}
+\contentsline {section}{\numberline {2.3}Cherenkov radiation}{56}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.2}Atmospheric Cherenkov Telescopes}{52}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.4}Ground-based detectors}{59}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Sampling detectors}{52}{section*.44}
+\contentsline {subsection}{\numberline {2.4.1}Particle detectors}{59}{subsection.2.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Imaging Atmospheric Cherenkov Telescopes (IACTs)}{53}{section*.45}
+\contentsline {subsection}{\numberline {2.4.2}Atmospheric Cherenkov Telescopes}{60}{subsection.2.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}The Cherenkov Telescope Array}{59}{chapter.3}
+\contentsline {subsubsection}{Sampling detectors}{60}{section*.46}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Introduction}{59}{section.3.1}
+\contentsline {subsubsection}{Imaging Atmospheric Cherenkov Telescopes (IACTs)}{60}{section*.47}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}CTA Requirements and Performance}{60}{section.3.2}
+\contentsline {chapter}{\numberline {3}The Cherenkov Telescope Array}{67}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}CTA Telescopes}{64}{section.3.3}
+\contentsline {section}{\numberline {3.1}Introduction}{67}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Large Size Telescope (LST)}{64}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.2}CTA Requirements and Performance}{68}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\gls {lst} Structure}{66}{section*.57}
+\contentsline {section}{\numberline {3.3}CTA Telescopes}{72}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\gls {lst} Optics}{67}{section*.59}
+\contentsline {subsection}{\numberline {3.3.1}Large Size Telescope (LST)}{72}{subsection.3.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\gls {lst} Camera}{67}{section*.60}
+\contentsline {subsubsection}{\gls {lst} Structure}{73}{section*.59}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Medium Size Telescope (MST)}{68}{subsection.3.3.2}
+\contentsline {subsubsection}{\gls {lst} Optics}{74}{section*.61}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\gls {mst} Structure}{69}{section*.62}
+\contentsline {subsubsection}{\gls {lst} Camera}{74}{section*.62}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\gls {mst} Optics}{69}{section*.64}
+\contentsline {subsection}{\numberline {3.3.2}Medium Size Telescope (MST)}{75}{subsection.3.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\gls {mst} Cameras}{69}{section*.65}
+\contentsline {subsubsection}{\gls {mst} Structure}{76}{section*.64}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.3}Small Size Telescope (SST)}{71}{subsection.3.3.3}
+\contentsline {subsubsection}{\gls {mst} Optics}{76}{section*.66}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\gls {sst} Structure}{71}{section*.67}
+\contentsline {subsubsection}{\gls {mst} Cameras}{77}{section*.67}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\gls {sst} Optics}{72}{section*.69}
+\contentsline {subsection}{\numberline {3.3.3}Small Size Telescope (SST)}{78}{subsection.3.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\gls {sst} Camera}{72}{section*.70}
+\contentsline {subsubsection}{\gls {sst} Structure}{78}{section*.69}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Reconstruction and Analysis tools}{72}{section.3.4}
+\contentsline {subsubsection}{\gls {sst} Optics}{79}{section*.71}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Monte Carlo simulations}{73}{subsection.3.4.1}
+\contentsline {subsubsection}{\gls {sst} Camera}{79}{section*.72}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{CORSIKA}{73}{section*.71}
+\contentsline {section}{\numberline {3.4}Reconstruction and Analysis tools}{80}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{sim\_telarray}{74}{section*.73}
+\contentsline {subsection}{\numberline {3.4.1}Monte Carlo simulations}{80}{subsection.3.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.2}Low level analysis: ctapipe}{75}{subsection.3.4.2}
+\contentsline {subsubsection}{CORSIKA}{80}{section*.73}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.3}Science analysis: ctools}{76}{subsection.3.4.3}
+\contentsline {subsubsection}{sim\_telarray}{81}{section*.75}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Analysis chain of Single Telescope data and sensitivity calculation for the LST1}{79}{chapter.4}
+\contentsline {subsection}{\numberline {3.4.2}Low level analysis: ctapipe}{82}{subsection.3.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Introduction}{79}{section.4.1}
+\contentsline {subsection}{\numberline {3.4.3}Science analysis: ctools}{83}{subsection.3.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}The LST1 analysis chain overview}{79}{section.4.2}
+\contentsline {chapter}{\numberline {4}Analysis chain of Single Telescope data and sensitivity calculation for the LST1}{85}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Calibration}{80}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.1}Introduction}{85}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Signal extraction}{81}{section*.75}
+\contentsline {section}{\numberline {4.2}The LST1 analysis chain overview}{85}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Conversion to photoelectrons}{81}{section*.76}
+\contentsline {subsection}{\numberline {4.2.1}Calibration}{86}{subsection.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Image cleaning and parameterization}{82}{subsection.4.2.2}
+\contentsline {subsubsection}{Signal extraction}{87}{section*.77}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Reconstruction of energy and source position}{83}{subsection.4.2.3}
+\contentsline {subsubsection}{Conversion to photoelectrons}{87}{section*.78}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.4}$\gamma $-hadron separation}{85}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.2}Image cleaning and parameterization}{88}{subsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Sensitivity of the LST1}{87}{section.4.3}
+\contentsline {subsection}{\numberline {4.2.3}Reconstruction of energy and source position}{89}{subsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Reweigh ting}{88}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.2.4}$\gamma $-hadron separation}{91}{subsection.4.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Cut optimization}{90}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.3}Sensitivity of the LST1}{93}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.3}Expected LST1 Performance}{90}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.1}Reweighting}{94}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Data}{90}{section*.79}
+\contentsline {subsection}{\numberline {4.3.2}Cut optimization}{96}{subsection.4.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Energy resolution}{91}{section*.81}
+\contentsline {subsection}{\numberline {4.3.3}Expected LST1 Performance}{96}{subsection.4.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Angular resolution}{91}{section*.83}
+\contentsline {subsubsection}{Data}{96}{section*.81}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{$\gamma $-hadron separation}{91}{section*.85}
+\contentsline {subsubsection}{Energy resolution}{96}{section*.83}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Effective Area}{93}{section*.87}
+\contentsline {subsubsection}{Angular resolution}{97}{section*.85}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Sensitivity}{93}{section*.89}
+\contentsline {subsubsection}{$\gamma $-hadron separation}{98}{section*.87}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Expectation-Maximization method for Hillas Parameters...}{93}{section.4.4}
+\contentsline {subsubsection}{Sensitivity}{98}{section*.89}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}The Expectation-Maximization algorithm}{95}{subsection.4.4.1}
+\contentsline {section}{\numberline {4.4}Expectation-Maximization method for Hillas Parameters...}{99}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Comparison of \gls {em} without cleaning and tailcuts cleaning}{97}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.1}The Expectation-Maximization algorithm}{99}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Results on real data}{98}{section.4.5}
+\contentsline {subsection}{\numberline {4.4.2}Comparison of \gls {em} without cleaning and tailcuts cleaning}{103}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Summary and conclusion}{102}{section.4.6}
+\contentsline {section}{\numberline {4.5}Results on real data}{103}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Characterization of the Large Magellanic Cloud at TeV energies and prospects on Dark Matter detection for CTA}{103}{chapter.5}
+\contentsline {subsection}{\numberline {4.5.1}Analysis of Crab Campaigns with Expectation-Maximization method for Hillas Parameterization}{106}{subsection.4.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Introduction}{103}{section.5.1}
+\contentsline {section}{\numberline {4.6}Summary and conclusion}{107}{section.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Emission Model}{105}{section.5.2}
+\contentsline {chapter}{\numberline {5}Characterization of the Large Magellanic Cloud at TeV energies and prospects on Dark Matter detection for CTA}{121}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}Diffuse emission}{106}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.1}Introduction}{121}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}Point Sources}{107}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.2}Emission Model}{123}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Pulsar Wind Nebula N157B}{107}{section*.95}
+\contentsline {subsection}{\numberline {5.2.1}Diffuse emission}{124}{subsection.5.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Supernova Remnant N132D}{108}{section*.97}
+\contentsline {subsection}{\numberline {5.2.2}Point Sources}{125}{subsection.5.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Superbubble 30 Dor C}{110}{section*.98}
+\contentsline {subsubsection}{Pulsar Wind Nebula N157B}{125}{section*.106}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Binary system LMC P3}{110}{section*.99}
+\contentsline {subsubsection}{Supernova Remnant N132D}{126}{section*.108}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.3}PWNe population in the LMC}{110}{subsection.5.2.3}
+\contentsline {subsubsection}{Superbubble 30 Dor C}{127}{section*.109}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Simulations and Analysis method}{112}{section.5.3}
+\contentsline {subsubsection}{Binary system LMC P3}{128}{section*.110}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Region of Interest and Observational strategy}{112}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.2.3}PWNe population in the LMC}{128}{subsection.5.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.2}Simulation parameters}{114}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.3}Simulations and Analysis method}{131}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.3}Fitting method}{115}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.1}Region of Interest and Observational strategy}{131}{subsection.5.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{3D Likelihood Analysis for $\gamma $-ray sources}{117}{section*.104}
+\contentsline {subsection}{\numberline {5.3.2}Simulation parameters}{132}{subsection.5.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Upper limits calculation}{117}{section*.105}
+\contentsline {subsection}{\numberline {5.3.3}Fitting method}{132}{subsection.5.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Results}{118}{section.5.4}
+\contentsline {subsubsection}{3D Likelihood Analysis for $\gamma $-ray sources}{133}{section*.115}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.1}Point sources}{118}{subsection.5.4.1}
+\contentsline {subsubsection}{Upper limits calculation}{134}{section*.116}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.2}Population of PWNe}{118}{subsection.5.4.2}
+\contentsline {section}{\numberline {5.4}Results}{134}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.3}Diffuse Emission}{119}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.1}Point sources}{134}{subsection.5.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Dark Matter annihilation in the LMC}{119}{section.5.5}
+\contentsline {subsection}{\numberline {5.4.2}Population of PWNe}{135}{subsection.5.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.1}Dark Matter profile in the \gls {lmc}}{121}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.4.3}Diffuse Emission}{135}{subsection.5.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.2}$\gamma $-ray spectrum}{122}{subsection.5.5.2}
+\contentsline {section}{\numberline {5.5}Dark Matter annihilation in the LMC}{136}{section.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.3}Results on \gls {dm} sensitivity curves}{125}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.1}Dark Matter profile in the \gls {lmc}}{136}{subsection.5.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.6}Summary and conclusions}{125}{section.5.6}
+\contentsline {subsection}{\numberline {5.5.2}$\gamma $-ray spectrum}{138}{subsection.5.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}The L1 Trigger System of the LST1}{129}{appendix.A}
+\contentsline {subsection}{\numberline {5.5.3}Results on \gls {dm} sensitivity curves}{138}{subsection.5.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introduction}{129}{section.A.1}
+\contentsline {subsection}{\numberline {5.5.4}Effect of the diffuse emission on the DM sensitivity curves}{138}{subsection.5.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Pixel Level: L0 trigger decision}{130}{section.A.2}
+\contentsline {section}{\numberline {5.6}Summary and conclusions}{139}{section.5.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.1}Majority trigger}{130}{subsection.A.2.1}
+\select@language {spanish}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.2}Sum trigger}{131}{subsection.A.2.2}
+\select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.3}Camera Level: L1 trigger decision}{131}{subsection.A.2.3}
+\contentsline {chapter}{\numberline {A}The L1 Trigger System of the LST1}{157}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{L1 Trigger Distribution}{132}{section*.117}
+\contentsline {section}{\numberline {A.1}Introduction}{157}{section.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.4}Array Level trigger decision}{132}{subsection.A.2.4}
+\contentsline {section}{\numberline {A.2}Pixel Level: L0 trigger decision}{158}{section.A.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Characterization of analogue ASIC for L1 trigger decision}{135}{appendix.B}
+\contentsline {subsection}{\numberline {A.2.1}Majority trigger}{158}{subsection.A.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}Introduction}{135}{section.B.1}
+\contentsline {subsection}{\numberline {A.2.2}Sum trigger}{159}{subsection.A.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}Quality control test}{136}{section.B.2}
+\contentsline {subsection}{\numberline {A.2.3}Camera Level: L1 trigger decision}{159}{subsection.A.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.2.1}Test DAC}{137}{subsection.B.2.1}
+\contentsline {subsubsection}{L1 Trigger Distribution}{160}{section*.131}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.2.2}Voltage Test: Rate scan}{137}{subsection.B.2.2}
+\contentsline {subsection}{\numberline {A.2.4}Array Level trigger decision}{160}{subsection.A.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.2.3}Test Adder Channels}{137}{subsection.B.2.3}
+\contentsline {chapter}{\numberline {B}Characterization of analogue ASIC for L1 trigger decision}{163}{appendix.B}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.2.4}Analog Offset test}{137}{subsection.B.2.4}
+\contentsline {section}{\numberline {B.1}Introduction}{163}{section.B.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.2.5}Digital Offset test}{137}{subsection.B.2.5}
+\contentsline {section}{\numberline {B.2}Quality control test}{164}{section.B.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.3}Characterization of the \gls {asic}}{138}{section.B.3}
+\contentsline {subsection}{\numberline {B.2.1}Test DAC}{165}{subsection.B.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.3.1}Rate Scan Fit}{138}{subsection.B.3.1}
+\contentsline {subsection}{\numberline {B.2.2}Voltage Test: Rate scan}{165}{subsection.B.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.3.2}Gain}{139}{subsection.B.3.2}
+\contentsline {subsection}{\numberline {B.2.3}Test Adder Channels}{165}{subsection.B.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.3.3}Offset}{140}{subsection.B.3.3}
+\contentsline {subsection}{\numberline {B.2.4}Analog Offset test}{165}{subsection.B.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.3.4}Noise}{141}{subsection.B.3.4}
+\contentsline {subsection}{\numberline {B.2.5}Digital Offset test}{165}{subsection.B.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.4}Characterization: Summary and discussion}{144}{section.B.4}
+\contentsline {section}{\numberline {B.3}Characterization of the \gls {asic}}{166}{section.B.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Calibration method for the L1 analog trigger system of LST camera}{147}{appendix.C}
+\contentsline {subsection}{\numberline {B.3.1}Rate Scan Fit}{166}{subsection.B.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.1}Introduction}{147}{section.C.1}
+\contentsline {subsection}{\numberline {B.3.2}Gain}{167}{subsection.B.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.2}L1 transfer function calibration}{148}{section.C.2}
+\contentsline {subsection}{\numberline {B.3.3}Offset}{169}{subsection.B.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.2.1}Calibration algorithm}{148}{subsection.C.2.1}
+\contentsline {subsection}{\numberline {B.3.4}Noise}{170}{subsection.B.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.2.2}Calibration result}{149}{subsection.C.2.2}
+\contentsline {section}{\numberline {B.4}Characterization: Summary and discussion}{172}{section.B.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {D}Time calibration for implementation of the trigger distribution in the backplane network of LST camera}{151}{appendix.D}
+\contentsline {chapter}{\numberline {C}Calibration method for the L1 analog trigger system of LST camera}{175}{appendix.C}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.1}Introduction}{151}{section.D.1}
+\contentsline {section}{\numberline {C.1}Introduction}{175}{section.C.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.2}Time calibration procedure}{151}{section.D.2}
+\contentsline {section}{\numberline {C.2}L1 transfer function calibration}{176}{section.C.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.3}Time calibration setup and tests}{153}{section.D.3}
+\contentsline {subsection}{\numberline {C.2.1}Calibration algorithm}{176}{subsection.C.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {E}Random Forests}{155}{appendix.E}
+\contentsline {subsection}{\numberline {C.2.2}Calibration result}{177}{subsection.C.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {E.1}Introduction}{155}{section.E.1}
+\contentsline {chapter}{\numberline {D}Time calibration for implementation of the trigger distribution in the backplane network of LST camera}{179}{appendix.D}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {E.2}Gini Index}{155}{section.E.2}
+\contentsline {section}{\numberline {D.1}Introduction}{179}{section.D.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {D.2}Time calibration procedure}{179}{section.D.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {D.3}Time calibration setup and tests}{181}{section.D.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {E}Random Forests}{183}{appendix.E}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {E.1}Introduction}{183}{section.E.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {E.2}Gini Index}{183}{section.E.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {F}Evolution of LST1 camera uniformity}{185}{appendix.F}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {F.1}Introduction}{185}{section.F.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {F.2}Distribution of centroid of Hillas ellipses for standard analysis}{185}{section.F.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {F.3}Distribution of centroid of Hillas ellipses for Expectation-Maximization analysis}{185}{section.F.3}
 \contentsfinish 
