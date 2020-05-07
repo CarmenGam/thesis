@@ -22,9 +22,9 @@
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
-\documentclass[12pt,fleqn,aas_macros]{book} % Default font size and left-justified equations
+\documentclass[12pt,fleqn]{book} % Default font size and left-justified equations
 \usepackage[top=3cm,bottom=3cm,left=3.2cm,right=3.2cm,headsep=10pt,letterpaper]{geometry} % Page margins
-
+\usepackage{aas_macros}
 \usepackage{xcolor} % Required for specifying colors by name
 \definecolor{ocre}{RGB}{52,177,201} % Define the orange color used for highlighting throughout the book
 
@@ -59,6 +59,7 @@
 \usepackage{subfiles}
 \usepackage{amsmath}
 
+\newcommand{\outofhere}[1]{}
 
 \input{structure} % Insert the commands.tex file which contains the majority of the structure behind the template
 
@@ -120,7 +121,7 @@
 \newacronym{ccd}{CCD}{charged-coupled device}
 \newacronym{fov}{FoV}{field of view}
 \newacronym{pmt}{PMT}{Photomultiplier Tube}
-\newacronym{dsr4}{DSR4}{Domino Ring Sampler version 4}
+\newacronym{drs4}{DRS4}{Domino Ring Sampler version 4}
 \newacronym{mhd}{MHD}{Magnetohydrodynamics}
 \newacronym{hawc}{HAWC}{High-Altitude Water Cherenkov Observatory}
 \newacronym{nsb}{NSB}{Night Sky Background}
@@ -200,14 +201,14 @@
 
 %Resumen
 
-\newpage
-\pagestyle{empty} % No headers
+%\newpage
+%\pagestyle{empty} % No headers
 \chapter*{Resumen}
 \subfile{Resumen}
 
 %Abstract
-\newpage
-\pagestyle{empty} % No headers
+%\newpage
+%\pagestyle{empty} % No headers
 \chapter*{Abstract}
 \subfile{Abstract}
 
@@ -263,14 +264,14 @@
 %Conclusiones
 
 \newpage
-\pagestyle{empty} % No headers
-\chapter*{Conclusiones}
+%\pagestyle{empty} % No headers
+\chapter[Conclusiones]{Conclusiones}
 \subfile{Conclusiones}
 
 %Conclusions
 \newpage
-\pagestyle{empty} % No headers
-\chapter*{Conclusions}
+%\pagestyle{empty} % No headers
+\chapter[Conclusions]{Conclusions}
 \subfile{Conclusions}
 
 \appendix

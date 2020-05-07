@@ -747,8 +747,9 @@
      {}{}%
      {}{}}%
   }
-  \list{publisher}{1}{%
-    {Springer Science & Business Media}%
+  \list{publisher}{2}{%
+    {Springer Science}%
+    {Business Media}%
   }
   \strng{namehash}{HM1}
   \strng{fullhash}{HM1}
@@ -3269,8 +3270,8 @@
   \field{title}{The Vela pulsar in very high energy gamma-rays with H.E.S.S.
   II}
   \list{institution}{1}{%
-    {Humboldt-Universität zu Berlin, Mathematisch-Naturwissenschaftliche
-  Fakultät}%
+    {Humboldt-Universitat zu Berlin, Mathematisch-Naturwissenschaftliche
+  Fakultat}%
   }
   \field{type}{phdthesis}
   \field{year}{2016}
@@ -42623,6 +42624,23 @@
   \field{year}{2017}
 \endentry
 
+\entry{DRS4}{inproceedings}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Ritt}}{R.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RS1}
+  \strng{fullhash}{RS1}
+  \field{booktitle}{2008 IEEE Nuclear Science Symposium Conference Record}
+  \field{pages}{1512\bibrangedash 1515}
+  \field{title}{Design and performance of the 6 GHz waveform digitizing chip
+  DRS4}
+  \field{year}{2008}
+\endentry
+
 \entry{2013LSTCamMech}{article}{}
   \name{author}{9}{}{%
     {{}%
@@ -44234,6 +44252,94 @@
   \warn{\item Invalid format of field 'month'}
 \endentry
 
+\entry{Pence:2012gd}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Pence}{P.}%
+     {William}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Seaman}{S.}%
+     {Rob}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {White}{W.}%
+     {Richard~L.}{R.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PW+1}
+  \strng{fullhash}{PWSRWRL1}
+  \verb{eprint}
+  \verb 1201.1340
+  \endverb
+  \field{title}{{A Tiled-Table Convention for Compressing FITS Binary Tables}}
+  \field{eprinttype}{arXiv}
+  \field{eprintclass}{astro-ph.IM}
+  \field{month}{01}
+  \field{year}{2012}
+\endentry
+
+\entry{hdf5}{online}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{The HDF Group}}{T.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{T1}
+  \strng{fullhash}{T1}
+  \field{title}{{Hierarchical data format version 5}}
+  \verb{url}
+  \verb http://www.hdfgroup.org/HDF5
+  \endverb
+  \field{year}{2000-2010}
+\endentry
+
+\entry{breiman2001random}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Breiman}{B.}%
+     {Leo}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \list{publisher}{1}{%
+    {Kluwer Academic Publishers}%
+  }
+  \keyw{classification classifier dblp decision ensemble final forest forests
+  imported kde learning machine ml mykopie origin random text-detection
+  the_youtube_social_network
+  thema:exploiting_place_features_in_link_prediction_on_location-based_social_networks
+  trees uw_ss14_web2.0}
+  \strng{namehash}{BL2}
+  \strng{fullhash}{BL2}
+  \verb{doi}
+  \verb 10.1023/A:1010933404324
+  \endverb
+  \field{issn}{0885-6125}
+  \field{number}{1}
+  \field{pages}{5\bibrangedash 32}
+  \field{title}{Random Forests}
+  \verb{url}
+  \verb http://dx.doi.org/10.1023/A%3A1010933404324
+  \endverb
+  \field{volume}{45}
+  \field{journaltitle}{Machine Learning}
+  \field{year}{2001}
+\endentry
+
+\entry{ctapipeextractors}{misc}{}
+  \field{howpublished}{\url{https://cta-observatory.github.io/ctapipe/ctapipe_api/image/extractor.html?highlight=extractor}}
+  \field{title}{Ctapipe: Image Extraction}
+\endentry
+
 \entry{2015CaliBox}{article}{}
   \name{author}{8}{}{%
     {{}%
@@ -44578,42 +44684,6 @@
   \field{title}{The DISP analysis method for point-like or extended gamma
   source searches/studies with the MAGIC Telescope}
   \field{year}{2005}
-\endentry
-
-\entry{breiman2001random}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Breiman}{B.}%
-     {Leo}{L.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{language}{1}{%
-    {English}%
-  }
-  \list{publisher}{1}{%
-    {Kluwer Academic Publishers}%
-  }
-  \keyw{classification classifier dblp decision ensemble final forest forests
-  imported kde learning machine ml mykopie origin random text-detection
-  the_youtube_social_network
-  thema:exploiting_place_features_in_link_prediction_on_location-based_social_networks
-  trees uw_ss14_web2.0}
-  \strng{namehash}{BL2}
-  \strng{fullhash}{BL2}
-  \verb{doi}
-  \verb 10.1023/A:1010933404324
-  \endverb
-  \field{issn}{0885-6125}
-  \field{number}{1}
-  \field{pages}{5\bibrangedash 32}
-  \field{title}{Random Forests}
-  \verb{url}
-  \verb http://dx.doi.org/10.1023/A%3A1010933404324
-  \endverb
-  \field{volume}{45}
-  \field{journaltitle}{Machine Learning}
-  \field{year}{2001}
 \endentry
 
 \entry{2011scikit-learn}{article}{}
@@ -45297,158 +45367,6 @@
   \field{eprintclass}{astro-ph}
   \field{month}{01}
   \field{year}{2005}
-\endentry
-
-\entry{2008SocratesCRandSF}{article}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Socrates}{S.}%
-     {Aristotle}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Davis}{D.}%
-     {Shane~W.}{S.~W.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Ramirez-Ruiz}{R.-R.}%
-     {Enrico}{E.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {{IOP} Publishing}%
-  }
-  \strng{namehash}{SA+1}
-  \strng{fullhash}{SADSWRRE1}
-  \verb{doi}
-  \verb 10.1086/590046
-  \endverb
-  \field{number}{1}
-  \field{pages}{202\bibrangedash 215}
-  \field{title}{The Eddington Limit in Cosmic Rays: An Explanation for the
-  Observed Faintness of Starbursting Galaxies}
-  \verb{url}
-  \verb https://doi.org/10.1086%2F590046
-  \endverb
-  \field{volume}{687}
-  \field{journaltitle}{The Astrophysical Journal}
-  \field{month}{11}
-  \field{year}{2008}
-\endentry
-
-\entry{2010PapadopoulosCRinSF}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Papadopoulos}{P.}%
-     {Padelis~P.}{P.~P.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {{IOP} Publishing}%
-  }
-  \strng{namehash}{PPP1}
-  \strng{fullhash}{PPP1}
-  \verb{doi}
-  \verb 10.1088/0004-637x/720/1/226
-  \endverb
-  \field{number}{1}
-  \field{pages}{226\bibrangedash 232}
-  \field{title}{A {COSMIC}-{RAY}-{DOMINATED} {INTERSTELLAR} {MEDIUM} {IN}
-  {ULTRA} {LUMINOUS} {INFRARED} {GALAXIES}: {NEW} {INITIAL} {CONDITIONS} {FOR}
-  {STAR} {FORMATION}}
-  \verb{url}
-  \verb https://doi.org/10.1088%2F0004-637x%2F720%2F1%2F226
-  \endverb
-  \field{volume}{720}
-  \field{journaltitle}{The Astrophysical Journal}
-  \field{month}{08}
-  \field{year}{2010}
-\endentry
-
-\entry{2008ICgammaray}{article}{}
-  \name{author}{5}{}{%
-    {{}%
-     {{Porter}}{P.}%
-     {Troy~A.}{T.~A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Moskalenko}}{M.}%
-     {Igor~V.}{I.~V.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Strong}}{S.}%
-     {Andrew~W.}{A.~W.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Orlando}}{O.}%
-     {Elena}{E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {{Bouchet}}{B.}%
-     {L.}{L.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{cosmic rays, elementary particles, gamma rays: theory, Astrophysics}
-  \strng{namehash}{PTA+1}
-  \strng{fullhash}{PTAMIVSAWOEBL1}
-  \verb{doi}
-  \verb 10.1086/589615
-  \endverb
-  \verb{eprint}
-  \verb 0804.1774
-  \endverb
-  \field{number}{1}
-  \field{pages}{400\bibrangedash 407}
-  \field{title}{{Inverse Compton Origin of the Hard X-Ray and Soft Gamma-Ray
-  Emission from the Galactic Ridge}}
-  \field{volume}{682}
-  \field{journaltitle}{\apj}
-  \field{eprinttype}{arXiv}
-  \field{eprintclass}{astro-ph}
-  \field{month}{07}
-  \field{year}{2008}
-\endentry
-
-\entry{1963Pimesonsproducegammarays}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Pollack}{P.}%
-     {J.~B.}{J.~B.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Fazio}{F.}%
-     {G.~G.}{G.~G.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {American Physical Society}%
-  }
-  \strng{namehash}{PJBFGG1}
-  \strng{fullhash}{PJBFGG1}
-  \verb{doi}
-  \verb 10.1103/PhysRev.131.2684
-  \endverb
-  \field{issue}{6}
-  \field{pages}{2684\bibrangedash 2691}
-  \field{title}{Production of $\ensuremath{\pi}$ Mesons and Gamma Radiation in
-  the Galaxy by Cosmic Rays}
-  \verb{url}
-  \verb https://link.aps.org/doi/10.1103/PhysRev.131.2684
-  \endverb
-  \field{volume}{131}
-  \field{journaltitle}{Phys. Rev.}
-  \field{month}{09}
-  \field{year}{1963}
 \endentry
 
 \entry{2013LMCdistance1}{article}{}
@@ -51852,6 +51770,74 @@
   \field{year}{2019}
 \endentry
 
+\entry{2008SocratesCRandSF}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Socrates}{S.}%
+     {Aristotle}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Davis}{D.}%
+     {Shane~W.}{S.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ramirez-Ruiz}{R.-R.}%
+     {Enrico}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {{IOP} Publishing}%
+  }
+  \strng{namehash}{SA+1}
+  \strng{fullhash}{SADSWRRE1}
+  \verb{doi}
+  \verb 10.1086/590046
+  \endverb
+  \field{number}{1}
+  \field{pages}{202\bibrangedash 215}
+  \field{title}{The Eddington Limit in Cosmic Rays: An Explanation for the
+  Observed Faintness of Starbursting Galaxies}
+  \verb{url}
+  \verb https://doi.org/10.1086%2F590046
+  \endverb
+  \field{volume}{687}
+  \field{journaltitle}{The Astrophysical Journal}
+  \field{month}{11}
+  \field{year}{2008}
+\endentry
+
+\entry{2010PapadopoulosCRinSF}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Papadopoulos}{P.}%
+     {Padelis~P.}{P.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {{IOP} Publishing}%
+  }
+  \strng{namehash}{PPP1}
+  \strng{fullhash}{PPP1}
+  \verb{doi}
+  \verb 10.1088/0004-637x/720/1/226
+  \endverb
+  \field{number}{1}
+  \field{pages}{226\bibrangedash 232}
+  \field{title}{A Cosmic-Ray dominated interstellar medium in ultra luminous
+  infrarred galaxies: New initial conditions for star formation}
+  \verb{url}
+  \verb https://doi.org/10.1088%2F0004-637x%2F720%2F1%2F226
+  \endverb
+  \field{volume}{720}
+  \field{journaltitle}{The Astrophysical Journal}
+  \field{month}{08}
+  \field{year}{2010}
+\endentry
+
 \entry{2012HIIinLMC}{article}{}
   \name{author}{7}{}{%
     {{}%
@@ -51942,7 +51928,7 @@
   \field{title}{A composite HII region luminosity function in H alpha of
   unprecedented statistical weight}
   \field{volume}{459}
-  \field{journaltitle}{Astronomy & Astrophysics - ASTRON ASTROPHYS}
+  \field{journaltitle}{Astronomy \& Astrophysics - ASTRON ASTROPHYS}
   \field{month}{11}
   \field{year}{2006}
 \endentry
@@ -52196,6 +52182,28 @@
   \field{eprinttype}{arXiv}
   \field{eprintclass}{astro-ph.CO}
   \field{month}{11}
+  \field{year}{2009}
+\endentry
+
+\entry{2009nuclerenhancement}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Mori}}{M.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MM1}
+  \strng{fullhash}{MM1}
+  \verb{doi}
+  \verb 10.1016/j.astropartphys.2009.03.004
+  \endverb
+  \field{pages}{341\bibrangedash 343}
+  \field{title}{{Nuclear enhancement factor in calculation of Galactic diffuse
+  gamma-rays: A new estimate with DPMJET-3}}
+  \field{volume}{31}
+  \field{journaltitle}{Astroparticle Physics}
+  \field{month}{06}
   \field{year}{2009}
 \endentry
 

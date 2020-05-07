@@ -113,8 +113,7 @@ When obsserving the average gain for each channel separately in table~\ref{tab:g
 \begin{figure}[h]
   \centering
   \includegraphics[width=0.7\textwidth]{./Pictures/gainschannel.pdf}
-  \caption{Distribution of gains for all \glspl{asic}. Each entry represents the gain of one possible path (combination of channel-adder-discriminator). The red line represents a gaussian fit with mean 0,8704 and sigma 0,3669.
-    The zoom-ins show several outliers with gains very deviated from the average. }\label{fig:gainch}
+  \caption{Gain mean of all ASICs per channel, for  the three adders.Vertical bars represent the RMS of the distribution in each channel.}\label{fig:gainch}
 \end{figure}
 
 To find if any part of the \gls{asic} is dominating the fluctuations of the gain, correlation plots between channels, adders and discriminators were studied. A remarkable correlation is not observed in any of the elements of the \gls{asic}, so we can conclude that all parts contribute to the final value of the gain in a similar way. 
@@ -172,7 +171,7 @@ In table \ref{tab:allasicsdata} the average offsets to all \glspl{asic} in every
   \minipage{0.5\textwidth}
   \includegraphics[width=\textwidth]{./Pictures/digitalch.pdf}
   \endminipage
-  \caption{\textit{Left:} Analog offset averaged to all \glspl{asic} separated by channel and adder. \textit{Right:} Digital offset averaged to all \glspl{asic} separated by channel and adder.}
+  \caption{\textit{Left:} Analog offset averaged to all \glspl{asic} separated by channel and adder. \textit{Right:} Digital offset averaged to all \glspl{asic} separated by channel and adder. Vertical lines represent the RMS of the distribution in each channel.}
   \label{fig:offch}
 \end{figure}
 
@@ -190,7 +189,7 @@ from the general characterization.
   \minipage{0.5\textwidth}
   \includegraphics[width=\textwidth]{./Pictures/noisech.pdf}
   \endminipage
-  \caption{\textit{Left:} Distribution of noises measured for all \glspl{asic}. Each entry represent the noise in a certain path (channel-adder-discriminator combination). The zoom-ins show the outliers. \textit{Right:} Noise averaged to all \glspl{asic} separated by channel and adder.}
+  \caption{\textit{Left:} Distribution of noises measured for all \glspl{asic}. Each entry represent the noise in a certain path (channel-adder-discriminator combination). The zoom-ins show the outliers. \textit{Right:} Noise averaged to all \glspl{asic} separated by channel and adder. Vertical lines represent the RMS of the distribution in each channel.}
   \label{fig:noisedist}
 \end{figure}
 

@@ -80,40 +80,45 @@
 \BOOKMARK [2][-]{subsection.5.5.3}{Results on dm sensitivity curves}{section.5.5}% 80
 \BOOKMARK [2][-]{subsection.5.5.4}{Effect of the diffuse emission on the DM sensitivity curves}{section.5.5}% 81
 \BOOKMARK [1][-]{section.5.6}{Summary and conclusions}{chapter.5}% 82
-\BOOKMARK [0][-]{appendix.A}{The L1 Trigger System of the LST1}{}% 83
-\BOOKMARK [1][-]{section.A.1}{Introduction}{appendix.A}% 84
-\BOOKMARK [1][-]{section.A.2}{Pixel Level: L0 trigger decision}{appendix.A}% 85
-\BOOKMARK [2][-]{subsection.A.2.1}{Majority trigger}{section.A.2}% 86
-\BOOKMARK [2][-]{subsection.A.2.2}{Sum trigger}{section.A.2}% 87
-\BOOKMARK [2][-]{subsection.A.2.3}{Camera Level: L1 trigger decision}{section.A.2}% 88
-\BOOKMARK [2][-]{subsection.A.2.4}{Array Level trigger decision}{section.A.2}% 89
-\BOOKMARK [0][-]{appendix.B}{Characterization of analogue ASIC for L1 trigger decision}{}% 90
-\BOOKMARK [1][-]{section.B.1}{Introduction}{appendix.B}% 91
-\BOOKMARK [1][-]{section.B.2}{Quality control test}{appendix.B}% 92
-\BOOKMARK [2][-]{subsection.B.2.1}{Test DAC}{section.B.2}% 93
-\BOOKMARK [2][-]{subsection.B.2.2}{Voltage Test: Rate scan}{section.B.2}% 94
-\BOOKMARK [2][-]{subsection.B.2.3}{Test Adder Channels}{section.B.2}% 95
-\BOOKMARK [2][-]{subsection.B.2.4}{Analog Offset test}{section.B.2}% 96
-\BOOKMARK [2][-]{subsection.B.2.5}{Digital Offset test}{section.B.2}% 97
-\BOOKMARK [1][-]{section.B.3}{Characterization of the asic}{appendix.B}% 98
-\BOOKMARK [2][-]{subsection.B.3.1}{Rate Scan Fit}{section.B.3}% 99
-\BOOKMARK [2][-]{subsection.B.3.2}{Gain}{section.B.3}% 100
-\BOOKMARK [2][-]{subsection.B.3.3}{Offset}{section.B.3}% 101
-\BOOKMARK [2][-]{subsection.B.3.4}{Noise}{section.B.3}% 102
-\BOOKMARK [1][-]{section.B.4}{Characterization: Summary and discussion}{appendix.B}% 103
-\BOOKMARK [0][-]{appendix.C}{Calibration method for the L1 analog trigger system of LST camera}{}% 104
-\BOOKMARK [1][-]{section.C.1}{Introduction}{appendix.C}% 105
-\BOOKMARK [1][-]{section.C.2}{L1 transfer function calibration}{appendix.C}% 106
-\BOOKMARK [2][-]{subsection.C.2.1}{Calibration algorithm}{section.C.2}% 107
-\BOOKMARK [2][-]{subsection.C.2.2}{Calibration result}{section.C.2}% 108
-\BOOKMARK [0][-]{appendix.D}{Time calibration for implementation of the trigger distribution in the backplane network of LST camera}{}% 109
-\BOOKMARK [1][-]{section.D.1}{Introduction}{appendix.D}% 110
-\BOOKMARK [1][-]{section.D.2}{Time calibration procedure}{appendix.D}% 111
-\BOOKMARK [1][-]{section.D.3}{Time calibration setup and tests}{appendix.D}% 112
-\BOOKMARK [0][-]{appendix.E}{Random Forests}{}% 113
-\BOOKMARK [1][-]{section.E.1}{Introduction}{appendix.E}% 114
-\BOOKMARK [1][-]{section.E.2}{Gini Index}{appendix.E}% 115
-\BOOKMARK [0][-]{appendix.F}{Evolution of LST1 camera uniformity}{}% 116
-\BOOKMARK [1][-]{section.F.1}{Introduction}{appendix.F}% 117
-\BOOKMARK [1][-]{section.F.2}{Distribution of centroid of Hillas ellipses for standard analysis}{appendix.F}% 118
-\BOOKMARK [1][-]{section.F.3}{Distribution of centroid of Hillas ellipses for Expectation-Maximization analysis}{appendix.F}% 119
+\BOOKMARK [0][-]{chapter.6}{Conclusiones}{}% 83
+\BOOKMARK [0][-]{chapter.7}{Conclusions}{}% 84
+\BOOKMARK [0][-]{appendix.A}{The L1 Trigger System of the LST1}{}% 85
+\BOOKMARK [1][-]{section.A.1}{Introduction}{appendix.A}% 86
+\BOOKMARK [1][-]{section.A.2}{Pixel Level: L0 trigger decision}{appendix.A}% 87
+\BOOKMARK [2][-]{subsection.A.2.1}{Majority trigger}{section.A.2}% 88
+\BOOKMARK [2][-]{subsection.A.2.2}{Sum trigger}{section.A.2}% 89
+\BOOKMARK [2][-]{subsection.A.2.3}{Camera Level: L1 trigger decision}{section.A.2}% 90
+\BOOKMARK [2][-]{subsection.A.2.4}{Array Level trigger decision}{section.A.2}% 91
+\BOOKMARK [0][-]{appendix.B}{Characterization of analogue ASIC for L1 trigger decision}{}% 92
+\BOOKMARK [1][-]{section.B.1}{Introduction}{appendix.B}% 93
+\BOOKMARK [1][-]{section.B.2}{Quality control test}{appendix.B}% 94
+\BOOKMARK [2][-]{subsection.B.2.1}{Test DAC}{section.B.2}% 95
+\BOOKMARK [2][-]{subsection.B.2.2}{Voltage Test: Rate scan}{section.B.2}% 96
+\BOOKMARK [2][-]{subsection.B.2.3}{Test Adder Channels}{section.B.2}% 97
+\BOOKMARK [2][-]{subsection.B.2.4}{Analog Offset test}{section.B.2}% 98
+\BOOKMARK [2][-]{subsection.B.2.5}{Digital Offset test}{section.B.2}% 99
+\BOOKMARK [1][-]{section.B.3}{Characterization of the asic}{appendix.B}% 100
+\BOOKMARK [2][-]{subsection.B.3.1}{Rate Scan Fit}{section.B.3}% 101
+\BOOKMARK [2][-]{subsection.B.3.2}{Gain}{section.B.3}% 102
+\BOOKMARK [2][-]{subsection.B.3.3}{Offset}{section.B.3}% 103
+\BOOKMARK [2][-]{subsection.B.3.4}{Noise}{section.B.3}% 104
+\BOOKMARK [1][-]{section.B.4}{Characterization: Summary and discussion}{appendix.B}% 105
+\BOOKMARK [0][-]{appendix.C}{Calibration method for the L1 analog trigger system of LST camera}{}% 106
+\BOOKMARK [1][-]{section.C.1}{Introduction}{appendix.C}% 107
+\BOOKMARK [1][-]{section.C.2}{L1 transfer function calibration}{appendix.C}% 108
+\BOOKMARK [2][-]{subsection.C.2.1}{Calibration algorithm}{section.C.2}% 109
+\BOOKMARK [2][-]{subsection.C.2.2}{Calibration result}{section.C.2}% 110
+\BOOKMARK [0][-]{appendix.D}{Time calibration for implementation of the trigger distribution in the backplane network of LST camera}{}% 111
+\BOOKMARK [1][-]{section.D.1}{Introduction}{appendix.D}% 112
+\BOOKMARK [1][-]{section.D.2}{Time calibration procedure}{appendix.D}% 113
+\BOOKMARK [1][-]{section.D.3}{Time calibration setup and tests}{appendix.D}% 114
+\BOOKMARK [0][-]{appendix.E}{Random Forests}{}% 115
+\BOOKMARK [1][-]{section.E.1}{Introduction}{appendix.E}% 116
+\BOOKMARK [1][-]{section.E.2}{Gini Index}{appendix.E}% 117
+\BOOKMARK [1][-]{section.E.3}{Random Forests in cta-lstchain}{appendix.E}% 118
+\BOOKMARK [2][-]{subsection.E.3.1}{Random Forest parameters}{section.E.3}% 119
+\BOOKMARK [2][-]{subsection.E.3.2}{Random Forest feature importances}{section.E.3}% 120
+\BOOKMARK [0][-]{appendix.F}{Evolution of LST1 camera uniformity}{}% 121
+\BOOKMARK [1][-]{section.F.1}{Introduction}{appendix.F}% 122
+\BOOKMARK [1][-]{section.F.2}{Distribution of centroid of Hillas ellipses for standard analysis}{appendix.F}% 123
+\BOOKMARK [1][-]{section.F.3}{Distribution of centroid of Hillas ellipses for Expectation-Maximization analysis}{appendix.F}% 124

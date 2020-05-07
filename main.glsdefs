@@ -1475,12 +1475,12 @@ parent={},%
 name={IACT},%
 sort={IACT},%
 type={acronym},%
-first={Imaging Atmospheric Cherenkov Telescopes\glsspace (IACT)},%
-firstplural={Imaging Atmospheric Cherenkov Telescopess\glsspace (IACTs)},%
+first={Imaging Atmospheric Cherenkov Telescope\glsspace (IACT)},%
+firstplural={Imaging Atmospheric Cherenkov Telescopes\glsspace (IACTs)},%
 text={IACT},%
 plural={IACTs},%
-description={Imaging Atmospheric Cherenkov Telescopes},%
-descriptionplural={Imaging Atmospheric Cherenkov Telescopes\acrpluralsuffix },%
+description={Imaging Atmospheric Cherenkov Telescope},%
+descriptionplural={Imaging Atmospheric Cherenkov Telescope\acrpluralsuffix },%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -1489,8 +1489,8 @@ user3={},%
 user4={},%
 user5={},%
 user6={},%
-long={Imaging Atmospheric Cherenkov Telescopes},%
-longplural={Imaging Atmospheric Cherenkov Telescopess},%
+long={Imaging Atmospheric Cherenkov Telescope},%
+longplural={Imaging Atmospheric Cherenkov Telescopes},%
 short={IACT},%
 shortplural={IACTs},%
 counter={page},%
@@ -1648,17 +1648,17 @@ parent={},%
 %
 }%
 }%
-\ifglsentryexists{dsr4}{}%
+\ifglsentryexists{drs4}{}%
 {%
-\gls@defglossaryentry{dsr4}%
+\gls@defglossaryentry{drs4}%
 {%
-name={DSR4},%
-sort={DSR4},%
+name={DRS4},%
+sort={DRS4},%
 type={acronym},%
-first={Domino Ring Sampler version 4\glsspace (DSR4)},%
-firstplural={Domino Ring Sampler version 4s\glsspace (DSR4s)},%
-text={DSR4},%
-plural={DSR4s},%
+first={Domino Ring Sampler version 4\glsspace (DRS4)},%
+firstplural={Domino Ring Sampler version 4s\glsspace (DRS4s)},%
+text={DRS4},%
+plural={DRS4s},%
 description={Domino Ring Sampler version 4},%
 descriptionplural={Domino Ring Sampler version 4\acrpluralsuffix },%
 symbol={\relax },%
@@ -1671,8 +1671,8 @@ user5={},%
 user6={},%
 long={Domino Ring Sampler version 4},%
 longplural={Domino Ring Sampler version 4s},%
-short={DSR4},%
-shortplural={DSR4s},%
+short={DRS4},%
+shortplural={DRS4s},%
 counter={page},%
 parent={},%
 %
