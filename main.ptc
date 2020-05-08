@@ -293,79 +293,79 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {A.2.4}Array Level trigger decision}{150}{subsection.A.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Characterization of analogue ASIC for L1 trigger decision}{153}{appendix.B}
+\contentsline {chapter}{\numberline {B}Characterization of analogue ASIC for L1 trigger decision}{151}{appendix.B}
 \ttl@stoptoc {default@8}
 \ttl@starttoc {default@9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}Introduction}{153}{section.B.1}
+\contentsline {section}{\numberline {B.1}Introduction}{151}{section.B.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}Quality control test}{154}{section.B.2}
+\contentsline {section}{\numberline {B.2}Quality control test}{152}{section.B.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.2.1}Test DAC}{155}{subsection.B.2.1}
+\contentsline {subsection}{\numberline {B.2.1}Test DAC}{153}{subsection.B.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.2.2}Voltage Test: Rate scan}{155}{subsection.B.2.2}
+\contentsline {subsection}{\numberline {B.2.2}Voltage Test: Rate scan}{153}{subsection.B.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.2.3}Test Adder Channels}{155}{subsection.B.2.3}
+\contentsline {subsection}{\numberline {B.2.3}Test Adder Channels}{153}{subsection.B.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.2.4}Analog Offset test}{155}{subsection.B.2.4}
+\contentsline {subsection}{\numberline {B.2.4}Analog Offset test}{153}{subsection.B.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.2.5}Digital Offset test}{155}{subsection.B.2.5}
+\contentsline {subsection}{\numberline {B.2.5}Digital Offset test}{153}{subsection.B.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.3}Characterization of the \gls {asic}}{156}{section.B.3}
+\contentsline {section}{\numberline {B.3}Characterization of the \gls {asic}}{154}{section.B.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.3.1}Rate Scan Fit}{156}{subsection.B.3.1}
+\contentsline {subsection}{\numberline {B.3.1}Rate Scan Fit}{154}{subsection.B.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.3.2}Gain}{157}{subsection.B.3.2}
+\contentsline {subsection}{\numberline {B.3.2}Gain}{154}{subsection.B.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.3.3}Offset}{159}{subsection.B.3.3}
+\contentsline {subsection}{\numberline {B.3.3}Offset}{156}{subsection.B.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.3.4}Noise}{160}{subsection.B.3.4}
+\contentsline {subsection}{\numberline {B.3.4}Noise}{157}{subsection.B.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.4}Characterization: Summary and discussion}{162}{section.B.4}
+\contentsline {section}{\numberline {B.4}Characterization: Summary and discussion}{158}{section.B.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Calibration method for the L1 analog trigger system of LST camera}{165}{appendix.C}
+\contentsline {chapter}{\numberline {C}Calibration method for the L1 analog trigger system of LST camera}{163}{appendix.C}
 \ttl@stoptoc {default@9}
 \ttl@starttoc {default@10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.1}Introduction}{165}{section.C.1}
+\contentsline {section}{\numberline {C.1}Introduction}{163}{section.C.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.2}L1 transfer function calibration}{166}{section.C.2}
+\contentsline {section}{\numberline {C.2}L1 transfer function calibration}{163}{section.C.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.2.1}Calibration algorithm}{166}{subsection.C.2.1}
+\contentsline {subsection}{\numberline {C.2.1}Calibration algorithm}{164}{subsection.C.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.2.2}Calibration result}{167}{subsection.C.2.2}
+\contentsline {subsection}{\numberline {C.2.2}Calibration result}{164}{subsection.C.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {D}Time calibration for implementation of the trigger distribution in the backplane network of LST camera}{169}{appendix.D}
+\contentsline {chapter}{\numberline {D}Time calibration for implementation of the trigger distribution in the backplane network of LST camera}{167}{appendix.D}
 \ttl@stoptoc {default@10}
 \ttl@starttoc {default@11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.1}Introduction}{169}{section.D.1}
+\contentsline {section}{\numberline {D.1}Introduction}{167}{section.D.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.2}Time calibration procedure}{169}{section.D.2}
+\contentsline {section}{\numberline {D.2}Time calibration procedure}{167}{section.D.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.3}Time calibration setup and tests}{171}{section.D.3}
+\contentsline {section}{\numberline {D.3}Time calibration setup and tests}{169}{section.D.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {E}Random Forests}{173}{appendix.E}
+\contentsline {chapter}{\numberline {E}Random Forests}{171}{appendix.E}
 \ttl@stoptoc {default@11}
 \ttl@starttoc {default@12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {E.1}Introduction}{173}{section.E.1}
+\contentsline {section}{\numberline {E.1}Introduction}{171}{section.E.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {E.2}Gini Index}{173}{section.E.2}
+\contentsline {section}{\numberline {E.2}Gini Index}{171}{section.E.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {E.3}Random Forests in cta-lstchain}{174}{section.E.3}
+\contentsline {section}{\numberline {E.3}Random Forests in cta-lstchain}{172}{section.E.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {E.3.1}Random Forest parameters}{174}{subsection.E.3.1}
+\contentsline {subsection}{\numberline {E.3.1}Random Forest parameters}{172}{subsection.E.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {E.3.2}Random Forest feature importances}{174}{subsection.E.3.2}
+\contentsline {subsection}{\numberline {E.3.2}Random Forest feature importances}{172}{subsection.E.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {F}Evolution of LST1 camera uniformity}{177}{appendix.F}
+\contentsline {chapter}{\numberline {F}Evolution of LST1 camera uniformity}{175}{appendix.F}
 \ttl@stoptoc {default@12}
 \ttl@starttoc {default@13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {F.1}Introduction}{177}{section.F.1}
+\contentsline {section}{\numberline {F.1}Introduction}{175}{section.F.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {F.2}Distribution of centroid of Hillas ellipses for standard analysis}{177}{section.F.2}
+\contentsline {section}{\numberline {F.2}Distribution of centroids of Hillas ellipses for standard analysis}{175}{section.F.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {F.3}Distribution of centroid of Hillas ellipses for Expectation-Maximization analysis}{177}{section.F.3}
+\contentsline {section}{\numberline {F.3}Distribution of centroids of Hillas ellipses for Expectation-Maximization analysis}{175}{section.F.3}
 \contentsfinish 

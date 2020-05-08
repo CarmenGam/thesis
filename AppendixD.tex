@@ -4,11 +4,11 @@
 
 \section{Introduction}
 
-In the \gls{lst}, the L1 trigger signal time must be be equalized throughout the whole camera. An L0 trigger signal which is transmitted from one module, will be propagated backplane to backplane from the center to the outer modules. To ensure that the L1 trigger time is the same in the whole camera, a series of delays must be applied in the backplanes, which depend on the distance of each module to the one propagating the signal. The requirement is that the time difference between all the camera modules must be lower than 300 ps. An algorithm for the time calibration was developed and tested at CIEMAT. A description of the time calibration procedure, algorithm and results on the tests carried on is included in this appendix.
+In the \gls{lst}, the L1 trigger signal time must be equalized throughout the whole camera. An L0 trigger signal which is transmitted from one module will be propagated backplane to backplane from the center to the outer modules. To ensure that the L1 trigger time is the same in the whole camera, a series of delays must be applied in the backplanes, which depend on the distance of each module to the one propagating the signal. The requirement is that the time difference between all the camera modules must be lower than 300 ps. An algorithm for the time calibration was developed and tested at CIEMAT. A description of the time calibration procedure, algorithm, and results on the tests carried on is included in this appendix.
 
 \section{Time calibration procedure}
 
-The time calibration is performed in cycles, where one module is the ''reference'' which distributes the signal (it is also the ''pulser'') and another module is the ''victim'', which receives the signal and must adjust a delay to be equalized with the previous module. The goal of the calibration is to set an outgoing delay ($oD^{V}$) and ingoing ($iD^{V}$) delay, in a way that the time for a signal to be transmitted from the central module to the victim ($t_{C}$), and from the victim to the center ($t_{L1}$) is the same as for the reference module. An scheme of the cycle is shown in picture \ref{fig:calibcicle}. 
+The time calibration is performed in cycles, where one module named the`reference' distributes the signal (also known as the `pulser'), and another module, the `victim', receives the signal and must adjust a delay to be equalized with the previous module. The goal of the calibration is to set an outgoing delay ($oD^{V}$) and ingoing ($iD^{V}$) delay, in a way that the time for a signal to be transmitted from the central module to the victim ($t_{C}$), and from the victim to the center ($t_{L1}$) is the same as for the reference module. The scheme of the cycle is shown in picture \ref{fig:calibcicle}.
 
 \begin{figure}[h]
   \centering
@@ -17,7 +17,7 @@ The time calibration is performed in cycles, where one module is the ''reference
   \label{fig:calibcicle}
 \end{figure}
 
-The delays are calculated determining the time difference between the L1 signal leaving the backplane, and the camera trigger signal returning to the backplane. These times are read from the difference between the TDC3 and TDC0 (time-to-digital converters) from the backplane. The calibration is separated in two phases, the ``down'' calibration and the ``up'' calibration, as shown in picture \ref{fig:calibcicle}.
+The delays are calculated determining the time difference between the L1 signal leaving the backplane, and the camera trigger signal returning to the backplane. These times are read from the difference between the TDC3 and TDC0 (time-to-digital converters) from the backplane. The calibration is separated into two phases, the `down' calibration and the `up' calibration, as shown in picture \ref{fig:calibcicle}.\\
 
 \begin{itemize}
 
@@ -25,33 +25,35 @@ The delays are calculated determining the time difference between the L1 signal 
   \begin{equation}
     iD_{V} = (TDC3-TDC0)^{r}-(TDC3-TDC0)^{V} = \Delta^{R}-\Delta^{V}
   \end{equation}
-  
+
   Once the required delay value is calculated, it is set in two steps: a coarse delay in steps of 10ns and a fine delay in steps of 36 ps.
-  
-\item For the up calibration, the L1 signal distribution of the victim is activated, and the one of the refence is deactivated. The goal of the up calibration is to set the outgoing delay in a way that the difference $(TDC3-TDC0)^V$, which is the total time the signal needs to go from the victim module to the center and back to the victim. The delay therefore is:
+
+\item For the up calibration, the L1 signal distribution of the victim is activated, and the reference is deactivated. The goal of the up calibration is to set the outgoing delay in a way that the difference $(TDC3-TDC0)^V$, which is the total time the signal needs to go from the victim module to the center and back to the victim, is the same as for the reference. The delay therefore is:
 
   \begin{equation}
     oD^{V} = L - (TDC3-TDC0)^V = L-\Delta^V
   \end{equation}
+
+  Where $L$ is the latency and corresponds to the $\Delta^{R}$ measured in the down calibration.
 \end{itemize}
 
-Where L is the latency, and corresponds to the $\Delta^{R}$ measured in the down calibration.
-At the end of the cycle, the times $t_C$ and $t_{L1}$ will be the same both for reference and victim. At the start of the new cycle, the victim will be the new reference and other module is chosen as victim.\\
+At the end of the cycle, the times $t_C$ and $t_{L1}$ will be the same both for reference and victim. At the start of the new cycle, the victim will be the new reference and another module is chosen as the victim.
+
 The calibration algorithm was implemented in a scripting language specifically designed for the communication with the different backplane registers.
 
 \section{Time calibration setup and tests}
 
-Two calibration setups were configured at CIEMAT, to implement the time calbration procedure. At first, four modules were set as shown in picture \ref{fig:timecalfig1}, allowing to run three time calibration cycles as described in the previous section. The test consisted in setting initial default values in the delays, given by the position of the modules, and running the calibration several times for different initial values to ensure the reliability of the procedure. An example of the results obtained in the first set-up is shown in table \ref{tab:timecal-test1}. This first test allowed to fix a bug in the calibration algorithm regarding the neighbour asignment to the center module, which resulted in a drop in the TDC between the second and third module. 
+Two time calibration setups were configured at CIEMAT. At first, four modules were set as shown in picture \ref{fig:timecalfig1}, allowing to run three time calibration cycles as described in the previous section. The test consisted in setting initial default values in the delays, given by the position of the modules, and running the calibration several times for different initial values to ensure the reliability of the procedure. An example of the results obtained in the first set-up is shown in table \ref{tab:timecal-test1}. This first test allowed to fix a bug in the calibration algorithm regarding the neighbor assignment to the center module, which resulted in a drop in the TDC between the second and third module.
 After the success of the first implementation, a second setup was prepared involving eight modules. The calibration procedure was performed several times, to check the stability of the final TDC values and that the deviations with every backplane were in the allowed range of 300 ps. The results for six of these runs are shown in table \ref{tab:timecal-test2} as an example. It can be seen that the differences between TDC values of the eight modules after the calibration is less than the required 300 ps, verifying the calibration method.
 
 \begin{figure}[!htb]
-\minipage{0.5\textwidth}
-\includegraphics[width=\linewidth]{Pictures/4modulessetupdiagram.pdf}
-\endminipage\hfill
-\minipage{0.5\textwidth}
-\includegraphics[width=\linewidth]{Pictures/4modulessetuppic.pdf}
-\endminipage\hfill
-\caption{\label{fig:timecalfig1}\textit{Left:} Diagram of the four modules setup. \textit{Right:} Picture of the actual setup at CIEMAT clean room.}
+  \minipage{0.5\textwidth}
+  \includegraphics[width=\linewidth]{Pictures/4modulessetupdiagram.pdf}
+  \endminipage\hfill
+  \minipage{0.5\textwidth}
+  \includegraphics[width=\linewidth]{Pictures/4modulessetuppic.pdf}
+  \endminipage\hfill
+  \caption{\label{fig:timecalfig1}\textit{Left:} Diagram of the four modules setup. \textit{Right:} Picture of the actual setup at CIEMAT clean room.}
 \end{figure}
 
 \begin{table}
@@ -68,7 +70,7 @@ After the success of the first implementation, a second setup was prepared invol
     7 & 15 & 194 & 254 & 201848 & 201881 & 201326 & 201417 \\
     \hline
   \end{tabular}
-  \caption{TDC measurements in the four backplanes of first set up for different initial delays. As can be seen, there is a drop in the TDC values between the second and the third backplanes. This problem was an issue regarding the assignment of the neighbours of the center module, which was solved for the second test.}
+  \caption{TDC measurements in the four backplanes of first set up for different initial delays. As can be seen, there is a drop in the TDC values between the second and the third backplanes. This problem was an issue regarding the assignment of the neighbors of the center module, which was solved for the second test.}
   \label{tab:timecal-test1}
 \end{table}
 
@@ -78,7 +80,7 @@ After the success of the first implementation, a second setup was prepared invol
     \hline
     \multicolumn{1}{c}{Module no.} & \multicolumn{6}{c}{TDC(ps)} \\
     \hline
-     & Run 1 & Run 2 & Run 3 & Run 4 & Run 5 & Run 6 \\
+    & Run 1 & Run 2 & Run 3 & Run 4 & Run 5 & Run 6 \\
     \hline
     1 & 254723 & 254940 & 255040 & 254951 & 255047 & 254988 \\
     2 & 254771 & 254983 & 255047 & 254968 & 255136 & 255003 \\
