@@ -48,9 +48,9 @@ The \glspl{rf} applied in this thesis for the analysis performed in chapter \ref
   \label{tab:RFpars}
 \end{table}
 
-\subsection{Random Forest feature importances}
+\subsection{Random Forest features} \label{sec:rffeatures}
 
-The \gls{rf} assigns an importance score to the different features used for training, where the most relevant have a higher score. Picture \ref{fig:importances} show the importance of the features used to train the \gls{rf} applied to \gls{mc} data to compute the performance of the \gls{lst} in section \ref{sec:performance}.
+The features used for the splitting of the tree nodes are $log_{10}(intensity)$, $width$, $length$, $x$, $y$, $\psi$, $\phi$, $width/length$, $skewness$, $kurtosis$,$r$, \textit{time gradient}, $intercept$ \footnote{Intercept has been considered a controversial parameter because it does not have a physical meaning, but still is taken by the \gls{rf} as a very important parameter for the regression. In the latest versions of \textit{cta-lstchain} this parameter has been removed from the list of features, reaching an even better performance of the \glspl{rf}.}, $leakage2$ and \textit{number of islands}, where $x$, $y$, and $r$ are the coordinates and module of the vector from the center of gravity of the Hillas ellipse to the center of the camera. These quantities can be ordered based on their importance for the regression, as shown in figure \ref{fig:importances}, which is calculated based on the \textit{Gini} index (see section \ref{sec:giniidx}). It can be seen for example that for direction reconstruction there are two features, time gradient and angle $\psi$, which are the best candidates to make a good splitting, while for $\gamma$-hadron separation all features supply with a similar amount of information. 
 
 \begin{figure}[h]
   \centering

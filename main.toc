@@ -170,33 +170,33 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2.3}Reconstruction of energy and source position}{85}{subsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.4}$\gamma $-hadron separation}{87}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.4}$\gamma $-hadron separation}{86}{subsection.4.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Sensitivity of the LST1}{88}{section.4.3}
+\contentsline {section}{\numberline {4.3}Sensitivity of the LST1}{87}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Reweighting}{89}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.1}Reweighting}{88}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Cut optimization}{91}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.2}Cut optimization}{90}{subsection.4.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.3}Expected LST1 Performance}{91}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.3}Expected LST1 Performance}{90}{subsection.4.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Data}{91}{section*.78}
+\contentsline {subsubsection}{Data}{90}{section*.78}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Energy resolution}{92}{section*.80}
+\contentsline {subsubsection}{Energy resolution}{91}{section*.80}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Angular resolution}{92}{section*.82}
+\contentsline {subsubsection}{Angular resolution}{91}{section*.82}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{$\gamma $-hadron separation}{93}{section*.84}
+\contentsline {subsubsection}{$\gamma $-hadron separation}{92}{section*.84}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Sensitivity}{93}{section*.86}
+\contentsline {subsubsection}{Sensitivity}{92}{section*.86}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Expectation-Maximization method for Hillas Parameters...}{94}{section.4.4}
+\contentsline {section}{\numberline {4.4}Expectation-Maximization method for Hillas Parameters...}{93}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}The Expectation-Maximization algorithm}{94}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.1}The Expectation-Maximization algorithm}{93}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4.2}Comparison of \gls {em} without cleaning and tailcuts cleaning}{97}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Results on real data}{98}{section.4.5}
+\contentsline {section}{\numberline {4.5}Results on real data}{100}{section.4.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.5.1}Analysis of Crab Campaigns with Expectation-Maximization method for Hillas Parameterization}{102}{subsection.4.5.1}
 \defcounter {refsection}{0}\relax 
@@ -334,7 +334,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {E.3.1}Random Forest parameters}{172}{subsection.E.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {E.3.2}Random Forest feature importances}{172}{subsection.E.3.2}
+\contentsline {subsection}{\numberline {E.3.2}Random Forest features}{173}{subsection.E.3.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {F}Evolution of LST1 camera uniformity}{175}{appendix.F}
 \defcounter {refsection}{0}\relax 
